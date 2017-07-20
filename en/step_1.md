@@ -1,16 +1,16 @@
 ## Introduction
 
-Add project description here. What will learners be making?
+In this project you will make a flower generator that can create flowers of different sizes, shapes and numbers of petals. You can adapt the project to create other interesting geometric patterns. 
+
+You can export the patterns you have created on the stage to use as a wallpaper for your phone or desktop or to use as backdrops in other Scratch projects. 
 
 ### What you will make
-
-Add something here to showcase here, for example:
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/160619869/?autostart=false" frameborder="0"></iframe>
 </div>
 
-Add instructions here. These should explain either how the finished project will work, or explain how to interact with the content above.
+Try moving the sliders to create different patterns. 
 
 ### What you will learn
 
