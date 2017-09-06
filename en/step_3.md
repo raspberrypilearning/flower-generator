@@ -1,4 +1,4 @@
-## Generating A Flower
+## Generate a flower
 
 First you're going to generate a flower with multiple petals that can be drawn on the screen. 
 

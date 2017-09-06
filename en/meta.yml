@@ -14,4 +14,6 @@ site_areas:
 steps:
   - title: Introduction
   - title: What you will need
-  - title: Step title
+  - title: Generate a flower
+  - title: Make a custom block to draw flowers
+  - title: Customisable flowers
