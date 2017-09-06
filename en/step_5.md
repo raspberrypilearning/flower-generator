@@ -12,7 +12,7 @@ At the moment all the flowers are exactly the same. Let's add some inputs to the
 
 	'set colour effect' changes the colour based on the default colour of the sprite so if you didn't use orange you'll get different results. 
 	
-+ Experiment with different numbers from 0 to 200. 
++ Experiment with different numbers from 0 to 199. 
 	
 + At the moment all flowers will be the same colour. We can add in 'input' to 'draw flower' to choose a different colour each time we use the block. 
 
@@ -42,7 +42,7 @@ At the moment all the flowers are exactly the same. Let's add some inputs to the
 
 	![screenshot](images/flower-different-colours.png)
 	
-+ Now can you add another input to set the size of the flower so that you can write code like this:
++ Now add another input to set the size of the flower so that you can write code like this:
 
 	![screenshot](images/flower-different-sizes-code.png)
 
@@ -95,7 +95,7 @@ Your code should look like this:
 
 --- challenge ---
 
-Try out your 'draw flowers' block and create some amazing patterns. Try drawing smaller flowers on top of larger ones to create interesting effects. 
++ Try out your 'draw flowers' block and create some amazing patterns. Try drawing smaller flowers on top of larger ones to create interesting effects. 
 
 --- /challenge ---
 
