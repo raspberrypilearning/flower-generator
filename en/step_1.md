@@ -7,10 +7,10 @@ You can export the patterns you have created on the stage to use as a wallpaper 
 ### What you will make
 
 <div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/160619869/?autostart=false" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/173379316/?autostart=false" frameborder="0"></iframe>
 </div>
 
-Try moving the sliders to create different patterns. 
+Click the green flag to generate flowers. 
 
 ### What you will learn
 
