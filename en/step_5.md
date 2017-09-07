@@ -97,7 +97,15 @@ Your code should look like this:
 
 + Try out your 'draw flowers' block and create some amazing patterns. Try drawing smaller flowers on top of larger ones to create interesting effects. 
 
+You could also try experimenting with different petal shapes. 
+
 --- /challenge ---
+
++ Now move your flower drawing code under an 'when f key pressed' block so you'll be able to draw different flowers when you press different keys. 
+
+	![screenshot](images/flower-press-f.png)
+	
++ Press 'f' to test your code. 
 
 
 
