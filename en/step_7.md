@@ -1,15 +1,12 @@
 
+--- challenge ---
 
-## Saving the stage
+Challenge: Random Flower Generator
 
-If you've created a pattern you like you can save it to use in another Scratch project or as a screensaver or on a web site. 
+What do you think this code will do?
 
-+ When you have a pattern on the stage that you like you can right-click and choose 'save stage'
+![screenshot](images/flower-random-code.png)	
 
-	![screenshot](images/flower-save-stage.png)	
-	
-	This allows you to save a '.png' image of the stage. 
-	
-	Choose a sensible file name and location to save.
-	
-	
+Try changing it to create your own random flower generator. You can try using random ranges for colour, size and number of petals. 
+
+--- /challenge ---
