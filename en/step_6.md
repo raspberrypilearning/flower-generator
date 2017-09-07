@@ -1,7 +1,7 @@
 --- challenge ---
 ## Challenge: Create a flower design
 
-Can you use your `draw flower` block more times and draw more flowers to create an interesting design?  
+Can you use your `draw flower` block more times and draw more flowers to create an interesting design? Drawing different flowers at the same location creates an interesting effect.  
 
 Create a design that you like. Here's an example:
 
