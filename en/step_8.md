@@ -1,7 +1,7 @@
 
 --- challenge ---
 
-Challenge: Random Flower Generator
+## Challenge: Random flower generator
 
 What do you think this code will do?
 
