@@ -27,6 +27,12 @@ You can also use your 'draw flower' block to create neat flower patterns.
 + Press 'p' to see a grid of flowers: 
 
 	![screenshot](images/flower-pattern-rows-example.png)
+	
++ Do you want to speed up the drawing of the flowers? Right-click on the 'draw flower' definition block and choose 'edit'. Tick the 'Run without screen refresh' box. 
+
+	![screenshot](images/flower-screen-refresh.png)
+	
+	Now the flowers will be drawn more quickly. 
 
 + You can also change the colour of the stage. First create an orange backdrop by using the fill tool in Bitmap mode. 
 
