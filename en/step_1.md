@@ -16,4 +16,5 @@ Press 'f' to draw some flowers,  'r' to draw lots of flowers in random positions
 
 This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
 
-+ [Add curriculum strand/level description.](https://www.raspberrypi.org/curriculum/strand/level)
++ [Apply basic programming constructs to solve a problem](https://curriculum.raspberrypi.org/programming/builder/)
+
