@@ -19,7 +19,7 @@ First you're going to generate a flower with multiple petals that can be drawn o
 You'll need to repeat the code to __stamp__ and __turn__ the petal 6 times. 
 There are 360 degrees in a circle. Divide 360 by 6 to work out how many degrees each petal needs to be rotated by. 
 
-You can click clear {.blockpen} to clear the stage. 
+You can click `clear` to clear the stage. 
 --- /hint ---
 --- hint ---
 Try using these blocks:
@@ -46,6 +46,8 @@ Here's the code:
 + Clear the stage and run your code again to check that the petals are straight: 
 
 	![screenshot](images/flower-6-straight.png)
+	
+
 
 
 

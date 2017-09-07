@@ -1,3 +1,5 @@
+
+
 ## Saving the stage
 
 If you've created a pattern you like you can save it to use in another Scratch project or as a screensaver or on a web site. 
@@ -11,5 +13,3 @@ If you've created a pattern you like you can save it to use in another Scratch p
 	Choose a sensible file name and location to save.
 	
 	
-	
-
