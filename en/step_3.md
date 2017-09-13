@@ -2,6 +2,10 @@
 
 First you're going to generate a flower with multiple petals that can be drawn on the screen. 
 
++ Create a new Scratch project. 
+
+[[[generic-scratch-new-project]]]
+
 + Create a new sprite named 'Flower' with the Paint tool. 
 
 + Switch to **Vector mode** and draw an orange filled in petal shape using the Ellipse tool (you'll use code to add colour later.) 
@@ -35,13 +39,13 @@ Here's the code:
 
 	![screenshot](images/flower-6-offset.png)
 
-	This is because the sprite is rotated around its center. 
+	This is because the sprite is rotated around its centre. 
 
-+ Change where the center of your petal is using the crosshair tool:
+	Change where the centre of your petal is using the crosshair tool:
 
 	![screenshot](images/flower-crosshair.png)
 
-	The center should be at the bottom center of the petal. 
+	The centre should be at the bottom centre of the petal. 
 
 + Clear the stage and run your code again to check that the petals are straight: 
 

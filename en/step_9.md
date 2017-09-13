@@ -1,4 +1,6 @@
-## Flower patterns
+--- challenge ---
+
+## Challenge: Flower patterns
 
 You can also use your `draw flower` block to create neat flower patterns. 
 
@@ -34,7 +36,7 @@ You can also use your `draw flower` block to create neat flower patterns.
 	
 	Now the flowers will be drawn more quickly. 
 
-+ You can also change the colour of the stage. First create an orange backdrop by using the fill tool in Bitmap mode. 
++ You can also change the colour of the stage. Click on 'Paint new backdrop'. Create an orange backdrop by using the fill tool in Bitmap mode. 
 
 	![screenshot](images/flower-orange-backdrop.png)
 	
@@ -50,7 +52,7 @@ You can also use your `draw flower` block to create neat flower patterns.
 	
 	![screenshot](images/flower-pattern-background.png)
 
-
+--- /challenge ---
 
 
 
