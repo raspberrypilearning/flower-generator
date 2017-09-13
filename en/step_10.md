@@ -12,7 +12,7 @@ We can then use the `draw double flower` block to draw lots of flowers in the sa
 
 --- collapse ---
 ---
-title: See how `draw double flower` is defined
+title: See how 'draw double flower' is defined
 ---
 
 ![screenshot](images/flower-double-code.png)
