@@ -10,7 +10,7 @@ You can export the pictures you have created on the stage, and use them as wallp
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/173379316/?autostart=false" frameborder="0"></iframe>
 </div>
 
-Press `f` to draw some flowers, press `r` to draw lots of flowers in random positions, or press `p` to draw a flower pattern. All of these options use the same `draw flower` block with different inputs. 
+In this example project, you can press `f` to draw some flowers, or `r` to draw lots of flowers in random positions, or `p` to draw a flower pattern. All of these options use the same `draw flower` block with different inputs. 
 
 ### What you will learn
 
