@@ -21,7 +21,7 @@ The 'petal' is just a line with the crosshair a bit below the bottom:
 
 + Experiment with adding new petal costumes and see what you can come up with. 
 
-+ What happens if you try a non-filled-in shape like a square?
++ What happens if you try out a shape which is not filled in, such as a square?
 
 ![screenshot](images/flower-square-petal.png)
 
