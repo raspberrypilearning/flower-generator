@@ -1,5 +1,5 @@
 
-## Customisable flowers
+## Customise your flowers
 
 At the moment all the flowers you draw are exactly the same. Let's add some inputs to the `draw flower` block so that flowers can be different colours and sizes, and can have different numbers of petals. 
 
