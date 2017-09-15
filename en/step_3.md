@@ -1,4 +1,4 @@
-## Create a flower
+## Generate a flower
 
 First you're going to generate a flower which can be drawn on the screen. 
 
