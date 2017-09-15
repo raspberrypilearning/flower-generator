@@ -1,8 +1,8 @@
 ## Introduction
 
-In this project you will create a `draw flower` block that can create flowers of different sizes, shapes and numbers of petals. You'll use your new block to create flower designs and patterns. You can adapt the project to create other interesting geometric patterns. 
+In this project you will create a `draw flower` block which can create flowers of different sizes, shapes, and numbers of petals. You'll use your new block to create flower designs and patterns. You can also adapt the project to create other interesting geometric patterns. 
 
-You can export the pictures you have created on the stage to use as a wallpaper for your phone or desktop or to use as backdrops in other Scratch projects. 
+You can export the pictures you have created on the stage, and use them as wallpapers on your phone or desktop computer, or as backdrops in other Scratch projects. 
 
 ### What you will make
 
@@ -10,7 +10,7 @@ You can export the pictures you have created on the stage to use as a wallpaper 
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/173379316/?autostart=false" frameborder="0"></iframe>
 </div>
 
-Press 'f' to draw some flowers,  'r' to draw lots of flowers in random positions or 'p' to draw a flower pattern. All of these use the same 'draw flower' block with different inputs. 
+Press `f` to draw some flowers, press `r` to draw lots of flowers in random positions, or press `p` to draw a flower pattern. All of these options use the same `draw flower` block with different inputs. 
 
 ### What you will learn
 
