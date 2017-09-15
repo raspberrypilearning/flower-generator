@@ -1,29 +1,29 @@
-## Generate a flower
+## Create a flower
 
-First you're going to generate a flower with multiple petals that can be drawn on the screen. 
+First you're going to generate a flower which can be drawn on the screen. 
 
 + Create a new Scratch project. 
 
 [[[generic-scratch-new-project]]]
 
-+ Create a new sprite named 'Flower' with the Paint tool. 
+Now you will use the Paint tool to create a new sprite shaped like a flower petal, and name it 'Flower'. 
 
-+ Switch to **Vector mode** and draw an orange filled in petal shape using the Ellipse tool (you'll use code to add colour later.) 
++ In the Paint tool, switch to **Vector mode** and use the Ellipse tool to draw a petal shape filled in orange (you'll use code to add more colour later). 
 
     ![screenshot](images/flower-petal.png)
 
 	Note: Shapes created using Vector mode look neater when you change their size. 
 
-+ Add code to your Flower sprite to stamp a flower with 6 equally rotated petals when you click the green flag. 
++ Add code to your Flower sprite to stamp a flower with six equally rotated petals when you click the green flag. 
 
 	![screenshot](images/flower-6-straight.png)
 
 --- hints ---
 --- hint ---
-You'll need to repeat the code to __stamp__ and __turn__ the petal 6 times. 
-There are 360 degrees in a circle. Divide 360 by 6 to work out how many degrees each petal needs to be rotated by. 
+You'll need to repeat the code to __stamp__ and __turn__ the petal six times. 
+There are 360 degrees in a circle. Divide 360 by 6 to work out by how many degrees each petal needs to be rotated. 
 
-You can click `clear` to clear the stage. 
+You can click **Clear** to clear the stage. 
 --- /hint ---
 --- hint ---
 Try using these blocks:
@@ -35,19 +35,19 @@ Here's the code:
 --- /hint ---
 --- /hints ---
 
-+ You may find that your petals are offset in an odd way:
+You may find that your petals are offset in an odd way:
 
-	![screenshot](images/flower-6-offset.png)
+![screenshot](images/flower-6-offset.png)
 
-	This is because the sprite is rotated around its centre. 
+This is because the sprite is being rotated around its centre. 
 
-	Change where the centre of your petal is using the crosshair tool:
++ Change where the centre of your petal shape is using the crosshair tool:
 
 	![screenshot](images/flower-crosshair.png)
 
 	The centre should be at the bottom centre of the petal. 
 
-+ Clear the stage and run your code again to check that the petals are straight: 
++ Clear the stage and run your code again to check that the petals are straight.
 
 	![screenshot](images/flower-6-straight.png)
 	
