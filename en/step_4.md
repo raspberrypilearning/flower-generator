@@ -1,8 +1,8 @@
 ## Make a custom block to draw flowers
 
-+ What if you want to draw lots of flowers? Instead of repeating the code you can create your own block in Scratch and use it whenever you want to draw a flower.  
++What if you want to draw lots of flowers? Instead of repeating the code, you can create your own block in Scratch and use it every time you want to draw a flower.  
 
-	Make a new block and name it 'draw flower':
++ Make a new block and name it `draw flower`:
 
     ![screenshot](images/flower-make-block.png)
 
@@ -18,7 +18,7 @@
 	
 + Clear the stage and click the green flag. Nothing will happen. That's because you have defined what the `draw flower` block should do, but not said when to do it. 
 
-+ Add the following code to clear the stage and then draw a flower when the green flag is clicked:
++ Add the following code to clear the stage and draw a flower when the green flag is clicked:
 
 	![screenshot](images/flower-call.png)	
 	
@@ -28,7 +28,7 @@
 
 	![screenshot](images/flower-two-code.png)	
 	
-+ Test your code to see two flowers:
++ Test your code to check whether you now see two flowers.
 
 	![screenshot](images/flower-two.png)	
 	
