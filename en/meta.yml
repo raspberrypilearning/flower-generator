@@ -1,6 +1,6 @@
-title: Flower Generator
+title: Flower generator
 hero_image: images/banner.png
-description: Generate flowers and create a backdrop image or screensaver. 
+description: Generate flowers and create a backdrop image or screensaver
 theme: blue # possible values: blue, green, navy, orange, red, turquoise, violet, yellow
 duration: 2 # possible values: 1, 2 or 3
 listed: false
@@ -15,9 +15,9 @@ steps:
   - title: What you will need
   - title: Generate a flower
   - title: Make a custom block to draw flowers
-  - title: Customisable flowers
+  - title: Customise your flowers
   - title: "Challenge: Make a flower design"
-  - title: "Save the stage"
+  - title: Save the stage
   - title: "Challenge: Random flower generator"
   - title: "Challenge: Flower patterns"
   - title: "Challenge: Custom flower blocks with inputs"
