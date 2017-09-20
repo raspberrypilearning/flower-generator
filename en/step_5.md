@@ -31,7 +31,7 @@ The input will appear in the `draw flower` definition, and you can drag it to wh
 	
 	![screenshot](images/flower-use-colour.png)
 	
-Your code should look like this:
++ Your code should look like this:
 
 	![screenshot](images/flower-with-colour-input.png)
 	
