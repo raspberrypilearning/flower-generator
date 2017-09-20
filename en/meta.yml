@@ -3,12 +3,12 @@ hero_image: images/banner.png
 description: Generate flowers to create a patterned backdrop image or screensaver
 theme: blue # possible values: blue, green, navy, orange, red, turquoise, violet, yellow
 duration: 2 # possible values: 1, 2 or 3
-listed: false
+listed: true
 ingredient: false
-copyedit: false
-curriculum: creator, design-0, programming-0, phys-comp-0, manufacture-0, community-0
-interests: "games, jokes/pranks, music/sound, photography, physical computing, robots, space"
-technologies: "electronics, sense-hat, physical computing, html/css, scratch, python"
+copyedit: true
+curriculum: builder, design-1, programming-2, phys-comp-0, manufacture-0, community-0
+interests: "art"
+technologies: "scratch"
 site_areas:
 steps:
   - title: Introduction
@@ -21,4 +21,3 @@ steps:
   - title: "Challenge: random flower generator"
   - title: "Challenge: flower patterns"
   - title: "Challenge: custom flower blocks with inputs"
-
