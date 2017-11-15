@@ -18,7 +18,7 @@ Now you will use the Paint tool to create a new sprite shaped like a flower peta
 
 [[[generic-scratch-stamping-sprites]]]
 
-[[[generic-scratch-clear]]]
+[[[generic-scratch-clear-stage]]]
 
 	![screenshot](images/flower-6-straight.png)
 
@@ -35,6 +35,7 @@ Try using these blocks:
 --- /hint ---
 --- hint ---
 Here's the code:
+
 ![screenshot](images/flower-6-code.png)
 
 You turn 60 degrees after each stamp which is 360 divided by 6.
