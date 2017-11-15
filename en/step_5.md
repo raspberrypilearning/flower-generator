@@ -47,7 +47,7 @@ The input will appear in the `draw flower` definition, and you can drag it to wh
 
 	![screenshot](images/flower-different-sizes-code.png)
 
-	...o create flowers of different sizes:
+	...to create flowers of different sizes:
 
 	![screenshot](images/flower-different-sizes.png)
 	
