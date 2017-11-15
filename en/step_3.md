@@ -16,11 +16,11 @@ Now you will use the Paint tool to create a new sprite shaped like a flower peta
 
 + Add code to your Flower sprite to `stamp` {.blockpen} a flower with six equally rotated petals when you click the green flag. 
 
+![screenshot](images/flower-6-straight.png)
+
 [[[generic-scratch-stamping-sprites]]]
 
 [[[generic-scratch-clear-stage]]]
-
-![screenshot](images/flower-6-straight.png)
 
 --- hints ---
 --- hint ---
