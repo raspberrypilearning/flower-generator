@@ -1,6 +1,6 @@
 ## Make a custom block to draw flowers
 
-+What if you want to draw lots of flowers? Instead of repeating the code, you can create your own block in Scratch and use it every time you want to draw a flower.  
++ What if you want to draw lots of flowers? Instead of repeating the code, you can create your own block in Scratch and use it every time you want to draw a flower.  
 
 + Make a new block and name it `draw flower`:
 
@@ -28,7 +28,7 @@
 
 	![screenshot](images/flower-two-code.png)	
 	
-+ Test your code to check whether you now see two flowers.
++ Test your code to check that you now see two flowers.
 
 	![screenshot](images/flower-two.png)	
 	

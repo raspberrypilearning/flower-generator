@@ -51,6 +51,10 @@ You can also use your `draw flower` block to create neat flower patterns.
 	Here's an example: 
 	
 	![screenshot](images/flower-pattern-background.png)
+	
++ Put it all together to create an amazing effect:
+
+	![screenshot](images/flower-gen-example.gif)
 
 --- /challenge ---
 

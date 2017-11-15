@@ -2,7 +2,7 @@
 
 ### Hardware
 
-+ An computer with internet connection
++ A computer with internet connection
 
 ### Software
 
