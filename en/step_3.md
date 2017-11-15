@@ -20,7 +20,7 @@ Now you will use the Paint tool to create a new sprite shaped like a flower peta
 
 [[[generic-scratch-clear-stage]]]
 
-	![screenshot](images/flower-6-straight.png)
+![screenshot](images/flower-6-straight.png)
 
 --- hints ---
 --- hint ---
