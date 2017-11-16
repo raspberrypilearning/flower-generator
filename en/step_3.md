@@ -14,7 +14,7 @@ Now you will use the Paint tool to create a new sprite shaped like a flower peta
 
 	Note: Shapes created using Vector mode look neater when you change their size. 
 
-+ Add code to your Flower sprite to `stamp` {.blockpen} a flower with six equally rotated petals when you click the green flag. 
++ Add code to your Flower sprite to `stamp`{:class="blockpen"} a flower with six equally rotated petals when you click the green flag. 
 
 ![screenshot](images/flower-6-straight.png)
 
@@ -27,7 +27,7 @@ Now you will use the Paint tool to create a new sprite shaped like a flower peta
 You'll need to repeat the code to __stamp__ and __turn__ the petal six times. 
 There are 360 degrees in a circle. Divide 360 by 6 to work out by how many degrees each petal needs to be rotated. 
 
-You can click `clear` {.blockpen} to clear the stage. 
+You can click `clear`{:class="blockpen"} to clear the stage. 
 --- /hint ---
 --- hint ---
 Try using these blocks:
