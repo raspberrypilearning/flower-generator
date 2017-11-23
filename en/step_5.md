@@ -1,7 +1,7 @@
 
 ## Customise your flowers
 
-At the moment all the flowers you draw are exactly the same. Let's add some inputs to the `draw flower` block so that flowers can be different colours and sizes, and can have different numbers of petals. 
+At the moment all the flowers you draw are exactly the same. Let's add some inputs to the `draw flower`{:class="blockmoreblocks"} block so that flowers can be different colours and sizes, and can have different numbers of petals. 
 
 + In Scratch you can use the `set colour effect`{:class="blocklooks"} block to change the colour of a sprite. Change your 'draw flower' definition to change the colour: 
 
@@ -13,9 +13,9 @@ At the moment all the flowers you draw are exactly the same. Let's add some inpu
 
 	`set colour effect`{:class="blocklooks"} changes the colour based on the default colour of the sprite, so if you didn't use orange, you'll get different results. 
 	
-+ Experiment with using different numbers from 0 to 199 in the `set colour effect` block. 
++ Experiment with using different numbers from 0 to 199 in the `set colour effect`{:class="blocklooks"} block. 
 	
-At the moment all flowers will be the same colour. We can add an **input** to the `draw flower` block to choose a different colour each time we use it. 
+At the moment all flowers will be the same colour. We can add an **input** to the `draw flower`{:class="blockmoreblocks"} block to choose a different colour each time we use it. 
 
 + Right-click on the `draw flower`{:class="blockmoreblocks"} definition block and choose **edit**:
 	
@@ -94,7 +94,7 @@ Your code should look like this:
 --- /hint ---
 --- /hints ---
 
-+ Now move your flower drawing code under a `when f key pressed` block so you'll be able to draw different flowers when you press different keys. 
++ Now move your flower drawing code under a `when f key pressed`{:class="blockevents"} block so you'll be able to draw different flowers when you press different keys. 
 
 	![screenshot](images/flower-press-f.png)
 	

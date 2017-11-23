@@ -10,7 +10,7 @@
 
     ![screenshot](images/flower-new-block.png)	
 	
-+ Move your code for drawing the flower from the `when green flag clicked`{:class="blockcontrol"} block to the new `draw flower`{:class="blockmoreblocks"} definition block. 
++ Move your code for drawing the flower from the `when green flag clicked`{:class="blockevents"} block to the new `draw flower`{:class="blockmoreblocks"} definition block. 
 
 	Your code should look like this:
 	
