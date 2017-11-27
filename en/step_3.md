@@ -8,7 +8,7 @@ First you're going to generate a flower which can be drawn on the screen.
 
 Now you will use the Paint tool to create a new sprite shaped like a flower petal, and name it 'Flower'. 
 
-+ In the Paint tool, switch to **Vector mode** by clicking 'Convert to Vector' and use the Ellipse tool to draw a petal shape filled in orange (you'll use code to add more colour later). 
++ In the Paint tool, switch to **Vector** mode by clicking **Convert to Vector**, and use the Ellipse tool to draw a petal shape filled in orange (you'll use code to add more colour later). 
 
     ![screenshot](images/flower-petal.png)
 
