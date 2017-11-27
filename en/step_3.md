@@ -38,7 +38,7 @@ Here's the code:
 
 ![screenshot](images/flower-6-code.png)
 
-You turn 60 degrees after each stamp which is 360 divided by 6.
+You turn 60 degrees after each stamp, which is 360 divided by 6.
 --- /hint ---
 --- /hints ---
 
