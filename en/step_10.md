@@ -25,6 +25,3 @@ Can you create a new custom block for a kind of flower that you like, and add th
 
 Then create a design that you like using your new block. 
 
-
-
-
