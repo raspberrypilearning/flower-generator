@@ -4,114 +4,60 @@
 
 You can also use your `draw flower`{:class="blockmoreblocks"} block to create neat flower patterns. 
 
---- task ---
-
-Create a flower or a combination of flowers that you like. Here's an example:
++ Create a flower or a combination of flowers that you like. Here's an example:
 
 	![screenshot](images/flower-for-pattern.png)	
 	
-
---- /task ---
-
---- task ---
-
-Press `p` to see your flower. The example looks like this:
++ Press `p` to see your flower. The example looks like this:
 
 	![screenshot](images/flower-for-pattern-example.png)	
 	
++ Right-click on the Flower sprite and `hide`{:class="blocklooks"} it so it doesn't appear on the stage. (You can show the sprite again if you need to see where it is.)
 
---- /task ---
-
---- task ---
-
-Right-click on the Flower sprite and `hide`{:class="blocklooks"} it so it doesn't appear on the stage. (You can show the sprite again if you need to see where it is.)
-
---- /task ---
-
---- task ---
-
-Now draw a row of these flowers across the top of the stage. Here's an example, but you might need to adjust the numbers to work with your flower:
++ Now draw a row of these flowers across the top of the stage. Here's an example, but you might need to adjust the numbers to work with your flower:
 
 	![screenshot](images/flower-pattern-row.png)
 	
-
---- /task ---
-
---- task ---
-
-Press `p` to see a row of flowers: 
++ Press `p` to see a row of flowers: 
 
 	![screenshot](images/flower-pattern-row-example.png)
 	
-
---- /task ---
-
---- task ---
-
-Add another loop to create more rows of flowers. This example adds a `repeat 3`{:class="blockcontrol"} loop to create three rows. 
++ Add another loop to create more rows of flowers. This example adds a `repeat 3`{:class="blockcontrol"} loop to create three rows. 
 
 	![screenshot](images/flower-pattern-rows.png)
 	
-
---- /task ---
-
---- task ---
-
-Press `p` to see a grid of flowers: 
++ Press `p` to see a grid of flowers: 
 
 	![screenshot](images/flower-pattern-rows-example.png)
 	
-
---- /task ---
-
---- task ---
-
-Do you want to speed up the drawing of the flowers? Right-click on the `draw flower`{:class="blockmoreblocks"} definition block and choose **edit**. Tick the **Run without screen refresh** box. 
++ Do you want to speed up the drawing of the flowers? Right-click on the `draw flower`{:class="blockmoreblocks"} definition block and choose **edit**. Tick the **Run without screen refresh** box. 
 
 	![screenshot](images/flower-no-refresh.png)
 	
 	Now the flowers will be drawn more quickly. 
 
---- /task ---
-
---- task ---
-
-You can also change the colour of the stage. Click on **Paint new backdrop**. Create an orange backdrop by using the Fill tool in Bitmap mode. 
++ You can also change the colour of the stage. Click on **Paint new backdrop**. Create an orange backdrop by using the Fill tool in Bitmap mode. 
 
 	![screenshot](images/flower-orange-backdrop.png)
 	
 	Using orange means that the numbers for different colours will match the ones for the petal. 
 	
-
---- /task ---
-
---- task ---
-
-Now you can use the `set colour effect`{:class="blocklooks"} on the stage to change the colour of the backdrop.
++ Now you can use the `set colour effect`{:class="blocklooks"} on the stage to change the colour of the backdrop.
 	
 	![screenshot](images/flower-backdrop-colour.png)
 	
-
---- /task ---
-
---- task ---
-
-Try different things to create a pattern you like. 
++ Try different things to create a pattern you like. 
 
 	Here's an example: 
 	
 	![screenshot](images/flower-pattern-background.png)
 	
-
---- /task ---
-
---- task ---
-
-Put it all together to create an amazing effect:
++ Put it all together to create an amazing effect:
 
 	![screenshot](images/flower-gen-example.gif)
 
 --- /challenge ---
 
---- /task ---
+
+
 

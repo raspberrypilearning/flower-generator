@@ -2,29 +2,19 @@
 
 First you're going to generate a flower which can be drawn on the screen. 
 
---- task ---
-
-Create a new Scratch project. 
++ Create a new Scratch project. 
 
 [[[generic-scratch-new-project]]]
 
 Now you will use the Paint tool to create a new sprite shaped like a flower petal, and name it 'Flower'. 
 
---- /task ---
-
---- task ---
-
-In the Paint tool, switch to **Vector** mode by clicking **Convert to Vector**, and use the Ellipse tool to draw a petal shape filled in orange (you'll use code to add more colour later). 
++ In the Paint tool, switch to **Vector** mode by clicking **Convert to Vector**, and use the Ellipse tool to draw a petal shape filled in orange (you'll use code to add more colour later). 
 
     ![screenshot](images/flower-petal.png)
 
 	Note: Shapes created using Vector mode look neater when you change their size. 
 
---- /task ---
-
---- task ---
-
-Add code to your Flower sprite to `stamp`{:class="blockpen"} a flower with six equally rotated petals when you click the green flag. 
++ Add code to your Flower sprite to `stamp`{:class="blockpen"} a flower with six equally rotated petals when you click the green flag. 
 
 ![screenshot](images/flower-6-straight.png)
 
@@ -58,24 +48,25 @@ You may find that your petals are offset in an odd way:
 
 This is because the sprite is being rotated around its centre. 
 
---- /task ---
-
---- task ---
-
-Change where the centre of your petal shape is using the crosshair tool:
++ Change where the centre of your petal shape is using the crosshair tool:
 
 	![screenshot](images/flower-crosshair.png)
 
 	The centre should be at the bottom centre of the petal. 
 
---- /task ---
-
---- task ---
-
-Clear the stage and run your code again to check that the petals are straight.
++ Clear the stage and run your code again to check that the petals are straight.
 
 	![screenshot](images/flower-6-straight.png)
 	
 
---- /task ---
+
+
+
+
+
+
+
+
+
+
 

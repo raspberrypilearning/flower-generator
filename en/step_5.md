@@ -3,92 +3,47 @@
 
 At the moment all the flowers you draw are exactly the same. Let's add some inputs to the `draw flower`{:class="blockmoreblocks"} block so that flowers can be different colours and sizes, and can have different numbers of petals. 
 
---- task ---
-
-In Scratch you can use the `set colour effect`{:class="blocklooks"} block to change the colour of a sprite. Change your 'draw flower' definition to change the colour: 
++ In Scratch you can use the `set colour effect`{:class="blocklooks"} block to change the colour of a sprite. Change your 'draw flower' definition to change the colour: 
 
 	![screenshot](images/flower-colour.png)	
    
-
---- /task ---
-
---- task ---
-
-Run your code to see flowers of different colours: 
++ Run your code to see flowers of different colours: 
 
 	![screenshot](images/flower-pink.png)	
 
 	`set colour effect`{:class="blocklooks"} changes the colour based on the default colour of the sprite, so if you didn't use orange, you'll get different results. 
 	
-
---- /task ---
-
---- task ---
-
-Experiment with using different numbers from 0 to 199 in the `set colour effect`{:class="blocklooks"} block. 
++ Experiment with using different numbers from 0 to 199 in the `set colour effect`{:class="blocklooks"} block. 
 	
 At the moment all flowers will be the same colour. We can add an **input** to the `draw flower`{:class="blockmoreblocks"} block to choose a different colour each time we use it. 
 
---- /task ---
-
---- task ---
-
-Right-click on the `draw flower`{:class="blockmoreblocks"} definition block and choose **edit**:
++ Right-click on the `draw flower`{:class="blockmoreblocks"} definition block and choose **edit**:
 	
 	![screenshot](images/flower-edit.png)	
 	
-
---- /task ---
-
---- task ---
-
-Now add a **number input** called 'colour': 
++ Now add a **number input** called 'colour': 
 
 	![screenshot](images/flower-colour-input.png)	
 	
 The input will appear in the `draw flower`{:class="blockmoreblocks"} definition, and you can drag it to where you want to use it.
 
---- /task ---
-
---- task ---
-
-Drag the 'colour' input to the `set colour effect`{:class="blocklooks"} block: 
++ Drag the 'colour' input to the `set colour effect`{:class="blocklooks"} block: 
 	
 	![screenshot](images/flower-use-colour.png)
 	
-
---- /task ---
-
---- task ---
-
-Your code should look like this:
++ Your code should look like this:
 
 	![screenshot](images/flower-with-colour-input.png)
 	
-
---- /task ---
-
---- task ---
-
-Notice that your `draw flower`{:class="blockmoreblocks"} blocks now have a new input: 
++ Notice that your `draw flower`{:class="blockmoreblocks"} blocks now have a new input: 
 
 	![screenshot](images/flower-input-added.png)
 	
-
---- /task ---
-
---- task ---
-
-Change the numbers in `draw flower`{:class="blockmoreblocks"} so that the flowers which appear are different colours. Pick any numbers between 0 and 200.
++ Change the numbers in `draw flower`{:class="blockmoreblocks"} so that the flowers which appear are different colours. Pick any numbers between 0 and 200.
 
 	![screenshot](images/flower-different-colours.png)
 	
-
---- /task ---
-
---- task ---
-
-Now add another input to set the size of the flower so that you can write code like this...
++ Now add another input to set the size of the flower so that you can write code like this...
 
 	![screenshot](images/flower-different-sizes-code.png)
 
@@ -114,13 +69,10 @@ Your code should look like this:
 --- /hint ---
 --- /hints ---
 
---- /task ---
-
---- task ---
-
-How about changing the number of petals? Add another input so that you can choose the number of petals each flower has so that you can draw flowers like this:
++ How about changing the number of petals? Add another input so that you can choose the number of petals each flower has so that you can draw flowers like this:
 
 	![screenshot](images/flower-petals.png)
+
 
 --- hints ---
 --- hint ---
@@ -142,24 +94,16 @@ Your code should look like this:
 --- /hint ---
 --- /hints ---
 
---- /task ---
-
---- task ---
-
-Now move your flower drawing code under a `when f key pressed`{:class="blockevents"} block so you'll be able to draw different flowers when you press different keys. 
++ Now move your flower drawing code under a `when f key pressed`{:class="blockevents"} block so you'll be able to draw different flowers when you press different keys. 
 
 	![screenshot](images/flower-press-f.png)
 	
++ Press `f` to test your code. 
 
---- /task ---
 
---- task ---
 
-Press `f` to test your code. 
+
 
 	
 
  
-
---- /task ---
-
