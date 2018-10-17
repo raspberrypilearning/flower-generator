@@ -4,17 +4,27 @@ First you're going to generate a flower which can be drawn on the screen.
 
 --- task ---
 
-Create a new Scratch project. 
+Create a new Scratch project and delete the cat sprite.
 
 [[[generic-scratch-new-project]]]
-
-Now you will use the Paint tool to create a new sprite shaped like a flower petal, and name it 'Flower'. 
 
 --- /task ---
 
 --- task ---
 
-In the Paint tool, switch to **Vector** mode by clicking **Convert to Vector**, and use the Ellipse tool to draw a petal shape filled in orange (you'll use code to add more colour later). 
+Now you will use the Paint tool to create a new sprite shaped like a flower petal.
+
+Click **Paint new sprite** and rename it as "Flower".
+
+[[[generic-scratch-rename-sprite]]]
+
+--- /task ---
+
+--- task ---
+
+In the Paint tool, switch to **Vector** mode by clicking **Convert to Vector**.
+
+Use the Ellipse tool to draw a petal shape filled in orange (you'll use code to add more colour later). 
 
  ![screenshot](images/flower-petal.png)
 
@@ -24,33 +34,19 @@ In the Paint tool, switch to **Vector** mode by clicking **Convert to Vector**, 
 
 --- task ---
 
-Add code to your Flower sprite to `stamp`{:class="blockpen"} a flower with six equally rotated petals when you click the green flag. 
+Add the following code to your Flower sprite to `stamp`{:class="blockpen"} a flower with six equally rotated petals when you `click the green flag`{:class="blockcontrol"}. 
 
 ![screenshot](images/flower-6-straight.png)
 
-[[[generic-scratch-stamping-sprites]]]
+```block
+when green flag clicked
+repeat (6) 
+  stamp
+  turn cw (60) degrees
+end
+```
 
-[[[generic-scratch-clear-stage]]]
-
---- hints ---
---- hint ---
-You'll need to repeat the code to __stamp__ and __turn__ the petal six times. 
-There are 360 degrees in a circle. Divide 360 by 6 to work out by how many degrees each petal needs to be rotated. 
-
-You can click `clear`{:class="blockpen"} to clear the stage. 
---- /hint ---
---- hint ---
-Try using these blocks:
-![screenshot](images/flower-6-blocks.png)
---- /hint ---
---- hint ---
-Here's the code:
-
-![screenshot](images/flower-6-code.png)
-
-You turn 60 degrees after each stamp, which is 360 divided by 6.
---- /hint ---
---- /hints ---
+--- /task ---
 
 You may find that your petals are offset in an odd way:
 
@@ -58,23 +54,32 @@ You may find that your petals are offset in an odd way:
 
 This is because the sprite is being rotated around its centre. 
 
+--- task ---
+
+Change where the middle of your petal shape is using the crosshair tool:
+
+![screenshot](images/flower-crosshair-annotated.png)
+
+The crosshair should be at the bottom of the petal. 
+
 --- /task ---
 
 --- task ---
 
-Change where the centre of your petal shape is using the crosshair tool:
+Before you run your code again, you should `clear`{:class="blockpen"} the stage so you can see your new flower.
 
- ![screenshot](images/flower-crosshair.png)
+Click on the `clear` block in the Pen tab.
 
- The centre should be at the bottom centre of the petal. 
+```block
+clear
+```
 
 --- /task ---
 
 --- task ---
 
-Clear the stage and run your code again to check that the petals are straight.
+Run your code again to check that the petals are straight.
 
- ![screenshot](images/flower-6-straight.png)
+![screenshot](images/flower-6-straight.png)
  
-
 --- /task ---
