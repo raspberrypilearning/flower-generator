@@ -14,7 +14,7 @@ Click on **More Blocks** and **Make a block** to create your own block and name 
 
 You will see a new block called `draw flower`{:class="blockmoreblocks"} under **More blocks** and a new definition block on the stage.
 
-```block
+```blocks
 draw flower :: custom
 
 define draw flower
@@ -28,7 +28,7 @@ Move your code for drawing the flower from the `when green flag clicked`{:class=
 
 Your code should look like this:
 
-```block
+```blocks
 define draw flower
 repeat (6) 
   stamp
@@ -44,7 +44,7 @@ when green flag clicked
 
 Add the following code to clear the stage and use your new `draw flower`{:class="blockmoreblocks"} block when the green flag is clicked:
 
-```block
+```blocks
 when green flag clicked
 clear
 draw flower :: custom
@@ -62,7 +62,7 @@ Click the green flag to test your code and make sure you see a flower.
 
 Now change your code to move and draw another flower:
 
-```block
+```blocks
 when green flag clicked
 clear
 go to x: (75) y: (75)

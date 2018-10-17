@@ -38,7 +38,7 @@ Add the following code to your Flower sprite to `stamp`{:class="blockpen"} a flo
 
 ![screenshot](images/flower-6-straight.png)
 
-```block
+```blocks
 when green flag clicked
 repeat (6) 
   stamp
@@ -70,7 +70,7 @@ Before you run your code again, you should `clear`{:class="blockpen"} the stage 
 
 Click on the `clear` block in the Pen tab.
 
-```block
+```blocks
 clear
 ```
 
