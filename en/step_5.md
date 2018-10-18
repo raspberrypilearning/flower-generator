@@ -276,3 +276,9 @@ draw flower (150) (50) (8) :: custom
 Press `f` to test your code. 
 
 --- /task ---
+
+--- task ---
+
+Add more `draw flower`{:class="blockmoreblocks"} blocks to your program to place flowers with different colours, sizes and numbers of petals all over the stage.
+
+--- /task ---

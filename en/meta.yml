@@ -21,7 +21,10 @@ steps:
 - title: Make a custom block to draw flowers
 - title: Customise your flowers
 - title: "Challenge: make a flower design"
+  challenge: true
 - title: Save the stage
-- title: "Challenge: random flower generator"
+- title: Random flower generator
 - title: "Challenge: flower patterns"
+  challenge: true
 - title: "Challenge: custom flower blocks with inputs"
+  challenge: true

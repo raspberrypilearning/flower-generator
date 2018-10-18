@@ -4,19 +4,12 @@ If you've created a pattern you like, you can save it and use it in another Scra
 
 --- task ---
 
-When you have a pattern on the stage that you like, you can right-click and choose **save picture of stage** (on some computers you may need to hold down the `Shift` key when you right-click). 
+When you have a pattern on the stage that you like, you can right-click and choose **save picture of stage** 
 
- ![screenshot](images/flower-save-stage.png)  
+**Note:** on some computers you may need to hold down the `Shift` key when you right-click. 
+
+![screenshot](images/flower-save-stage.png)  
+
+This allows you to save a PNG image of the stage. 
  
- This allows you to save a PNG image of the stage. 
- 
-
---- /task ---
-
---- task ---
-
-Choose a sensible file name and location to save.
- 
- 
-
 --- /task ---
