@@ -9,6 +9,8 @@ In Scratch you can use the `set colour effect`{:class="blocklooks"} block to cha
 
 Change your 'draw flower' definition to change the colour: 
 
+![flower sprite](images/flower-sprite.png)
+
 ```blocks
 define draw flower
 set [color v] effect to (150)
@@ -65,6 +67,8 @@ Drag the 'colour' input to the `set colour effect`{:class="blocklooks"} block:
  
 Your code should look like this:
 
+![flower sprite](images/flower-sprite.png)
+
 ```blocks
 define draw flower (colour)
 set [color v] effect to (colour)
@@ -93,6 +97,8 @@ Change the numbers in the `draw flower`{:class="blockmoreblocks"} blocks so that
 
 Your code should look similar to this:
 
+![flower sprite](images/flower-sprite.png)
+
 ```blocks
 when green flag clicked
 clear
@@ -108,6 +114,8 @@ draw flower (150) :: custom
 
 Now add another input to set the size of the flower so that you can write code like this...
 
+![flower sprite](images/flower-sprite.png)
+
 ```blocks
 when green flag clicked
 clear
@@ -117,9 +125,9 @@ go to x: (-75) y: (-75)
 draw flower (150) (50) :: custom
 ```
 
- ...to create flowers of different sizes:
+...to create flowers of different sizes:
 
- ![different sized flowers](images/flower-different-sizes.png)
+![different sized flowers](images/flower-different-sizes.png)
 
 --- hints ---
 
@@ -151,6 +159,8 @@ end
 --- hint ---
 
 Right-click on the draw flower definition block, choose edit and add a number input called `size`.
+
+![flower sprite](images/flower-sprite.png)
 
 Change your `define draw flower`{:class="blockmoreblocks"} block to look like this:
 
@@ -200,6 +210,8 @@ There are two places where you'll need to use the 'petals' input. The number of 
 
 Change your `define draw flower`{:class="blockmoreblocks"} block to look like this:
 
+![flower sprite](images/flower-sprite.png)
+
 ```blocks
 define draw flower (colour) (size) (petals)
 ```
@@ -215,13 +227,17 @@ turn cw ((360) / (petals)) degrees
 
 Update your `draw flower`{:class="blockmoreblocks"} blocks to use the number of petals.
 
+```blocks
 draw flower (150) (50) (8) :: custom
+```
 
 --- /hint ---
 
 --- hint ---
 
 Edit your `define draw flower`{:class="blockmoreblocks"} block and add a new number input called `petals`
+
+![flower sprite](images/flower-sprite.png)
 
 Your code should now look like this:
 
@@ -255,6 +271,8 @@ draw flower (150) (50) (8) :: custom
 --- task ---
 
 Now move your flower drawing code under a `when f key pressed`{:class="blockevents"} block so you'll be able to draw different flowers when you press different keys. 
+
+![flower sprite](images/flower-sprite.png)
 
 ```blocks
 when green flag clicked

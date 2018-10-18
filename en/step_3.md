@@ -28,6 +28,8 @@ Move your code for drawing the flower from the `when green flag clicked`{:class=
 
 Your code should look like this:
 
+![flower sprite](images/flower-sprite.png)
+
 ```blocks
 define draw flower
 repeat (6) 
@@ -43,6 +45,8 @@ when green flag clicked
 --- task ---
 
 Add the following code to clear the stage and use your new `draw flower`{:class="blockmoreblocks"} block when the green flag is clicked:
+
+![flower sprite](images/flower-sprite.png)
 
 ```blocks
 when green flag clicked
@@ -61,6 +65,8 @@ Click the green flag to test your code and make sure you see a flower.
 --- task ---
 
 Now change your code to move and draw another flower:
+
+![flower sprite](images/flower-sprite.png)
 
 ```blocks
 when green flag clicked

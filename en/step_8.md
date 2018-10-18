@@ -6,6 +6,8 @@ You can also use your `draw flower`{:class="blockmoreblocks"} block to create ne
 
 Create a flower or a combination of flowers that you like. Here's an example:
 
+![flower sprite](images/flower-sprite.png)
+
 ```blocks
 when [p v] key pressed
 clear
@@ -34,6 +36,8 @@ Right-click on the Flower sprite and `hide`{:class="blocklooks"} it so it doesn'
 
 Now draw a row of these flowers across the top of the stage. Here's an example, but you might need to adjust the numbers to work with your flower:
 
+![flower sprite](images/flower-sprite.png)
+
 ```blocks
 when [p v] key pressed
 clear
@@ -58,6 +62,8 @@ Press `p` to see a row of flowers:
 --- task ---
 
 Add another loop to create more rows of flowers. This example adds a `repeat 3`{:class="blockcontrol"} loop to create three rows. 
+
+![flower sprite](images/flower-sprite.png)
 
 ```blocks
 when [p v] key pressed

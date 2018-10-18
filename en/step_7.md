@@ -8,6 +8,8 @@ You will now use your `draw flower`{:class="blockmoreblocks"} block to create a 
 
 Add a new Event block to your code so that `when the r key is pressed`{:class="blockevents"} the screen is `cleared`{:class="blockpen"}.
 
+![flower sprite](images/flower-sprite.png)
+
 ```blocks
 when [r v] key pressed
 clear
@@ -18,6 +20,8 @@ clear
 --- task ---
 
 Add in a `repeat`{:class="blockcontrol"} block to go to a `random position`{:class="blockmotion"} `100` times.
+
+![flower sprite](images/flower-sprite.png)
 
 ```blocks
 repeat (100)
@@ -32,6 +36,8 @@ end
 Use the `draw flower`{:class="blockmoreblocks"} block to create a flower which will have a `random`{:class="blockoperators"} colour between `0` and `199`.
 
 You code should now look like this:
+
+![flower sprite](images/flower-sprite.png)
 
 ```blocks
 when [r v] key pressed
@@ -64,6 +70,8 @@ The `draw flower`{:class="blockmoreblocks"} block should `pick random`{:class="b
 
 The following blocks will pick a random size between `50` and `150` and between `4` and `12` for the number of petals.
 
+![flower sprite](images/flower-sprite.png)
+
 ```blocks
 (pick random (50) to (150))
 
@@ -75,6 +83,8 @@ The following blocks will pick a random size between `50` and `150` and between 
 --- hint ---
 
 Your code should look like this:
+
+![flower sprite](images/flower-sprite.png)
 
 ```blocks
 when [r v] key pressed
