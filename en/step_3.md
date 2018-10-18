@@ -1,85 +1,82 @@
-## Generate a flower
+## Make a custom block to draw flowers
 
-First you're going to generate a flower which can be drawn on the screen. 
+What if you want to draw lots of flowers? Instead of repeating the code, you can create your own block in Scratch and use it every time you want to draw a flower.  
 
 --- task ---
 
-Create a new Scratch project and delete the cat sprite.
+Click on **More Blocks** and **Make a block** to create your own block and name it "draw flower".
 
-[[[generic-scratch-new-project]]]
+![screenshot](images/flower-make-block.png)
 
 --- /task ---
 
 --- task ---
 
-Now you will use the Paint tool to create a new sprite shaped like a flower petal.
-
-Click **Paint new sprite** and rename it as "Flower".
-
-[[[generic-scratch-rename-sprite]]]
-
---- /task ---
-
---- task ---
-
-In the Paint tool, switch to **Vector** mode by clicking **Convert to Vector**.
-
-Use the Ellipse tool to draw a petal shape filled in orange (you'll use code to add more colour later). 
-
- ![screenshot](images/flower-petal.png)
-
- Note: Shapes created using Vector mode look neater when you change their size. 
-
---- /task ---
-
---- task ---
-
-Add the following code to your Flower sprite to `stamp`{:class="blockpen"} a flower with six equally rotated petals when you `click the green flag`{:class="blockcontrol"}. 
-
-![screenshot](images/flower-6-straight.png)
+You will see a new block called `draw flower`{:class="blockmoreblocks"} under **More blocks** and a new definition block on the stage.
 
 ```blocks
-when green flag clicked
+draw flower :: custom
+
+define draw flower
+```
+
+--- /task ---
+
+--- task ---
+
+Move your code for drawing the flower from the `when green flag clicked`{:class="blockevents"} block to the new `draw flower`{:class="blockmoreblocks"} definition block. 
+
+Your code should look like this:
+
+```blocks
+define draw flower
 repeat (6) 
   stamp
   turn cw (60) degrees
 end
-```
 
---- /task ---
-
-You may find that your petals are offset in an odd way:
-
-![screenshot](images/flower-6-offset.png)
-
-This is because the sprite is being rotated around its centre. 
-
---- task ---
-
-Change where the middle of your petal shape is using the crosshair tool:
-
-![screenshot](images/flower-crosshair-annotated.png)
-
-The crosshair should be at the bottom of the petal. 
+when green flag clicked
+``` 
 
 --- /task ---
 
 --- task ---
 
-Before you run your code again, you should `clear`{:class="blockpen"} the stage so you can see your new flower.
-
-Click on the `clear` block in the Pen tab.
+Add the following code to clear the stage and use your new `draw flower`{:class="blockmoreblocks"} block when the green flag is clicked:
 
 ```blocks
+when green flag clicked
 clear
+draw flower :: custom
+```
+ 
+--- /task ---
+
+--- task ---
+
+Click the green flag to test your code and make sure you see a flower. 
+
+--- /task ---
+
+--- task ---
+
+Now change your code to move and draw another flower:
+
+```blocks
+when green flag clicked
+clear
+go to x: (75) y: (75)
+draw flower :: custom
+go to x: (-75) y: (-75)
+draw flower :: custom 
 ```
 
 --- /task ---
 
 --- task ---
 
-Run your code again to check that the petals are straight.
+Test your code to check that you now see two flowers.
 
-![screenshot](images/flower-6-straight.png)
+![screenshot](images/flower-two.png)  
  
 --- /task ---

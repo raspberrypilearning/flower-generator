@@ -5,10 +5,9 @@ duration: 2
 listed: true
 copyedit: true
 version: 4.1.0
-last_tested: 2017-10-01
+last_tested: 2018-10-18
 steps: 
 - title: Introduction
-- title: What you will need
 - title: Generate a flower
 - title: Make a custom block to draw flowers
 - title: Customise your flowers

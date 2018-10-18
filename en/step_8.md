@@ -1,27 +1,47 @@
-## Random flower generator
+## Flower patterns
 
-You will now use your `draw flower`{:class="blockmoreblocks"} block to create a 100 random flowers all over the stage when you press `r`.
-
-![random flowers](images/flower-random.png)
+You can also use your `draw flower`{:class="blockmoreblocks"} block to create neat flower patterns. 
 
 --- task ---
 
-Add a new Event block to your code so that `when the r key is pressed`{:class="blockevents"} the screen is `cleared`{:class="blockpen"}.
+Create a flower or a combination of flowers that you like. Here's an example:
 
 ```blocks
-when [r v] key pressed
+when [p v] key pressed
 clear
+go to x: (-150) y: (100)
+draw flower (150) (80) (7) :: custom
+draw flower (130) (35) (20) :: custom
 ```
 
 --- /task ---
 
 --- task ---
 
-Add in a `repeat`{:class="blockcontrol"} block to go to a `random position`{:class="blockmotion"} `100` times.
+Press `p` to see your flower. The example looks like this:
+
+![a flower pattern](images/flower-for-pattern-example.png)  
+
+--- /task ---
+
+--- task ---
+
+Right-click on the Flower sprite and `hide`{:class="blocklooks"} it so it doesn't appear on the stage. (You can show the sprite again if you need to see where it is.)
+
+--- /task ---
+
+--- task ---
+
+Now draw a row of these flowers across the top of the stage. Here's an example, but you might need to adjust the numbers to work with your flower:
 
 ```blocks
-repeat (100)
-  go to [random position v]
+when [p v] key pressed
+clear
+go to x: (-150) y: (100)
+repeat (4) 
+  draw flower (150) (80) (7) :: custom
+  draw flower (130) (35) (20) :: custom
+  change x by (100)
 end
 ```
 
@@ -29,67 +49,86 @@ end
 
 --- task ---
 
-Use the `draw flower`{:class="blockmoreblocks"} block to create a flower which will have a `random`{:class="blockoperators"} colour between `0` and `199`.
+Press `p` to see a row of flowers: 
 
-You code should now look like this:
-
-```blocks
-when [r v] key pressed
-clear
-repeat (100) 
-  go to [random position v]
-  draw flower (pick random (0) to (199)) (100) (12) :: custom
-end
-```
+![4 flowers in a row](images/flower-pattern-row-example.png)
 
 --- /task ---
-
-This code will create 100 flowers with different colours but all with the same size and numbers of petals. 
-
-![flowers just with random colours](images/flower-random-colour.png)
 
 --- task ---
 
-Can you modify your program so the size and number of petals is also random?
-
---- hints ---
-
---- hint ---
-
-The `draw flower`{:class="blockmoreblocks"} block should `pick random`{:class="blockoperators"} numbers for the size and number of petals.
-
---- /hint ---
-
---- hint ---
-
-The following blocks will pick a random size between `50` and `150` and between `4` and `12` for the number of petals.
+Add another loop to create more rows of flowers. This example adds a `repeat 3`{:class="blockcontrol"} loop to create three rows. 
 
 ```blocks
-(pick random (50) to (150))
-
-(pick random (4) to (12))
-```
-
---- /hint ---
-
---- hint ---
-
-Your code should look like this:
-
-```blocks
-when [r v] key pressed
+when [p v] key pressed
 clear
-repeat (100) 
-  go to [random position v]
-  draw flower (pick random (0) to (199)) (pick random (50) to (150)) (pick random (4) to (12)) :: custom
+go to x: (-150) y: (100)
+repeat (3) 
+  repeat (4) 
+    draw flower (150) (80) (7) :: custom
+    draw flower (130) (35) (20) :: custom
+    change x by (100)
+  end
+  set x to (-150)
+  change y by (-100)
 end
 ```
+ 
+--- /task ---
 
---- /hint ---
+--- task ---
 
---- /hints ---
+Press `p` to see a grid of flowers: 
+
+![a 4 x 4 grid of flowers](images/flower-pattern-rows-example.png)
 
 --- /task ---
 
+--- task ---
 
+Do you want to speed up the drawing of the flowers? Right-click on the `draw flower`{:class="blockmoreblocks"} definition block and choose **edit**. Tick the **Run without screen refresh** box. 
 
+![turn no refresh option off](images/flower-no-refresh.png)
+
+Now the flowers will be drawn more quickly. 
+
+--- /task ---
+
+--- task ---
+
+You can also change the colour of the stage. Click on **Paint new backdrop**. Create an orange backdrop by using the Fill tool in Bitmap mode. 
+
+![paint new backdrop](images/flower-orange-backdrop.png)
+
+Using orange means that the numbers for different colours will match the ones for the petal. 
+ 
+--- /task ---
+
+--- task ---
+
+Now you can use the `set colour effect`{:class="blocklooks"} on the stage to change the colour of the backdrop.
+ 
+```blocks
+when [p v] key pressed
+set [color v] effect to (30)
+```
+
+--- /task ---
+
+--- task ---
+
+Try different things to create a pattern you like. 
+
+Here's an example: 
+ 
+![flowers on a green background](images/flower-pattern-background.png)
+ 
+--- /task ---
+
+--- task ---
+
+Put it all together to create an amazing effect:
+
+![animation of lots of flowers](images/flower-gen-example.gif)
+
+--- /task ---

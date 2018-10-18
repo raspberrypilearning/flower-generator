@@ -1,134 +1,31 @@
-## Flower patterns
+## Challenge: custom flower blocks with inputs
 
-You can also use your `draw flower`{:class="blockmoreblocks"} block to create neat flower patterns. 
+These flowers all have the same number of outer and inner petals, and the size of the inner flower is in proportion to the outer flower: 
+ 
+![screenshot](images/flower-double-flowers.png)
 
---- task ---
-
-Create a flower or a combination of flowers that you like. Here's an example:
+They were created using `draw double flower`{:class="blockmoreblocks"} custom block with inputs for `outer colour`, `inner colour`, and `size`.
 
 ```blocks
-when [p v] key pressed
+define draw double flower (outer colour) (inner colour) (size)
+draw flower (outer colour) (size) (12) :: custom
+draw flower (inner colour) ((size) / (2)) (20) :: custom
+```
+
+The `draw double flower`{:class="blockmoreblocks"} block was then used to draw lots of flowers in the same style:
+
+```blocks
+when [d v] key pressed
 clear
-go to x: (-150) y: (100)
-draw flower (150) (80) (7) :: custom
-draw flower (130) (35) (20) :: custom
+go to x: (-100) y: (0)
+draw double flower (160) (120) (100) :: custom
+change x by (100)
+draw double flower (120) (140) (75) :: custom
+change x by (75)
+draw double flower (140) (160) (50) :: custom
 ```
 
---- /task ---
+Can you create a new custom block for a kind of flower that you like, and add the inputs that you want to be able to change it? 
 
---- task ---
+Then create a design that you like using your new block. 
 
-Press `p` to see your flower. The example looks like this:
-
-![a flower pattern](images/flower-for-pattern-example.png)  
-
---- /task ---
-
---- task ---
-
-Right-click on the Flower sprite and `hide`{:class="blocklooks"} it so it doesn't appear on the stage. (You can show the sprite again if you need to see where it is.)
-
---- /task ---
-
---- task ---
-
-Now draw a row of these flowers across the top of the stage. Here's an example, but you might need to adjust the numbers to work with your flower:
-
-```blocks
-when [p v] key pressed
-clear
-go to x: (-150) y: (100)
-repeat (4) 
-  draw flower (150) (80) (7) :: custom
-  draw flower (130) (35) (20) :: custom
-  change x by (100)
-end
-```
-
---- /task ---
-
---- task ---
-
-Press `p` to see a row of flowers: 
-
-![4 flowers in a row](images/flower-pattern-row-example.png)
-
---- /task ---
-
---- task ---
-
-Add another loop to create more rows of flowers. This example adds a `repeat 3`{:class="blockcontrol"} loop to create three rows. 
-
-```blocks
-when [p v] key pressed
-clear
-go to x: (-150) y: (100)
-repeat (3) 
-  repeat (4) 
-    draw flower (150) (80) (7) :: custom
-    draw flower (130) (35) (20) :: custom
-    change x by (100)
-  end
-  set x to (-150)
-  change y by (-100)
-end
-```
- 
---- /task ---
-
---- task ---
-
-Press `p` to see a grid of flowers: 
-
-![a 4 x 4 grid of flowers](images/flower-pattern-rows-example.png)
-
---- /task ---
-
---- task ---
-
-Do you want to speed up the drawing of the flowers? Right-click on the `draw flower`{:class="blockmoreblocks"} definition block and choose **edit**. Tick the **Run without screen refresh** box. 
-
-![turn no refresh option off](images/flower-no-refresh.png)
-
-Now the flowers will be drawn more quickly. 
-
---- /task ---
-
---- task ---
-
-You can also change the colour of the stage. Click on **Paint new backdrop**. Create an orange backdrop by using the Fill tool in Bitmap mode. 
-
-![paint new backdrop](images/flower-orange-backdrop.png)
-
-Using orange means that the numbers for different colours will match the ones for the petal. 
- 
---- /task ---
-
---- task ---
-
-Now you can use the `set colour effect`{:class="blocklooks"} on the stage to change the colour of the backdrop.
- 
-```blocks
-when [p v] key pressed
-set [color v] effect to (30)
-```
-
---- /task ---
-
---- task ---
-
-Try different things to create a pattern you like. 
-
-Here's an example: 
- 
-![flowers on a green background](images/flower-pattern-background.png)
- 
---- /task ---
-
---- task ---
-
-Put it all together to create an amazing effect:
-
-![animation of lots of flowers](images/flower-gen-example.gif)
-
---- /task ---

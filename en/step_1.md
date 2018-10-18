@@ -1,20 +1,69 @@
 ## Introduction
 
-In this project you will create a `draw flower`{:class="blockmoreblocks"} block which can create flowers of different sizes, shapes, and numbers of petals. You'll use your new block to create flower designs and patterns. You can also adapt the project to create other interesting patterns using different shapes. 
+You will create 100's of flowers of different sizes, shapes and colours. 
 
-You can export the pictures you have created on the stage, and use them as wallpapers on your phone or desktop computer, or as backdrops in other Scratch projects. 
+You can export your flower pictures and use them as wallpapers on your phone or desktop computer, or as backdrops in other Scratch projects. 
 
 ### What you will make
 
+--- no-print ---
+
+Press `f` to draw a few flowers, or `r` to draw lots of random flowers, or `p` to draw a flower pattern.
+
 <div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/173379316/?autostart=false" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/253355932/?autostart=false" frameborder="0"></iframe>
 </div>
 
-In this example project, you can press `f` to draw some flowers, or `r` to draw lots of flowers in random positions, or `p` to draw a flower pattern. All of these options use the same `draw flower`{:class="blockmoreblocks"} block with different inputs. 
+--- /no-print ---
 
-### What you will learn
+--- print-only ---
 
-This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
+![random flowers](images/flower-random.png)
 
-+ [Apply basic programming constructs to solve a problem](https://curriculum.raspberrypi.org/programming/builder/)
+--- /print-only ---
+
+--- collapse ---
+
+---
+title: What you will need
+---
+
+### Hardware
+
++ Computer capable of running Scratch 2.0
+
+### Software
+
++ Scratch 2.0 (either [online](https://scratch.mit.edu/projects/editor/) or [offline](https://scratch.mit.edu/scratch2download/))
+
+--- /collapse ---
+
+--- collapse ---
+
+---
+title: What you will learn
+---
+
++ How to stamp a sprite 
++ How to "Make your own block"
++ How to use block inputs 
++ How to create random numbers 
+
+--- /collapse ---
+
+--- collapse ---
+
+---
+title: Additional notes for educators
+---
+
+--- no-print ---
+
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/flower-generator/print){:target="_blank"}.
+
+--- /no-print ---
+
+[If you need the solution to this project, you can find it here](http://rpf.io/flower-generator-get).
+
+--- /collapse ---
 
