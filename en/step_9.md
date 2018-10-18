@@ -88,9 +88,9 @@ Press `p` to see a grid of flowers:
 
 Do you want to speed up the drawing of the flowers? Right-click on the `draw flower`{:class="blockmoreblocks"} definition block and choose **edit**. Tick the **Run without screen refresh** box. 
 
- ![screenshot](images/flower-no-refresh.png)
- 
- Now the flowers will be drawn more quickly. 
+![turn no refresh option off](images/flower-no-refresh.png)
+
+Now the flowers will be drawn more quickly. 
 
 --- /task ---
 
@@ -121,7 +121,7 @@ Try different things to create a pattern you like.
 
 Here's an example: 
  
-![screenshot](images/flower-pattern-background.png)
+![flowers on a green background](images/flower-pattern-background.png)
  
 --- /task ---
 
@@ -129,9 +129,6 @@ Here's an example:
 
 Put it all together to create an amazing effect:
 
- ![screenshot](images/flower-gen-example.gif)
+![animation of lots of flowers](images/flower-gen-example.gif)
 
 --- /task ---
-
---- /challenge ---
-
