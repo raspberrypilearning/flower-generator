@@ -44,7 +44,7 @@ end
 
 --- /task ---
 
-This code will create 100 flowers with different colours but all the same size and numbers of petals. 
+This code will create 100 flowers with different colours but all with the same size and numbers of petals. 
 
 ![flowers just with random colours](images/flower-random-colour.png)
 

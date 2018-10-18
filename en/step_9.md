@@ -1,6 +1,4 @@
---- challenge ---
-
-## Challenge: flower patterns
+## Flower patterns
 
 You can also use your `draw flower`{:class="blockmoreblocks"} block to create neat flower patterns. 
 
@@ -8,8 +6,13 @@ You can also use your `draw flower`{:class="blockmoreblocks"} block to create ne
 
 Create a flower or a combination of flowers that you like. Here's an example:
 
- ![screenshot](images/flower-for-pattern.png)  
- 
+```blocks
+when [p v] key pressed
+clear
+go to x: (-150) y: (100)
+draw flower (150) (80) (7) :: custom
+draw flower (130) (35) (20) :: custom
+```
 
 --- /task ---
 
@@ -17,8 +20,7 @@ Create a flower or a combination of flowers that you like. Here's an example:
 
 Press `p` to see your flower. The example looks like this:
 
- ![screenshot](images/flower-for-pattern-example.png)  
- 
+![a flower pattern](images/flower-for-pattern-example.png)  
 
 --- /task ---
 
@@ -32,8 +34,16 @@ Right-click on the Flower sprite and `hide`{:class="blocklooks"} it so it doesn'
 
 Now draw a row of these flowers across the top of the stage. Here's an example, but you might need to adjust the numbers to work with your flower:
 
- ![screenshot](images/flower-pattern-row.png)
- 
+```blocks
+when [p v] key pressed
+clear
+go to x: (-150) y: (100)
+repeat (4) 
+  draw flower (150) (80) (7) :: custom
+  draw flower (130) (35) (20) :: custom
+  change x by (100)
+end
+```
 
 --- /task ---
 
@@ -41,8 +51,7 @@ Now draw a row of these flowers across the top of the stage. Here's an example, 
 
 Press `p` to see a row of flowers: 
 
- ![screenshot](images/flower-pattern-row-example.png)
- 
+![4 flowers in a row](images/flower-pattern-row-example.png)
 
 --- /task ---
 
@@ -50,17 +59,28 @@ Press `p` to see a row of flowers:
 
 Add another loop to create more rows of flowers. This example adds a `repeat 3`{:class="blockcontrol"} loop to create three rows. 
 
- ![screenshot](images/flower-pattern-rows.png)
+```blocks
+when [p v] key pressed
+clear
+go to x: (-150) y: (100)
+repeat (3) 
+  repeat (4) 
+    draw flower (150) (80) (7) :: custom
+    draw flower (130) (35) (20) :: custom
+    change x by (100)
+  end
+  set x to (-150)
+  change y by (-100)
+end
+```
  
-
 --- /task ---
 
 --- task ---
 
 Press `p` to see a grid of flowers: 
 
- ![screenshot](images/flower-pattern-rows-example.png)
- 
+![a 4 x 4 grid of flowers](images/flower-pattern-rows-example.png)
 
 --- /task ---
 
@@ -78,19 +98,20 @@ Do you want to speed up the drawing of the flowers? Right-click on the `draw flo
 
 You can also change the colour of the stage. Click on **Paint new backdrop**. Create an orange backdrop by using the Fill tool in Bitmap mode. 
 
- ![screenshot](images/flower-orange-backdrop.png)
- 
- Using orange means that the numbers for different colours will match the ones for the petal. 
- 
+![paint new backdrop](images/flower-orange-backdrop.png)
 
+Using orange means that the numbers for different colours will match the ones for the petal. 
+ 
 --- /task ---
 
 --- task ---
 
 Now you can use the `set colour effect`{:class="blocklooks"} on the stage to change the colour of the backdrop.
  
- ![screenshot](images/flower-backdrop-colour.png)
- 
+```blocks
+when [p v] key pressed
+set [color v] effect to (30)
+```
 
 --- /task ---
 
@@ -98,11 +119,10 @@ Now you can use the `set colour effect`{:class="blocklooks"} on the stage to cha
 
 Try different things to create a pattern you like. 
 
- Here's an example: 
+Here's an example: 
  
- ![screenshot](images/flower-pattern-background.png)
+![screenshot](images/flower-pattern-background.png)
  
-
 --- /task ---
 
 --- task ---
