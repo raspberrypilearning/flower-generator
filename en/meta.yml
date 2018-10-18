@@ -16,5 +16,5 @@ steps:
 - title: Save the stage
 - title: Random flower generator
 - title: Flower patterns
-- title: "Challenge: custom flower blocks with inputs"
+- title: "Challenge: custom flower blocks"
   challenge: true

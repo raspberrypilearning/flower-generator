@@ -1,4 +1,4 @@
-## Challenge: custom flower blocks with inputs
+## Challenge: custom flower blocks
 
 These flowers all have the same number of outer and inner petals, and the size of the inner flower is in proportion to the outer flower: 
  
