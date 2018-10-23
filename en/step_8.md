@@ -26,6 +26,18 @@ Press `p` to see your flower. The example looks like this:
 
 --- /task ---
 
+Before you can create your pattern you should clear the stage of any left over flowers.
+
+--- task ---
+
+Click on the `clear` block in the Pen tab.
+
+```blocks
+clear
+```
+
+--- /task ---
+
 --- task ---
 
 Right-click on the Flower sprite and `hide`{:class="blocklooks"} it so it doesn't appear on the stage. (You can show the sprite again if you need to see where it is.)
@@ -107,13 +119,15 @@ You can also change the colour of the stage. Click on **Paint new backdrop**. Cr
 ![paint new backdrop](images/flower-orange-backdrop.png)
 
 Using orange means that the numbers for different colours will match the ones for the petal. 
- 
+
 --- /task ---
 
 --- task ---
 
 Now you can use the `set colour effect`{:class="blocklooks"} on the stage to change the colour of the backdrop.
- 
+
+![stage sprite](images/stage-sprite.png)
+
 ```blocks
 when [p v] key pressed
 set [color v] effect to (30)
@@ -131,10 +145,6 @@ Here's an example:
  
 --- /task ---
 
---- task ---
-
-Put it all together to create an amazing effect:
+When you put it all together you can create an amazing effect:
 
 ![animation of lots of flowers](images/flower-gen-example.gif)
-
---- /task ---

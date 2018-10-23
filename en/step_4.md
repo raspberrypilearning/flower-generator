@@ -146,7 +146,7 @@ You'll need to use the following block with the 'size' input in your `draw flowe
 ```blocks
 set size to (100) %
 
-define draw flower (colour) (size)
+define draw flower (colour) (size :: custom-arg)
 set [color v] effect to (colour)
 repeat (6) 
   stamp
