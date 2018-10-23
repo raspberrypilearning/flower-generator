@@ -7,9 +7,9 @@ These flowers all have the same number of outer and inner petals, and the size o
 They were created using `draw double flower`{:class="blockmoreblocks"} custom block with inputs for `outer colour`, `inner colour`, and `size`.
 
 ```blocks
-define draw double flower (outer colour) (inner colour) (size)
-draw flower (outer colour) (size) (12) :: custom
-draw flower (inner colour) ((size) / (2)) (20) :: custom
+define draw double flower (outer colour) (inner colour) (size :: custom-arg)
+draw flower (outer colour) (size :: custom-arg) (12) :: custom
+draw flower (inner colour) ((size :: custom-arg) / (2)) (20) :: custom
 ```
 
 The `draw double flower`{:class="blockmoreblocks"} block was then used to draw lots of flowers in the same style:

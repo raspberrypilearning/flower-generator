@@ -165,9 +165,9 @@ Right-click on the draw flower definition block, choose edit and add a number in
 Change your `define draw flower`{:class="blockmoreblocks"} block to look like this:
 
 ```blocks
-define draw flower (colour) (size)
+define draw flower (colour) (size :: custom-arg)
 set [color v] effect to (colour)
-set size to (size) %
+set size to (size :: custom-arg) %
 repeat (6) 
   stamp
   turn cw (60) degrees
@@ -213,7 +213,7 @@ Change your `define draw flower`{:class="blockmoreblocks"} block to look like th
 ![flower sprite](images/flower-sprite.png)
 
 ```blocks
-define draw flower (colour) (size) (petals)
+define draw flower (colour) (size :: custom-arg) (petals)
 ```
 
 Update your `repeat`{:class="blockcontrol"} and `turn`{:class="blocklooks"} blocks to use the number of petals.
@@ -222,7 +222,7 @@ Update your `repeat`{:class="blockcontrol"} and `turn`{:class="blocklooks"} bloc
 repeat (petals) 
 end
 
-turn cw ((360) / (petals)) degrees
+turn cw ((360) / (petals :: custom-arg)) degrees
 ```
 
 Update your `draw flower`{:class="blockmoreblocks"} blocks to use the number of petals.
@@ -242,13 +242,14 @@ Edit your `define draw flower`{:class="blockmoreblocks"} block and add a new num
 Your code should now look like this:
 
 ```blocks
-define draw flower (colour) (size) (petals)
+define draw flower (colour) (size :: custom-arg) (petals)
 set [color v] effect to (colour)
-set size to (size) %
+set size to (size :: custom-arg) %
 repeat (petals) 
   stamp
   turn cw ((360) / (petals)) degrees
 end
+
 ```
 
 Change the third set of numbers in the `draw flower`{:class="blockmoreblocks"} blocks so that the 2 flowers appear as with a different number of petals.

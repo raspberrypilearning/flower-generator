@@ -101,5 +101,10 @@ end
 
 --- /task ---
 
+--- task ---
+
+Press `r` to see your random flowers.
+
+--- /task ---
 
 
