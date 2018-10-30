@@ -1,7 +1,5 @@
 # flower-generator
 
-Don't forget to update the project name in LICENSE.md
-
 ![flower generator](en/images/banner.png)
 
 Find the project online at [projects.raspberrypi.org/en/projects/flower-generator](https://projects.raspberrypi.org/en/projects/flower-generator)
