@@ -1,10 +1,10 @@
 ## Make a custom block to draw flowers
 
-What if you want to draw lots of flowers? Instead of repeating the code, you can create your own block in Scratch and use it every time you want to draw a flower.  
+What if you want to draw lots of flowers? Instead of making lots of copies of the code, you will create your own block in Scratch and use it every time you want to draw a flower.  
 
 --- task ---
 
-Click on **More Blocks** and **Make a block** to create your own block and name it "draw flower".
+Click on **More Blocks** and then on **Make a block** to create your own block called 'draw flower'.
 
 ![screenshot](images/flower-make-block.png)
 
@@ -12,7 +12,7 @@ Click on **More Blocks** and **Make a block** to create your own block and name 
 
 --- task ---
 
-You will see a new block called `draw flower`{:class="blockmoreblocks"} under **More blocks** and a new definition block on the stage.
+There is now a new block called `draw flower`{:class="blockmoreblocks"} in the **More blocks** section, and a new definition block on the Stage.
 
 ```blocks
 draw flower :: custom
@@ -44,7 +44,7 @@ when green flag clicked
 
 --- task ---
 
-Add the following code to clear the stage and use your new `draw flower`{:class="blockmoreblocks"} block when the green flag is clicked:
+Add the following code to clear the Stage and to use your new `draw flower`{:class="blockmoreblocks"} block when the green flag is clicked:
 
 ![flower sprite](images/flower-sprite.png)
 
@@ -58,13 +58,13 @@ draw flower :: custom
 
 --- task ---
 
-Click the green flag to test your code and make sure you see a flower. 
+Click the green flag to test your code and check whether you see a flower. 
 
 --- /task ---
 
 --- task ---
 
-Now change your code to move and draw another flower:
+Now change your code to move the sprite and then draw another flower:
 
 ![flower sprite](images/flower-sprite.png)
 
