@@ -1,4 +1,4 @@
-## Saving the Stage
+## Save your patterns
 
 When you create a pattern you like, you can save it and use it in another Scratch project, as a screensaver, or on a website. 
 
