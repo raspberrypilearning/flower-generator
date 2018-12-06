@@ -1,10 +1,10 @@
 ## Generate a flower
 
-First you're going to generate a flower which can be drawn on the screen. 
+First you're going to generate a flower that can be drawn on the Stage. 
 
 --- task ---
 
-Create a new Scratch project and delete the cat sprite.
+Create a new Scratch project, and delete the cat sprite.
 
 [[[generic-scratch-new-project]]]
 
@@ -12,9 +12,9 @@ Create a new Scratch project and delete the cat sprite.
 
 --- task ---
 
-Now you will use the Paint tool to create a new sprite shaped like a flower petal.
+Now use the Paint tool to create a new sprite shaped like a flower petal.
 
-Click **Paint new sprite** and rename it as "Flower".
+Click on **Paint new sprite** and rename it 'Flower'.
 
 [[[generic-scratch-rename-sprite]]]
 
@@ -24,17 +24,19 @@ Click **Paint new sprite** and rename it as "Flower".
 
 In the Paint tool, switch to **Vector** mode by clicking **Convert to Vector**.
 
-Use the Ellipse tool to draw a petal shape filled in orange (you'll use code to add more colour later). 
+Note: Shapes created using Vector mode look neater when you change their size. 
+
+Use the Ellipse tool to draw a petal shape filled in orange. 
 
  ![screenshot](images/flower-petal.png)
 
- Note: Shapes created using Vector mode look neater when you change their size. 
+Later, you will use code to add more colour.
 
 --- /task ---
 
 --- task ---
 
-Add the following code to your Flower sprite to `stamp`{:class="blockpen"} a flower with six equally rotated petals when you `click the green flag`{:class="blockcontrol"}. 
+Add the following code to the Flower sprite to `stamp`{:class="blockpen"} a flower with six equally rotated petals `when the green flag is clicked`{:class="blockcontrol"}. 
 
 ![screenshot](images/flower-6-straight.png)
 
@@ -48,7 +50,7 @@ end
 
 --- /task ---
 
-You may find that your petals are offset in an odd way:
+You may find that your petals are arranged in an odd way:
 
 ![screenshot](images/flower-6-offset.png)
 
@@ -56,17 +58,17 @@ This is because the sprite is being rotated around its centre.
 
 --- task ---
 
-Change where the middle of your petal shape is using the crosshair tool:
+Use the Crosshair tool to change where the middle of your Flower sprite is:
 
 ![screenshot](images/flower-crosshair-annotated.png)
 
-The crosshair should be at the bottom of the petal. 
+The crosshair should be at the bottom of the petal shape. 
 
 --- /task ---
 
---- task ---
+Before you run your code again, you should `clear`{:class="blockpen"} the Stage.
 
-Before you run your code again, you should `clear`{:class="blockpen"} the stage so you can see your new flower.
+--- task ---
 
 Click on the `clear` block in the Pen tab.
 
@@ -78,7 +80,7 @@ clear
 
 --- task ---
 
-Run your code again to check that the petals are straight.
+Run your code again to check that the flower's petals are straight now.
 
 ![screenshot](images/flower-6-straight.png)
  
