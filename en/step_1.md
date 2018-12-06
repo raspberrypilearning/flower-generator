@@ -1,8 +1,8 @@
 ## Introduction
 
-You will create 100's of flowers of different sizes, shapes and colours. 
+You will create hundreds of flowers of different sizes, shapes, and colours. 
 
-You can export your flower pictures and use them as wallpapers on your phone or desktop computer, or as backdrops in other Scratch projects. 
+You can export the flower pictures and use them as wallpapers on your phone or computer, or as backdrops in other Scratch projects. 
 
 ### What you will make
 
@@ -30,7 +30,7 @@ title: What you will need
 
 ### Hardware
 
-+ Computer capable of running Scratch 2.0
++ A computer capable of running Scratch 2.0
 
 ### Software
 
@@ -45,7 +45,7 @@ title: What you will learn
 ---
 
 + How to stamp a sprite 
-+ How to "Make your own block"
++ How to make your own Scratch blocks
 + How to use block inputs 
 + How to create random numbers 
 
@@ -63,7 +63,7 @@ If you need to print this project, please use the [printer-friendly version](htt
 
 --- /no-print ---
 
-[If you need the solution to this project, you can find it here](http://rpf.io/p/en/flower-generator-get).
+You can [find the solution to this project here](http://rpf.io/p/en/flower-generator-get).
 
 --- /collapse ---
 
