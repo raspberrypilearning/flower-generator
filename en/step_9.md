@@ -4,7 +4,7 @@ These flowers all have the same number of outer and inner petals, and the size o
  
 ![screenshot](images/flower-double-flowers.png)
 
-They were created using `draw double flower`{:class="blockmoreblocks"} custom block with inputs for `outer colour`, `inner colour`, and `size`.
+You can create flowers like this with the help of a `draw double flower`{:class="blockmoreblocks"} custom block that has inputs for `outer colour`, `inner colour`, and `size`:
 
 ```blocks
 define draw double flower (outer colour) (inner colour) (size :: custom-arg)
@@ -12,7 +12,7 @@ draw flower (outer colour) (size :: custom-arg) (12) :: custom
 draw flower (inner colour) ((size :: custom-arg) / (2)) (20) :: custom
 ```
 
-The `draw double flower`{:class="blockmoreblocks"} block was then used to draw lots of flowers in the same style:
+The `draw double flower`{:class="blockmoreblocks"} block can draw lots of flowers in the same style:
 
 ```blocks
 when [d v] key pressed
@@ -25,7 +25,6 @@ change x by (75)
 draw double flower (140) (160) (50) :: custom
 ```
 
-Can you create a new custom block for a kind of flower that you like, and add the inputs that you want to be able to change it? 
+Make a new custom block with the necessary inputs that you need to be able to change to create a type of flower that you like.
 
-Then create a design that you like using your new block. 
-
+Then use your new block to create a cool design! 
