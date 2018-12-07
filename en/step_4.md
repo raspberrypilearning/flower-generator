@@ -111,20 +111,15 @@ draw flower (150) :: custom
 
 --- task ---
 
-Now add another input to set the size of the flower, so that you can write code like this:
+Now add another input to set the size of the flower, so your `draw flower`{:class="blockmoreblocks"} block looks like this:
 
 ![flower sprite](images/flower-sprite.png)
 
 ```blocks
-when green flag clicked
-clear
-go to x: (75) y: (75)
 draw flower (180) (150) :: custom
-go to x: (-75) y: (-75)
-draw flower (150) (50) :: custom
 ```
 
-With the code above, you can create flowers with different sizes:
+With the block above, you can create flowers with different sizes:
 
 ![different sized flowers](images/flower-different-sizes.png)
 
