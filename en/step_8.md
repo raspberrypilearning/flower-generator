@@ -10,7 +10,7 @@ Create a flower or a combination of flowers that you like. Here's an example:
 
 ```blocks3
 when [p v] key pressed
-clear
+erase all
 go to x: (-150) y: (100)
 draw flower (150) (80) (7) :: custom
 draw flower (130) (35) (20) :: custom
@@ -30,10 +30,10 @@ Before you can create your pattern, you should clear the Stage of any leftover f
 
 --- task ---
 
-Click on the `clear` block in the Pen tab.
+Click on the `erase all` block in the Pen tab.
 
 ```blocks3
-clear
+erase all
 ```
 
 --- /task ---
@@ -52,7 +52,7 @@ Now draw a row of these flowers across the top of the Stage. Here is some exampl
 
 ```blocks3
 when [p v] key pressed
-clear
+erase all
 go to x: (-150) y: (100)
 repeat (4) 
   draw flower (150) (80) (7) :: custom
@@ -79,7 +79,7 @@ Add another loop to create more rows of flowers. This example adds a `repeat 3`{
 
 ```blocks3
 when [p v] key pressed
-clear
+erase all
 go to x: (-150) y: (100)
 repeat (3) 
   repeat (4) 

@@ -83,7 +83,7 @@ Notice that your `draw flower`{:class="block3myblocks"} blocks now have a new in
 
 ```blocks3
 when green flag clicked
-clear
+erase all
 go to x: (75) y: (75)
 draw flower (1) :: custom
 go to x: (-75) y: (-75)
@@ -100,7 +100,7 @@ Your code should look similar to this:
 
 ```blocks3
 when green flag clicked
-clear
+erase all
 go to x: (75) y: (75)
 draw flower (180) :: custom
 go to x: (-75) y: (-75)
@@ -171,7 +171,7 @@ In the `when green flag clicked`{:class="block3events"} script, change the secon
 
 ```blocks3 
 when green flag clicked
-clear
+erase all
 go to x: (75) y: (75)
 draw flower (180) (150) :: custom
 go to x: (-75) y: (-75)
@@ -251,7 +251,7 @@ In the `when green flag clicked`{:class="block3events"} script, change the third
 
 ```blocks3
 when green flag clicked
-clear
+erase all
 go to x: (75) y: (75)
 draw flower (180) (150) (3) :: custom
 go to x: (-75) y: (-75)
@@ -278,7 +278,7 @@ when green flag clicked
 
 ```blocks3
 when [f v] key pressed
-clear
+erase all
 go to x: (75) y: (75)
 draw flower (180) (150) (3) :: custom
 go to x: (-75) y: (-75)

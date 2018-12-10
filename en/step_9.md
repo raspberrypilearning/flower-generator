@@ -16,7 +16,7 @@ The `draw double flower`{:class="block3myblocks"} block can draw lots of flowers
 
 ```blocks3
 when [d v] key pressed
-clear
+erase all
 go to x: (-100) y: (0)
 draw double flower (160) (120) (100) :: custom
 change x by (100)

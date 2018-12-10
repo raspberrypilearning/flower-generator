@@ -12,7 +12,7 @@ Add a new Event block to your code so that `when the r key is pressed`{:class="b
 
 ```blocks3
 when [r v] key pressed
-clear
+erase all
 ```
 
 --- /task ---
@@ -41,7 +41,7 @@ You code should now look like this:
 
 ```blocks3
 when [r v] key pressed
-clear
+erase all
 repeat (100) 
   go to [random position v]
   draw flower (pick random (0) to (199)) (100) (12) :: custom
@@ -88,7 +88,7 @@ Your code should look like this:
 
 ```blocks3
 when [r v] key pressed
-clear
+erase all
 repeat (100) 
   go to [random position v]
   draw flower (pick random (0) to (199)) (pick random (50) to (150)) (pick random (4) to (12)) :: custom

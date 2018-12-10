@@ -22,7 +22,7 @@ Add the **Pen** extension to your project.
 
 Now use the Paint tool to create a new sprite shaped like a flower petal.
 
-Click on **Paint new sprite** and rename it 'Flower'.
+Click on **Choose a sprite**, then **Paint** and rename the sprite to 'Flower'.
 
 [[[generic-scratch3-draw-sprite]]]
 
@@ -70,14 +70,14 @@ You may find it easier to zoom out to do this.
 
 --- /task ---
 
-Before you run your code again, you should `clear`{:class="block3extensions"} the Stage.
+Before you run your code again, you should `erase all`{:class="block3extensions"} the sprites on the Stage to clear it.
 
 --- task ---
 
-Click on the `clear` block in the Pen tab.
+Click on the `erase all` block in the Pen blocks.
 
 ```blocks3
-clear
+erase all
 ```
 
 --- /task ---

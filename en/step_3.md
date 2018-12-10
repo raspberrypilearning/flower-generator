@@ -50,7 +50,7 @@ Add the following code to clear the Stage and to use your new `draw flower`{:cla
 
 ```blocks3
 when green flag clicked
-clear
+erase all
 draw flower :: custom
 ```
  
@@ -70,7 +70,7 @@ Now change your code to move the sprite and then draw another flower:
 
 ```blocks3
 when green flag clicked
-clear
+erase all
 go to x: (75) y: (75)
 draw flower :: custom
 go to x: (-75) y: (-75)
