@@ -4,9 +4,9 @@ When you create an image you like, you can save it and use it in another Scratch
 
 --- task ---
 
-When there is an image on the Stage that you like, right-click it and then click on **save picture of stage** 
+When there is an image on the Stage that you like, right-click it and then click on **save image as** 
 
-**Note:** on some computers, you need to hold down the <kbd>shift</kbd> key while you right-click. 
+**Note:** on some computers or browsers the options may be different.
 
 ![screenshot](images/flower-save-stage.png)  
 
