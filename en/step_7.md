@@ -1,16 +1,16 @@
 ## Random flower generator
 
-You will now use your `draw flower`{:class="blockmoreblocks"} block to create a hundred random flowers all over the Stage whenever you press the <kbd>r</kbd>.
+You will now use your `draw flower`{:class="block3myblocks"} block to create a hundred random flowers all over the Stage whenever you press the <kbd>r</kbd>.
 
 ![random flowers](images/flower-random.png)
 
 --- task ---
 
-Add a new Event block to your code so that `when the r key is pressed`{:class="blockevents"}, the screen is `cleared`{:class="blockpen"}.
+Add a new Event block to your code so that `when the r key is pressed`{:class="block3events"}, the screen is `cleared`{:class="block3extensions"}.
 
 ![flower sprite](images/flower-sprite.png)
 
-```blocks
+```blocks3
 when [r v] key pressed
 clear
 ```
@@ -19,11 +19,11 @@ clear
 
 --- task ---
 
-Add in a `repeat`{:class="blockcontrol"} block to go to a `random position`{:class="blockmotion"} `100` times.
+Add in a `repeat`{:class="block3control"} block to go to a `random position`{:class="block3motion"} `100` times.
 
 ![flower sprite](images/flower-sprite.png)
 
-```blocks
+```blocks3
 repeat (100)
   go to [random position v]
 end
@@ -33,13 +33,13 @@ end
 
 --- task ---
 
-Use the `draw flower`{:class="blockmoreblocks"} block to create a flower that has a `random`{:class="blockoperators"} colour between `0` and `199`.
+Use the `draw flower`{:class="block3myblocks"} block to create a flower that has a `random`{:class="block3operators"} colour between `0` and `199`.
 
 You code should now look like this:
 
 ![flower sprite](images/flower-sprite.png)
 
-```blocks
+```blocks3
 when [r v] key pressed
 clear
 repeat (100) 
@@ -56,13 +56,13 @@ This code creates one hundred flowers with different colours but with the same s
 
 --- task ---
 
-Can you modify the `when the r key is pressed`{:class="blockevents"} script so the flowers' size and number of petals are also random?
+Can you modify the `when the r key is pressed`{:class="block3events"} script so the flowers' size and number of petals are also random?
 
 --- hints ---
 
 --- hint ---
 
-The `draw flower`{:class="blockmoreblocks"} block should `pick random`{:class="blockoperators"} numbers for the size and number of petals.
+The `draw flower`{:class="block3myblocks"} block should `pick random`{:class="block3operators"} numbers for the size and number of petals.
 
 --- /hint ---
 
@@ -72,7 +72,7 @@ The following blocks pick a random size between `50` and `150` and a random numb
 
 ![flower sprite](images/flower-sprite.png)
 
-```blocks
+```blocks3
 (pick random (50) to (150))
 
 (pick random (4) to (12))
@@ -86,7 +86,7 @@ Your code should look like this:
 
 ![flower sprite](images/flower-sprite.png)
 
-```blocks
+```blocks3
 when [r v] key pressed
 clear
 repeat (100) 

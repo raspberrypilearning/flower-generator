@@ -12,9 +12,9 @@ Click on **More Blocks** and then on **Make a block** to create your own block c
 
 --- task ---
 
-There is now a new block called `draw flower`{:class="blockmoreblocks"} in the **More blocks** section, and a new definition block on the Stage.
+There is now a new block called `draw flower`{:class="block3myblocks"} in the **More blocks** section, and a new definition block on the Stage.
 
-```blocks
+```blocks3
 draw flower :: custom
 
 define draw flower
@@ -24,13 +24,13 @@ define draw flower
 
 --- task ---
 
-Move your code for drawing the flower from the `when green flag clicked`{:class="blockevents"} block to the new `draw flower`{:class="blockmoreblocks"} definition block. 
+Move your code for drawing the flower from the `when green flag clicked`{:class="block3events"} block to the new `draw flower`{:class="block3myblocks"} definition block. 
 
 Your code should look like this:
 
 ![flower sprite](images/flower-sprite.png)
 
-```blocks
+```blocks3
 define draw flower
 repeat (6) 
   stamp
@@ -44,11 +44,11 @@ when green flag clicked
 
 --- task ---
 
-Add the following code to clear the Stage and to use your new `draw flower`{:class="blockmoreblocks"} block when the green flag is clicked:
+Add the following code to clear the Stage and to use your new `draw flower`{:class="block3myblocks"} block when the green flag is clicked:
 
 ![flower sprite](images/flower-sprite.png)
 
-```blocks
+```blocks3
 when green flag clicked
 clear
 draw flower :: custom
@@ -68,7 +68,7 @@ Now change your code to move the sprite and then draw another flower:
 
 ![flower sprite](images/flower-sprite.png)
 
-```blocks
+```blocks3
 when green flag clicked
 clear
 go to x: (75) y: (75)

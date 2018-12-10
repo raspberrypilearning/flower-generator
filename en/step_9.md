@@ -4,17 +4,17 @@ These flowers all have the same number of outer and inner petals, and the size o
  
 ![screenshot](images/flower-double-flowers.png)
 
-You can create flowers like this with the help of a `draw double flower`{:class="blockmoreblocks"} custom block that has inputs for `outer colour`, `inner colour`, and `size`:
+You can create flowers like this with the help of a `draw double flower`{:class="block3myblocks"} custom block that has inputs for `outer colour`, `inner colour`, and `size`:
 
-```blocks
+```blocks3
 define draw double flower (outer colour) (inner colour) (size :: custom-arg)
 draw flower (outer colour) (size :: custom-arg) (12) :: custom
 draw flower (inner colour) ((size :: custom-arg) / (2)) (20) :: custom
 ```
 
-The `draw double flower`{:class="blockmoreblocks"} block can draw lots of flowers in the same style:
+The `draw double flower`{:class="block3myblocks"} block can draw lots of flowers in the same style:
 
-```blocks
+```blocks3
 when [d v] key pressed
 clear
 go to x: (-100) y: (0)

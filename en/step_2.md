@@ -6,7 +6,7 @@ First you're going to generate a flower that can be drawn on the Stage.
 
 Create a new Scratch project, and delete the cat sprite.
 
-[[[generic-scratch-new-project]]]
+[[[generic-scratch3-new-project]]]
 
 --- /task ---
 
@@ -16,7 +16,7 @@ Now use the Paint tool to create a new sprite shaped like a flower petal.
 
 Click on **Paint new sprite** and rename it 'Flower'.
 
-[[[generic-scratch-rename-sprite]]]
+[[[generic-scratch3-rename-sprite]]]
 
 --- /task ---
 
@@ -36,11 +36,11 @@ Later, you will use code to add more colour.
 
 --- task ---
 
-Add the following code to the Flower sprite to `stamp`{:class="blockpen"} a flower with six equally rotated petals `when the green flag is clicked`{:class="blockcontrol"}. 
+Add the following code to the Flower sprite to `stamp`{:class="block3extensions"} a flower with six equally rotated petals `when the green flag is clicked`{:class="block3control"}. 
 
 ![screenshot](images/flower-6-straight.png)
 
-```blocks
+```blocks3
 when green flag clicked
 repeat (6) 
   stamp
@@ -66,13 +66,13 @@ The crosshair should be at the bottom of the petal shape.
 
 --- /task ---
 
-Before you run your code again, you should `clear`{:class="blockpen"} the Stage.
+Before you run your code again, you should `clear`{:class="block3extensions"} the Stage.
 
 --- task ---
 
 Click on the `clear` block in the Pen tab.
 
-```blocks
+```blocks3
 clear
 ```
 

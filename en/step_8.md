@@ -1,6 +1,6 @@
 ## Flower patterns
 
-You can also use your `draw flower`{:class="blockmoreblocks"} block to create neat flower patterns. 
+You can also use your `draw flower`{:class="block3myblocks"} block to create neat flower patterns. 
 
 --- task ---
 
@@ -8,7 +8,7 @@ Create a flower or a combination of flowers that you like. Here's an example:
 
 ![flower sprite](images/flower-sprite.png)
 
-```blocks
+```blocks3
 when [p v] key pressed
 clear
 go to x: (-150) y: (100)
@@ -32,7 +32,7 @@ Before you can create your pattern, you should clear the Stage of any leftover f
 
 Click on the `clear` block in the Pen tab.
 
-```blocks
+```blocks3
 clear
 ```
 
@@ -40,7 +40,7 @@ clear
 
 --- task ---
 
-Right-click on the Flower sprite and `hide`{:class="blocklooks"} it so it doesn't appear on the Stage. (You can `show`{:class="blocklooks"} the sprite again if you need to see where it is.)
+Right-click on the Flower sprite and `hide`{:class="block3looks"} it so it doesn't appear on the Stage. (You can `show`{:class="block3looks"} the sprite again if you need to see where it is.)
 
 --- /task ---
 
@@ -50,7 +50,7 @@ Now draw a row of these flowers across the top of the Stage. Here is some exampl
 
 ![flower sprite](images/flower-sprite.png)
 
-```blocks
+```blocks3
 when [p v] key pressed
 clear
 go to x: (-150) y: (100)
@@ -73,11 +73,11 @@ Press `p` to see a row of flowers:
 
 --- task ---
 
-Add another loop to create more rows of flowers. This example adds a `repeat 3`{:class="blockcontrol"} loop to create three rows. 
+Add another loop to create more rows of flowers. This example adds a `repeat 3`{:class="block3control"} loop to create three rows. 
 
 ![flower sprite](images/flower-sprite.png)
 
-```blocks
+```blocks3
 when [p v] key pressed
 clear
 go to x: (-150) y: (100)
@@ -105,7 +105,7 @@ Press <kbd>p</kbd> to create a grid of flowers:
 Do you want to speed up the drawing of the flowers? 
 
 --- task ---
-Right-click on the `draw flower`{:class="blockmoreblocks"} definition block and then click on **edit**. Click on the **Run without screen refresh** box. 
+Right-click on the `draw flower`{:class="block3myblocks"} definition block and then click on **edit**. Click on the **Run without screen refresh** box. 
 
 ![turn no refresh option off](images/flower-no-refresh.png)
 
@@ -127,11 +127,11 @@ If you use orange for the backdrop and the Flower sprite, then the numbers for d
 
 --- task ---
 
-Now you can use the `set colour effect`{:class="blocklooks"} on the Stage to change the colour of the backdrop.
+Now you can use the `set colour effect`{:class="block3looks"} on the Stage to change the colour of the backdrop.
 
 ![stage sprite](images/stage-sprite.png)
 
-```blocks
+```blocks3
 when [p v] key pressed
 set [color v] effect to (30)
 ```
