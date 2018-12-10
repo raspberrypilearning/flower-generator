@@ -50,9 +50,9 @@ Right-click on the `draw flower`{:class="block3myblocks"} definition block and c
 
 --- task ---
 
-Now add a **number input** called 'colour': 
+Now add a **input number** called 'colour': 
 
-![screenshot](images/flower-colour-input.png)  
+![screenshot](images/flower-colour-input-annotated.png)  
  
 The input appears in the `draw flower`{:class="block3myblocks"} definition, and you can drag it to where you want to use it.
 
@@ -62,8 +62,8 @@ The input appears in the `draw flower`{:class="block3myblocks"} definition, and 
 
 Drag the 'colour' input to the `set colour effect`{:class="block3looks"} block: 
  
-![screenshot](images/flower-use-colour.png)
- 
+![screenshot](images/flower-use-colour-annotated.png)
+
 Your code should look like this:
 
 ![flower sprite](images/flower-sprite.png)

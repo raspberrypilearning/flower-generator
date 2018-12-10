@@ -10,7 +10,7 @@ You don't have to use petals shaped like ellipses. For example, you can use thic
 
 ![screenshot](images/flower-fireworks.png)
  
-The 'petal' for the firework pattern is just a line with the crosshair a bit below the bottom:
+The 'petal' for the firework pattern is just a line:
  
 ![screenshot](images/flower-firework-petal.png)
 

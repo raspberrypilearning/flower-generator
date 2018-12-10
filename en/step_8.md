@@ -117,7 +117,7 @@ You can also change the colour of the Stage.
 
 --- task ---
 
-Click on **Paint new backdrop**. Create an orange backdrop by using the Fill tool in Bitmap mode. 
+Click on **Choose a backdrop** and then **Paint**. Create an orange backdrop by using the Fill tool in Bitmap mode. 
 
 ![paint new backdrop](images/flower-orange-backdrop.png)
 

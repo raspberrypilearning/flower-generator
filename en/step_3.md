@@ -4,7 +4,7 @@ What if you want to draw lots of flowers? Instead of making lots of copies of th
 
 --- task ---
 
-Click on **More Blocks** and then on **Make a block** to create your own block called 'draw flower'.
+Click on **My Blocks** and then on **Make a Block** to create your own block called 'draw flower'.
 
 ![screenshot](images/flower-make-block.png)
 

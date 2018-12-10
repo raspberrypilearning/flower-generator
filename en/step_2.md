@@ -12,6 +12,14 @@ Create a new Scratch project, and delete the cat sprite.
 
 --- task ---
 
+Add the **Pen** extension to your project.
+
+[[[generic-scratch3-add-pen-extension]]]
+
+--- /task ---
+
+--- task ---
+
 Now use the Paint tool to create a new sprite shaped like a flower petal.
 
 Click on **Paint new sprite** and rename it 'Flower'.
@@ -22,13 +30,9 @@ Click on **Paint new sprite** and rename it 'Flower'.
 
 --- task ---
 
-In the Paint tool, switch to **Vector** mode by clicking **Convert to Vector**.
+Use the Circle tool to draw a petal shape filled in orange. 
 
-Note: Shapes created using Vector mode look neater when you change their size. 
-
-Use the Ellipse tool to draw a petal shape filled in orange. 
-
- ![screenshot](images/flower-petal.png)
+![screenshot](images/flower-petal.png)
 
 Later, you will use code to add more colour.
 
@@ -58,11 +62,11 @@ This is because the sprite is being rotated around its centre.
 
 --- task ---
 
-Use the Crosshair tool to change where the middle of your Flower sprite is:
+Move your petal so the bottom is in the centre.
 
 ![screenshot](images/flower-crosshair-annotated.png)
 
-The crosshair should be at the bottom of the petal shape. 
+You may find it easier to zoom out to do this.
 
 --- /task ---
 
@@ -83,5 +87,7 @@ clear
 Run your code again to check that the flower's petals are straight now.
 
 ![screenshot](images/flower-6-straight.png)
+
+If not, adjust the petals position until it is in the centre.
  
 --- /task ---
