@@ -46,7 +46,7 @@ Right-click on the Flower sprite and `hide`{:class="block3looks"} it so it doesn
 
 --- task ---
 
-Now draw a row of these flowers across the top of the Stage. Here is some example code, in which you might need to adjust the numbers so it work with your flower:
+Now draw a row of these flowers across the top of the Stage. Here is some example code, in which you might need to adjust the numbers so it works with your flower:
 
 ![flower sprite](images/flower-sprite.png)
 
