@@ -12,7 +12,7 @@ Create a new Scratch project, and delete the cat sprite.
 
 --- task ---
 
-Add the **Pen** extension to your project.
+Add the Pen extension to your project.
 
 [[[generic-scratch3-add-pen-extension]]]
 
@@ -22,7 +22,7 @@ Add the **Pen** extension to your project.
 
 Now use the Paint tool to create a new sprite shaped like a flower petal.
 
-Click on **Choose a sprite**, then **Paint** and rename the sprite to 'Flower'.
+Click on **Choose a sprite**, then click on **Paint** and rename the sprite 'Flower'.
 
 [[[generic-scratch3-draw-sprite]]]
 
@@ -62,11 +62,11 @@ This is because the sprite is being rotated around its centre.
 
 --- task ---
 
-Move your petal so the bottom is in the centre.
+Move your petal so its bottom is the centre.
 
 ![screenshot](images/flower-crosshair-annotated.png)
 
-You may find it easier to zoom out to do this.
+Doing this may be easier if you zoom out.
 
 --- /task ---
 
@@ -74,7 +74,7 @@ Before you run your code again, you should `erase all`{:class="block3extensions"
 
 --- task ---
 
-Click on the `erase all` block in the Pen blocks.
+Click on the `erase all` block in the Pen blocks section.
 
 ```blocks3
 erase all
@@ -88,6 +88,6 @@ Run your code again to check that the flower's petals are straight now.
 
 ![screenshot](images/flower-6-straight.png)
 
-If not, adjust the petals position until it is in the centre.
+If not, adjust the petal's position until its bottom in the centre.
  
 --- /task ---
