@@ -70,8 +70,8 @@ Your code should look like this:
 
 ```blocks3
 define draw flower (colour)
-set [color v] effect to (colour)
-repeat (6) 
+set [color v] effect to (colour :: custom-arg)
+repeat (6)
   stamp
   turn cw (60) degrees
 end
@@ -153,7 +153,7 @@ Change your `define draw flower`{:class="block3myblocks"} script so it looks lik
 
 ```blocks3
 define draw flower (colour) (size :: custom-arg)
-set [color v] effect to (colour)
+set [color v] effect to (colour :: custom-arg)
 set size to (size :: custom-arg) %
 repeat (6) 
   stamp
@@ -238,11 +238,11 @@ Your code should look like this:
 
 ```blocks3
 define draw flower (colour) (size :: custom-arg) (petals)
-set [color v] effect to (colour)
+set [color v] effect to (colour :: custom-arg)
 set size to (size :: custom-arg) %
-repeat (petals) 
+repeat (petals :: custom-arg) 
   stamp
-  turn cw ((360) / (petals)) degrees
+  turn cw ((360) / (petals :: custom-arg)) degrees
 end
 
 ```

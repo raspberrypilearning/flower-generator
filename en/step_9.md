@@ -8,8 +8,8 @@ You can create flowers like this with the help of a `draw double flower`{:class=
 
 ```blocks3
 define draw double flower (outer colour) (inner colour) (size :: custom-arg)
-draw flower (outer colour) (size :: custom-arg) (12) :: custom
-draw flower (inner colour) ((size :: custom-arg) / (2)) (20) :: custom
+draw flower (outer colour :: custom-arg) (size :: custom-arg) (12) :: custom
+draw flower (inner colour :: custom-arg) ((size :: custom-arg) / (2)) (20) :: custom
 ```
 
 The `draw double flower`{:class="block3myblocks"} block can draw lots of flowers in the same style:
