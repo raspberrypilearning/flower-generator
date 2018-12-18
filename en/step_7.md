@@ -25,7 +25,7 @@ Add in a `repeat`{:class="block3control"} block to go to a `random position`{:cl
 
 ```blocks3
 repeat (100)
-  go to [random position v]
+  go to (random position v)
 end
 ```
 

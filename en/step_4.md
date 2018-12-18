@@ -214,7 +214,7 @@ define draw flower (colour) (size :: custom-arg) (petals)
 Update your `repeat`{:class="block3control"} and `turn`{:class="block3looks"} blocks so they use the 'petals' input.
 
 ```blocks3
-repeat (petals) 
+repeat (petals :: custom-arg) 
 end
 
 turn cw ((360) / (petals :: custom-arg)) degrees
