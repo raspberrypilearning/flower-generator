@@ -14,11 +14,7 @@ Click on **My Blocks** and then on **Make a Block** to create your own block cal
 
 There is now a new block called `draw flower`{:class="block3myblocks"} in the **More blocks** section, and a new definition block on the Stage.
 
-```blocks3
-draw flower :: custom
-
-define draw flower
-```
+![blocks_1545308793_5969224](images/blocks_1545308793_5969224.png)
 
 --- /task ---
 
@@ -30,15 +26,7 @@ Your code should look like this:
 
 ![flower sprite](images/flower-sprite.png)
 
-```blocks3
-define draw flower
-repeat (6) 
-  stamp
-  turn cw (60) degrees
-end
-
-when green flag clicked
-``` 
+![blocks_1545308794_7230039](images/blocks_1545308794_7230039.png)
 
 --- /task ---
 
@@ -48,11 +36,7 @@ Add the following code to clear the Stage and to use your new `draw flower`{:cla
 
 ![flower sprite](images/flower-sprite.png)
 
-```blocks3
-when green flag clicked
-erase all
-draw flower :: custom
-```
+![blocks_1545308795_87194](images/blocks_1545308795_87194.png)
  
 --- /task ---
 
@@ -68,14 +52,7 @@ Now change your code to move the sprite and then draw another flower:
 
 ![flower sprite](images/flower-sprite.png)
 
-```blocks3
-when green flag clicked
-erase all
-go to x: (75) y: (75)
-draw flower :: custom
-go to x: (-75) y: (-75)
-draw flower :: custom 
-```
+![blocks_1545308797_0415983](images/blocks_1545308797_0415983.png)
 
 --- /task ---
 
