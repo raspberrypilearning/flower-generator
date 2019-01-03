@@ -17,7 +17,7 @@ You can export the flower pictures and use them as wallpapers on your phone or c
 Press `f` to draw a few flowers, or `r` to draw lots of random flowers, or `p` to draw a flower pattern.
 
 <div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/253355932/?autostart=false" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/253355932/?autostart=false" frameborder="0" scrolling="no"></iframe>
 </div>
 
 --- /no-print ---
