@@ -1,28 +1,15 @@
---- challenge ---
-## Challenge: Create a flower design
+## Save your images
 
-Can you use your `draw flower`{:class="blockmoreblocks"} block several times to draw more flowers and create an interesting design? Drawing different flowers at the same location creates an interesting effect.  
+When you create an image you like, you can save it and use it in another Scratch project, as a screensaver, or on a website. 
 
-+ Create a design that you like. Here's an example:
+--- task ---
 
-![screenshot](images/flower-three.png)
+When there is an image on the Stage that you like, right-click it and then click on **save image as** 
 
-Need a reminder on how coordinates work in Scratch?
+**Note:** on some computers or browsers, the menu option for saving your image may be named differently.
 
-[[[generic-scratch-coordinates]]]
+![screenshot](images/flower-save-stage.png)  
 
-You don't have to use petals shaped like ellipses. This 'firework' pattern was created using a thick straight line and a black backdrop: 
-
-![screenshot](images/flower-fireworks.png)
-	
-The 'petal' is just a line with the crosshair a bit below the bottom:
-	
-![screenshot](images/flower-firework-petal.png)
-
-+ Experiment with adding new petal costumes and see what you can come up with. 
-
-+ What happens if you try out a shape which is not filled in, such as a square?
-
-![screenshot](images/flower-square-petal.png)
-
---- /challenge ---
+Then you can save a PNG image of the Stage. 
+ 
+--- /task ---

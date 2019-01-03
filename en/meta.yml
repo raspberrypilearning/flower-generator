@@ -1,27 +1,21 @@
 title: Flower generator
 hero_image: images/banner.png
 description: Generate flowers to create a patterned backdrop image or screensaver
-theme: blue # possible values: blue, green, navy, orange, red, turquoise, violet, yellow
 duration: 2
 listed: true
-ingredient: false
 copyedit: true
-curriculum: 2, design-1, programming-2, phys-comp-0, manufacture-0, community-0
-interests: art
-technologies: scratch
-site_areas: projects
-hardware: ''
-software: scratch
-version: 4
-last_tested: 2017-10-01
-steps:
-  - title: Introduction
-  - title: What you will need
-  - title: Generate a flower
-  - title: Make a custom block to draw flowers
-  - title: Customise your flowers
-  - title: "Challenge: make a flower design"
-  - title: Save the stage
-  - title: "Challenge: random flower generator"
-  - title: "Challenge: flower patterns"
-  - title: "Challenge: custom flower blocks with inputs"
+version: 4.1.0
+last_tested: 2018-10-18
+steps: 
+- title: Introduction
+- title: Generate a flower
+- title: Make a custom block to draw flowers
+- title: Customise your flowers
+- title: "Challenge: create a flower design"
+  challenge: true
+- title: Save your images
+- title: Random flower generator
+- title: Flower patterns
+- title: "Challenge: custom flower blocks"
+  challenge: true
+- title: What next?

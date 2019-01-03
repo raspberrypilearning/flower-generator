@@ -1,72 +1,65 @@
-## Generate a flower
+## Make a custom block to draw flowers
 
-First you're going to generate a flower which can be drawn on the screen. 
+What if you want to draw lots of flowers? Instead of making lots of copies of the code, you will create your own block in Scratch and use it every time you want to draw a flower.  
 
-+ Create a new Scratch project. 
+--- task ---
 
-[[[generic-scratch-new-project]]]
+Click on **My Blocks** and then on **Make a Block** to create your own block called 'draw flower'.
 
-Now you will use the Paint tool to create a new sprite shaped like a flower petal, and name it 'Flower'. 
+![screenshot](images/flower-make-block.png)
 
-+ In the Paint tool, switch to **Vector** mode by clicking **Convert to Vector**, and use the Ellipse tool to draw a petal shape filled in orange (you'll use code to add more colour later). 
+--- /task ---
 
-    ![screenshot](images/flower-petal.png)
+--- task ---
 
-	Note: Shapes created using Vector mode look neater when you change their size. 
+There is now a new block called `draw flower`{:class="block3myblocks"} in the **More blocks** section, and a new definition block on the Stage.
 
-+ Add code to your Flower sprite to `stamp`{:class="blockpen"} a flower with six equally rotated petals when you click the green flag. 
+![blocks_1545308793_5969224](images/blocks_1545308793_5969224.png)
 
-![screenshot](images/flower-6-straight.png)
+--- /task ---
 
-[[[generic-scratch-stamping-sprites]]]
+--- task ---
 
-[[[generic-scratch-clear-stage]]]
+Move your code for drawing the flower from the `when green flag clicked`{:class="block3events"} block to the new `draw flower`{:class="block3myblocks"} definition block. 
 
---- hints ---
---- hint ---
-You'll need to repeat the code to __stamp__ and __turn__ the petal six times. 
-There are 360 degrees in a circle. Divide 360 by 6 to work out by how many degrees each petal needs to be rotated. 
+Your code should look like this:
 
-You can click `clear`{:class="blockpen"} to clear the stage. 
---- /hint ---
---- hint ---
-Try using these blocks:
-![screenshot](images/flower-6-blocks.png)
---- /hint ---
---- hint ---
-Here's the code:
+![flower sprite](images/flower-sprite.png)
 
-![screenshot](images/flower-6-code.png)
+![blocks_1545308794_7230039](images/blocks_1545308794_7230039.png)
 
-You turn 60 degrees after each stamp, which is 360 divided by 6.
---- /hint ---
---- /hints ---
+--- /task ---
 
-You may find that your petals are offset in an odd way:
+--- task ---
 
-![screenshot](images/flower-6-offset.png)
+Add the following code to clear the Stage and to use your new `draw flower`{:class="block3myblocks"} block when the green flag is clicked:
 
-This is because the sprite is being rotated around its centre. 
+![flower sprite](images/flower-sprite.png)
 
-+ Change where the centre of your petal shape is using the crosshair tool:
+![blocks_1545308795_87194](images/blocks_1545308795_87194.png)
+ 
+--- /task ---
 
-	![screenshot](images/flower-crosshair.png)
+--- task ---
 
-	The centre should be at the bottom centre of the petal. 
+Click the green flag to test your code and check whether you see a flower. 
 
-+ Clear the stage and run your code again to check that the petals are straight.
+--- /task ---
 
-	![screenshot](images/flower-6-straight.png)
-	
+--- task ---
 
+Now change your code to move the sprite and then draw another flower:
 
+![flower sprite](images/flower-sprite.png)
 
+![blocks_1545308797_0415983](images/blocks_1545308797_0415983.png)
 
+--- /task ---
 
+--- task ---
 
+Test your code to check that you now see two flowers.
 
-
-
-
-
-
+![screenshot](images/flower-two.png)  
+ 
+--- /task ---
