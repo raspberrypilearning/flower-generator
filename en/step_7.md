@@ -10,7 +10,10 @@ Add a new Event block to your code so that `when the r key is pressed`{:class="b
 
 ![flower sprite](images/flower-sprite.png)
 
-![blocks_1545308815_1331532](images/blocks_1545308815_1331532.png)
+```blocks3
+when [r v] key pressed
+erase all
+```
 
 --- /task ---
 
@@ -20,7 +23,11 @@ Add in a `repeat`{:class="block3control"} block to go to a `random position`{:cl
 
 ![flower sprite](images/flower-sprite.png)
 
-![blocks_1545308816_2593367](images/blocks_1545308816_2593367.png)
+```blocks3
+repeat (100)
+  go to (random position v)
+end
+```
 
 --- /task ---
 
@@ -32,7 +39,14 @@ You code should now look like this:
 
 ![flower sprite](images/flower-sprite.png)
 
-![blocks_1545308817_354804](images/blocks_1545308817_354804.png)
+```blocks3
+when [r v] key pressed
+erase all
+repeat (100) 
+  go to (random position v)
+  draw flower (pick random (0) to (199)) (100) (12) :: custom
+end
+```
 
 --- /task ---
 
@@ -58,7 +72,11 @@ The following blocks pick a random size between `50` and `150` and a random numb
 
 ![flower sprite](images/flower-sprite.png)
 
-![blocks_1545308818_5157015](images/blocks_1545308818_5157015.png)
+```blocks3
+(pick random (50) to (150))
+
+(pick random (4) to (12))
+```
 
 --- /hint ---
 
@@ -68,7 +86,14 @@ Your code should look like this:
 
 ![flower sprite](images/flower-sprite.png)
 
-![blocks_1545308819_623274](images/blocks_1545308819_623274.png)
+```blocks3
+when [r v] key pressed
+erase all
+repeat (100) 
+  go to (random position v)
+  draw flower (pick random (0) to (199)) (pick random (50) to (150)) (pick random (4) to (12)) :: custom
+end
+```
 
 --- /hint ---
 
