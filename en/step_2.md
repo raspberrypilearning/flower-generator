@@ -44,7 +44,13 @@ Add the following code to the Flower sprite to `stamp`{:class="block3extensions"
 
 ![screenshot](images/flower-6-straight.png)
 
-![blocks_1545308790_6319792](images/blocks_1545308790_6319792.png)
+```blocks3
+when green flag clicked
+repeat (6) 
+  stamp
+  turn cw (60) degrees
+end
+```
 
 --- /task ---
 
@@ -70,7 +76,9 @@ Before you run your code again, you should `erase all`{:class="block3extensions"
 
 Click on the `erase all` block in the Pen blocks section.
 
-![blocks_1545308792_5342476](images/blocks_1545308792_5342476.png)
+```blocks3
+erase all
+```
 
 --- /task ---
 
