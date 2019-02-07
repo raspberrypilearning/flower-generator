@@ -62,7 +62,7 @@ This is because the sprite is being rotated around its centre.
 
 --- task ---
 
-Move your petal so its bottom is the centre.
+Move your petal so its bottom is in the centre.
 
 ![screenshot](images/flower-crosshair-annotated.png)
 

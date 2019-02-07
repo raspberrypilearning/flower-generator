@@ -6,7 +6,7 @@ You will now use your `draw flower`{:class="block3myblocks"} block to create a h
 
 --- task ---
 
-Add a new Event block to your code so that `when the r key is pressed`{:class="block3events"}, the screen is `cleared`{:class="block3extensions"}.
+Add a new Event block to your sprite's code so that `when the r key is pressed`{:class="block3events"}, the screen is `cleared`{:class="block3extensions"}.
 
 ![flower sprite](images/flower-sprite.png)
 
