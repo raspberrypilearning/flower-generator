@@ -69,7 +69,7 @@ If you need to print this project, please use the [printer-friendly version](htt
 
 --- /no-print ---
 
-You can [find the solution to this project here](http://rpf.io/p/en/flower-generator-get).
+You can find the [completed project here](http://rpf.io/p/en/flower-generator-get){:target="_blank"}.
 
 --- /collapse ---
 
