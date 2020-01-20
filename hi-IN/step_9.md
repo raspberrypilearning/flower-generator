@@ -1,10 +1,10 @@
-## Challenge: custom flower blocks
+## चुनौती: कस्टम फूल ब्लॉक
 
-These flowers all have the same number of outer and inner petals, and the size of the inner flower is in proportion to the outer flower:
+इन सभी फूलों में बाहरी और आंतरिक पंखुड़ियों की संख्या समान होती है, और आंतरिक फूल का आकार बाहरी फूल के अनुपात में होता है:
 
 ![screenshot](images/flower-double-flowers.png)
 
-You can create flowers like this with the help of a `draw double flower`{:class="block3myblocks"} custom block that has inputs for `outer colour`, `inner colour`, and `size`:
+आप इस तरह के फूल `draw double flower`{:class="block3myblocks"} कस्टम ब्लॉक की मदद से बना सकते हैं जिसमें `outer colour`, `inner colour`, और `size` के लिए इनपुट होती हैं:
 
 ```blocks3
 define draw double flower (outer colour) (inner colour) (size :: custom-arg)
@@ -12,7 +12,7 @@ draw flower (outer colour :: custom-arg) (size :: custom-arg) (12) :: custom
 draw flower (inner colour :: custom-arg) ((size :: custom-arg) / (2)) (20) :: custom
 ```
 
-The `draw double flower`{:class="block3myblocks"} block can draw lots of flowers in the same style:
+इस `draw double flower`{:class="block3myblocks"} ब्लॉक से एक ही शैली में बहुत सारे फूल बनाए जा सकते हैं:
 
 ```blocks3
 when [d v] key pressed
@@ -25,6 +25,6 @@ change x by (75)
 draw double flower (140) (160) (50) :: custom
 ```
 
-Make a new custom block with the necessary inputs that you need to be able to change to create a type of flower that you like.
+आवश्यक इनपुट के साथ एक नया कस्टम ब्लॉक बनाएँ, जिसे आप उस तरह के फूल बनाने के लिए बदल सकें जिस तरह के आपको पसंद हों।
 
-Then use your new block to create a cool design!
+फिर अपने नए ब्लॉक का उपयोग एक बढ़िया डिजाइन बनाने के लिए करें!
