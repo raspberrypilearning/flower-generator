@@ -1,14 +1,14 @@
-## Random flower generator
+## यादृच्छिक फूल जनरेटर
 
-You will now use your `draw flower`{:class="block3myblocks"} block to create a hundred random flowers all over the Stage whenever you press the <kbd>r</kbd>.
+अब आप जब भी <kbd>r</kbd> को दबाएँगे तो पूरे स्टेज पर सौ यादृच्छिक फूल बनाने के लिए अपने `draw flower`{:class="block3myblocks"} ब्लॉक का उपयोग करेंगे।
 
-![random flowers](images/flower-random.png)
+![यादृच्छिक फूल](images/flower-random.png)
 
 \--- task \---
 
-Add a new Event block to your sprite's code so that `when the r key is pressed`{:class="block3events"}, the screen is `cleared`{:class="block3extensions"}.
+अपने स्प्राइट कोड में एक नया इवेंट ब्लॉक जोड़ें ताकि `when the r key is pressed`{:class="block3events"} से, स्क्रीन `cleared`{:class="block3extensions"} साफ़ हो जाए।
 
-![flower sprite](images/flower-sprite.png)
+![फूल स्प्राइट](images/flower-sprite.png)
 
 ```blocks3
 when [r v] key pressed
@@ -19,9 +19,9 @@ erase all
 
 \--- task \---
 
-Add in a `repeat`{:class="block3control"} block to go to a `random position`{:class="block3motion"} `100` times.
+`random position`{:class="block3motion"} पर `100` बार जाने के लिए एक `repeat`{:class="block3control"} ब्लॉक जोड़ें।
 
-![flower sprite](images/flower-sprite.png)
+![फूल स्प्राइट](images/flower-sprite.png)
 
 ```blocks3
 repeat (100)
@@ -33,11 +33,11 @@ end
 
 \--- task \---
 
-Use the `draw flower`{:class="block3myblocks"} block to create a flower that has a `random`{:class="block3operators"} colour between `0` and `199`.
+एक ऐसा फूल बनाने के लिए जिसका `0` और `199` के बीच कोई `random`{:class="block3operators"} यादृच्छिक रंग हो `draw flower`{:class="block3myblocks"} ब्लॉक का उपयोग करें।
 
-You code should now look like this:
+आपका कोड अब इस प्रकार दिखना चाहिए:
 
-![flower sprite](images/flower-sprite.png)
+![फूल स्प्राइट](images/flower-sprite.png)
 
 ```blocks3
 when [r v] key pressed
@@ -50,27 +50,27 @@ end
 
 \--- /task \---
 
-This code creates one hundred flowers with different colours but with the same size and numbers of petals.
+यह कोड अलग-अलग रंगों वाले एक सौ फूल बनाता है लेकिन उनका आकार और पंखुड़ियों की संख्या समान होती है।
 
-![flowers just with random colours](images/flower-random-colour.png)
+![केवल यादृच्छिक रंगों के साथ फूल](images/flower-random-colour.png)
 
 \--- task \---
 
-Can you modify the `when the r key is pressed`{:class="block3events"} script so the flowers' size and number of petals are also random?
+क्या आप `when the r key is pressed`{:class="block3events"} स्क्रिप्ट को संशोधित कर सकते हैं ताकि फूलों का आकार और पंखुड़ियों की संख्या भी यादृच्छिक हो?
 
 \--- hints \---
 
 \--- hint \---
 
-The `draw flower`{:class="block3myblocks"} block should `pick random`{:class="block3operators"} numbers for the size and number of petals.
+`draw flower`{:class="block3myblocks"} ब्लॉक को आकार और पंखुड़ियों की संख्या के लिए `pick random`{:class="block3operators"} यादृच्छिक संख्याएँ चुननी चाहिए।
 
 \--- /hint \---
 
 \--- hint \---
 
-The following blocks pick a random size between `50` and `150` and a random number of petals between `4` and `12`.
+निम्नलिखित ब्लॉक `50` और `150` के बीच का कोई यादृच्छिक आकार और `4` और `12` के बीच की पंखुड़ियों की कोई यादृच्छिक संख्या चुनते हैं।
 
-![flower sprite](images/flower-sprite.png)
+![फूल स्प्राइट](images/flower-sprite.png)
 
 ```blocks3
 (pick random (50) to (150))
@@ -82,9 +82,9 @@ The following blocks pick a random size between `50` and `150` and a random numb
 
 \--- hint \---
 
-Your code should look like this:
+आपका कोड इस प्रकार दिखना चाहिए:
 
-![flower sprite](images/flower-sprite.png)
+![फूल स्प्राइट](images/flower-sprite.png)
 
 ```blocks3
 when [r v] key pressed
@@ -103,6 +103,6 @@ end
 
 \--- task \---
 
-Press <kbd>r</kbd> to see your random flowers.
+अपने यादृच्छिक फूलों को देखने के लिए <kbd>r</kbd> दबाएँ।
 
 \--- /task \---
