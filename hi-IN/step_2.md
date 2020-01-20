@@ -1,10 +1,10 @@
-## Generate a flower
+## फूल उत्पन्न करें
 
-First you're going to generate a flower that can be drawn on the Stage.
+पहले आप एक फूल उत्पन्न करने जा रहे हैं जिसे स्टेज पर बनाया जा सकता है।
 
 \--- task \---
 
-Create a new Scratch project, and delete the cat sprite.
+एक नया Scratch प्रोजेक्ट बनाएँ, और कैट स्प्राइट को हटा दें।
 
 [[[generic-scratch3-new-project]]]
 
@@ -12,7 +12,7 @@ Create a new Scratch project, and delete the cat sprite.
 
 \--- task \---
 
-Add the Pen extension to your project.
+अपने प्रोजेक्ट में Pen एक्सटेंशन जोड़ें।
 
 [[[generic-scratch3-add-pen-extension]]]
 
@@ -20,9 +20,9 @@ Add the Pen extension to your project.
 
 \--- task \---
 
-Now use the Paint tool to create a new sprite shaped like a flower petal.
+अब फूल की पंखुड़ी के आकार का एक नया स्प्राइट बनाने के लिए Paint (पेंट) टूल का उपयोग करें।
 
-Click on **Choose a sprite**, then click on **Paint** and rename the sprite 'Flower'.
+**Choose a sprite** (स्प्राइट चुनें) पर क्लिक करें, फिर **Paint** (पेंट) पर क्लिक करें और स्प्राइट 'फूल' का नाम बदलें।
 
 [[[generic-scratch3-draw-sprite]]]
 
@@ -30,19 +30,19 @@ Click on **Choose a sprite**, then click on **Paint** and rename the sprite 'Flo
 
 \--- task \---
 
-Use the Circle tool to draw a petal shape filled in orange.
+नारंगी रंग वाली पंखुड़ी की आकृति बनाने के लिए Circle (सर्किल) टूल का उपयोग करें।
 
-![screenshot](images/flower-petal.png)
+![स्क्रीनशॉट](images/flower-petal.png)
 
-Later, you will use code to add more colour.
+बाद में, आप अधिक रंग जोड़ने के लिए कोड का उपयोग करेंगे।
 
 \--- /task \---
 
 \--- task \---
 
-Add the following code to the Flower sprite to `stamp`{:class="block3extensions"} a flower with six equally rotated petals `when the green flag is clicked`{:class="block3control"}.
+फूल को घुमाकर बनाई गई समान आकार की छह पंखुड़ियों वाले फूल पर `stamp`{:class="block3extensions"} मोहर लगाने के लिए स्प्राइट फूल में निम्नलिखित कोड जोड़ें `when the green flag is clicked`{:class="block3control"}।
 
-![screenshot](images/flower-6-straight.png)
+![स्क्रीनशॉट](images/flower-6-straight.png)
 
 ```blocks3
 when green flag clicked
@@ -54,27 +54,27 @@ end
 
 \--- /task \---
 
-You may find that your petals are arranged in an odd way:
+आप देख सकते हैं कि आपकी पंखुड़ियों को अजीब तरीके से व्यवस्थित किया गया है:
 
-![screenshot](images/flower-6-offset.png)
+![स्क्रीनशॉट](images/flower-6-offset.png)
 
-This is because the sprite is being rotated around its centre.
+ऐसा इसलिए है क्योंकि स्प्राइट को इसके केंद्र के चारों ओर घुमाया जा रहा है।
 
 \--- task \---
 
-Move your petal so its bottom is in the centre.
+अपनी पंखुड़ी को हिलाएँ ताकि उसका तल केंद्र में हो।
 
-![screenshot](images/flower-crosshair-annotated.png)
+![स्क्रीनशॉट](images/flower-crosshair-annotated.png)
 
-Doing this may be easier if you zoom out.
+यदि आप ज़ूम आउट करते हैं तो ऐसा करना आसान हो सकता है।
 
 \--- /task \---
 
-Before you run your code again, you should `erase all`{:class="block3extensions"} the sprites on the Stage to clear it.
+अपना कोड दुबारा चलाने से पहले, आपको स्टेज को साफ करने के लिए स्प्राइट्स को `erase all`{:class="block3extensions"} से मिटा देना चाहिए।
 
 \--- task \---
 
-Click on the `erase all` block in the Pen blocks section.
+Pen (पेन) ब्लॉक सेक्शन में `erase all` ब्लॉक पर क्लिक करें।
 
 ```blocks3
 erase all
@@ -84,10 +84,10 @@ erase all
 
 \--- task \---
 
-Run your code again to check that the flower's petals are straight now.
+यह जाँचने के लिए अपना कोड फिर से चलाएँ कि फूल की पंखुड़ियाँ अब सीधी हैं।
 
-![screenshot](images/flower-6-straight.png)
+![स्क्रीनशॉट](images/flower-6-straight.png)
 
-If not, adjust the petal's position until its bottom in the centre.
+ऐसा न हो तो, पंखुड़ी का नीचे का हिस्सा जब तक केंद्र में न आ जाए तब तक इसकी स्थिति को समायोजित करें।
 
 \--- /task \---
