@@ -1,7 +1,7 @@
 ---
-title: Flower generator
+title: फूल जनरेटर
 hero_image: images/banner.png
-description: Generate flowers to create a patterned backdrop image or screensaver
+description: पैटर्न वाली पृष्ठभूमि छवि या स्क्रीनसेवर बनाने के लिए फूल उत्पन्न करें
 duration: 2
 listed: true
 copyedit: true
@@ -9,24 +9,24 @@ version: 4.1.0
 last_tested: 2018-10-18
 steps:
   - 
-    title: Introduction
+    title: भूमिका
   - 
-    title: Generate a flower
+    title: फूल उत्पन्न करें
   - 
-    title: Make a custom block to draw flowers
+    title: फूल बनाने के लिए एक कस्टम ब्लॉक बनाएँ
   - 
-    title: Customise your flowers
+    title: अपने फूलों को कस्टमाइज़ करें
   - 
-    title: "Challenge: create a flower design"
+    title: "चुनौती: एक फूल का डिज़ाइन बनाएँ"
     challenge: true
   - 
-    title: Save your images
+    title: अपनी छवियों को सहेजें
   - 
-    title: Random flower generator
+    title: यादृच्छिक फूल जनरेटर
   - 
-    title: Flower patterns
+    title: फूल के पैटर्न
   - 
-    title: "Challenge: custom flower blocks"
+    title: "चुनौती: कस्टम फूल ब्लॉक"
     challenge: true
   - 
-    title: What next?
+    title: 'चुनौती: अधिक रुकावटें!'
