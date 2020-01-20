@@ -167,6 +167,7 @@ end
 
 --- /task ---
 --- task ---
+
 In the `when green flag clicked`{:class="block3events"} script, change the second number in both `draw flower`{:class="block3myblocks"} blocks so that the two flowers appear in different sizes.
 
 ```blocks3 
@@ -177,13 +178,17 @@ draw flower (180) (150) :: custom
 go to x: (-75) y: (-75)
 draw flower (150) (50) :: custom
 ```
+
 --- /task ---
 
 --- task ---
+
 Test your code to check whether the flowers have different sizes.
+
 --- /task ---
 
 --- task ---
+
 It would be cool to choose the number of petals the flowers have.
 
 Add another input so that you can draw flowers like this:
