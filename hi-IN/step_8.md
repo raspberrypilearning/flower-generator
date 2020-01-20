@@ -1,12 +1,12 @@
-## Flower patterns
+## फूल के पैटर्न
 
-You can also use your `draw flower`{:class="block3myblocks"} block to create neat flower patterns.
+फूलों के साफ-सुथरे पैटर्न बनाने के लिए आप अपने `draw flower`{:class="block3myblocks"} ब्लॉक का भी उपयोग कर सकते हैं।
 
 \--- task \---
 
-Create a flower or a combination of flowers that you like. Here's an example:
+अपनी पसंद का कोई फूल या फूलों का संयोजन बनाएँ। यहाँ एक उदाहरण है:
 
-![flower sprite](images/flower-sprite.png)
+![फूल स्प्राइट](images/flower-sprite.png)
 
 ```blocks3
 when [p v] key pressed
@@ -20,35 +20,35 @@ draw flower (130) (35) (20) :: custom
 
 \--- task \---
 
-Press <kbd>p</kbd> to see your flower. The example looks like this:
+अपने फूल को देखने के लिए <kbd>p</kbd> दबाएँ। उदाहरण इस तरह दिखता है:
 
-![a flower pattern](images/flower-for-pattern-example.png)
+![फूल का पैटर्न](images/flower-for-pattern-example.png)
 
 \--- /task \---
 
-Before you can create your pattern, you should clear the Stage of any leftover flowers.
+इससे पहले कि आप अपना पैटर्न बना सकें, आपको स्टेज पर किन्हीं बचे हुए फूलों को साफ कर देना चाहिए।
 
 \--- task \---
 
-Click on the `erase all` block in the Pen tab.
+Pen (पेन) टैब में `erase all` ब्लॉक पर क्लिक करें।
 
 ```blocks3
-erase all
+सभी मिटाएँ
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Right-click on the Flower sprite and `hide`{:class="block3looks"} it so it doesn't appear on the Stage. (You can `show`{:class="block3looks"} the sprite again if you need to see where it is.)
+फूल स्प्राइट पर राइट-क्लिक करें और इसे `hide`{:class="block3looks"} करें ताकि यह स्टेज पर दिखाई न दे। (आप स्प्राइट को फिर से `show`{:class="block3looks"} कर सकते हैं यदि आपको यह देखने की जरूरत पड़े कि यह कहाँ पर है।)
 
 \--- /task \---
 
 \--- task \---
 
-Now draw a row of these flowers across the top of the Stage. Here is some example code, in which you might need to adjust the numbers so it works with your flower:
+अब स्टेज पर ऊपर की तरफ इन फूलों की एक पंक्ति बनाएँ। यहाँ एक उदाहरण कोड है, जिसमें आपको संख्याओं को समायोजित करने की जरूरत पड़ सकती है ताकि यह आपके फूल के साथ काम कर सके:
 
-![flower sprite](images/flower-sprite.png)
+![फूल स्प्राइट](images/flower-sprite.png)
 
 ```blocks3
 when [p v] key pressed
@@ -65,17 +65,17 @@ end
 
 \--- task \---
 
-Press `p` to see a row of flowers:
+फूलों की पंक्ति को देखने के लिए `p` दबाएँ।
 
-![4 flowers in a row](images/flower-pattern-row-example.png)
+![एक पंक्ति में 4 फूल](images/flower-pattern-row-example.png)
 
 \--- /task \---
 
 \--- task \---
 
-Add another loop to create more rows of flowers. This example adds a `repeat 3`{:class="block3control"} loop to create three rows.
+फूलों की अधिक पंक्तियाँ बनाने के लिए एक और लूप जोड़ें। यह उदाहरण तीन पंक्तियाँ बनाने के लिए एक `repeat 3`{:class="block3control"} लूप जोड़ता है।
 
-![flower sprite](images/flower-sprite.png)
+![फूल स्प्राइट](images/flower-sprite.png)
 
 ```blocks3
 when [p v] key pressed
@@ -96,15 +96,17 @@ end
 
 \--- task \---
 
-Press <kbd>p</kbd> to create a grid of flowers:
+फूलों का एक ग्रिड बनाने के लिए <kbd>p</kbd> दबाएँ:
 
-![a 4 x 4 grid of flowers](images/flower-pattern-rows-example.png)
+![फूलों की एक 4 x 4 ग्रिड](images/flower-pattern-rows-example.png)
 
 \--- /task \---
 
-Do you want to speed up the drawing of the flowers?
+क्या आप फूलों को बनाने की गति को तेज़ करना चाहते हैं?
 
-\--- task \--- Right-click on the `draw flower`{:class="block3myblocks"} definition block and then click on **edit**. Click on the **Run without screen refresh** box.
+\--- task \---
+
+Right-click on the `draw flower`{:class="block3myblocks"} definition block and then click on **edit**. Click on the **Run without screen refresh** box.
 
 ![turn no refresh option off](images/flower-no-refresh.png)
 
