@@ -29,7 +29,6 @@ Press `f` to draw a few flowers, or `r` to draw lots of random flowers, or `p` t
 --- /print-only ---
 
 --- collapse ---
-
 ---
 title: What you will need
 ---
@@ -45,7 +44,6 @@ title: What you will need
 --- /collapse ---
 
 --- collapse ---
-
 ---
 title: What you will learn
 ---
@@ -58,7 +56,6 @@ title: What you will learn
 --- /collapse ---
 
 --- collapse ---
-
 ---
 title: Additional notes for educators
 ---
