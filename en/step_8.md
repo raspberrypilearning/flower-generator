@@ -105,6 +105,7 @@ Press <kbd>p</kbd> to create a grid of flowers:
 Do you want to speed up the drawing of the flowers? 
 
 --- task ---
+
 Right-click on the `draw flower`{:class="block3myblocks"} definition block and then click on **edit**. Click on the **Run without screen refresh** box. 
 
 ![turn no refresh option off](images/flower-no-refresh.png)
