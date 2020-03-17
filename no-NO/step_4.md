@@ -25,7 +25,7 @@ end
 
 Run your code to see flowers of different colours.
 
-![skjermbilde](images/flower-pink.png)
+![screenshot](images/flower-pink.png)
 
 `set colour effect`{:class="block3looks"} changes the colour based on the default colour of the sprite, so if your sprite doesn't start out orange, you get different results.
 
@@ -43,7 +43,7 @@ At the moment all flowers are the same colour. To give each flower a different c
 
 Right-click on the `draw flower`{:class="block3myblocks"} definition block and choose **edit**:
 
-![skjermbilde](images/flower-edit.png)
+![screenshot](images/flower-edit.png)
 
 \--- /task \---
 
@@ -51,7 +51,7 @@ Right-click on the `draw flower`{:class="block3myblocks"} definition block and c
 
 Now add a **input number** called 'colour':
 
-![skjermbilde](images/flower-colour-input-annotated.png)
+![screenshot](images/flower-colour-input-annotated.png)
 
 The input appears in the `draw flower`{:class="block3myblocks"} definition, and you can drag it to where you want to use it.
 
@@ -61,7 +61,7 @@ The input appears in the `draw flower`{:class="block3myblocks"} definition, and 
 
 Drag the 'colour' input to the `set colour effect`{:class="block3looks"} block:
 
-![skjermbilde](images/flower-use-colour-annotated.png)
+![screenshot](images/flower-use-colour-annotated.png)
 
 Your code should look like this:
 
@@ -124,13 +124,13 @@ With the block above, you can create flowers with different sizes:
 
 \--- hints \---
 
-DO NOT TRANSLATE
+\--- hint \---
 
 Look at what you did to add the `colour` input, and repeat it to add a 'size' input that you can use to set the size of the Flower sprite.
 
 \--- /hint \---
 
-DO NOT TRANSLATE
+\--- hint \---
 
 Edit the `draw flower`{:class="block3myblocks"} block to add a new number input called 'size'.
 
@@ -142,7 +142,7 @@ set size to (100) %
 
 \--- /hint \---
 
-DO NOT TRANSLATE
+\--- hint \---
 
 Right-click on the `draw flower`{:class="block3myblocks"} definition block, click on **edit**, and add a number input called 'size'.
 
