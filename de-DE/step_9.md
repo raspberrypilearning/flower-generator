@@ -2,7 +2,7 @@
 
 These flowers all have the same number of outer and inner petals, and the size of the inner flower is in proportion to the outer flower:
 
-![Screenshot](images/flower-double-flowers.png)
+![screenshot](images/flower-double-flowers.png)
 
 You can create flowers like this with the help of a `draw double flower`{:class="block3myblocks"} custom block that has inputs for `outer colour`, `inner colour`, and `size`:
 
