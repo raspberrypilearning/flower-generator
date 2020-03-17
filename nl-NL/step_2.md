@@ -1,10 +1,10 @@
-## Generate a flower
+## Maak een bloem
 
-First you're going to generate a flower that can be drawn on the Stage.
+Eerst ga je een bloem maken die in het speelveld kan worden getekend.
 
 \--- task \---
 
-Create a new Scratch project, and delete the cat sprite.
+Maak een nieuw Scratch project en verwijder de kat sprite.
 
 [[[generic-scratch3-new-project]]]
 
@@ -12,7 +12,7 @@ Create a new Scratch project, and delete the cat sprite.
 
 \--- task \---
 
-Add the Pen extension to your project.
+Voeg de Pen uitbreiding toe aan je project.
 
 [[[generic-scratch3-add-pen-extension]]]
 
@@ -20,9 +20,9 @@ Add the Pen extension to your project.
 
 \--- task \---
 
-Now use the Paint tool to create a new sprite shaped like a flower petal.
+Gebruik nu het teken hulpmiddel om een nieuwe sprite in de vorm van een bloemblad te maken.
 
-Click on **Choose a sprite**, then click on **Paint** and rename the sprite 'Flower'.
+Klik op **Kies een sprite**, klik vervolgens op **Teken** en hernoem de sprite 'Bloem'.
 
 [[[generic-scratch3-draw-sprite]]]
 
@@ -30,64 +30,64 @@ Click on **Choose a sprite**, then click on **Paint** and rename the sprite 'Flo
 
 \--- task \---
 
-Use the Circle tool to draw a petal shape filled in orange.
+Gebruik het gereedschap Cirkel om een blaadje te tekenen dat helemaal oranje is.
 
-![screenshot](images/flower-petal.png)
+![schermafbeelding](images/flower-petal.png)
 
-Later, you will use code to add more colour.
+Later ga je code gebruiken om meer kleur toe te voegen.
 
 \--- /task \---
 
 \--- task \---
 
-Add the following code to the Flower sprite to `stamp`{:class="block3extensions"} a flower with six equally rotated petals `when the green flag is clicked`{:class="block3control"}.
+Voeg de volgende code toe aan de Bloem sprite: `stempel`{:class="block3extensions"} een bloem met zes evenredig geroteerde blaadjes `wanneer op de groene vlag wordt geklikt`{:class="block3control"}.
 
-![screenshot](images/flower-6-straight.png)
+![schermafbeelding](images/flower-6-straight.png)
 
 ```blocks3
-when green flag clicked
-repeat (6) 
-  stamp
-  turn cw (60) degrees
-end
+wanneer op de groene vlag wordt geklikt
+herhaal (6) 
+  stempel
+  draai (60) graden naar rechts
+einde
 ```
 
 \--- /task \---
 
-You may find that your petals are arranged in an odd way:
+Het kan zijn dat je blaadjes op een vreemde manier zijn gerangschikt:
 
-![screenshot](images/flower-6-offset.png)
+![schermafbeelding](images/flower-6-offset.png)
 
-This is because the sprite is being rotated around its centre.
+Dit komt omdat de sprite rond het midden wordt gedraaid.
 
 \--- task \---
 
-Move your petal so its bottom is in the centre.
+Verplaats je blaadje zodat de onderkant in het midden staat.
 
-![screenshot](images/flower-crosshair-annotated.png)
+![schermafbeelding](images/flower-crosshair-annotated.png)
 
-Doing this may be easier if you zoom out.
+Dit kan makkelijker te doen zijn als je uitzoomt.
 
 \--- /task \---
 
-Before you run your code again, you should `erase all`{:class="block3extensions"} the sprites on the Stage to clear it.
+Voordat je de code opnieuw uitvoert, moet je een `wis alles`{:class="block3extensions"} blok aan de sprites in het speelveld toevoegen.
 
 \--- task \---
 
-Click on the `erase all` block in the Pen blocks section.
+Klik op het `wis alles` blok in het gedeelte Pen.
 
 ```blocks3
-erase all
+wis alles
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Run your code again to check that the flower's petals are straight now.
+Voer de code opnieuw uit om te controleren of de blaadjes recht zijn.
 
-![screenshot](images/flower-6-straight.png)
+![schermafbeelding](images/flower-6-straight.png)
 
-If not, adjust the petal's position until its bottom in the centre.
+Als dit niet het geval is, pas je de positie van het blaadje aan tot de onderkant in het midden staat.
 
 \--- /task \---
