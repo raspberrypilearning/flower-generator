@@ -8,7 +8,7 @@ Create a new Scratch project, and delete the cat sprite.
 
 [[[generic-scratch3-new-project]]]
 
-\--- /görev \---
+\--- /task \---
 
 \--- task \---
 
@@ -16,7 +16,7 @@ Add the Pen extension to your project.
 
 [[[generic-scratch3-add-pen-extension]]]
 
-\--- /görev \---
+\--- /task \---
 
 \--- task \---
 
@@ -26,23 +26,23 @@ Click on **Choose a sprite**, then click on **Paint** and rename the sprite 'Flo
 
 [[[generic-scratch3-draw-sprite]]]
 
-\--- /görev \---
+\--- /task \---
 
 \--- task \---
 
 Use the Circle tool to draw a petal shape filled in orange.
 
-![ekran görüntüsü](images/flower-petal.png)
+![screenshot](images/flower-petal.png)
 
 Later, you will use code to add more colour.
 
-\--- /görev \---
+\--- /task \---
 
 \--- task \---
 
 Add the following code to the Flower sprite to `stamp`{:class="block3extensions"} a flower with six equally rotated petals `when the green flag is clicked`{:class="block3control"}.
 
-![ekran görüntüsü](images/flower-6-straight.png)
+![screenshot](images/flower-6-straight.png)
 
 ```blocks3
 when green flag clicked
@@ -52,11 +52,11 @@ repeat (6)
 end
 ```
 
-\--- /görev \---
+\--- /task \---
 
 You may find that your petals are arranged in an odd way:
 
-![ekran görüntüsü](images/flower-6-offset.png)
+![screenshot](images/flower-6-offset.png)
 
 This is because the sprite is being rotated around its centre.
 
@@ -64,11 +64,11 @@ This is because the sprite is being rotated around its centre.
 
 Move your petal so its bottom is in the centre.
 
-![ekran görüntüsü](images/flower-crosshair-annotated.png)
+![screenshot](images/flower-crosshair-annotated.png)
 
 Doing this may be easier if you zoom out.
 
-\--- /görev \---
+\--- /task \---
 
 Before you run your code again, you should `erase all`{:class="block3extensions"} the sprites on the Stage to clear it.
 
@@ -80,14 +80,14 @@ Click on the `erase all` block in the Pen blocks section.
 erase all
 ```
 
-\--- /görev \---
+\--- /task \---
 
 \--- task \---
 
 Run your code again to check that the flower's petals are straight now.
 
-![ekran görüntüsü](images/flower-6-straight.png)
+![screenshot](images/flower-6-straight.png)
 
 If not, adjust the petal's position until its bottom in the centre.
 
-\--- /görev \---
+\--- /task \---
