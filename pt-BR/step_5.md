@@ -2,7 +2,7 @@
 
 Can you use your `draw flower`{:class="block3myblocks"} block several times to draw more flowers and create an interesting design? Drawing different flowers at the same location creates an interesting effect.
 
-Create a design that you like. Aqui está um exemplo:
+Create a design that you like. Here's an example:
 
 ![screenshot](images/flower-three.png)
 
