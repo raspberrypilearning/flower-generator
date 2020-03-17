@@ -1,7 +1,7 @@
 ---
-title: Generator rož
+title: Flower generator
 hero_image: images/banner.png
-description: Ustvari rože, da ustvariš mozaično sliko ozadja ali ohranjevalnik zaslona
+description: Generate flowers to create a patterned backdrop image or screensaver
 duration: 2
 listed: true
 copyedit: true
@@ -9,24 +9,24 @@ version: 4.1.0
 last_tested: 2018-10-18
 steps:
   - 
-    title: Uvod
+    title: Introduction
   - 
-    title: Ustvari rožo
+    title: Generate a flower
   - 
-    title: Ustvari svoj blok za risanje rož
+    title: Make a custom block to draw flowers
   - 
-    title: Prilagodi svoje rože
+    title: Customise your flowers
   - 
-    title: "Izziv: ustvari cvetlični aranžma"
+    title: "Challenge: create a flower design"
     challenge: true
   - 
-    title: Shrani svoje slike
+    title: Save your images
   - 
-    title: Naključni generator rož
+    title: Random flower generator
   - 
-    title: Vzorci rož
+    title: Flower patterns
   - 
-    title: "Izziv: po meri narejeni bloki za rože"
+    title: "Challenge: custom flower blocks"
     challenge: true
   - 
-    title: Kaj sledi?
+    title: What next?
