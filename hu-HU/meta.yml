@@ -1,6 +1,6 @@
 ---
 title: Flower generator
-hero_image: images / banner.png
+hero_image: images/banner.png
 description: Generate flowers to create a patterned backdrop image or screensaver
 duration: 2
 listed: true
@@ -9,7 +9,7 @@ version: 4.1.0
 last_tested: 2018-10-18
 steps:
   - 
-    title: Bevezetés
+    title: Introduction
   - 
     title: Generate a flower
   - 
