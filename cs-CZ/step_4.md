@@ -122,13 +122,13 @@ With the block above, you can create flowers with different sizes:
 
 ![different sized flowers](images/flower-different-sizes.png)
 
-\--- tipy \---
+\--- hints \---
 
 \--- hint \---
 
 Look at what you did to add the `colour` input, and repeat it to add a 'size' input that you can use to set the size of the Flower sprite.
 
-\--- /tip \---
+\--- /hint \---
 
 \--- hint \---
 
@@ -140,7 +140,7 @@ You need to add the following block with a 'size' input to the `draw flower`{:cl
 set size to (100) %
 ```
 
-\--- /tip \---
+\--- /hint \---
 
 \--- hint \---
 
@@ -160,9 +160,9 @@ repeat (6)
 end
 ```
 
-\--- /tip \---
+\--- /hint \---
 
-\--- /tipy \---
+\--- /hints \---
 
 \--- /task \--- \--- task \---
 
