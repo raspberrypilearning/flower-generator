@@ -29,7 +29,7 @@ repeat (100)
 end
 ```
 
-\---/task\---
+\--- /task \---
 
 \--- task \---
 
@@ -64,7 +64,7 @@ Can you modify the `when the r key is pressed`{:class="block3events"} script so 
 
 The `draw flower`{:class="block3myblocks"} block should `pick random`{:class="block3operators"} numbers for the size and number of petals.
 
-\--- hint/ \---
+\--- /hint \---
 
 \--- hint \---
 
@@ -78,7 +78,7 @@ The following blocks pick a random size between `50` and `150` and a random numb
 (pick random (4) to (12))
 ```
 
-\--- hint/ \---
+\--- /hint \---
 
 \--- hint \---
 
@@ -95,9 +95,9 @@ repeat (100)
 end
 ```
 
-\--- hint/ \---
+\--- /hint \---
 
-\--- hints/ \---
+\--- /hints \---
 
 \--- /task \---
 
