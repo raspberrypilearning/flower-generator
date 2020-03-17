@@ -1,20 +1,20 @@
 \--- no-print \---
 
-To je ** Scratch 3 ** različica projekta. Obstaja tudi [Scratch 2](https://projects.raspberrypi.org/en/projects/flower-generator-scratch2) različica projekta.
+This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/flower-generator-scratch2).
 
 \--- /no-print \---
 
-## Uvod
+## Introduction
 
-Ustvaril-a boš na stotine rož različnih velikosti, oblik in barv.
+You will create hundreds of flowers of different sizes, shapes, and colours.
 
-Slike cvetja lahko izvoziš in jih uporabiš kot ozadja za telefon ali računalnik, ali kot ozadje v drugih Scratch projektih.
+You can export the flower pictures and use them as wallpapers on your phone or computer, or as backdrops in other Scratch projects.
 
-### Kaj boš ustvaril-a?
+### What you will make
 
 \--- no-print \---
 
-Pritisni `f` da narišeš nekaj rož, ali `r` da narišeš mnogo naključnih rož, ali `p` da narišeš cvetlični vzorec.
+Press `f` to draw a few flowers, or `r` to draw lots of random flowers, or `p` to draw a flower pattern.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/253355932/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -24,7 +24,7 @@ Pritisni `f` da narišeš nekaj rož, ali `r` da narišeš mnogo naključnih ro�
 
 \--- print-only \---
 
-![naključno cvetje](images/flower-random.png)
+![random flowers](images/flower-random.png)
 
 \--- /print-only \---
 
@@ -32,13 +32,13 @@ Pritisni `f` da narišeš nekaj rož, ali `r` da narišeš mnogo naključnih ro�
 
 ## title: What you will need
 
-### Strojna oprema
+### Hardware
 
-+ Računalnik, ki lahko poganja Scratch 3
++ A computer capable of running Scratch 3
 
-### Programska oprema
+### Software
 
-+ Scratch 3 (bodisi [na spletu](https://rpf.io/scratch-on) {: target = "_blank"} ali [brez povezave](https://rpf.io/scratch-off){: target = "_blank)
++ Scratch 3 (either [online](https://rpf.io/scratch-on) or [offline](https://rpf.io/scratch-off))
 
 \--- /collapse \---
 
@@ -46,10 +46,10 @@ Pritisni `f` da narišeš nekaj rož, ali `r` da narišeš mnogo naključnih ro�
 
 ## title: What you will learn
 
-+ Kako odtisniti figure 
-+ Kako narediti svoje Scratch bloke
-+ Kako uporabljati vhode blokov 
-+ Kako ustvariti naključna števila 
++ How to stamp a sprite 
++ How to make your own Scratch blocks
++ How to use block inputs 
++ How to create random numbers 
 
 \--- /collapse \---
 
