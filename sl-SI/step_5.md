@@ -1,21 +1,21 @@
-## Izziv: ustvari cvetlični aranžma
+## Challenge: create a flower design
 
-Ali lahko uporabiš tvoj blok `nariši rožo`{: class = "block3myblocks"}, da narišeš več rož in ustvariš zanimiv dizajn? Risanje različnih rož na istem mestu ustvarja zanimiv učinek.
+Can you use your `draw flower`{:class="block3myblocks"} block several times to draw more flowers and create an interesting design? Drawing different flowers at the same location creates an interesting effect.
 
-Ustvari dizajn, ki ti je všeč. To je primer:
+Create a design that you like. Here's an example:
 
-![posnetek zaslona](images/flower-three.png)
+![screenshot](images/flower-three.png)
 
-Ni ti treba uporabljati cvetnih listov v obliki elipse. Lahko denimo uporabiš dbele ravne črte s črnim ozadjem, ki ustvarja videz podoben ognjemetu:
+You don't have to use petals shaped like ellipses. For example, you can use thick straight lines and a black backdrop to create a firework pattern like this:
 
-![posnetek zaslona](images/flower-fireworks.png)
+![screenshot](images/flower-fireworks.png)
 
-'Petal' za obliko ognjemeta je zgolj črta:
+The 'petal' for the firework pattern is just a line:
 
-![posnetek zaslona](images/flower-firework-petal.png)
+![screenshot](images/flower-firework-petal.png)
 
-Dodaj nove videze cvetnih listov in si oglej, kakno cvetje vse lahko ustvariš.
+Add new petal costumes and see what flowers you can come up with.
 
-Preizkusi obliko figure, ki ni zapolnjena, kot npr. kvadrat in si oglej, kaj se zgodi
+Try out a sprite shape that is not filled in, such as a square, and see what happens
 
-![posnetek zaslona](images/flower-square-petal.png)
+![screenshot](images/flower-square-petal.png)
