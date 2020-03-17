@@ -16,7 +16,7 @@ draw flower (150) (80) (7) :: custom
 draw flower (130) (35) (20) :: custom
 ```
 
-\--- /görev \---
+\--- /task \---
 
 \--- task \---
 
@@ -24,7 +24,7 @@ Press <kbd>p</kbd> to see your flower. The example looks like this:
 
 ![a flower pattern](images/flower-for-pattern-example.png)
 
-\--- /görev \---
+\--- /task \---
 
 Before you can create your pattern, you should clear the Stage of any leftover flowers.
 
@@ -36,13 +36,13 @@ Click on the `erase all` block in the Pen tab.
 erase all
 ```
 
-\--- /görev \---
+\--- /task \---
 
 \--- task \---
 
 Right-click on the Flower sprite and `hide`{:class="block3looks"} it so it doesn't appear on the Stage. (You can `show`{:class="block3looks"} the sprite again if you need to see where it is.)
 
-\--- /görev \---
+\--- /task \---
 
 \--- task \---
 
@@ -61,7 +61,7 @@ repeat (4)
 end
 ```
 
-\--- /görev \---
+\--- /task \---
 
 \--- task \---
 
@@ -69,7 +69,7 @@ Press `p` to see a row of flowers:
 
 ![4 flowers in a row](images/flower-pattern-row-example.png)
 
-\--- /görev \---
+\--- /task \---
 
 \--- task \---
 
@@ -92,7 +92,7 @@ repeat (3)
 end
 ```
 
-\--- /görev \---
+\--- /task \---
 
 \--- task \---
 
@@ -100,7 +100,7 @@ Press <kbd>p</kbd> to create a grid of flowers:
 
 ![a 4 x 4 grid of flowers](images/flower-pattern-rows-example.png)
 
-\--- /görev \---
+\--- /task \---
 
 Do you want to speed up the drawing of the flowers?
 
