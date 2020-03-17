@@ -4,7 +4,7 @@ Can you use your `draw flower`{:class="block3myblocks"} block several times to d
 
 Create a design that you like. Here's an example:
 
-![captura de pantalla](images/flower-three.png)
+![screenshot](images/flower-three.png)
 
 You don't have to use petals shaped like ellipses. For example, you can use thick straight lines and a black backdrop to create a firework pattern like this:
 
@@ -12,10 +12,10 @@ You don't have to use petals shaped like ellipses. For example, you can use thic
 
 The 'petal' for the firework pattern is just a line:
 
-![captura de pantalla](images/flower-firework-petal.png)
+![screenshot](images/flower-firework-petal.png)
 
 Add new petal costumes and see what flowers you can come up with.
 
 Try out a sprite shape that is not filled in, such as a square, and see what happens
 
-![captura de pantalla](images/flower-square-petal.png)
+![screenshot](images/flower-square-petal.png)
