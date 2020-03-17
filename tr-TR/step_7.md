@@ -29,7 +29,7 @@ repeat (100)
 end
 ```
 
-\--- /görev \---
+\--- /task \---
 
 \--- task \---
 
@@ -48,7 +48,7 @@ repeat (100)
 end
 ```
 
-\--- /görev \---
+\--- /task \---
 
 This code creates one hundred flowers with different colours but with the same size and numbers of petals.
 
@@ -60,13 +60,13 @@ Can you modify the `when the r key is pressed`{:class="block3events"} script so 
 
 \--- hints \---
 
-\---hint\---
+\--- hint \---
 
 The `draw flower`{:class="block3myblocks"} block should `pick random`{:class="block3operators"} numbers for the size and number of petals.
 
 \--- /hint \---
 
-\---hint\---
+\--- hint \---
 
 The following blocks pick a random size between `50` and `150` and a random number of petals between `4` and `12`.
 
@@ -80,7 +80,7 @@ The following blocks pick a random size between `50` and `150` and a random numb
 
 \--- /hint \---
 
-\---hint\---
+\--- hint \---
 
 Your code should look like this:
 
@@ -99,10 +99,10 @@ end
 
 \--- /hints \---
 
-\--- /görev \---
+\--- /task \---
 
 \--- task \---
 
 Press <kbd>r</kbd> to see your random flowers.
 
-\--- /görev \---
+\--- /task \---
