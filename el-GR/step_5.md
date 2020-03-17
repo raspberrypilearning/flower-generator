@@ -2,9 +2,9 @@
 
 Can you use your `draw flower`{:class="block3myblocks"} block several times to draw more flowers and create an interesting design? Drawing different flowers at the same location creates an interesting effect.
 
-Create a design that you like. Ακολουθεί ένα παράδειγμα:
+Create a design that you like. Here's an example:
 
-![screenshot (στιγμιότυπο οθόνης)](images/flower-three.png)
+![screenshot](images/flower-three.png)
 
 You don't have to use petals shaped like ellipses. For example, you can use thick straight lines and a black backdrop to create a firework pattern like this:
 
