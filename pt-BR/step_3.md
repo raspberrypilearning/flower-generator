@@ -26,7 +26,7 @@ define draw flower
 
 Move your code for drawing the flower from the `when green flag clicked`{:class="block3events"} block to the new `draw flower`{:class="block3myblocks"} definition block.
 
-Seu código deve ficar assim:
+Your code should look like this:
 
 ![flower sprite](images/flower-sprite.png)
 
