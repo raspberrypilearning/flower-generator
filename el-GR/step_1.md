@@ -1,16 +1,16 @@
 \--- no-print \---
 
-Αυτή είναι η έκδοση **Scratch 3** του έργου. Υπάρχει επίσης η [έκδοση Scratch 2 του έργου](https://projects.raspberrypi.org/en/projects/flower-generator-scratch2).
+This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/flower-generator-scratch2).
 
 \--- /no-print \---
 
-## Εισαγωγή
+## Introduction
 
 You will create hundreds of flowers of different sizes, shapes, and colours.
 
 You can export the flower pictures and use them as wallpapers on your phone or computer, or as backdrops in other Scratch projects.
 
-### Τι θα φτιάξεις
+### What you will make
 
 \--- no-print \---
 
@@ -32,13 +32,13 @@ Press `f` to draw a few flowers, or `r` to draw lots of random flowers, or `p` t
 
 ## title: What you will need
 
-### Υλικό
+### Hardware
 
-+ Ένας υπολογιστής ικανός να τρέχει το Scratch 3
++ A computer capable of running Scratch 3
 
-### Λογισμικό
+### Software
 
-+ Scratch 3 (είτε [online](https://rpf.io/scratch-on) είτε [offline](https://rpf.io/scratch-off))
++ Scratch 3 (either [online](https://rpf.io/scratch-on) or [offline](https://rpf.io/scratch-off))
 
 \--- /collapse \---
 
