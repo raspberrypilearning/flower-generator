@@ -6,9 +6,9 @@ What if you want to draw lots of flowers? Instead of making lots of copies of th
 
 Click on **My Blocks** and then on **Make a Block** to create your own block called 'draw flower'.
 
-![ekran görüntüsü](images/flower-make-block.png)
+![screenshot](images/flower-make-block.png)
 
-\--- /görev \---
+\--- /task \---
 
 \--- task \---
 
@@ -20,7 +20,7 @@ draw flower :: custom
 define draw flower
 ```
 
-\--- /görev \---
+\--- /task \---
 
 \--- task \---
 
@@ -40,7 +40,7 @@ end
 when green flag clicked
 ```
 
-\--- /görev \---
+\--- /task \---
 
 \--- task \---
 
@@ -54,13 +54,13 @@ erase all
 draw flower :: custom
 ```
 
-\--- /görev \---
+\--- /task \---
 
 \--- task \---
 
 Click the green flag to test your code and check whether you see a flower.
 
-\--- /görev \---
+\--- /task \---
 
 \--- task \---
 
@@ -77,12 +77,12 @@ go to x: (-75) y: (-75)
 draw flower :: custom 
 ```
 
-\--- /görev \---
+\--- /task \---
 
 \--- task \---
 
 Test your code to check that you now see two flowers.
 
-![ekran görüntüsü](images/flower-two.png)
+![screenshot](images/flower-two.png)
 
-\--- /görev \---
+\--- /task \---
