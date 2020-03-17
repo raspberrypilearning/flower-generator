@@ -82,7 +82,7 @@ The following blocks pick a random size between `50` and `150` and a random numb
 
 \--- hint \---
 
-Твой код должен выглядеть, как этот:
+Your code should look like this:
 
 ![flower sprite](images/flower-sprite.png)
 
