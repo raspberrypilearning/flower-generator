@@ -4,7 +4,7 @@ You can also use your `draw flower`{:class="block3myblocks"} block to create nea
 
 \--- task \---
 
-Create a flower or a combination of flowers that you like. 아래 예제를 참고하세요:
+Create a flower or a combination of flowers that you like. Here's an example:
 
 ![flower sprite](images/flower-sprite.png)
 
