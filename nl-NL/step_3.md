@@ -1,88 +1,88 @@
-## Make a custom block to draw flowers
+## Maak een aangepast blok om bloemen te tekenen
 
-What if you want to draw lots of flowers? Instead of making lots of copies of the code, you will create your own block in Scratch and use it every time you want to draw a flower.
+Wat als je veel bloemen wilt tekenen? In plaats van veel kopieën van de code te maken, maak je je eigen blok in Scratch en gebruik je dit elke keer dat je een bloem wilt tekenen.
 
 \--- task \---
 
-Click on **My Blocks** and then on **Make a Block** to create your own block called 'draw flower'.
+Klik op **Mijn blokken** en vervolgens op **Maak een blok** om je eigen blok te maken met de naam 'teken bloem'.
 
-![screenshot](images/flower-make-block.png)
+![schermafbeelding](images/flower-make-block.png)
 
 \--- /task \---
 
 \--- task \---
 
-There is now a new block called `draw flower`{:class="block3myblocks"} in the **More blocks** section, and a new definition block on the Stage.
+Er is nu een nieuw blok met de naam `teken bloem`{:class="block3myblocks"} in de sectie **Mijn blokken** en een nieuw definitieblok in het spelveld.
 
 ```blocks3
-draw flower :: custom
+teken bloem :: custom
 
-define draw flower
+definieer teken bloem
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Move your code for drawing the flower from the `when green flag clicked`{:class="block3events"} block to the new `draw flower`{:class="block3myblocks"} definition block.
+Verplaats je code voor het tekenen van de bloem van het `wanneer op de groene vlag wordt geklikt`{:class="block3events"} blok naar het nieuwe `teken bloem`{:class="block3myblocks"} definitieblok.
 
 Je code zou er als volgt uit moeten zien:
 
-![flower sprite](images/flower-sprite.png)
+![bloem sprite](images/flower-sprite.png)
 
 ```blocks3
-define draw flower
-repeat (6) 
-  stamp
-  turn cw (60) degrees
-end
+definieer teken bloem
+herhaal (6) 
+  stempel
+  draai (60) graden naar rechts
+einde
 
-when green flag clicked
+wanneer op de groene vlag wordt geklikt
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Add the following code to clear the Stage and to use your new `draw flower`{:class="block3myblocks"} block when the green flag is clicked:
+Voeg de volgende code toe om het speelveld te wissen en je nieuwe `teken bloem`{:class "block3myblocks"} blok te gebruiken wanneer op de groene vlag wordt geklikt:
 
-![flower sprite](images/flower-sprite.png)
+![bloem sprite](images/flower-sprite.png)
 
 ```blocks3
-when green flag clicked
-erase all
-draw flower :: custom
+wanneer op de groene vlag wordt geklikt
+wis alles
+teken bloem :: custom
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Click the green flag to test your code and check whether you see a flower.
+Klik op de groene vlag om je code te testen en controleer of je een bloem ziet.
 
 \--- /task \---
 
 \--- task \---
 
-Now change your code to move the sprite and then draw another flower:
+Wijzig nu je code om de sprite te verplaatsen en vervolgens een andere bloem te tekenen:
 
-![flower sprite](images/flower-sprite.png)
+![bloem sprite](images/flower-sprite.png)
 
 ```blocks3
-when green flag clicked
-erase all
-go to x: (75) y: (75)
-draw flower :: custom
-go to x: (-75) y: (-75)
-draw flower :: custom 
+wanneer op de groene vlag wordt geklikt
+wis alles
+ga naar x: (75) y: (75)
+teken bloem :: custom
+ga naar x: (-75) y: (-75)
+teken bloem :: custom 
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Test your code to check that you now see two flowers.
+Test je code om te controleren of je nu twee bloemen ziet.
 
-![screenshot](images/flower-two.png)
+![schermafbeelding](images/flower-two.png)
 
 \--- /task \---
