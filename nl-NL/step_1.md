@@ -6,15 +6,15 @@ Dit is de **Scratch 3** versie van het project. Er is ook een [Scratch 2 versie 
 
 ## Inleiding
 
-You will create hundreds of flowers of different sizes, shapes, and colours.
+Je maakt honderden bloemen van verschillende grootte, vormen en kleuren.
 
-You can export the flower pictures and use them as wallpapers on your phone or computer, or as backdrops in other Scratch projects.
+Je kunt de bloemenplaatjes exporteren en gebruiken als achtergronden op je telefoon of computer, of als achtergronden in andere Scratch projecten.
 
 ### Wat ga je maken
 
 \--- no-print \---
 
-Press `f` to draw a few flowers, or `r` to draw lots of random flowers, or `p` to draw a flower pattern.
+Druk op `f` om een paar bloemen te tekenen, of `r` om veel willekeurige bloemen te tekenen, of `p` om een bloemenpatroon te tekenen.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/253355932/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -24,13 +24,13 @@ Press `f` to draw a few flowers, or `r` to draw lots of random flowers, or `p` t
 
 \--- print-only \---
 
-![random flowers](images/flower-random.png)
+![willekeurige bloemen](images/flower-random.png)
 
 \--- /print-only \---
 
 ## \--- collapse \---
 
-## title: What you will need
+## title: Wat heb je nodig
 
 ### Hardware
 
@@ -44,25 +44,25 @@ Press `f` to draw a few flowers, or `r` to draw lots of random flowers, or `p` t
 
 ## \--- collapse \---
 
-## title: What you will learn
+## title: Wat ga je leren
 
-+ How to stamp a sprite 
-+ How to make your own Scratch blocks
-+ How to use block inputs 
-+ How to create random numbers 
++ Hoe een sprite te stempelen 
++ Hoe maak je je eigen Scratch blokken
++ Hoe blokinvoer te gebruiken 
++ Hoe willekeurige getallen te maken 
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: Additional notes for educators
+## title: Aanvullende informatie voor docenten
 
 \--- no-print \---
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/flower-generator/print){:target="_blank"}.
+Als je dit project wilt afdrukken, gebruik dan de [printervriendelijke versie](https://projects.raspberrypi.org/en/projects/flower-generator/print){:target="_ blank"}.
 
 \--- /no-print \---
 
-You can find the [completed project here](http://rpf.io/p/en/flower-generator-get){:target="_blank"}.
+Je kunt het [voltooide project hier](http://rpf.io/p/en/flower-generator-get){:target="_blank"} vinden.
 
 \--- /collapse \---
