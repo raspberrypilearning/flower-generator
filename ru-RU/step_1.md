@@ -1,16 +1,16 @@
 \--- no-print \---
 
-Это версия проекта для **Скретч 3**. Есть также [версия для Скретч 2](https://projects.raspberrypi.org/en/projects/flower-generator-scratch2).
+This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/flower-generator-scratch2).
 
-\--- /без печати \---
+\--- /no-print \---
 
-## Введение
+## Introduction
 
 You will create hundreds of flowers of different sizes, shapes, and colours.
 
 You can export the flower pictures and use them as wallpapers on your phone or computer, or as backdrops in other Scratch projects.
 
-### Что тебе нужно будет сделать
+### What you will make
 
 \--- no-print \---
 
@@ -32,13 +32,13 @@ Press `f` to draw a few flowers, or `r` to draw lots of random flowers, or `p` t
 
 ## title: What you will need
 
-### Оборудование
+### Hardware
 
-+ Компьютер, способный запускать Scratch 3
++ A computer capable of running Scratch 3
 
-### Программное обеспечение
+### Software
 
-+ Scratch 3 ([онлайн](https://rpf.io/scratch-on) или [автономный (offline)](https://rpf.io/scratch-off))
++ Scratch 3 (either [online](https://rpf.io/scratch-on) or [offline](https://rpf.io/scratch-off))
 
 \--- /collapse \---
 
