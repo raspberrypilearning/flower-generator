@@ -1,10 +1,10 @@
-## Ustvari rožo
+## Generate a flower
 
-Najprej ustvari rožo, ki se bo lahko izrisala na odru.
+First you're going to generate a flower that can be drawn on the Stage.
 
 \--- task \---
 
-Ustvari nov Scratch projekt in izbriši figuro mačke.
+Create a new Scratch project, and delete the cat sprite.
 
 [[[generic-scratch3-new-project]]]
 
@@ -12,7 +12,7 @@ Ustvari nov Scratch projekt in izbriši figuro mačke.
 
 \--- task \---
 
-Projektu dodaj razširitev Svinčnik.
+Add the Pen extension to your project.
 
 [[[generic-scratch3-add-pen-extension]]]
 
@@ -20,9 +20,9 @@ Projektu dodaj razširitev Svinčnik.
 
 \--- task \---
 
-Uporabi orodje Nariši da ustvariš novo figuro v obliki cvetnega lista oz. petala.
+Now use the Paint tool to create a new sprite shaped like a flower petal.
 
-Klikni na **Izberi figuro**, nato klikni na **Nariši** in preimenuj figuro v 'Roža'.
+Click on **Choose a sprite**, then click on **Paint** and rename the sprite 'Flower'.
 
 [[[generic-scratch3-draw-sprite]]]
 
@@ -30,64 +30,64 @@ Klikni na **Izberi figuro**, nato klikni na **Nariši** in preimenuj figuro v 'R
 
 \--- task \---
 
-Z orodjem Krog nariši obliko cvetnega lista, ki naj bo zapolnjen z oranžno barvo.
+Use the Circle tool to draw a petal shape filled in orange.
 
-![posnetek zaslona](images/flower-petal.png)
+![screenshot](images/flower-petal.png)
 
-Kasneje boš s pomočjo kode dodal-a več barv.
+Later, you will use code to add more colour.
 
 \--- /task \---
 
 \--- task \---
 
-Figuri rože dodaj sledečo kodo, ki bo odtisnila `žig`{: class = "block3extensions"} cveta s šestimi enako zasukanimi cvetnimi listi `, ko bo kliknjena zelena zastavica`{: class = "block3control"}.
+Add the following code to the Flower sprite to `stamp`{:class="block3extensions"} a flower with six equally rotated petals `when the green flag is clicked`{:class="block3control"}.
 
-![posnetek zaslona](images/flower-6-straight.png)
+![screenshot](images/flower-6-straight.png)
 
 ```blocks3
-ko je kliknjena zelena zastavica
-ponovi (6) krat 
-  žig
-  obrni se za (60) stopinj v desno
+when green flag clicked
+repeat (6) 
+  stamp
+  turn cw (60) degrees
 end
 ```
 
 \--- /task \---
 
-Nemara se ti bo zdelo, da so tvoji cvetni listi razporejeni zelo nenavadno:
+You may find that your petals are arranged in an odd way:
 
-![posnetek zaslona](images/flower-6-offset.png)
+![screenshot](images/flower-6-offset.png)
 
-Razlog je v tem, da se figura vrti okoli svojega središča.
+This is because the sprite is being rotated around its centre.
 
 \--- task \---
 
-Premakni cvetni list, da bo njegovo dno v središču.
+Move your petal so its bottom is in the centre.
 
-![posnetek zaslona](images/flower-crosshair-annotated.png)
+![screenshot](images/flower-crosshair-annotated.png)
 
-To je lažje narediti, če pomanjšaš pogled.
+Doing this may be easier if you zoom out.
 
 \--- /task \---
 
-Preden znova zaženeš kodo, moraš `izbrisati vse`{: class = "block3extensions"} figure na odru, da ga očistiš.
+Before you run your code again, you should `erase all`{:class="block3extensions"} the sprites on the Stage to clear it.
 
 \--- task \---
 
-Klikni na blok `izbriši vse` v razdelku Svinčnik.
+Click on the `erase all` block in the Pen blocks section.
 
 ```blocks3
-izbriši vse
+erase all
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Ponovno zaženi kodo in preveri, ali so cvetni listi zdaj poravnani.
+Run your code again to check that the flower's petals are straight now.
 
-![posnetek zaslona](images/flower-6-straight.png)
+![screenshot](images/flower-6-straight.png)
 
-Če temu ni tako, spremeni položaj cveta, dokler njegova spodnja stran ne bo v centru.
+If not, adjust the petal's position until its bottom in the centre.
 
 \--- /task \---
