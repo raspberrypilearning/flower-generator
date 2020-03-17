@@ -4,13 +4,13 @@ This is the **Scratch 3** version of the project. There is also a [Scratch 2 ver
 
 \--- /no-print \---
 
-## 介紹
+## Introduction
 
 You will create hundreds of flowers of different sizes, shapes, and colours.
 
 You can export the flower pictures and use them as wallpapers on your phone or computer, or as backdrops in other Scratch projects.
 
-### 你會做出:
+### What you will make
 
 \--- no-print \---
 
@@ -32,11 +32,11 @@ Press `f` to draw a few flowers, or `r` to draw lots of random flowers, or `p` t
 
 ## title: What you will need
 
-### 硬體
+### Hardware
 
-+ 可運行Scratch 3的電腦
++ A computer capable of running Scratch 3
 
-### 軟體
+### Software
 
 + Scratch 3 (either [online](https://rpf.io/scratch-on) or [offline](https://rpf.io/scratch-off))
 
@@ -51,7 +51,7 @@ Press `f` to draw a few flowers, or `r` to draw lots of random flowers, or `p` t
 + How to use block inputs 
 + How to create random numbers 
 
-- - 自動隱藏選單 - -
+\--- /collapse \---
 
 ## \--- collapse \---
 
