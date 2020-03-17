@@ -1,98 +1,98 @@
-## Naključni generator rož
+## Random flower generator
 
-Zdaj boš uporabil svoj blok `nariši rožo` {: class = "block3myblocks"} za stvarjenje stotih naključnih rož po celem odru, kadar pritisneš na tipko <kbd>r</kbd>.
+You will now use your `draw flower`{:class="block3myblocks"} block to create a hundred random flowers all over the Stage whenever you press the <kbd>r</kbd>.
 
-![naključno cvetje](images/flower-random.png)
+![random flowers](images/flower-random.png)
 
 \--- task \---
 
-Kodi figure dodaj nov blok z dogodki, tako da se bo na zaslonu `izbrisalo vse`{:class="block3extensions"}, `ko je pritisnjena tipka r`{: class = "block3events"}.
+Add a new Event block to your sprite's code so that `when the r key is pressed`{:class="block3events"}, the screen is `cleared`{:class="block3extensions"}.
 
-![cvetni sprite](images/flower-sprite.png)
+![flower sprite](images/flower-sprite.png)
 
 ```blocks3
-ko je pritisnjena tipka [r v]
-izbriši vse
+when [r v] key pressed
+erase all
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Dodajte v blok `ponovitev`{: class = "block3control"} in pojdite na `naključna mesta`{: class = "block3motion"} `100` -krat.
+Add in a `repeat`{:class="block3control"} block to go to a `random position`{:class="block3motion"} `100` times.
 
-![cvetni sprite](images/flower-sprite.png)
+![flower sprite](images/flower-sprite.png)
 
 ```blocks3
-ponovite (100)
-  pojdi na (naključni položaj v)
-konec
+repeat (100)
+  go to (random position v)
+end
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Z blokom `narišite cvet`{: class = "block3myblocks"} ustvarite cvet, ki ima `naključna barva`{: class = "block3operators"} med `0` in `199`.
+Use the `draw flower`{:class="block3myblocks"} block to create a flower that has a `random`{:class="block3operators"} colour between `0` and `199`.
 
-Koda mora zdaj izgledati tako:
+You code should now look like this:
 
-![cvetni sprite](images/flower-sprite.png)
+![flower sprite](images/flower-sprite.png)
 
 ```blocks3
-ko pritisnete tipko [rv]
-izbrišite vse
-ponovite (100) 
-  pojdite na (naključni položaj v)
-  narišite rožo (izberite naključno (0) do (199)) (100) (12) :: po meri
-konec
+when [r v] key pressed
+erase all
+repeat (100) 
+  go to (random position v)
+  draw flower (pick random (0) to (199)) (100) (12) :: custom
+end
 ```
 
 \--- /task \---
 
-Ta koda ustvari sto cvetov z različnimi barvami, vendar z enako velikostjo in številom cvetnih listov.
+This code creates one hundred flowers with different colours but with the same size and numbers of petals.
 
-![rože samo z naključnimi barvami](images/flower-random-colour.png)
+![flowers just with random colours](images/flower-random-colour.png)
 
 \--- task \---
 
-Ali lahko spremenite `ko pritisnete tipko r`{: class = "block3events"}, tako da sta velikost cvetov in število cvetnih listov naključna?
+Can you modify the `when the r key is pressed`{:class="block3events"} script so the flowers' size and number of petals are also random?
 
 \--- hints \---
 
 \--- hint \---
 
-Blok `nariše cvet`{: class = "block3myblocks"} naj bi izbral `naključna števila`{: class = "block3operators"} za velikost in število cvetnih listov.
+The `draw flower`{:class="block3myblocks"} block should `pick random`{:class="block3operators"} numbers for the size and number of petals.
 
 \--- /hint \---
 
 \--- hint \---
 
-Naslednji bloki izberejo naključno velikost med `50` in `150` in naključno število cvetnih listov med `4` in `12`.
+The following blocks pick a random size between `50` and `150` and a random number of petals between `4` and `12`.
 
-![cvetni sprite](images/flower-sprite.png)
+![flower sprite](images/flower-sprite.png)
 
 ```blocks3
-(izberite naključno (50) do (150))
+(pick random (50) to (150))
 
-(izberite naključno (4) do (12))
+(pick random (4) to (12))
 ```
 
 \--- /hint \---
 
 \--- hint \---
 
-Tvoja koda bi morala izgledati tako:
+Your code should look like this:
 
-![cvetni sprite](images/flower-sprite.png)
+![flower sprite](images/flower-sprite.png)
 
 ```blocks3
-ko pritisnete tipko [rv]
-izbrišite vse
-ponovite (100) 
-  pojdite na (naključen položaj v)
-  narišite rožo (izberite naključno (0) do (199)) (izberite naključno (50) do (150)) (izberite naključno (4) do (12)) :: po meri
-konca
+when [r v] key pressed
+erase all
+repeat (100) 
+  go to (random position v)
+  draw flower (pick random (0) to (199)) (pick random (50) to (150)) (pick random (4) to (12)) :: custom
+end
 ```
 
 \--- /hint \---
@@ -103,6 +103,6 @@ konca
 
 \--- task \---
 
-Pritisnite <kbd>r</kbd> in si oglejte naključne rože.
+Press <kbd>r</kbd> to see your random flowers.
 
 \--- /task \---
