@@ -10,7 +10,7 @@ You will create hundreds of flowers of different sizes, shapes, and colours.
 
 You can export the flower pictures and use them as wallpapers on your phone or computer, or as backdrops in other Scratch projects.
 
-### Ce que tu feras
+### What you will make
 
 \--- no-print \---
 
@@ -32,13 +32,13 @@ Press `f` to draw a few flowers, or `r` to draw lots of random flowers, or `p` t
 
 ## title: What you will need
 
-### Matériel informatique
+### Hardware
 
-+ Un ordinateur capable d'exécuter Scratch 3
++ A computer capable of running Scratch 3
 
-### Logiciels
+### Software
 
-+ Scratch 3 (soit [en ligne](https://rpf.io/scratch-on) ou [hors ligne](https://rpf.io/scratch-off))
++ Scratch 3 (either [online](https://rpf.io/scratch-on) or [offline](https://rpf.io/scratch-off))
 
 \--- /collapse \---
 
