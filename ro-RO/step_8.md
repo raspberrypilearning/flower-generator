@@ -2,7 +2,7 @@
 
 You can also use your `draw flower`{:class="block3myblocks"} block to create neat flower patterns.
 
-\--- proba\---
+\--- task \---
 
 Create a flower or a combination of flowers that you like. Here's an example:
 
