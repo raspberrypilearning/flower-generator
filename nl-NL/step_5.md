@@ -1,21 +1,21 @@
-## Challenge: create a flower design
+## Uitdaging: maak een bloemontwerp
 
-Can you use your `draw flower`{:class="block3myblocks"} block several times to draw more flowers and create an interesting design? Drawing different flowers at the same location creates an interesting effect.
+Kun je je `teken bloem`{:class="block3myblocks"} blok meerdere keren gebruiken om meer bloemen te tekenen en een interessant ontwerp te maken? Het tekenen van verschillende bloemen op dezelfde locatie creëert een interessant effect.
 
-Create a design that you like. Hier is een voorbeeld:
+Maak een ontwerp dat je leuk vindt. Hier is een voorbeeld:
 
-![screenshot](images/flower-three.png)
+![schermafbeelding](images/flower-three.png)
 
-You don't have to use petals shaped like ellipses. For example, you can use thick straight lines and a black backdrop to create a firework pattern like this:
+Je hoeft geen blaadjes in de vorm van ellipsen te gebruiken. Je kunt bijvoorbeeld dikke rechte lijnen en een zwarte achtergrond gebruiken om een vuurwerkpatroon te maken:
 
-![screenshot](images/flower-fireworks.png)
+![schermafbeelding](images/flower-fireworks.png)
 
-The 'petal' for the firework pattern is just a line:
+Het 'blaadje' voor het vuurwerkpatroon is slechts een lijn:
 
-![screenshot](images/flower-firework-petal.png)
+![schermafbeelding](images/flower-firework-petal.png)
 
-Add new petal costumes and see what flowers you can come up with.
+Voeg nieuwe blaadjes uiterlijken toe en kijk welke bloemen je kunt bedenken.
 
-Try out a sprite shape that is not filled in, such as a square, and see what happens
+Probeer een sprite vorm uit die niet is ingevuld, zoals een vierkant, en kijk wat er gebeurt
 
-![screenshot](images/flower-square-petal.png)
+![schermafbeelding](images/flower-square-petal.png)
