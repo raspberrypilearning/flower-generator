@@ -1,154 +1,154 @@
-## Flower patterns
+## Bloem patronen
 
-You can also use your `draw flower`{:class="block3myblocks"} block to create neat flower patterns.
+Je kunt je `teken bloem`{:class="block3myblocks"} blok ook gebruiken om nette bloempatronen te maken.
 
 \--- task \---
 
-Create a flower or a combination of flowers that you like. Hier is een voorbeeld:
+Maak een bloem of een combinatie van bloemen die je leuk vindt. Hier is een voorbeeld:
 
-![flower sprite](images/flower-sprite.png)
+![bloem sprite](images/flower-sprite.png)
 
 ```blocks3
-when [p v] key pressed
-erase all
-go to x: (-150) y: (100)
-draw flower (150) (80) (7) :: custom
-draw flower (130) (35) (20) :: custom
+wanneer [p v] is ingedrukt
+wis alles
+ga naar x: (-150) y: (100)
+teken bloem (150) (80) (7) :: custom
+teken bloem (130) (35) (20) :: custom
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Press <kbd>p</kbd> to see your flower. The example looks like this:
+Druk op <kbd>p</kbd> om je bloem te zien. Het voorbeeld ziet er zo uit:
 
-![a flower pattern](images/flower-for-pattern-example.png)
+![een bloemenpatroon](images/flower-for-pattern-example.png)
 
 \--- /task \---
 
-Before you can create your pattern, you should clear the Stage of any leftover flowers.
+Voordat je een patroon kunt maken, moet je overgebleven bloemen verwijderen van het speelveld.
 
 \--- task \---
 
-Click on the `erase all` block in the Pen tab.
+Klik op het blok `wis alles` in het tabblad Pen.
 
 ```blocks3
-erase all
+wis alles
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Right-click on the Flower sprite and `hide`{:class="block3looks"} it so it doesn't appear on the Stage. (You can `show`{:class="block3looks"} the sprite again if you need to see where it is.)
+Klik met de rechtermuisknop op de bloem sprite en `verdwijn`{:class="block3looks"} zodat deze niet in het speelveld verschijnt. (Je kunt de sprite opnieuw` laten verschijnen`{:class="block3looks"} als je wilt zien waar het is.)
 
 \--- /task \---
 
 \--- task \---
 
-Now draw a row of these flowers across the top of the Stage. Here is some example code, in which you might need to adjust the numbers so it works with your flower:
+Teken nu een rij van deze bloemen aan de bovenkant van het speelveld. Hier is wat voorbeeldcode, waarin je mogelijk de getallen moet aanpassen zodat deze werkt met jouw bloem:
 
-![flower sprite](images/flower-sprite.png)
+![bloem sprite](images/flower-sprite.png)
 
 ```blocks3
-when [p v] key pressed
-erase all
-go to x: (-150) y: (100)
-repeat (4) 
-  draw flower (150) (80) (7) :: custom
-  draw flower (130) (35) (20) :: custom
-  change x by (100)
-end
+wanneer [p v] is ingedrukt
+wis alles
+ga naar x: (-150) y: (100)
+herhaal (4) 
+  teken bloem (150) (80) (7) :: custom
+  teken bloem (130) ( 35) (20) :: custom
+  verander x met (100)
+einde
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Press `p` to see a row of flowers:
+Druk op `p` om een rij bloemen te zien:
 
-![4 flowers in a row](images/flower-pattern-row-example.png)
+![4 bloemen op een rij](images/flower-pattern-row-example.png)
 
 \--- /task \---
 
 \--- task \---
 
-Add another loop to create more rows of flowers. This example adds a `repeat 3`{:class="block3control"} loop to create three rows.
+Voeg nog een lus toe om meer rijen bloemen te maken. Dit voorbeeld voegt een `herhaal 3`{:class="block3control"} lus toe om drie rijen te maken.
 
-![flower sprite](images/flower-sprite.png)
+![bloem sprite](images/flower-sprite.png)
 
 ```blocks3
-when [p v] key pressed
-erase all
-go to x: (-150) y: (100)
-repeat (3) 
-  repeat (4) 
-    draw flower (150) (80) (7) :: custom
-    draw flower (130) (35) (20) :: custom
-    change x by (100)
-  end
-  set x to (-150)
-  change y by (-100)
-end
+wanneer [p v] is ingedrukt
+wis alles
+ga naar x: (-150) y: (100)
+herhaal (3) 
+  herhaal (4) 
+    teken bloem (150) (80) (7) :: custom
+    teken bloem (130) (35) (20) :: custom
+    verander x met (100)
+  einde
+  maak x (-150)
+  verander y met (-100)
+einde
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Press <kbd>p</kbd> to create a grid of flowers:
+Druk op <kbd>p</kbd> om een bloemenraster te maken:
 
-![a 4 x 4 grid of flowers](images/flower-pattern-rows-example.png)
-
-\--- /task \---
-
-Do you want to speed up the drawing of the flowers?
-
-\--- task \---
-
-Right-click on the `draw flower`{:class="block3myblocks"} definition block and then click on **edit**. Click on the **Run without screen refresh** box.
-
-![turn no refresh option off](images/flower-no-refresh.png)
-
-Now the flowers get drawn more quickly.
+![een 4 x 3 raster met bloemen](images/flower-pattern-rows-example.png)
 
 \--- /task \---
 
-You can also change the colour of the Stage.
+Wil je dat de bloemen sneller getekend worden?
 
 \--- task \---
 
-Click on **Choose a backdrop**, and then click on **Paint**. Create an orange backdrop by using the Fill tool in Bitmap mode.
+Klik met de rechtermuisknop op het definitieblok `teken bloem`{:class="block3myblocks"} en klik vervolgens op **bewerken**. Klik op het vak **Voer uit zonder het scherm te verversen**.
 
-![paint new backdrop](images/flower-orange-backdrop.png)
+![schakel verversingsoptie uit](images/flower-no-refresh.png)
 
-If you use orange for the backdrop and the Flower sprite, then the numbers for different colours will match for the sprite and the backdrop.
+Nu worden de bloemen sneller getekend.
+
+\--- /task \---
+
+Je kunt ook de kleur van het speelveld veranderen.
+
+\--- task \---
+
+Klik op **Kies een achtergrond**en klik vervolgens op **Tekenen**. Maak een oranje achtergrond met behulp van het hulpmiddel Vullen in de bitmapmodus.
+
+![teken nieuwe achtergrond](images/flower-orange-backdrop.png)
+
+Als je oranje gebruikt voor de achtergrond en de bloem sprite, komen de nummers voor verschillende kleuren overeen voor de sprite en de achtergrond.
 
 \--- /task \---
 
 \--- task \---
 
-Now you can use the `set colour effect`{:class="block3looks"} on the Stage to change the colour of the backdrop.
+Nu kun je het `zet kleur effect op`{:class="block3looks"} blok in het speelveld gebruiken om de kleur van de achtergrond te wijzigen.
 
-![stage sprite](images/stage-sprite.png)
+![achtergrond sprite](images/stage-sprite.png)
 
 ```blocks3
-when [p v] key pressed
-set [color v] effect to (30)
+wanneer [p v] is ingedrukt
+stel [kleur v] effect op (30)
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Try to create a pattern you like.
+Probeer een patroon te maken dat je leuk vindt.
 
-Here's an example:
+Hier is een voorbeeld:
 
-![flowers on a green background](images/flower-pattern-background.png)
+![bloemen op een groene achtergrond](images/flower-pattern-background.png)
 
 \--- /task \---
 
-When you put it all together, you can create an amazing effect:
+Als je alles samenvoegt, kun je een geweldig effect creëren:
 
-![animation of lots of flowers](images/flower-gen-example.gif)
+![animatie van veel bloemen](images/flower-gen-example.gif)
