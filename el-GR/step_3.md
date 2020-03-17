@@ -2,7 +2,7 @@
 
 What if you want to draw lots of flowers? Instead of making lots of copies of the code, you will create your own block in Scratch and use it every time you want to draw a flower.
 
-\--- task --
+\--- task \---
 
 Click on **My Blocks** and then on **Make a Block** to create your own block called 'draw flower'.
 
@@ -10,7 +10,7 @@ Click on **My Blocks** and then on **Make a Block** to create your own block cal
 
 \--- /task \---
 
-\--- task --
+\--- task \---
 
 There is now a new block called `draw flower`{:class="block3myblocks"} in the **More blocks** section, and a new definition block on the Stage.
 
@@ -22,11 +22,11 @@ define draw flower
 
 \--- /task \---
 
-\--- task --
+\--- task \---
 
 Move your code for drawing the flower from the `when green flag clicked`{:class="block3events"} block to the new `draw flower`{:class="block3myblocks"} definition block.
 
-Ο κώδικας θα πρέπει να μοιάζει κάπως έτσι:
+Your code should look like this:
 
 ![flower sprite](images/flower-sprite.png)
 
@@ -42,7 +42,7 @@ when green flag clicked
 
 \--- /task \---
 
-\--- task --
+\--- task \---
 
 Add the following code to clear the Stage and to use your new `draw flower`{:class="block3myblocks"} block when the green flag is clicked:
 
@@ -56,13 +56,13 @@ draw flower :: custom
 
 \--- /task \---
 
-\--- task --
+\--- task \---
 
 Click the green flag to test your code and check whether you see a flower.
 
 \--- /task \---
 
-\--- task --
+\--- task \---
 
 Now change your code to move the sprite and then draw another flower:
 
@@ -79,7 +79,7 @@ draw flower :: custom
 
 \--- /task \---
 
-\--- task --
+\--- task \---
 
 Test your code to check that you now see two flowers.
 
