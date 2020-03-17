@@ -2,7 +2,7 @@
 
 At the moment all the flowers you draw are exactly the same. Next you're going to add some inputs to the `draw flower`{:class="block3myblocks"} block so that you can draw flowers with different colours, sizes, and numbers of petals.
 
-\--- proba\---
+\--- task \---
 
 In Scratch you can use the `set colour effect`{:class="block3looks"} block to change the colour of a sprite.
 
@@ -25,7 +25,7 @@ end
 
 Run your code to see flowers of different colours.
 
-![captură de ecran](images/flower-pink.png)
+![screenshot](images/flower-pink.png)
 
 `set colour effect`{:class="block3looks"} changes the colour based on the default colour of the sprite, so if your sprite doesn't start out orange, you get different results.
 
@@ -43,7 +43,7 @@ At the moment all flowers are the same colour. To give each flower a different c
 
 Right-click on the `draw flower`{:class="block3myblocks"} definition block and choose **edit**:
 
-![captură de ecran](images/flower-edit.png)
+![screenshot](images/flower-edit.png)
 
 \--- /task \---
 
@@ -51,7 +51,7 @@ Right-click on the `draw flower`{:class="block3myblocks"} definition block and c
 
 Now add a **input number** called 'colour':
 
-![captură de ecran](images/flower-colour-input-annotated.png)
+![screenshot](images/flower-colour-input-annotated.png)
 
 The input appears in the `draw flower`{:class="block3myblocks"} definition, and you can drag it to where you want to use it.
 
@@ -61,7 +61,7 @@ The input appears in the `draw flower`{:class="block3myblocks"} definition, and 
 
 Drag the 'colour' input to the `set colour effect`{:class="block3looks"} block:
 
-![captură de ecran](images/flower-use-colour-annotated.png)
+![screenshot](images/flower-use-colour-annotated.png)
 
 Your code should look like this:
 
@@ -122,15 +122,15 @@ With the block above, you can create flowers with different sizes:
 
 ![different sized flowers](images/flower-different-sizes.png)
 
-\--- sugestii \---
+\--- hints \---
 
-\--- indiciu \---
+\--- hint \---
 
 Look at what you did to add the `colour` input, and repeat it to add a 'size' input that you can use to set the size of the Flower sprite.
 
-\--- / indiciu \---
+\--- /hint \---
 
-\--- indiciu \---
+\--- hint \---
 
 Edit the `draw flower`{:class="block3myblocks"} block to add a new number input called 'size'.
 
@@ -140,9 +140,9 @@ You need to add the following block with a 'size' input to the `draw flower`{:cl
 set size to (100) %
 ```
 
-\--- / indiciu \---
+\--- /hint \---
 
-\--- indiciu \---
+\--- hint \---
 
 Right-click on the `draw flower`{:class="block3myblocks"} definition block, click on **edit**, and add a number input called 'size'.
 
@@ -160,9 +160,9 @@ repeat (6)
 end
 ```
 
-\--- / indiciu \---
+\--- /hint \---
 
-\--- / sugestii \---
+\--- /hints \---
 
 \--- /task \--- \--- task \---
 
