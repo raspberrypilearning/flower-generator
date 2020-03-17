@@ -1,15 +1,15 @@
-## Shrani svoje slike
+## Save your images
 
-Ko ustvariš sliko, ki ti je všeč, jo lahko shraniš in uporabiš v drugem Scratch projektu, ali kot ohranjevalnik zaslona, ali za spletno stran.
+When you create an image you like, you can save it and use it in another Scratch project, as a screensaver, or on a website.
 
 \--- task \---
 
-Ko je na odru slika, ki ti je všeč, klikni nanjo z desno tipko miške in nato klikni na **shrani sliko kot**
+When there is an image on the Stage that you like, right-click it and then click on **save image as**
 
-**Opomba:** na nekaterih računalnikih ali brskalnikih je lahko opcija za shranjevanje slike poimenovana drugače.
+**Note:** on some computers or browsers, the menu option for saving your image may be named differently.
 
-![posnetek zaslona](images/flower-save-stage.png)
+![screenshot](images/flower-save-stage.png)
 
-Tako lahko shraniš sliko odra kot PNG sliko.
+Then you can save a PNG image of the Stage.
 
 \--- /task \---
