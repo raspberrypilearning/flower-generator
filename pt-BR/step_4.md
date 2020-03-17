@@ -63,7 +63,7 @@ Drag the 'colour' input to the `set colour effect`{:class="block3looks"} block:
 
 ![screenshot](images/flower-use-colour-annotated.png)
 
-Seu código deve ficar assim:
+Your code should look like this:
 
 ![flower sprite](images/flower-sprite.png)
 
@@ -122,7 +122,7 @@ With the block above, you can create flowers with different sizes:
 
 ![different sized flowers](images/flower-different-sizes.png)
 
-\--- dica \---
+\--- hints \---
 
 \--- hint \---
 
