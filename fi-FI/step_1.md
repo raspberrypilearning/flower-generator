@@ -4,13 +4,13 @@ This is the **Scratch 3** version of the project. There is also a [Scratch 2 ver
 
 \--- /no-print \---
 
-## Esittely
+## Introduction
 
 You will create hundreds of flowers of different sizes, shapes, and colours.
 
 You can export the flower pictures and use them as wallpapers on your phone or computer, or as backdrops in other Scratch projects.
 
-### Mitä tulet tekemään
+### What you will make
 
 \--- no-print \---
 
@@ -32,11 +32,11 @@ Press `f` to draw a few flowers, or `r` to draw lots of random flowers, or `p` t
 
 ## title: What you will need
 
-### Laitteisto
+### Hardware
 
-+ Tietokone, joka pystyy käyttämään Scratch 3 -ohjelmaa
++ A computer capable of running Scratch 3
 
-### Ohjelmisto
+### Software
 
 + Scratch 3 (either [online](https://rpf.io/scratch-on) or [offline](https://rpf.io/scratch-off))
 
