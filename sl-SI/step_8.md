@@ -1,108 +1,108 @@
-## Cvetni vzorci
+## Flower patterns
 
-Lahko uporabite tudi blok `draw flower`{: class = "block3myblocks"}, da ustvarite čedne vzorce cvetov.
+You can also use your `draw flower`{:class="block3myblocks"} block to create neat flower patterns.
 
 \--- task \---
 
-Ustvari cvet ali kombinacijo cvetov, ki ti je všeč. Tukaj je primer:
+Create a flower or a combination of flowers that you like. Here's an example:
 
-![cvetni sprite](images/flower-sprite.png)
+![flower sprite](images/flower-sprite.png)
 
 ```blocks3
-ko pritisnete tipko [pv]
-izbrišite vse
-pojdite na x: (-150) y: (100)
-narišite rožo (150) (80) (7) ::
-ročice po meri narišite (130) (35) (20) :: po meri
+when [p v] key pressed
+erase all
+go to x: (-150) y: (100)
+draw flower (150) (80) (7) :: custom
+draw flower (130) (35) (20) :: custom
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Pritisnite <kbd>p</kbd> da vidite svojo rožo. Primer je videti tako:
+Press <kbd>p</kbd> to see your flower. The example looks like this:
 
-![cvetni vzorec](images/flower-for-pattern-example.png)
+![a flower pattern](images/flower-for-pattern-example.png)
 
 \--- /task \---
 
-Preden lahko ustvarite svoj vzorec, počistite fazo vseh preostalih cvetov.
+Before you can create your pattern, you should clear the Stage of any leftover flowers.
 
 \--- task \---
 
-Kliknite zavihek `zbriši vseh` na zavihku Pen.
+Click on the `erase all` block in the Pen tab.
 
 ```blocks3
-izbrisati vse
+erase all
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Z desno miškino tipko kliknite rožico Flower in `skrite`{: class = "block3looks"}, da se ne prikaže na odru. (Lahko `predstava`{: class = "block3looks"}. Sprite ponovno, če želite videti, kje je to)
+Right-click on the Flower sprite and `hide`{:class="block3looks"} it so it doesn't appear on the Stage. (You can `show`{:class="block3looks"} the sprite again if you need to see where it is.)
 
 \--- /task \---
 
 \--- task \---
 
-Zdaj narišite vrstico teh cvetov čez vrh Stage. Tu je nekaj primerov kode, v katerih boste morda morali prilagoditi številke, da bo delovala z vašo rožo:
+Now draw a row of these flowers across the top of the Stage. Here is some example code, in which you might need to adjust the numbers so it works with your flower:
 
-![cvetni sprite](images/flower-sprite.png)
+![flower sprite](images/flower-sprite.png)
 
 ```blocks3
-ko pritisnete tipko [pv]
-izbrišite vse
-pojdite na x: (-150) y: (100)
-ponovite (4) 
-  narišite cvet (150) (80) (7) :: po meri
-  narišite cvet (130) ( 35) (20) :: po meri
-  spremenite x za (100)
-konec
+when [p v] key pressed
+erase all
+go to x: (-150) y: (100)
+repeat (4) 
+  draw flower (150) (80) (7) :: custom
+  draw flower (130) (35) (20) :: custom
+  change x by (100)
+end
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Pritisnite `p` če si želite ogledati vrsto cvetov:
+Press `p` to see a row of flowers:
 
-![4 rože v vrsti](images/flower-pattern-row-example.png)
+![4 flowers in a row](images/flower-pattern-row-example.png)
 
 \--- /task \---
 
 \--- task \---
 
-Dodajte še eno zanko, da ustvarite več vrstic cvetov. Ta primer doda zanko `ponovitve 3`{: class = "block3control"}, da ustvarite tri vrstice.
+Add another loop to create more rows of flowers. This example adds a `repeat 3`{:class="block3control"} loop to create three rows.
 
-![cvetni sprite](images/flower-sprite.png)
+![flower sprite](images/flower-sprite.png)
 
 ```blocks3
-ko pritisnete tipko [pv]
-izbrišite vse
-pojdite na x: (-150) y: (100)
-ponovite (3) 
-  ponovite (4) 
-    narišite cvet (150) (80) (7) :: po meri
-    narišite cvet (130) (35) (20) :: po meri
-    sprememba x za (100)
-  konec
-  nastavitev x v (-150)
-  sprememba y za (-100)
-konec
+when [p v] key pressed
+erase all
+go to x: (-150) y: (100)
+repeat (3) 
+  repeat (4) 
+    draw flower (150) (80) (7) :: custom
+    draw flower (130) (35) (20) :: custom
+    change x by (100)
+  end
+  set x to (-150)
+  change y by (-100)
+end
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Pritisnite <kbd>p</kbd> da ustvarite mrežo rož:
+Press <kbd>p</kbd> to create a grid of flowers:
 
-![mrežo cvetov 4 x 4](images/flower-pattern-rows-example.png)
+![a 4 x 4 grid of flowers](images/flower-pattern-rows-example.png)
 
 \--- /task \---
 
-Ali želite pospešiti risanje cvetov?
+Do you want to speed up the drawing of the flowers?
 
 \--- task \---
 
@@ -133,8 +133,8 @@ Now you can use the `set colour effect`{:class="block3looks"} on the Stage to ch
 ![stage sprite](images/stage-sprite.png)
 
 ```blocks3
-ko pritisnete tipko [pv]
-nastavite [barva v] učinek na (30)
+when [p v] key pressed
+set [color v] effect to (30)
 ```
 
 \--- /task \---
