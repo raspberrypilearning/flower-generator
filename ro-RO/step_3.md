@@ -2,11 +2,11 @@
 
 What if you want to draw lots of flowers? Instead of making lots of copies of the code, you will create your own block in Scratch and use it every time you want to draw a flower.
 
-\--- proba\---
+\--- task \---
 
 Click on **My Blocks** and then on **Make a Block** to create your own block called 'draw flower'.
 
-![captură de ecran](images/flower-make-block.png)
+![screenshot](images/flower-make-block.png)
 
 \--- /task \---
 
@@ -83,6 +83,6 @@ draw flower :: custom
 
 Test your code to check that you now see two flowers.
 
-![captură de ecran](images/flower-two.png)
+![screenshot](images/flower-two.png)
 
 \--- /task \---
