@@ -1,15 +1,15 @@
-## अपनी छवियों को सहेजें
+## Save your images
 
-जब आप अपनी पसंद की कोई छवि बनाते हैं, तो आप इसे सहेज सकते हैं और इसका उपयोग किसी अन्य Scratch प्रोजेक्ट में, स्क्रीनसेवर के रूप में, या वेबसाइट पर उपयोग कर सकते हैं।
+When you create an image you like, you can save it and use it in another Scratch project, as a screensaver, or on a website.
 
 \--- task \---
 
-जब स्टेज पर कोई ऐसी छवि होती है जिसे आप पसंद करते हैं, तो उसे राइट-क्लिक करें और फिर **save image as** (छवि को इस रूप में सहेजें) पर क्लिक करें
+When there is an image on the Stage that you like, right-click it and then click on **save image as**
 
-**ध्यान दें:** कुछ कंप्यूटरों या ब्राउज़रों पर, आपकी छवि को सहेजने के लिए मेनू विकल्प को अलग नाम दिया जा सकता है।
+**Note:** on some computers or browsers, the menu option for saving your image may be named differently.
 
-![स्क्रीनशॉट](images/flower-save-stage.png)
+![screenshot](images/flower-save-stage.png)
 
-फिर आप स्टेज की PNG छवि को सहेज सकते हैं।
+Then you can save a PNG image of the Stage.
 
 \--- /task \---
