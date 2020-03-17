@@ -1,163 +1,163 @@
-## Prilagodi svoje rože
+## Customise your flowers
 
-Trenutno so vse rože, ki jih narišeš, popolnoma enake. Sedaj boš bloku `nariši rožo`{:class="block3myblocks"} dodal nekaj vnosov, da boš lahko narisal rože z različnih barv, velikosti in z različnim številom cvetnih listov.
+At the moment all the flowers you draw are exactly the same. Next you're going to add some inputs to the `draw flower`{:class="block3myblocks"} block so that you can draw flowers with different colours, sizes, and numbers of petals.
 
 \--- task \---
 
-V Scratchu lahko uporabiš blok `nastavi barvni učinek`{: class = "block3looks"}, da spremeniš barvo figure.
+In Scratch you can use the `set colour effect`{:class="block3looks"} block to change the colour of a sprite.
 
-Za spremembo barve, spremeni definicijo za "nariši rožo":
+Change your 'draw flower' definition to change the colour:
 
-![cvetni sprite](images/flower-sprite.png)
+![flower sprite](images/flower-sprite.png)
 
 ```blocks3
-definiraj nariši rožo
-nastavi učinek [barva v] na (150)
-ponovi (6) krat 
-  žig
-  obrni se za (60) stopinj v desno
-konec
+define draw flower
+set [color v] effect to (150)
+repeat (6) 
+  stamp
+  turn cw (60) degrees
+end
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Zaženi kodo in videl boš cvetje različnih barv.
+Run your code to see flowers of different colours.
 
-![posnetek zaslona](images/flower-pink.png)
+![screenshot](images/flower-pink.png)
 
-`nastavi učinek barva`{: class = "block3looks"} spremeni barvo glede na izhodiščno barvo figure, zato bodo rezultati drugačni, če ta ni oranžna.
-
-\--- /task \---
-
-\--- task \---
-
-Uporabi različna števila med `0` in `199` v bloku `nastavi učinek barva`{:class="block3looks"} in opazuj, kako se razlikujejo rezultati.
-
-\--- /task \---
-
-Trenutno so vse rože iste barve. Da bi vsaka roža bila drugačne barve, moraš dodati **vnos** bloku `nariši rožo`{: class = "block3myblocks"}.
-
-\--- task \---
-
-Z desno tipko miške klikni na definicijski blok `nariši rožo`{: class = "block3myblocks"} in izberi **Uredi**:
-
-![posnetek zaslona](images/flower-edit.png)
+`set colour effect`{:class="block3looks"} changes the colour based on the default colour of the sprite, so if your sprite doesn't start out orange, you get different results.
 
 \--- /task \---
 
 \--- task \---
 
-Zdaj dodaj **vnos številke**, imenovan "barva":
+Experiment with using different numbers from `0` to `199` in the `set colour effect`{:class="block3looks"} block, and see what different results you get.
 
-![posnetek zaslona](images/flower-colour-input-annotated.png)
+\--- /task \---
 
-Vnos se pojavi v definiciji `nariši rožo`{: class = "block3myblocks"} in ga lahko povlečeš tja, kjer ga želiš uporabiti.
+At the moment all flowers are the same colour. To give each flower a different colour, you need to add an **input** to the `draw flower`{:class="block3myblocks"} block.
+
+\--- task \---
+
+Right-click on the `draw flower`{:class="block3myblocks"} definition block and choose **edit**:
+
+![screenshot](images/flower-edit.png)
 
 \--- /task \---
 
 \--- task \---
 
-Povleči vnos 'barva' na blok `nastavi učinek barva`{: class = "block3looks"}:
+Now add a **input number** called 'colour':
 
-![posnetek zaslona](images/flower-use-colour-annotated.png)
+![screenshot](images/flower-colour-input-annotated.png)
 
-Tvoja koda bi morala izgledati tako:
+The input appears in the `draw flower`{:class="block3myblocks"} definition, and you can drag it to where you want to use it.
 
-![cvetni sprite](images/flower-sprite.png)
+\--- /task \---
+
+\--- task \---
+
+Drag the 'colour' input to the `set colour effect`{:class="block3looks"} block:
+
+![screenshot](images/flower-use-colour-annotated.png)
+
+Your code should look like this:
+
+![flower sprite](images/flower-sprite.png)
 
 ```blocks3
-definiraj nariši rožo (barva :: custom-arg)
-nastavi učinek [barva v] na (barva :: custom-arg)
-ponovi (6) krat 
-  žig
-  obrni se za (60) stopinj v desno
-konec
+define draw flower (colour)
+set [color v] effect to (colour :: custom-arg)
+repeat (6)
+  stamp
+  turn cw (60) degrees
+end
 ```
 
 \--- /task \---
 
-Upoštevaj, da imajo tvoji bloki `nariši rožo`:: class = "block3myblocks"} sedaj nov vnos, ki je nastavljen na `1`:
+Notice that your `draw flower`{:class="block3myblocks"} blocks now have a new input that is set to `1`:
 
 ```blocks3
-ko je kliknjena zelena zastavica
-izbriši vse
-pojdi na x: (75) y: (75)
-nariši rožo (1) :: custom
-pojdi na x: (-75) y: (-75)
-nariši rožo (1) :: custom
+when green flag clicked
+erase all
+go to x: (75) y: (75)
+draw flower (1) :: custom
+go to x: (-75) y: (-75)
+draw flower (1) :: custom
 ```
 
 \--- task \---
 
-Spremeni številke v blokih `nariši rožo`:: class = "block3myblocks"}, da se roži pojavita v različnih barvah. Izbereš lahko poljubne številke med 0 in 200.
+Change the numbers in the `draw flower`{:class="block3myblocks"} blocks so that the two flowers appear in different colours. You can pick any numbers between 0 and 200.
 
-Tvoja koda bi morala biti podobna tej:
+Your code should look similar to this:
 
-![cvetni sprite](images/flower-sprite.png)
+![flower sprite](images/flower-sprite.png)
 
 ```blocks3
-ko je kliknjena zelena zastavica
-izbriši vse
-pojdi na x: (75) y: (75)
-nariši rožo (180) :: custom
-pojdi na x: (-75) y: (-75)
-nariši rožo (150) :: custom
+when green flag clicked
+erase all
+go to x: (75) y: (75)
+draw flower (180) :: custom
+go to x: (-75) y: (-75)
+draw flower (150) :: custom
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Dodaj še en vnos, ki določi velikost rože, tako da bo tvoj blok `nariši rožo`{: class = "block3myblocks"} izgledal tako:
+Now add another input to set the size of the flower, so your `draw flower`{:class="block3myblocks"} block looks like this:
 
-![cvetni sprite](images/flower-sprite.png)
+![flower sprite](images/flower-sprite.png)
 
 ```blocks3
-nariši rožo (180) (150) :: custom
+draw flower (180) (150) :: custom
 ```
 
-Z zgornjim blokom lahko ustvariš rože različnih velikosti:
+With the block above, you can create flowers with different sizes:
 
-![cvetje različnih velikosti](images/flower-different-sizes.png)
+![different sized flowers](images/flower-different-sizes.png)
 
 \--- hints \---
 
 \--- hint \---
 
-Na enak način, kot si dodal-a vnos `barva` dodaj še vnos 'velikost', ki ga lahko uporabiš za nastavitev velikosti figure rože.
+Look at what you did to add the `colour` input, and repeat it to add a 'size' input that you can use to set the size of the Flower sprite.
 
 \--- /hint \---
 
 \--- hint \---
 
-Uredi blok `nariši rožo`{: class = "block3myblocks"} in dodaj nov vnos številke, imenovan "velikost".
+Edit the `draw flower`{:class="block3myblocks"} block to add a new number input called 'size'.
 
-Defincijskemu bloku `nariši rožo`{: class = "block3myblocks"} moraš dodati sledeči blok z vnosom 'velikost':
+You need to add the following block with a 'size' input to the `draw flower`{:class="block3myblocks"} definition block:
 
 ```blocks3
-nastavi velikost na (100)%
+set size to (100) %
 ```
 
 \--- /hint \---
 
 \--- hint \---
 
-Z desno tipko miške klikni na definicijski blok `nariši rožo`{: class = "block3myblocks"}, klikni na **Uredi**in dodaj vnos številke in ga poimenuj "velikost".
+Right-click on the `draw flower`{:class="block3myblocks"} definition block, click on **edit**, and add a number input called 'size'.
 
-![cvetni sprite](images/flower-sprite.png)
+![flower sprite](images/flower-sprite.png)
 
-Spremeni skript za `nariši rožo`{: class = "block3myblocks"}, da bo videti tako:
+Change your `define draw flower`{:class="block3myblocks"} script so it looks like this:
 
 ```blocks3
-definiraj nariši rožo (barva :: custom-arg) (barva :: custom-arg)
-nastavi učinek [barva v] na (barva :: custom-arg)
-nastavi velikost na (velikost :: custom-arg) %
-ponovi (6) krat 
-  žig
-  obrni se za (60) stopinj v desno
-konec
+define draw flower (colour) (size :: custom-arg)
+set [color v] effect to (colour :: custom-arg)
+set size to (size :: custom-arg) %
+repeat (6) 
+  stamp
+  turn cw (60) degrees
+end
 ```
 
 \--- /hint \---
@@ -169,12 +169,12 @@ konec
 In the `when green flag clicked`{:class="block3events"} script, change the second number in both `draw flower`{:class="block3myblocks"} blocks so that the two flowers appear in different sizes.
 
 ```blocks3
-ko kliknete zeleno zastavo
-zbrišite vse
-pojdite na x: (75) y: (75)
-narišite cvet (180) (150) :: po meri
-pojdite na x: (-75) y: (-75)
-narišite rožo (150) (50) :: po meri
+when green flag clicked
+erase all
+go to x: (75) y: (75)
+draw flower (180) (150) :: custom
+go to x: (-75) y: (-75)
+draw flower (150) (50) :: custom
 ```
 
 \--- /task \---
@@ -210,22 +210,22 @@ Change your `define draw flower`{:class="block3myblocks"} block to look like thi
 ![flower sprite](images/flower-sprite.png)
 
 ```blocks3
-definiraj nariši rožo (barva :: custom-arg) (velikost :: custom-arg) (petalov :: custom-arg)
+define draw flower (colour) (size :: custom-arg) (petals)
 ```
 
 Update your `repeat`{:class="block3control"} and `turn`{:class="block3looks"} blocks so they use the 'petals' input.
 
 ```blocks3
-ponovite (cvetni listi: custom-arg) 
-konec
+repeat (petals :: custom-arg) 
+end
 
-obrat cw ((360) / (cvetni listi: custom-arg)) stopnje
+turn cw ((360) / (petals :: custom-arg)) degrees
 ```
 
 Update your `draw flower`{:class="block3myblocks"} blocks to use the 'petals' input.
 
 ```blocks3
-nariši rožo (150) (50) (8) :: po meri
+draw flower (150) (50) (8) :: custom
 ```
 
 \--- /hint \---
@@ -239,25 +239,25 @@ Edit your `define draw flower`{:class="block3myblocks"} block and add a new numb
 Your code should look like this:
 
 ```blocks3
-definiraj nariši rožo (barva :: custom-arg) (velikost :: custom-arg) (petalov :: custom-arg)
-nastavi učinek [barva v] na (barva :: custom-arg)
-nastavi velikost na (velikost :: custom-arg) %
-ponovi (petalov :: custom-arg) krat 
-  žig
-  obrni se za ((360) / (petalov :: custom-arg)) stopinj v desno
-konec
+define draw flower (colour) (size :: custom-arg) (petals)
+set [color v] effect to (colour :: custom-arg)
+set size to (size :: custom-arg) %
+repeat (petals :: custom-arg) 
+  stamp
+  turn cw ((360) / (petals :: custom-arg)) degrees
+end
 
 ```
 
 In the `when green flag clicked`{:class="block3events"} script, change the third number in both `draw flower`{:class="block3myblocks"} blocks so that the two flowers that appear have different numbers of petals.
 
 ```blocks3
-ko je kliknjena zelena zastavica
-izbriši vse
-pojdi na x: (75) y: (75)
-nariši rožo (180) (150) (3) :: custom
-pojdi na x: (-75) y: (-75)
-nariši rožo (150) (50) (8) :: custom
+when green flag clicked
+erase all
+go to x: (75) y: (75)
+draw flower (180) (150) (3) :: custom
+go to x: (-75) y: (-75)
+draw flower (150) (50) (8) :: custom
 ```
 
 \--- /hint \---
@@ -275,16 +275,16 @@ Now move your code for drawing flowers away from below the `when green flag clic
 ![flower sprite](images/flower-sprite.png)
 
 ```blocks3
-ko je kliknjena zelena zastavica
+when green flag clicked
 ```
 
 ```blocks3
-ko je pritisnjena tipka [f v]
-izbriši vse
-pojdi na x: (75) y: (75)
-nariši rožo (180) (150) (3) :: custom
-pojdi na x: (-75) y: (-75)
-nariši rožo (150) (50) (8) :: custom
+when [f v] key pressed
+erase all
+go to x: (75) y: (75)
+draw flower (180) (150) (3) :: custom
+go to x: (-75) y: (-75)
+draw flower (150) (50) (8) :: custom
 ```
 
 \--- /task \---
