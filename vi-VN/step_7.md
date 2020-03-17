@@ -15,7 +15,7 @@ when [r v] key pressed
 erase all
 ```
 
-\--- /bài tập \---
+\--- /task \---
 
 \--- task \---
 
