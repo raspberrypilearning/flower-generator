@@ -1,163 +1,163 @@
-## Customise your flowers
+## Personaliseer je bloemen
 
-At the moment all the flowers you draw are exactly the same. Next you're going to add some inputs to the `draw flower`{:class="block3myblocks"} block so that you can draw flowers with different colours, sizes, and numbers of petals.
+Op dit moment zijn alle bloemen die je tekent precies hetzelfde. Nu ga je enkele invoervelden toevoegen aan het `teken bloem`{:class="block3myblocks"} blok zodat je bloemen kunt tekenen met verschillende kleuren, maten en aantallen blaadjes.
 
 \--- task \---
 
-In Scratch you can use the `set colour effect`{:class="block3looks"} block to change the colour of a sprite.
+In Scratch kun je het blok `zet kleur effect`{:class="block3looks"} gebruiken om de kleur van een sprite te wijzigen.
 
-Change your 'draw flower' definition to change the colour:
+Wijzig je 'teken bloem' definitie om de kleur te wijzigen:
 
-![flower sprite](images/flower-sprite.png)
+![bloem sprite](images/flower-sprite.png)
 
 ```blocks3
-define draw flower
-set [color v] effect to (150)
-repeat (6) 
-  stamp
-  turn cw (60) degrees
-end
+definieer teken bloem
+zet [kleur v] effect op (150)
+herhaal (6) 
+  stempel
+  draai (60) graden naar rechts
+einde
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Run your code to see flowers of different colours.
+Voer je code uit om bloemen van verschillende kleuren te zien.
 
-![screenshot](images/flower-pink.png)
+![schermafbeelding](images/flower-pink.png)
 
-`set colour effect`{:class="block3looks"} changes the colour based on the default colour of the sprite, so if your sprite doesn't start out orange, you get different results.
-
-\--- /task \---
-
-\--- task \---
-
-Experiment with using different numbers from `0` to `199` in the `set colour effect`{:class="block3looks"} block, and see what different results you get.
-
-\--- /task \---
-
-At the moment all flowers are the same colour. To give each flower a different colour, you need to add an **input** to the `draw flower`{:class="block3myblocks"} block.
-
-\--- taak \---
-
-Right-click on the `draw flower`{:class="block3myblocks"} definition block and choose **edit**:
-
-![screenshot](images/flower-edit.png)
+`zet kleur effect`{:class="block3looks"} wijzigt de kleur op basis van de standaardkleur van de sprite, dus als je sprite niet oranje begint, krijg je verschillende resultaten.
 
 \--- /task \---
 
 \--- task \---
 
-Now add a **input number** called 'colour':
+Experimenteer met het gebruik van verschillende getallen van `0` tot `199` in het `zet kleur effect`{:class="block3looks"} en bekijk welke verschillende resultaten je krijgt.
 
-![screenshot](images/flower-colour-input-annotated.png)
+\--- /task \---
 
-The input appears in the `draw flower`{:class="block3myblocks"} definition, and you can drag it to where you want to use it.
+Op dit moment hebben alle bloemen dezelfde kleur. Om elke bloem een andere kleur te geven, moet je een **invoer** aan het `teken bloem`{:class="block3myblocks"} blok toevoegen.
+
+\--- task \---
+
+Klik met de rechtermuisknop op het definitieblok `teken bloem`{:class="block3myblocks"} en kies **bewerk**:
+
+![schermafbeelding](images/flower-edit.png)
 
 \--- /task \---
 
 \--- task \---
 
-Drag the 'colour' input to the `set colour effect`{:class="block3looks"} block:
+Voeg nu een **invoer** toe met de naam 'kleur':
 
-![screenshot](images/flower-use-colour-annotated.png)
+![schermafbeelding](images/flower-colour-input-annotated.png)
+
+De invoer verschijnt in de definitie van `teken bloem`{:class="block3myblocks"} en je kunt deze naar de gewenste locatie slepen.
+
+\--- /task \---
+
+\--- task \---
+
+Sleep de invoer 'kleur' naar het `zet kleur effect`{:class="block3looks"} blok:
+
+![schermafbeelding](images/flower-use-colour-annotated.png)
 
 Je code zou er als volgt uit moeten zien:
 
-![flower sprite](images/flower-sprite.png)
+![bloem sprite](images/flower-sprite.png)
 
 ```blocks3
-define draw flower (colour)
-set [color v] effect to (colour :: custom-arg)
-repeat (6)
-  stamp
-  turn cw (60) degrees
-end
+definieer teken bloem (kleur)
+zet [kleur v] effect op (kleur :: custom-arg)
+herhaal (6)
+  stempel
+  draai (60) graden naar rechts
+einde
 ```
 
 \--- /task \---
 
-Notice that your `draw flower`{:class="block3myblocks"} blocks now have a new input that is set to `1`:
+Merk op dat je `teken bloem`{:class="block3myblocks"} blokken nu een nieuwe invoer hebben die is ingesteld op `1`:
 
 ```blocks3
-when green flag clicked
-erase all
-go to x: (75) y: (75)
-draw flower (1) :: custom
-go to x: (-75) y: (-75)
-draw flower (1) :: custom
+wanneer op de groene vlag wordt geklikt
+wis alles
+ga naar x: (75) y: (75)
+teken bloem (1) :: custom
+ga naar x: (-75) y: (-75)
+teken bloem (1) :: custom
 ```
 
 \--- task \---
 
-Change the numbers in the `draw flower`{:class="block3myblocks"} blocks so that the two flowers appear in different colours. You can pick any numbers between 0 and 200.
+Wijzig de getallen in de `teken bloem`{:class="block3myblocks"} blokken zodat de twee bloemen in verschillende kleuren verschijnen. Je kunt elk nummer tussen 0 en 200 kiezen.
 
-Your code should look similar to this:
+Je code zou er ongeveer zo uit moeten zien:
 
-![flower sprite](images/flower-sprite.png)
+![bloem sprite](images/flower-sprite.png)
 
 ```blocks3
-when green flag clicked
-erase all
-go to x: (75) y: (75)
-draw flower (180) :: custom
-go to x: (-75) y: (-75)
-draw flower (150) :: custom
+wanneer op de groene vlag wordt geklikt
+wis alles
+ga naar x: (75) y: (75)
+teken bloem (180) :: custom
+ga naar x: (-75) y: (-75)
+teken bloem (150) :: custom
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Now add another input to set the size of the flower, so your `draw flower`{:class="block3myblocks"} block looks like this:
+Voeg nu een andere invoer toe om de grootte van de bloem in te stellen, zodat je `teken bloem`{:class="block3myblocks"} blok er zo uitziet:
 
-![flower sprite](images/flower-sprite.png)
+![bloem sprite](images/flower-sprite.png)
 
 ```blocks3
-draw flower (180) (150) :: custom
+teken bloem (180) (150) :: custom
 ```
 
-With the block above, you can create flowers with different sizes:
+Met het bovenstaande blok kun je bloemen met verschillende maten maken:
 
-![different sized flowers](images/flower-different-sizes.png)
+![bloemen van verschillende grootte](images/flower-different-sizes.png)
 
 \--- hints \---
 
 \--- hint \---
 
-Look at what you did to add the `colour` input, and repeat it to add a 'size' input that you can use to set the size of the Flower sprite.
+Kijk wat je hebt gedaan om de `kleur` invoer toe te voegen en herhaal dit om een 'grootte'-invoer toe te voegen die je kunt gebruiken om de grootte van de bloem sprite in te stellen.
 
 \--- /hint \---
 
 \--- hint \---
 
-Edit the `draw flower`{:class="block3myblocks"} block to add a new number input called 'size'.
+Bewerk het blok `teken bloem`{:class="block3myblocks"} om een nieuwe invoer 'grootte' toe te voegen.
 
-You need to add the following block with a 'size' input to the `draw flower`{:class="block3myblocks"} definition block:
+Je moet het volgende blok met een 'grootte' invoer toevoegen aan het definitieblok `teken bloem`{:class="block3myblocks"}:
 
 ```blocks3
-set size to (100) %
+maak grootte (100) %
 ```
 
 \--- /hint \---
 
 \--- hint \---
 
-Right-click on the `draw flower`{:class="block3myblocks"} definition block, click on **edit**, and add a number input called 'size'.
+Klik met de rechtermuisknop op het definitieblok `teken bloem`{:class="block3myblocks"}, klik op **bewerk**en voeg een invoer toe met de naam 'grootte'.
 
-![flower sprite](images/flower-sprite.png)
+![bloem sprite](images/flower-sprite.png)
 
-Change your `define draw flower`{:class="block3myblocks"} script so it looks like this:
+Verander je `definieer teken bloem`{:class="block3myblocks"} script zodat het er zo uitziet:
 
 ```blocks3
-define draw flower (colour) (size :: custom-arg)
-set [color v] effect to (colour :: custom-arg)
-set size to (size :: custom-arg) %
-repeat (6) 
-  stamp
-  turn cw (60) degrees
-end
+definieer teken bloem (kleur) (grootte :: custom-arg)
+zet [kleur v] effect op (kleur :: custom-arg)
+maak grootte (maat :: custom-arg) %
+herhaal (6) 
+  stempel
+  draai (60) graden naar rechts
+einde
 ```
 
 \--- /hint \---
@@ -166,98 +166,98 @@ end
 
 \--- /task \--- \--- task \---
 
-In the `when green flag clicked`{:class="block3events"} script, change the second number in both `draw flower`{:class="block3myblocks"} blocks so that the two flowers appear in different sizes.
+In het `wanneer op de groene vlag wordt geklikt`{:class="block3events"} script, wijzig je het tweede getal in beide `teken bloem`{:class="block3myblocks"} blokken zodat de twee bloemen in verschillende formaten verschijnen.
 
 ```blocks3
-when green flag clicked
-erase all
-go to x: (75) y: (75)
-draw flower (180) (150) :: custom
-go to x: (-75) y: (-75)
-draw flower (150) (50) :: custom
+wanneer op de groene vlag wordt geklikt
+wis alles
+ga naar x: (75) y: (75)
+teken bloem (180) (150) :: custom
+ga naar x: (-75) y: (-75)
+teken bloem (150) (50) :: custom
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Test your code to check whether the flowers have different sizes.
+Test je code om te controleren of de bloemen verschillende maten hebben.
 
 \--- /task \---
 
 \--- task \---
 
-It would be cool to choose the number of petals the flowers have.
+Het zou cool zijn om het aantal blaadjes te kiezen dat de bloemen hebben.
 
-Add another input so that you can draw flowers like this:
+Voeg nog een invoer toe zodat je bloemen als volgt kunt tekenen:
 
-![flowers with different numbers of petals](images/flower-petals.png)
+![bloemen met verschillende aantallen blaadjes](images/flower-petals.png)
 
 \--- hints \--- \--- hint \---
 
-You need to add a 'petals' number input, and then use it in the `define draw flower`{:class="block3myblocks"} block.
+Je moet een 'blaadjes' invoer toevoegen en deze vervolgens gebruiken in het blok `definieer teken bloem`{:class="block3myblocks"}.
 
-There are two places where you need to add the 'petals' input.
+Er zijn twee plaatsen waar je de invoer 'blaadjes' moet toevoegen.
 
-The number of degrees the Flower sprite should `turn`{:class="block3looks"} by is `360` divided by the number of petals.
-
-\--- /hint \---
-
-\--- hint \---
-
-Change your `define draw flower`{:class="block3myblocks"} block to look like this:
-
-![flower sprite](images/flower-sprite.png)
-
-```blocks3
-define draw flower (colour) (size :: custom-arg) (petals)
-```
-
-Update your `repeat`{:class="block3control"} and `turn`{:class="block3looks"} blocks so they use the 'petals' input.
-
-```blocks3
-repeat (petals :: custom-arg) 
-end
-
-turn cw ((360) / (petals :: custom-arg)) degrees
-```
-
-Update your `draw flower`{:class="block3myblocks"} blocks to use the 'petals' input.
-
-```blocks3
-draw flower (150) (50) (8) :: custom
-```
+Het aantal graden waarmee de bloem sprite `moet draaien`{:class="block3looks"} is `360` gedeeld door het aantal blaadjes.
 
 \--- /hint \---
 
 \--- hint \---
 
-Edit your `define draw flower`{:class="block3myblocks"} block and add a new number input called 'petals'.
+Wijzig je `definieer teken bloem`{:class="block3myblocks"} blok zodat het er zo uit ziet:
 
-![flower sprite](images/flower-sprite.png)
-
-Your code should look like this:
+![bloem sprite](images/flower-sprite.png)
 
 ```blocks3
-define draw flower (colour) (size :: custom-arg) (petals)
-set [color v] effect to (colour :: custom-arg)
-set size to (size :: custom-arg) %
-repeat (petals :: custom-arg) 
-  stamp
-  turn cw ((360) / (petals :: custom-arg)) degrees
-end
+definieer teken bloem (kleur) (grootte :: custom-arg) (blaadjes)
+```
+
+Pas je `herhaal`{:class="block3control"} en `draai`{:class="block3looks"} blokken aan zodat ze de invoer 'blaadjes' gebruiken.
+
+```blocks3
+herhaal (blaadjes :: custom-arg) 
+einde
+
+draai ((360) / (blaadjes :: custom-arg)) graden naar rechts
+```
+
+Update je `teken bloem`{:class="block3myblocks"} blokken om de invoer 'blaadjes' te gebruiken.
+
+```blocks3
+teken bloem (150) (50) (8) :: custom
+```
+
+\--- /hint \---
+
+\--- hint \---
+
+Bewerk je `definieer teken bloem`{:class="block3myblocks"} blok en voeg een nieuwe invoer toe met de naam 'blaadjes'.
+
+![bloem sprite](images/flower-sprite.png)
+
+Je code zou er als volgt uit moeten zien:
+
+```blocks3
+definieer teken bloem (kleur) (grootte :: custom-arg) (blaadjes)
+zet [kleur v] effect op (kleur :: custom-arg)
+maak grootte (grootte :: custom-arg) %
+herhaal (blaadjes :: custom-arg) 
+  stempel
+  draai ((360) / (blaadjes :: custom-arg)) graden naar rechts
+einde
 
 ```
 
-In the `when green flag clicked`{:class="block3events"} script, change the third number in both `draw flower`{:class="block3myblocks"} blocks so that the two flowers that appear have different numbers of petals.
+In het `wanneer op de groene vlag wordt geklikt`{:class="block3events"} script, wijzig je het derde getal in beide `teken bloem`{:class="block3myblocks"} blokken zodat de twee bloemen die verschijnen verschillende aantallen blaadjes hebben.
 
 ```blocks3
-when green flag clicked
-erase all
-go to x: (75) y: (75)
-draw flower (180) (150) (3) :: custom
-go to x: (-75) y: (-75)
-draw flower (150) (50) (8) :: custom
+wanneer op de groene vlag wordt geklikt
+wis alles
+ga naar x: (75) y: (75)
+teken bloem (180) (150) (3) :: custom
+ga naar x: (-75) y: (-75)
+teken bloem (150) (50) (8) :: custom
 ```
 
 \--- /hint \---
@@ -266,37 +266,37 @@ draw flower (150) (50) (8) :: custom
 
 \--- /task \---
 
-Next, edit your code so you can draw different flowers by pressing the <kbd>f</kbd> key.
+Bewerk vervolgens je code zodat je verschillende bloemen kunt tekenen door op de toets <kbd>f</kbd> te drukken.
 
 \--- task \---
 
-Now move your code for drawing flowers away from below the `when green flag clicked`{:class="block3events"} block, and put the code under a `when f key pressed`{:class="block3events"} block.
+Haal nu je code voor het tekenen van bloemen weg onder het `wanneer op de groene vlag wordt geklikt`{:class="block3events"} blok en plaats de code onder een `wanneer f is ingedrukt`{:class="block3events"} blok.
 
-![flower sprite](images/flower-sprite.png)
+![bloem sprite](images/flower-sprite.png)
 
 ```blocks3
 wanneer op de groene vlag wordt geklikt
 ```
 
 ```blocks3
-when [f v] key pressed
-erase all
-go to x: (75) y: (75)
-draw flower (180) (150) (3) :: custom
-go to x: (-75) y: (-75)
-draw flower (150) (50) (8) :: custom
+wanneer [f v] is ingedrukt
+wis alles
+ga naar x: (75) y: (75)
+teken bloem (180) (150) (3) :: custom
+ga naar x: (-75) y: (- 75)
+teken bloem (150) (50) (8) :: custom
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Press <kbd>f</kbd> to test your code.
+Druk op <kbd>f</kbd> om je code te testen.
 
 \--- /task \---
 
 \--- task \---
 
-Add more `draw flower`{:class="block3myblocks"} blocks to your program to draw flowers with different colours, sizes, and numbers of petals all over the Stage.
+Voeg meer `teken bloem`{:class="block3myblocks"} blokken toe aan je programma om bloemen met verschillende kleuren, maten en aantallen blaadjes over het hele speelveld te tekenen.
 
 \--- /task \---
