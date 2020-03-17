@@ -2,15 +2,15 @@
 
 This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/flower-generator-scratch2).
 
-\--- / no-print \---
+\--- /no-print \---
 
-## Introducció
+## Introduction
 
 You will create hundreds of flowers of different sizes, shapes, and colours.
 
 You can export the flower pictures and use them as wallpapers on your phone or computer, or as backdrops in other Scratch projects.
 
-### Què faràs
+### What you will make
 
 \--- no-print \---
 
@@ -20,25 +20,25 @@ Press `f` to draw a few flowers, or `r` to draw lots of random flowers, or `p` t
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/253355932/?autostart=false" frameborder="0" scrolling="no"></iframe>
 </div>
 
-\--- / no-print \---
+\--- /no-print \---
 
-\--- només imprimir \---
+\--- print-only \---
 
 ![random flowers](images/flower-random.png)
 
-\--- / print-only \---
+\--- /print-only \---
 
 ## \--- collapse \---
 
 ## title: What you will need
 
-### Maquinari
+### Hardware
 
-+ Un ordinador capaç d'executar Scratch 3
++ A computer capable of running Scratch 3
 
-### Programari
+### Software
 
-+ Scratch 3 ( [en línia](https://rpf.io/scratch-on) o [fora de línia](https://rpf.io/scratch-off))
++ Scratch 3 (either [online](https://rpf.io/scratch-on) or [offline](https://rpf.io/scratch-off))
 
 \--- /collapse \---
 
@@ -51,7 +51,7 @@ Press `f` to draw a few flowers, or `r` to draw lots of random flowers, or `p` t
 + How to use block inputs 
 + How to create random numbers 
 
-\--- / collapse \---
+\--- /collapse \---
 
 ## \--- collapse \---
 
