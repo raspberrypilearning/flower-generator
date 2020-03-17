@@ -1,15 +1,15 @@
-## Save your images
+## Sla je afbeeldingen op
 
-When you create an image you like, you can save it and use it in another Scratch project, as a screensaver, or on a website.
+Wanneer je een afbeelding maakt die je leuk vindt, kun je deze opslaan en gebruiken in een ander Scratch project, als screensaver of op een website.
 
 \--- task \---
 
-When there is an image on the Stage that you like, right-click it and then click on **save image as**
+Wanneer er een afbeelding in het speelveld staat die je wilt bewaren, klik er met de rechtermuisknop op en klik vervolgens op **afbeelding opslaan als**
 
-**Note:** on some computers or browsers, the menu option for saving your image may be named differently.
+**Opmerking:** op sommige computers of browsers kan de menuoptie voor het opslaan van de afbeelding een andere naam hebben.
 
-![screenshot](images/flower-save-stage.png)
+![schermafbeelding](images/flower-save-stage.png)
 
-Then you can save a PNG image of the Stage.
+Vervolgens kun je een PNG-afbeelding van het speelveld opslaan.
 
 \--- /task \---
