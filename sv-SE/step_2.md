@@ -2,7 +2,7 @@
 
 First you're going to generate a flower that can be drawn on the Stage.
 
-\--- uppgift \---
+\--- task \---
 
 Create a new Scratch project, and delete the cat sprite.
 
@@ -10,7 +10,7 @@ Create a new Scratch project, and delete the cat sprite.
 
 \--- /task \---
 
-\--- uppgift \---
+\--- task \---
 
 Add the Pen extension to your project.
 
@@ -18,7 +18,7 @@ Add the Pen extension to your project.
 
 \--- /task \---
 
-\--- uppgift \---
+\--- task \---
 
 Now use the Paint tool to create a new sprite shaped like a flower petal.
 
@@ -28,21 +28,21 @@ Click on **Choose a sprite**, then click on **Paint** and rename the sprite 'Flo
 
 \--- /task \---
 
-\--- uppgift \---
+\--- task \---
 
 Use the Circle tool to draw a petal shape filled in orange.
 
-![skärmdump](images/flower-petal.png)
+![screenshot](images/flower-petal.png)
 
 Later, you will use code to add more colour.
 
 \--- /task \---
 
-\--- uppgift \---
+\--- task \---
 
 Add the following code to the Flower sprite to `stamp`{:class="block3extensions"} a flower with six equally rotated petals `when the green flag is clicked`{:class="block3control"}.
 
-![skärmdump](images/flower-6-straight.png)
+![screenshot](images/flower-6-straight.png)
 
 ```blocks3
 when green flag clicked
@@ -56,15 +56,15 @@ end
 
 You may find that your petals are arranged in an odd way:
 
-![skärmdump](images/flower-6-offset.png)
+![screenshot](images/flower-6-offset.png)
 
 This is because the sprite is being rotated around its centre.
 
-\--- uppgift \---
+\--- task \---
 
 Move your petal so its bottom is in the centre.
 
-![skärmdump](images/flower-crosshair-annotated.png)
+![screenshot](images/flower-crosshair-annotated.png)
 
 Doing this may be easier if you zoom out.
 
@@ -72,7 +72,7 @@ Doing this may be easier if you zoom out.
 
 Before you run your code again, you should `erase all`{:class="block3extensions"} the sprites on the Stage to clear it.
 
-\--- uppgift \---
+\--- task \---
 
 Click on the `erase all` block in the Pen blocks section.
 
@@ -82,11 +82,11 @@ erase all
 
 \--- /task \---
 
-\--- uppgift \---
+\--- task \---
 
 Run your code again to check that the flower's petals are straight now.
 
-![skärmdump](images/flower-6-straight.png)
+![screenshot](images/flower-6-straight.png)
 
 If not, adjust the petal's position until its bottom in the centre.
 
