@@ -1,0 +1,19 @@
+flower
+
+costume1
+
+costume2
+
+draw flower
+
+draw double flower
+
+colour
+
+petals
+
+size
+
+outer colour
+
+inner colour
