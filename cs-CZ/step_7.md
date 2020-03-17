@@ -58,13 +58,13 @@ This code creates one hundred flowers with different colours but with the same s
 
 Can you modify the `when the r key is pressed`{:class="block3events"} script so the flowers' size and number of petals are also random?
 
-\--- tipy \---
+\--- hints \---
 
 \--- hint \---
 
 The `draw flower`{:class="block3myblocks"} block should `pick random`{:class="block3operators"} numbers for the size and number of petals.
 
-\--- /tip \---
+\--- /hint \---
 
 \--- hint \---
 
@@ -78,7 +78,7 @@ The following blocks pick a random size between `50` and `150` and a random numb
 (pick random (4) to (12))
 ```
 
-\--- /tip \---
+\--- /hint \---
 
 \--- hint \---
 
@@ -95,9 +95,9 @@ repeat (100)
 end
 ```
 
-\--- /tip \---
+\--- /hint \---
 
-\--- /tipy \---
+\--- /hints \---
 
 \--- /task \---
 
