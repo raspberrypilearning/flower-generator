@@ -2,7 +2,7 @@
 
 First you're going to generate a flower that can be drawn on the Stage.
 
-\--- task --
+\--- task \---
 
 Create a new Scratch project, and delete the cat sprite.
 
@@ -10,7 +10,7 @@ Create a new Scratch project, and delete the cat sprite.
 
 \--- /task \---
 
-\--- task --
+\--- task \---
 
 Add the Pen extension to your project.
 
@@ -18,7 +18,7 @@ Add the Pen extension to your project.
 
 \--- /task \---
 
-\--- task --
+\--- task \---
 
 Now use the Paint tool to create a new sprite shaped like a flower petal.
 
@@ -28,7 +28,7 @@ Click on **Choose a sprite**, then click on **Paint** and rename the sprite 'Flo
 
 \--- /task \---
 
-\--- task --
+\--- task \---
 
 Use the Circle tool to draw a petal shape filled in orange.
 
@@ -38,7 +38,7 @@ Later, you will use code to add more colour.
 
 \--- /task \---
 
-\--- task --
+\--- task \---
 
 Add the following code to the Flower sprite to `stamp`{:class="block3extensions"} a flower with six equally rotated petals `when the green flag is clicked`{:class="block3control"}.
 
@@ -60,7 +60,7 @@ You may find that your petals are arranged in an odd way:
 
 This is because the sprite is being rotated around its centre.
 
-\--- task --
+\--- task \---
 
 Move your petal so its bottom is in the centre.
 
@@ -72,7 +72,7 @@ Doing this may be easier if you zoom out.
 
 Before you run your code again, you should `erase all`{:class="block3extensions"} the sprites on the Stage to clear it.
 
-\--- task --
+\--- task \---
 
 Click on the `erase all` block in the Pen blocks section.
 
@@ -82,7 +82,7 @@ erase all
 
 \--- /task \---
 
-\--- task --
+\--- task \---
 
 Run your code again to check that the flower's petals are straight now.
 
