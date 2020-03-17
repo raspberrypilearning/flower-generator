@@ -60,13 +60,13 @@ Can you modify the `when the r key is pressed`{:class="block3events"} script so 
 
 \--- hints \---
 
-DO NOT TRANSLATE
+\--- hint \---
 
 The `draw flower`{:class="block3myblocks"} block should `pick random`{:class="block3operators"} numbers for the size and number of petals.
 
 \--- /hint \---
 
-DO NOT TRANSLATE
+\--- hint \---
 
 The following blocks pick a random size between `50` and `150` and a random number of petals between `4` and `12`.
 
@@ -80,7 +80,7 @@ The following blocks pick a random size between `50` and `150` and a random numb
 
 \--- /hint \---
 
-DO NOT TRANSLATE
+\--- hint \---
 
 Your code should look like this:
 
