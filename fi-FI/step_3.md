@@ -6,7 +6,7 @@ What if you want to draw lots of flowers? Instead of making lots of copies of th
 
 Click on **My Blocks** and then on **Make a Block** to create your own block called 'draw flower'.
 
-![ruutukaappaus](images/flower-make-block.png)
+![screenshot](images/flower-make-block.png)
 
 \--- /task \---
 
@@ -83,6 +83,6 @@ draw flower :: custom
 
 Test your code to check that you now see two flowers.
 
-![ruutukaappaus](images/flower-two.png)
+![screenshot](images/flower-two.png)
 
 \--- /task \---
