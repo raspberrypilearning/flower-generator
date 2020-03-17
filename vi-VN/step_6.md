@@ -8,7 +8,7 @@ When there is an image on the Stage that you like, right-click it and then click
 
 **Note:** on some computers or browsers, the menu option for saving your image may be named differently.
 
-![ảnh chụp màn hình](images/flower-save-stage.png)
+![screenshot](images/flower-save-stage.png)
 
 Then you can save a PNG image of the Stage.
 
