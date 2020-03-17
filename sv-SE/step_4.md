@@ -2,7 +2,7 @@
 
 At the moment all the flowers you draw are exactly the same. Next you're going to add some inputs to the `draw flower`{:class="block3myblocks"} block so that you can draw flowers with different colours, sizes, and numbers of petals.
 
-\--- uppgift \---
+\--- task \---
 
 In Scratch you can use the `set colour effect`{:class="block3looks"} block to change the colour of a sprite.
 
@@ -21,17 +21,17 @@ end
 
 \--- /task \---
 
-\--- uppgift \---
+\--- task \---
 
 Run your code to see flowers of different colours.
 
-![skärmdump](images/flower-pink.png)
+![screenshot](images/flower-pink.png)
 
 `set colour effect`{:class="block3looks"} changes the colour based on the default colour of the sprite, so if your sprite doesn't start out orange, you get different results.
 
 \--- /task \---
 
-\--- uppgift \---
+\--- task \---
 
 Experiment with using different numbers from `0` to `199` in the `set colour effect`{:class="block3looks"} block, and see what different results you get.
 
@@ -39,29 +39,29 @@ Experiment with using different numbers from `0` to `199` in the `set colour eff
 
 At the moment all flowers are the same colour. To give each flower a different colour, you need to add an **input** to the `draw flower`{:class="block3myblocks"} block.
 
-\--- uppgift \---
+\--- task \---
 
 Right-click on the `draw flower`{:class="block3myblocks"} definition block and choose **edit**:
 
-![skärmdump](images/flower-edit.png)
+![screenshot](images/flower-edit.png)
 
 \--- /task \---
 
-\--- uppgift \---
+\--- task \---
 
 Now add a **input number** called 'colour':
 
-![skärmdump](images/flower-colour-input-annotated.png)
+![screenshot](images/flower-colour-input-annotated.png)
 
 The input appears in the `draw flower`{:class="block3myblocks"} definition, and you can drag it to where you want to use it.
 
 \--- /task \---
 
-\--- uppgift \---
+\--- task \---
 
 Drag the 'colour' input to the `set colour effect`{:class="block3looks"} block:
 
-![skärmdump](images/flower-use-colour-annotated.png)
+![screenshot](images/flower-use-colour-annotated.png)
 
 Your code should look like this:
 
@@ -89,7 +89,7 @@ go to x: (-75) y: (-75)
 draw flower (1) :: custom
 ```
 
-\--- uppgift \---
+\--- task \---
 
 Change the numbers in the `draw flower`{:class="block3myblocks"} blocks so that the two flowers appear in different colours. You can pick any numbers between 0 and 200.
 
@@ -108,7 +108,7 @@ draw flower (150) :: custom
 
 \--- /task \---
 
-\--- uppgift \---
+\--- task \---
 
 Now add another input to set the size of the flower, so your `draw flower`{:class="block3myblocks"} block looks like this:
 
@@ -268,7 +268,7 @@ draw flower (150) (50) (8) :: custom
 
 Next, edit your code so you can draw different flowers by pressing the <kbd>f</kbd> key.
 
-\--- uppgift \---
+\--- task \---
 
 Now move your code for drawing flowers away from below the `when green flag clicked`{:class="block3events"} block, and put the code under a `when f key pressed`{:class="block3events"} block.
 
