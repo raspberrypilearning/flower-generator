@@ -58,7 +58,7 @@ This code creates one hundred flowers with different colours but with the same s
 
 Can you modify the `when the r key is pressed`{:class="block3events"} script so the flowers' size and number of petals are also random?
 
-\--- wskazówka \---
+\--- hints \---
 
 \--- hint \---
 
@@ -82,7 +82,7 @@ The following blocks pick a random size between `50` and `150` and a random numb
 
 \--- hint \---
 
-Twój plik powinien teraz wyglądać tak:
+Your code should look like this:
 
 ![flower sprite](images/flower-sprite.png)
 
