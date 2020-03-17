@@ -1,7 +1,7 @@
 ---
-title: Flower generator
-hero_image: afbeeldingen / banner.png
-description: Generate flowers to create a patterned backdrop image or screensaver
+title: Bloem generator
+hero_image: images/banner.png
+description: Genereer bloemen om een achtergrondafbeelding of screensaver met een patroon te maken
 duration: 2
 listed: true
 copyedit: true
@@ -11,22 +11,22 @@ steps:
   - 
     title: Inleiding
   - 
-    title: Generate a flower
+    title: Maak een bloem
   - 
-    title: Make a custom block to draw flowers
+    title: Maak een aangepast blok om bloemen te tekenen
   - 
-    title: Customise your flowers
+    title: Personaliseer je bloemen
   - 
-    title: "Challenge: create a flower design"
+    title: "Uitdaging: maak een bloemontwerp"
     challenge: true
   - 
-    title: Save your images
+    title: Sla je afbeeldingen op
   - 
-    title: Random flower generator
+    title: Willekeurige bloemgenerator
   - 
-    title: Flower patterns
+    title: Bloem patronen
   - 
-    title: "Challenge: custom flower blocks"
+    title: "Uitdaging: aangepaste bloemblokken"
     challenge: true
   - 
-    title: 'Uitdaging: meer obstakels!'
+    title: Wat kun je verder nog doen?
