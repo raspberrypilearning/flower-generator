@@ -4,7 +4,7 @@ You will now use your `draw flower`{:class="block3myblocks"} block to create a h
 
 ![random flowers](images/flower-random.png)
 
-\--- task --
+\--- task \---
 
 Add a new Event block to your sprite's code so that `when the r key is pressed`{:class="block3events"}, the screen is `cleared`{:class="block3extensions"}.
 
@@ -17,7 +17,7 @@ erase all
 
 \--- /task \---
 
-\--- task --
+\--- task \---
 
 Add in a `repeat`{:class="block3control"} block to go to a `random position`{:class="block3motion"} `100` times.
 
@@ -31,7 +31,7 @@ end
 
 \--- /task \---
 
-\--- task --
+\--- task \---
 
 Use the `draw flower`{:class="block3myblocks"} block to create a flower that has a `random`{:class="block3operators"} colour between `0` and `199`.
 
@@ -54,7 +54,7 @@ This code creates one hundred flowers with different colours but with the same s
 
 ![flowers just with random colours](images/flower-random-colour.png)
 
-\--- task --
+\--- task \---
 
 Can you modify the `when the r key is pressed`{:class="block3events"} script so the flowers' size and number of petals are also random?
 
@@ -82,7 +82,7 @@ The following blocks pick a random size between `50` and `150` and a random numb
 
 \--- hint \---
 
-Ο κώδικας θα πρέπει να μοιάζει κάπως έτσι:
+Your code should look like this:
 
 ![flower sprite](images/flower-sprite.png)
 
@@ -97,11 +97,11 @@ end
 
 \--- /hint \---
 
-\--- /υποδείξεις \---
+\--- /hints \---
 
 \--- /task \---
 
-\--- task --
+\--- task \---
 
 Press <kbd>r</kbd> to see your random flowers.
 
