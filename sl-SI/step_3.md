@@ -1,88 +1,88 @@
-## Ustvari svoj blok za risanje rož
+## Make a custom block to draw flowers
 
-Kaj pa, če želiš narisati veliko rož? Namesto da ustvariš veliko število podvojene kode, lahko v Scratchu ustvariš svoj blok in ga uporabiš vsakič, ko bi rad narisal rožo.
+What if you want to draw lots of flowers? Instead of making lots of copies of the code, you will create your own block in Scratch and use it every time you want to draw a flower.
 
 \--- task \---
 
-Klikni na **Moji bloki** in nato na **Ustvari blok**, da ustvariš svoj blok, imenovan "nariši rožo".
+Click on **My Blocks** and then on **Make a Block** to create your own block called 'draw flower'.
 
-![posnetek zaslona](images/flower-make-block.png)
+![screenshot](images/flower-make-block.png)
 
 \--- /task \---
 
 \--- task \---
 
-Zdaj je v razdelku **Moji bloki** na voljo nov blok, imenovan `nariši rožo`{: class = "block3myblocks"}, na odru pa se nahaja nov blok za definicijo.
+There is now a new block called `draw flower`{:class="block3myblocks"} in the **More blocks** section, and a new definition block on the Stage.
 
 ```blocks3
-nariši rožo :: custom
+draw flower :: custom
 
-definiraj nariši rožo
+define draw flower
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Kodo za risanje rože premakni izpod bloka `ko kliknemo na zastavico`{: class = "block3events"} na novo definiran blok `nariši rožo`{: class = "block3myblocks"}.
+Move your code for drawing the flower from the `when green flag clicked`{:class="block3events"} block to the new `draw flower`{:class="block3myblocks"} definition block.
 
-Tvoja koda bi morala izgledati tako:
+Your code should look like this:
 
-![cvetni sprite](images/flower-sprite.png)
+![flower sprite](images/flower-sprite.png)
 
 ```blocks3
-definiraj nariši rožo
-ponovi (6) krat 
-  žig
-  obrni se za (60) stopinj v desno
+define draw flower
+repeat (6) 
+  stamp
+  turn cw (60) degrees
 end
 
-ko je kliknjena zelena zastavica
+when green flag clicked
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Dodaj kodo, ki počisti oder in uporabi tvoj novi blok `nariši rožo`{:class="block3myblocks"}, ko je kliknjena zelena zastavica:
+Add the following code to clear the Stage and to use your new `draw flower`{:class="block3myblocks"} block when the green flag is clicked:
 
-![cvetni sprite](images/flower-sprite.png)
+![flower sprite](images/flower-sprite.png)
 
 ```blocks3
-ko je kliknjena zelena zastavica
-izbriši vse
-nariši rožo :: custom
+when green flag clicked
+erase all
+draw flower :: custom
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Klikni na zeleno zastavico, da preizkusiš kodo in preveri, da vidiš cvet.
+Click the green flag to test your code and check whether you see a flower.
 
 \--- /task \---
 
 \--- task \---
 
-Spremeni kodo, da premakne figuro in nariši še eno rožo:
+Now change your code to move the sprite and then draw another flower:
 
-![cvetni sprite](images/flower-sprite.png)
+![flower sprite](images/flower-sprite.png)
 
 ```blocks3
-ko je kliknjena zelena zastavica
-izbriši vse
-pojdi na x: (75) y: (75)
-nariši rožo :: custom
-pojdi na x: (-75) y: (-75)
-nariši rožo :: custom 
+when green flag clicked
+erase all
+go to x: (75) y: (75)
+draw flower :: custom
+go to x: (-75) y: (-75)
+draw flower :: custom 
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Preizkusi kodo in preveri, da se prikažeta dva cvetova.
+Test your code to check that you now see two flowers.
 
-![posnetek zaslona](images/flower-two.png)
+![screenshot](images/flower-two.png)
 
 \--- /task \---
