@@ -83,6 +83,6 @@ draw flower :: custom
 
 Test your code to check that you now see two flowers.
 
-![Screenshot](images/flower-two.png)
+![screenshot](images/flower-two.png)
 
 \--- /task \---
