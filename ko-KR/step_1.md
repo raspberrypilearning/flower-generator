@@ -4,13 +4,13 @@ This is the **Scratch 3** version of the project. There is also a [Scratch 2 ver
 
 \--- /no-print \---
 
-## 들어가며
+## Introduction
 
 You will create hundreds of flowers of different sizes, shapes, and colours.
 
 You can export the flower pictures and use them as wallpapers on your phone or computer, or as backdrops in other Scratch projects.
 
-### 만들 작품
+### What you will make
 
 \--- no-print \---
 
@@ -32,13 +32,13 @@ Press `f` to draw a few flowers, or `r` to draw lots of random flowers, or `p` t
 
 ## title: What you will need
 
-### 하드웨어
+### Hardware
 
-+ 스크래치 3을 실행할 수 있는 컴퓨터
++ A computer capable of running Scratch 3
 
-### 소프트웨어
+### Software
 
-+ 스크래치 3 ([온라인](https://rpf.io/scratch-on) 또는 [오프라인](https://rpf.io/scratch-off))
++ Scratch 3 (either [online](https://rpf.io/scratch-on) or [offline](https://rpf.io/scratch-off))
 
 \--- /collapse \---
 
