@@ -6,7 +6,7 @@ What if you want to draw lots of flowers? Instead of making lots of copies of th
 
 Click on **My Blocks** and then on **Make a Block** to create your own block called 'draw flower'.
 
-![スクリーンショット](images/flower-make-block.png)
+![screenshot](images/flower-make-block.png)
 
 \--- /task \---
 
@@ -26,7 +26,7 @@ define draw flower
 
 Move your code for drawing the flower from the `when green flag clicked`{:class="block3events"} block to the new `draw flower`{:class="block3myblocks"} definition block.
 
-コードは以下のようになります：
+Your code should look like this:
 
 ![flower sprite](images/flower-sprite.png)
 
@@ -83,6 +83,6 @@ draw flower :: custom
 
 Test your code to check that you now see two flowers.
 
-![スクリーンショット](images/flower-two.png)
+![screenshot](images/flower-two.png)
 
 \--- /task \---
