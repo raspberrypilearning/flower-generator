@@ -2,7 +2,7 @@
 
 When you create an image you like, you can save it and use it in another Scratch project, as a screensaver, or on a website.
 
-\--- task --
+\--- task \---
 
 When there is an image on the Stage that you like, right-click it and then click on **save image as**
 
