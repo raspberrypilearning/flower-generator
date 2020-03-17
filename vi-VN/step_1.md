@@ -1,18 +1,18 @@
-\--- không in \---
+\--- no-print \---
 
 This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/flower-generator-scratch2).
 
-\--- / không in \---
+\--- /no-print \---
 
-## Giới thiệu
+## Introduction
 
 You will create hundreds of flowers of different sizes, shapes, and colours.
 
 You can export the flower pictures and use them as wallpapers on your phone or computer, or as backdrops in other Scratch projects.
 
-### Những gì bạn sẽ làm
+### What you will make
 
-\--- không in \---
+\--- no-print \---
 
 Press `f` to draw a few flowers, or `r` to draw lots of random flowers, or `p` to draw a flower pattern.
 
@@ -20,7 +20,7 @@ Press `f` to draw a few flowers, or `r` to draw lots of random flowers, or `p` t
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/253355932/?autostart=false" frameborder="0" scrolling="no"></iframe>
 </div>
 
-\--- / không in \---
+\--- /no-print \---
 
 \--- print-only \---
 
@@ -32,13 +32,13 @@ Press `f` to draw a few flowers, or `r` to draw lots of random flowers, or `p` t
 
 ## title: What you will need
 
-### Phần cứng
+### Hardware
 
-+ Một máy tính có khả năng chạy Scratch 3
++ A computer capable of running Scratch 3
 
-### Phần mềm
+### Software
 
-+ Scratch 3 (phiên bản [trực tuyến](https://rpf.io/scratch-on) hoặc [ngoại tuyến](https://rpf.io/scratch-off))
++ Scratch 3 (either [online](https://rpf.io/scratch-on) or [offline](https://rpf.io/scratch-off))
 
 \--- /collapse \---
 
