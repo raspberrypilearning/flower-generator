@@ -4,13 +4,13 @@ This is the **Scratch 3** version of the project. There is also a [Scratch 2 ver
 
 \--- /no-print \---
 
-## Úvod
+## Introduction
 
 You will create hundreds of flowers of different sizes, shapes, and colours.
 
 You can export the flower pictures and use them as wallpapers on your phone or computer, or as backdrops in other Scratch projects.
 
-### Co budeš dělat
+### What you will make
 
 \--- no-print \---
 
@@ -34,11 +34,11 @@ Press `f` to draw a few flowers, or `r` to draw lots of random flowers, or `p` t
 
 ### Hardware
 
-+ Počítač schopný spustit aplikaci Scratch 3
++ A computer capable of running Scratch 3
 
 ### Software
 
-+ Scratch 3 (buď [online](https://rpf.io/scratch-on) nebo [offline](https://rpf.io/scratch-off) verzi)
++ Scratch 3 (either [online](https://rpf.io/scratch-on) or [offline](https://rpf.io/scratch-off))
 
 \--- /collapse \---
 
