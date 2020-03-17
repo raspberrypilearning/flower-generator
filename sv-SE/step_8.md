@@ -2,7 +2,7 @@
 
 You can also use your `draw flower`{:class="block3myblocks"} block to create neat flower patterns.
 
-\--- uppgift \---
+\--- task \---
 
 Create a flower or a combination of flowers that you like. Here's an example:
 
@@ -18,7 +18,7 @@ draw flower (130) (35) (20) :: custom
 
 \--- /task \---
 
-\--- uppgift \---
+\--- task \---
 
 Press <kbd>p</kbd> to see your flower. The example looks like this:
 
@@ -28,7 +28,7 @@ Press <kbd>p</kbd> to see your flower. The example looks like this:
 
 Before you can create your pattern, you should clear the Stage of any leftover flowers.
 
-\--- uppgift \---
+\--- task \---
 
 Click on the `erase all` block in the Pen tab.
 
@@ -38,13 +38,13 @@ erase all
 
 \--- /task \---
 
-\--- uppgift \---
+\--- task \---
 
 Right-click on the Flower sprite and `hide`{:class="block3looks"} it so it doesn't appear on the Stage. (You can `show`{:class="block3looks"} the sprite again if you need to see where it is.)
 
 \--- /task \---
 
-\--- uppgift \---
+\--- task \---
 
 Now draw a row of these flowers across the top of the Stage. Here is some example code, in which you might need to adjust the numbers so it works with your flower:
 
@@ -63,7 +63,7 @@ end
 
 \--- /task \---
 
-\--- uppgift \---
+\--- task \---
 
 Press `p` to see a row of flowers:
 
@@ -71,7 +71,7 @@ Press `p` to see a row of flowers:
 
 \--- /task \---
 
-\--- uppgift \---
+\--- task \---
 
 Add another loop to create more rows of flowers. This example adds a `repeat 3`{:class="block3control"} loop to create three rows.
 
@@ -94,7 +94,7 @@ end
 
 \--- /task \---
 
-\--- uppgift \---
+\--- task \---
 
 Press <kbd>p</kbd> to create a grid of flowers:
 
