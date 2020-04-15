@@ -12,7 +12,7 @@ Wijzig je 'teken bloem' definitie om de kleur te wijzigen:
 
 ```blocks3
 definieer teken bloem
-zet [kleur v] effect op (150)
+set [kleur v] effect to (150)
 herhaal (6) 
   stempel
   draai (60) graden naar rechts
@@ -69,7 +69,7 @@ Je code zou er als volgt uit moeten zien:
 
 ```blocks3
 definieer teken bloem (kleur)
-zet [kleur v] effect op (kleur :: custom-arg)
+set [kleur v] effect to (kleur :: custom-arg)
 herhaal (6)
   stempel
   draai (60) graden naar rechts
@@ -81,7 +81,7 @@ einde
 Merk op dat je `teken bloem`{:class="block3myblocks"} blokken nu een nieuwe invoer hebben die is ingesteld op `1`:
 
 ```blocks3
-wanneer op de groene vlag wordt geklikt
+when green flag clicked
 wis alles
 ga naar x: (75) y: (75)
 teken bloem (1) :: custom
@@ -98,7 +98,7 @@ Je code zou er ongeveer zo uit moeten zien:
 ![bloem sprite](images/flower-sprite.png)
 
 ```blocks3
-wanneer op de groene vlag wordt geklikt
+when green flag clicked
 wis alles
 ga naar x: (75) y: (75)
 teken bloem (180) :: custom
@@ -153,7 +153,7 @@ Verander je `definieer teken bloem`{:class="block3myblocks"} script zodat het er
 
 ```blocks3
 definieer teken bloem (kleur) (grootte :: custom-arg)
-zet [kleur v] effect op (kleur :: custom-arg)
+set [kleur v] effect to (kleur :: custom-arg)
 maak grootte (maat :: custom-arg) %
 herhaal (6) 
   stempel
@@ -170,7 +170,7 @@ einde
 In het `wanneer op de groene vlag wordt geklikt`{:class="block3events"} script, wijzig je het tweede getal in beide `teken bloem`{:class="block3myblocks"} blokken zodat de twee bloemen in verschillende formaten verschijnen.
 
 ```blocks3
-wanneer op de groene vlag wordt geklikt
+when green flag clicked
 wis alles
 ga naar x: (75) y: (75)
 teken bloem (180) (150) :: custom
@@ -254,7 +254,7 @@ einde
 In het `wanneer op de groene vlag wordt geklikt`{:class="block3events"} script, wijzig je het derde getal in beide `teken bloem`{:class="block3myblocks"} blokken zodat de twee bloemen die verschijnen verschillende aantallen blaadjes hebben.
 
 ```blocks3
-wanneer op de groene vlag wordt geklikt
+when green flag clicked
 wis alles
 ga naar x: (75) y: (75)
 teken bloem (180) (150) (3) :: custom
@@ -277,7 +277,7 @@ Haal nu je code voor het tekenen van bloemen weg onder het `wanneer op de groene
 ![bloem sprite](images/flower-sprite.png)
 
 ```blocks3
-wanneer op de groene vlag wordt geklikt
+when green flag clicked
 ```
 
 ```blocks3

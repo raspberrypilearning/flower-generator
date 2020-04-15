@@ -37,19 +37,19 @@ herhaal (6)
   draai (60) graden naar rechts
 einde
 
-wanneer op de groene vlag wordt geklikt
+when green flag clicked
 ```
 
 --- /task ---
 
 --- task ---
 
-Voeg de volgende code toe om het speelveld te wissen en je nieuwe `teken bloem`{:class "block3myblocks"} blok te gebruiken wanneer op de groene vlag wordt geklikt:
+Voeg de volgende code toe om het speelveld te wissen en je nieuwe `teken bloem`{:class="block3myblocks"} blok te gebruiken wanneer op de groene vlag wordt geklikt:
 
 ![bloem sprite](images/flower-sprite.png)
 
 ```blocks3
-wanneer op de groene vlag wordt geklikt
+when green flag clicked
 wis alles
 teken bloem :: custom
 ```
@@ -69,7 +69,7 @@ Wijzig nu je code om de sprite te verplaatsen en vervolgens een andere bloem te 
 ![bloem sprite](images/flower-sprite.png)
 
 ```blocks3
-wanneer op de groene vlag wordt geklikt
+when green flag clicked
 wis alles
 ga naar x: (75) y: (75)
 teken bloem :: custom

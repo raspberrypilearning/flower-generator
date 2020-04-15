@@ -134,7 +134,7 @@ Nu kun je het `zet kleur effect op`{:class="block3looks"} blok in het speelveld 
 
 ```blocks3
 wanneer [p v] is ingedrukt
-stel [kleur v] effect op (30)
+set [kleur v] effect to (30)
 ```
 
 --- /task ---

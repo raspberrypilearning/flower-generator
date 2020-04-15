@@ -45,7 +45,7 @@ Voeg de volgende code toe aan de Bloem sprite: `stempel`{:class="block3extension
 ![schermafbeelding](images/flower-6-straight.png)
 
 ```blocks3
-wanneer op de groene vlag wordt geklikt
+when green flag clicked
 herhaal (6) 
   stempel
   draai (60) graden naar rechts
