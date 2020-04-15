@@ -242,7 +242,7 @@ Je code zou er als volgt uit moeten zien:
 
 ```blocks3
 definieer teken bloem (kleur) (grootte :: custom-arg) (blaadjes)
-zet [kleur v] effect op (kleur :: custom-arg)
+set [kleur v] effect to (kleur :: custom-arg)
 maak grootte (grootte :: custom-arg) %
 herhaal (blaadjes :: custom-arg) 
   stempel
@@ -258,7 +258,7 @@ when green flag clicked
 wis alles
 ga naar x: (75) y: (75)
 teken bloem (180) (150) (3) :: custom
-ga naar x: (-75) y: (-75)
+go to x: (-75) y: (-75)
 teken bloem (150) (50) (8) :: custom
 ```
 
