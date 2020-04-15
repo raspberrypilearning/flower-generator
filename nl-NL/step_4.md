@@ -255,8 +255,8 @@ In het `wanneer op de groene vlag wordt geklikt`{:class="block3events"} script, 
 
 ```blocks3
 when green flag clicked
-wis alles
-ga naar x: (75) y: (75)
+erase all
+go to x: (75) y: (75)
 teken bloem (180) (150) (3) :: custom
 go to x: (-75) y: (-75)
 teken bloem (150) (50) (8) :: custom
