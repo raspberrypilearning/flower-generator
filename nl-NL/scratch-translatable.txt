@@ -1,19 +1,19 @@
-flower
+bloem
 
-costume1
+uiterlijk1
 
-costume2
+uiterlijk2
 
-draw flower
+teken bloem
 
-draw double flower
+teken dubbele bloem
 
-colour
+kleur
 
-petals
+blaadjes
 
-size
+grootte
 
-outer colour
+buitenste kleur
 
-inner colour
+binnenste kleur
