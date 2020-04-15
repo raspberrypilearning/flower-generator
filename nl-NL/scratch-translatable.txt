@@ -1,0 +1,19 @@
+bloem
+
+uiterlijk1
+
+uiterlijk2
+
+teken bloem
+
+teken dubbele bloem
+
+kleur
+
+blaadjes
+
+grootte
+
+buitenste kleur
+
+binnenste kleur
