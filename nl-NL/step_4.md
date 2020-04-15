@@ -285,7 +285,7 @@ wanneer [f v] is ingedrukt
 wis alles
 ga naar x: (75) y: (75)
 teken bloem (180) (150) (3) :: custom
-ga naar x: (-75) y: (- 75)
+ga naar x: (-75) y: (-75)
 teken bloem (150) (50) (8) :: custom
 ```
 
