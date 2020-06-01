@@ -32,7 +32,7 @@ Click on **Choose a sprite**, then click on **Paint** and rename the sprite 'Flo
 
 Use the Circle tool to draw a petal shape filled in orange.
 
-![screenshot](images/flower-petal.png)
+![截屏](images/flower-petal.png)
 
 Later, you will use code to add more colour.
 
@@ -42,7 +42,7 @@ Later, you will use code to add more colour.
 
 Add the following code to the Flower sprite to `stamp`{:class="block3extensions"} a flower with six equally rotated petals `when the green flag is clicked`{:class="block3control"}.
 
-![screenshot](images/flower-6-straight.png)
+![截屏](images/flower-6-straight.png)
 
 ```blocks3
 when green flag clicked
@@ -56,7 +56,7 @@ end
 
 You may find that your petals are arranged in an odd way:
 
-![screenshot](images/flower-6-offset.png)
+![截屏](images/flower-6-offset.png)
 
 This is because the sprite is being rotated around its centre.
 
@@ -64,7 +64,7 @@ This is because the sprite is being rotated around its centre.
 
 Move your petal so its bottom is in the centre.
 
-![screenshot](images/flower-crosshair-annotated.png)
+![截屏](images/flower-crosshair-annotated.png)
 
 Doing this may be easier if you zoom out.
 
