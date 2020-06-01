@@ -1,18 +1,18 @@
-## Make a custom block to draw flowers
+## फूल बनाने के लिए एक कस्टम ब्लॉक बनाएँ
 
-What if you want to draw lots of flowers? Instead of making lots of copies of the code, you will create your own block in Scratch and use it every time you want to draw a flower.
+यदि आप बहुत सारे फूल बनाना चाहते हैं तो क्या करना होगा? कोड की बहुत सारी प्रतियाँ बनाने के बजाय, आप Scratch में अपना ब्लॉक बनाएँगे और हर बार जब आप फूल बनाना चाहते हैं तो इसका उपयोग करेंगे।
 
 \--- task \---
 
-Click on **My Blocks** and then on **Make a Block** to create your own block called 'draw flower'.
+'फूल बनाएँ' नामक अपना ब्लॉक बनाने के लिए **My Blocks** (मेरे ब्लॉक) पर क्लिक करें और फिर **Make a Block** (ब्लॉक बनाएँ) पर।
 
-![screenshot](images/flower-make-block.png)
+![स्क्रीनशॉट](images/flower-make-block.png)
 
 \--- /task \---
 
 \--- task \---
 
-There is now a new block called `draw flower`{:class="block3myblocks"} in the **More blocks** section, and a new definition block on the Stage.
+**More blocks** (अधिक ब्लॉक) खंड में, अब `draw flower`{:class="block3myblocks"} (फूल बनाएँ) नामक एक नया ब्लॉक है, और स्टेज पर एक नया परिभाषा ब्लॉक।
 
 ```blocks3
 draw flower :: custom
@@ -24,11 +24,11 @@ define draw flower
 
 \--- task \---
 
-Move your code for drawing the flower from the `when green flag clicked`{:class="block3events"} block to the new `draw flower`{:class="block3myblocks"} definition block.
+`when green flag clicked`{:class="block3events"} ब्लॉक से फूल बनाने के लिए अपने कोड को नए `draw flower`{:class="block3myblocks"} definition block (परिभाषा ब्लॉक) में ले जाएँ।
 
-Your code should look like this:
+आपका कोड इस प्रकार दिखना चाहिए:
 
-![flower sprite](images/flower-sprite.png)
+![फूल स्प्राइट](images/flower-sprite.png)
 
 ```blocks3
 define draw flower
@@ -44,9 +44,9 @@ when green flag clicked
 
 \--- task \---
 
-Add the following code to clear the Stage and to use your new `draw flower`{:class="block3myblocks"} block when the green flag is clicked:
+स्टेज को खाली करने और जब हरे झंडे को क्लिक किया जाता है तो अपने नए `draw flower`{:class="block3myblocks"} ब्लॉक का उपयोग करने के लिए निम्न कोड जोड़ें:
 
-![flower sprite](images/flower-sprite.png)
+![फूल स्प्राइट](images/flower-sprite.png)
 
 ```blocks3
 when green flag clicked
@@ -58,15 +58,15 @@ draw flower :: custom
 
 \--- task \---
 
-Click the green flag to test your code and check whether you see a flower.
+अपने कोड का परीक्षण करने और यह जाँच करने के लिए हरे झंडे पर क्लिक करें कि क्या आपको फूल दिखाई देता है।
 
 \--- /task \---
 
 \--- task \---
 
-Now change your code to move the sprite and then draw another flower:
+अब स्प्राइट को दूसरी जगह ले जाने और दूसरा फूल बनाने के लिए अपना कोड बदलें:
 
-![flower sprite](images/flower-sprite.png)
+![फूल स्प्राइट](images/flower-sprite.png)
 
 ```blocks3
 when green flag clicked
@@ -81,8 +81,8 @@ draw flower :: custom
 
 \--- task \---
 
-Test your code to check that you now see two flowers.
+यह जाँच करने के लिए अपने कोड का परीक्षण करें कि अब आपको दो फूल दिखाई देते हैं।
 
-![screenshot](images/flower-two.png)
+![स्क्रीनशॉट](images/flower-two.png)
 
 \--- /task \---
