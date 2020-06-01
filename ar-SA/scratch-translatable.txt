@@ -1,19 +1,19 @@
-flower
+زهرة
 
-costume1
+مظهر1
 
-costume2
+مظهر2
 
-draw flower
+رسم زهرة
 
-draw double flower
+رسم زهرة مزدوجة
 
-colour
+اللون
 
-petals
+بتلة
 
-size
+حجم
 
-outer colour
+لون خارجي
 
-inner colour
+لون داخلي
