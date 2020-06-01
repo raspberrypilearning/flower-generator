@@ -1,10 +1,10 @@
-## Challenge: custom flower blocks
+## Завдання: власні блоки для квітів
 
-These flowers all have the same number of outer and inner petals, and the size of the inner flower is in proportion to the outer flower:
+Ці квіти мають однакову кількість зовнішніх та внутрішніх пелюсток, а розмір внутрішньої квітки складає певну частину від розміру зовнішньої:
 
-![screenshot](images/flower-double-flowers.png)
+![знімок екрана](images/flower-double-flowers.png)
 
-You can create flowers like this with the help of a `draw double flower`{:class="block3myblocks"} custom block that has inputs for `outer colour`, `inner colour`, and `size`:
+Ти можеш створювати подібні квіти за допомогою власного блоку `намалювати подвійну квітку`{:class="block3myblocks"} з параметрами `зовнішній колір`, `внутрішній колір` та `розмір`:
 
 ```blocks3
 define draw double flower (outer colour) (inner colour) (size :: custom-arg)
@@ -12,7 +12,7 @@ draw flower (outer colour :: custom-arg) (size :: custom-arg) (12) :: custom
 draw flower (inner colour :: custom-arg) ((size :: custom-arg) / (2)) (20) :: custom
 ```
 
-The `draw double flower`{:class="block3myblocks"} block can draw lots of flowers in the same style:
+Блок `намалювати подвійну квітку`{:class="block3myblocks"} може малювати велику кількість квітів такого виду:
 
 ```blocks3
 when [d v] key pressed
@@ -25,6 +25,6 @@ change x by (75)
 draw double flower (140) (160) (50) :: custom
 ```
 
-Make a new custom block with the necessary inputs that you need to be able to change to create a type of flower that you like.
+Створи новий власний блок з необхідними параметрами, які можна змінювати для створення бажаних квітів.
 
-Then use your new block to create a cool design!
+Потім використай свій новий блок для створення класних малюнків!
