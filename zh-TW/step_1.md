@@ -1,20 +1,20 @@
 \--- no-print \---
 
-This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/flower-generator-scratch2).
+這個專案是 **Scratch 3** 版本。 另外還有 [Scratch 2](https://projects.raspberrypi.org/en/projects/flower-generator-scratch2) 版本。
 
 \--- /no-print \---
 
-## Introduction
+## 介紹
 
-You will create hundreds of flowers of different sizes, shapes, and colours.
+你將會創造數百種不同大小、形狀和顏色的花朵。
 
-You can export the flower pictures and use them as wallpapers on your phone or computer, or as backdrops in other Scratch projects.
+你可以輸出花朵的圖片並把它們用作你的手機或電腦的桌面背景，或者用做其它Scratch項目的背景。
 
-### What you will make
+### 你會做出:
 
 \--- no-print \---
 
-Press `f` to draw a few flowers, or `r` to draw lots of random flowers, or `p` to draw a flower pattern.
+按` f `畫出幾朵花、按` r `隨機畫很多花，或按` p `畫出花朵圖案。
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/253355932/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -24,45 +24,45 @@ Press `f` to draw a few flowers, or `r` to draw lots of random flowers, or `p` t
 
 \--- print-only \---
 
-![random flowers](images/flower-random.png)
+![隨機花朵](images/flower-random.png)
 
 \--- /print-only \---
 
 ## \--- collapse \---
 
-## title: What you will need
+## title: 你會用到
 
-### Hardware
+### 硬體
 
-+ A computer capable of running Scratch 3
++ 可運行Scratch 3的電腦
 
-### Software
+### 軟體
 
-+ Scratch 3 (either [online](https://rpf.io/scratch-on) or [offline](https://rpf.io/scratch-off))
-
-\--- /collapse \---
-
-## \--- collapse \---
-
-## title: What you will learn
-
-+ How to stamp a sprite 
-+ How to make your own Scratch blocks
-+ How to use block inputs 
-+ How to create random numbers 
++ Scratch 3（[線上版](https://rpf.io/scratch-on)或[離線版](https://rpf.io/scratch-off)）
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: Additional notes for educators
+## title: 你會學到
+
++ 如何使用蓋章創造角色 
++ 如何創造你專屬的Scratch積木
++ 如何使用積木輸入 
++ 如何創造亂數 
+
+\--- /collapse \---
+
+## \--- collapse \---
+
+## title: 給教師的其它資訊
 
 \--- no-print \---
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/flower-generator/print){:target="_blank"}.
+如果您需要列印此專案內容，請下載 [列印版本](https://projects.raspberrypi.org/en/projects/flower-generator/print){：target =“_ blank”}。
 
 \--- /no-print \---
 
-You can find the [completed project here](http://rpf.io/p/en/flower-generator-get){:target="_blank"}.
+你可以在這裡找到[已經完成的專案](http://rpf.io/p/en/flower-generator-get){:target="_blank"}。
 
 \--- /collapse \---
