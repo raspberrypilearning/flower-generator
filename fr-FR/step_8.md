@@ -1,12 +1,12 @@
-## Flower patterns
+## Motifs de fleurs
 
-You can also use your `draw flower`{:class="block3myblocks"} block to create neat flower patterns.
+Tu peux également utiliser ton bloc `dessiner une fleur`{:class="block3myblocks"} pour créer des motifs de fleurs soignés.
 
 \--- task \---
 
-Create a flower or a combination of flowers that you like. Here's an example:
+Crée une fleur ou une combinaison de fleurs que tu aimes. Voici un exemple :
 
-![flower sprite](images/flower-sprite.png)
+![sprite de fleur](images/flower-sprite.png)
 
 ```blocks3
 when [p v] key pressed
@@ -20,17 +20,17 @@ draw flower (130) (35) (20) :: custom
 
 \--- task \---
 
-Press <kbd>p</kbd> to see your flower. The example looks like this:
+Appuie sur <kbd>p</kbd> pour voir ta fleur. L'exemple ressemble à ceci :
 
-![a flower pattern](images/flower-for-pattern-example.png)
+![un motif de fleur](images/flower-for-pattern-example.png)
 
 \--- /task \---
 
-Before you can create your pattern, you should clear the Stage of any leftover flowers.
+Avant de pouvoir créer ton motif, tu dois effacer la scène des restes de fleurs.
 
 \--- task \---
 
-Click on the `erase all` block in the Pen tab.
+Clique sur le bloc `effacer tout` dans l'onglet « Stylo ».
 
 ```blocks3
 erase all
@@ -40,15 +40,15 @@ erase all
 
 \--- task \---
 
-Right-click on the Flower sprite and `hide`{:class="block3looks"} it so it doesn't appear on the Stage. (You can `show`{:class="block3looks"} the sprite again if you need to see where it is.)
+Fais un clic droit sur le sprite Fleur et `cacher`{:class="block3looks"} afin qu'il n'apparaisse pas sur la scène. (Tu peux `montrer`{:class="block3looks"} le sprite à nouveau si tu dois voir où il se trouve.)
 
 \--- /task \---
 
 \--- task \---
 
-Now draw a row of these flowers across the top of the Stage. Here is some example code, in which you might need to adjust the numbers so it works with your flower:
+Maintenant dessine une rangée de ces fleurs à travers le haut de la scène. Voici un exemple de code dans lequel tu pourrais avoir besoin d'ajuster les chiffres pour qu'il fonctionne avec ta fleur :
 
-![flower sprite](images/flower-sprite.png)
+![sprite de fleur](images/flower-sprite.png)
 
 ```blocks3
 when [p v] key pressed
@@ -65,17 +65,17 @@ end
 
 \--- task \---
 
-Press `p` to see a row of flowers:
+Appuie sur `p` pour voir une ligne de fleurs :
 
-![4 flowers in a row](images/flower-pattern-row-example.png)
+![4 fleurs sur une rangée](images/flower-pattern-row-example.png)
 
 \--- /task \---
 
 \--- task \---
 
-Add another loop to create more rows of flowers. This example adds a `repeat 3`{:class="block3control"} loop to create three rows.
+Ajoute une autre boucle pour créer plus de lignes de fleurs. Cet exemple ajoute une boucle `répéter 3`{:class="block3control"} pour créer trois lignes.
 
-![flower sprite](images/flower-sprite.png)
+![sprite de fleur](images/flower-sprite.png)
 
 ```blocks3
 when [p v] key pressed
@@ -96,41 +96,41 @@ end
 
 \--- task \---
 
-Press <kbd>p</kbd> to create a grid of flowers:
+Appuie sur <kbd>p</kbd> pour créer une grille de fleurs :
 
-![a 4 x 4 grid of flowers](images/flower-pattern-rows-example.png)
-
-\--- /task \---
-
-Do you want to speed up the drawing of the flowers?
-
-\--- task \---
-
-Right-click on the `draw flower`{:class="block3myblocks"} definition block and then click on **edit**. Click on the **Run without screen refresh** box.
-
-![turn no refresh option off](images/flower-no-refresh.png)
-
-Now the flowers get drawn more quickly.
+![une grille de fleurs 4 x 4](images/flower-pattern-rows-example.png)
 
 \--- /task \---
 
-You can also change the colour of the Stage.
+Veux-tu accélérer le dessin des fleurs ?
 
 \--- task \---
 
-Click on **Choose a backdrop**, and then click on **Paint**. Create an orange backdrop by using the Fill tool in Bitmap mode.
+Fais un clic droit sur le bloc de définition `dessiner une fleur`{:class="block3myblocks"}, puis clique sur **modifier**. Clique sur la case **Exécuter sans rafraîchir l'écran**.
 
-![paint new backdrop](images/flower-orange-backdrop.png)
+![Désactiver l'option de rafraîchissement](images/flower-no-refresh.png)
 
-If you use orange for the backdrop and the Flower sprite, then the numbers for different colours will match for the sprite and the backdrop.
+Maintenant, les fleurs sont dessinées plus rapidement.
+
+\--- /task \---
+
+Tu peux également changer la couleur de la scène.
+
+\--- task \---
+
+Clique sur **Choisir un arrière-plan**, puis clique sur **Peindre**. Crée un arrière-plan orange en utilisant l'outil Remplissage en mode Bitmap.
+
+![peindre un nouvel arrière-plan](images/flower-orange-backdrop.png)
+
+Si tu utilises l'orange pour l'arrière-plan et le sprite Fleur, alors les nombres pour différentes couleurs correspondent pour le sprite et l'arrière-plan.
 
 \--- /task \---
 
 \--- task \---
 
-Now you can use the `set colour effect`{:class="block3looks"} on the Stage to change the colour of the backdrop.
+Maintenant tu peux utiliser `définir l'effet de couleur`{:class="block3looks"} sur la scène pour changer la couleur de l'arrière-plan.
 
-![stage sprite](images/stage-sprite.png)
+![sprite Scène](images/stage-sprite.png)
 
 ```blocks3
 when [p v] key pressed
@@ -141,14 +141,14 @@ set [color v] effect to (30)
 
 \--- task \---
 
-Try to create a pattern you like.
+Essaie de créer un motif que tu aimes.
 
-Here's an example:
+Voici un exemple :
 
-![flowers on a green background](images/flower-pattern-background.png)
+![fleurs sur un fond vert](images/flower-pattern-background.png)
 
 \--- /task \---
 
-When you put it all together, you can create an amazing effect:
+Lorsque tu mets tout cela ensemble, tu peux créer un effet incroyable :
 
-![animation of lots of flowers](images/flower-gen-example.gif)
+![animation de beaucoup de fleurs](images/flower-gen-example.gif)
