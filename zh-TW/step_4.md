@@ -59,11 +59,11 @@ The input appears in the `draw flower`{:class="block3myblocks"} definition, and 
 
 \--- task \---
 
-Drag the 'colour' input to the `set colour effect`{:class="block3looks"} block:
+將“顏色”輸入拖到`圖像效果-顏色` {：class =“ block3looks”}積木：
 
 ![screenshot](images/flower-use-colour-annotated.png)
 
-Your code should look like this:
+你的程式應該會像這樣：
 
 ![flower sprite](images/flower-sprite.png)
 
