@@ -1,21 +1,21 @@
-## Challenge: create a flower design
+## التحدي: إنشاء تصميم للزهور
 
-Can you use your `draw flower`{:class="block3myblocks"} block several times to draw more flowers and create an interesting design? Drawing different flowers at the same location creates an interesting effect.
+هل يمكنك استخدام التعليمة البرمجية لــ`رسم زهرة`{:class="block3myblocks"} عدة مرات لرسم المزيد من الزهور وإنشاء تصميم مثير؟ رسم زهور مختلفة في نفس الموقع يخلق أثرا مثيرا للاهتمام.
 
-Create a design that you like. Here's an example:
+قم بإنشاء تصميم يعجبك. إليك مثالًا:
 
-![screenshot](images/flower-three.png)
+![لقطة شاشة](images/flower-three.png)
 
-You don't have to use petals shaped like ellipses. For example, you can use thick straight lines and a black backdrop to create a firework pattern like this:
+ليس عليك استخدام ورق على شكل قطع ناقصة. على سبيل المثال، يمكنك استخدام خطوط مستقيمة وسوداء لإنشاء نمط الألعاب النارية مثل هذا:
 
-![screenshot](images/flower-fireworks.png)
+![لقطة الشاشة](images/flower-fireworks.png)
 
-The 'petal' for the firework pattern is just a line:
+'الورقة' لنمط الألعاب النارية مجرد خط:
 
-![screenshot](images/flower-firework-petal.png)
+![لقطة الشاشة](images/flower-firework-petal.png)
 
-Add new petal costumes and see what flowers you can come up with.
+أضف مظاهر ورقة جديدة وانظر إلى الزهور التي يمكنك الحصول عليها.
 
-Try out a sprite shape that is not filled in, such as a square, and see what happens
+جرب شكل الكائن الذي لا يتم ملؤه، مثل المربع، وانظر ما يحدث
 
-![screenshot](images/flower-square-petal.png)
+![لقطة الشاشة](images/flower-square-petal.png)
