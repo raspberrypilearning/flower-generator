@@ -4,11 +4,11 @@
 
 \--- task \---
 
-In Scratch you can use the `set colour effect`{:class="block3looks"} block to change the colour of a sprite.
+في Scratch يمكنك استخدام تعليمة `اجعل مؤثر اللون مساويا`{:class="block3looks"} لتغيير لون كائن.
 
-Change your 'draw flower' definition to change the colour:
+قم بتغيير تعريف 'رسم الزهرة' لتغيير اللون:
 
-![flower sprite](images/flower-sprite.png)
+![كائن الزهرة](images/flower-sprite.png)
 
 ```blocks3
 define draw flower
@@ -23,49 +23,49 @@ end
 
 \--- task \---
 
-Run your code to see flowers of different colours.
+قم بتشغيل التعليمات البرمجية الخاصة بك لمشاهدة أزهار بألوان مختلفة.
 
-![screenshot](images/flower-pink.png)
+![لقطة الشاشة](images/flower-pink.png)
 
-`set colour effect`{:class="block3looks"} changes the colour based on the default colour of the sprite, so if your sprite doesn't start out orange, you get different results.
-
-\--- /task \---
-
-\--- task \---
-
-Experiment with using different numbers from `0` to `199` in the `set colour effect`{:class="block3looks"} block, and see what different results you get.
-
-\--- /task \---
-
-At the moment all flowers are the same colour. To give each flower a different colour, you need to add an **input** to the `draw flower`{:class="block3myblocks"} block.
-
-\--- task \---
-
-Right-click on the `draw flower`{:class="block3myblocks"} definition block and choose **edit**:
-
-![screenshot](images/flower-edit.png)
+`اجعل اللون مساويا`{:class="block3looks"} يغير اللون استناداً إلى اللون الافتراضي للكائن، لذلك إذا لم يبدأ الكائن البرتقالي، ستحصل على نتائج مختلفة.
 
 \--- /task \---
 
 \--- task \---
 
-Now add a **input number** called 'colour':
+جرب استخدام أرقام مختلفة من `0` إلى `199` في ` التعليمة البرمجية لتعيين تأثير الألوان`{:class="block3looks"}، وشاهد النتائج المختلفة التي تحصل عليها.
 
-![screenshot](images/flower-colour-input-annotated.png)
+\--- /task \---
 
-The input appears in the `draw flower`{:class="block3myblocks"} definition, and you can drag it to where you want to use it.
+في الوقت الحالي كل الزهور بنفس اللون. لإعطاء كل زهرة لونًا مختلفًا ، تحتاج إلى إضافة ** إدخال** إلى ` رسم زهرة ` {: class = "block3myblocks"}.
+
+\--- task \---
+
+انقر بزر الماوس الأيمن على التعليمة البرمجية لـ`رسم زهرة` {: class = "block3myblocks"} واختر ** تعديل**:
+
+![لقطة الشاشة](images/flower-edit.png)
 
 \--- /task \---
 
 \--- task \---
 
-Drag the 'colour' input to the `set colour effect`{:class="block3looks"} block:
+الآن أضف **رقم الإدخال ** المسمى 'اللون':
 
-![screenshot](images/flower-use-colour-annotated.png)
+![لقطة الشاشة](images/flower-colour-input-annotated.png)
 
-Your code should look like this:
+يظهر الإدخال في `رسم زهرة`{:class="block3myblocks"} ، ويمكنك سحبه إلى المكان الذي تريد استخدامه.
 
-![flower sprite](images/flower-sprite.png)
+\--- /task \---
+
+\--- task \---
+
+اسحب إدخال "اللون" إلى التعليمة البرمجية `تعيين تأثير اللون` {: class = "block3looks"}:
+
+![لقطة الشاشة](images/flower-use-colour-annotated.png)
+
+يجب أن تبدو التعليمة البرمجية الخاصة بك بالشكل التالي:
+
+![كائن الزهرة](images/flower-sprite.png)
 
 ```blocks3
 define draw flower (colour)
@@ -78,7 +78,7 @@ end
 
 \--- /task \---
 
-Notice that your `draw flower`{:class="block3myblocks"} blocks now have a new input that is set to `1`:
+لاحظ أن التعليمة البرمجية `رسم زهرة`{:class="block3myblocks"} لديها الآن إدخال جديد يتم تعيينه إلى `1`:
 
 ```blocks3
 when green flag clicked
@@ -91,11 +91,11 @@ draw flower (1) :: custom
 
 \--- task \---
 
-Change the numbers in the `draw flower`{:class="block3myblocks"} blocks so that the two flowers appear in different colours. You can pick any numbers between 0 and 200.
+قم بتغيير الأرقام في التعليمة البرمجية `رسم زهرة`{:class="block3myblocks"} بحيث يظهر الزهرتان بألوان مختلفة. يمكنك اختيار أي أرقام بين 0 و 200.
 
-Your code should look similar to this:
+يجب أن تبدو التعليمات البرمجية الخاصة بك مشابهة لهذا:
 
-![flower sprite](images/flower-sprite.png)
+![كائن الزهرة](images/flower-sprite.png)
 
 ```blocks3
 when green flag clicked
@@ -110,31 +110,31 @@ draw flower (150) :: custom
 
 \--- task \---
 
-Now add another input to set the size of the flower, so your `draw flower`{:class="block3myblocks"} block looks like this:
+الآن أضف مدخلاً آخر لتعيين حجم الزهرة، لتبدو التعليمة البرمجية`رسم زهرة`{:class="block3myblocks"} كهذا:
 
-![flower sprite](images/flower-sprite.png)
+![كائن الزهرة](images/flower-sprite.png)
 
 ```blocks3
 draw flower (180) (150) :: custom
 ```
 
-With the block above, you can create flowers with different sizes:
+مع التعليمة البرمجية أعلاه ، يمكنك إنشاء زهور بأحجام مختلفة:
 
-![different sized flowers](images/flower-different-sizes.png)
+![زهور بأحجام مختلفة](images/flower-different-sizes.png)
 
 \--- hints \---
 
 \--- hint \---
 
-Look at what you did to add the `colour` input, and repeat it to add a 'size' input that you can use to set the size of the Flower sprite.
+انظر إلى ما فعلته لإضافة `لون` المدخلات، وكرر ذلك لإضافة مدخل 'الحجم' الذي يمكنك استخدامه لتعيين حجم كائن الوردة.
 
 \--- /hint \---
 
 \--- hint \---
 
-Edit the `draw flower`{:class="block3myblocks"} block to add a new number input called 'size'.
+تحرير التعليمة البرمجية`رسم زهرة`{:class="block3myblocks"} لإضافة رقم جديد يسمى "الحجم".
 
-You need to add the following block with a 'size' input to the `draw flower`{:class="block3myblocks"} definition block:
+تحتاج إلى إضافة التعليمة البرمجية التالية مع إدخال 'الحجم' إلى التعليمة تعريف `رسم زهرة`{:class="block3myblocks"}:
 
 ```blocks3
 set size to (100) %
@@ -144,11 +144,11 @@ set size to (100) %
 
 \--- hint \---
 
-Right-click on the `draw flower`{:class="block3myblocks"} definition block, click on **edit**, and add a number input called 'size'.
+انقر بالزر الأيمن على التعليمة تعريف `رسم زهرة`{:class="block3myblocks"}، انقر على **تحرير**، وأضف رقم مدخل يسمى "الحجم".
 
-![flower sprite](images/flower-sprite.png)
+![كائن الزهرة](images/flower-sprite.png)
 
-Change your `define draw flower`{:class="block3myblocks"} script so it looks like this:
+قم بتغيير النص الخاص بك `تحديد زهرة الرسم`{:class="block3myblocks"} بحيث يبدو كهذا:
 
 ```blocks3
 define draw flower (colour) (size :: custom-arg)
@@ -166,7 +166,7 @@ end
 
 \--- /task \--- \--- task \---
 
-In the `when green flag clicked`{:class="block3events"} script, change the second number in both `draw flower`{:class="block3myblocks"} blocks so that the two flowers appear in different sizes.
+في النص `عند نقر العلم الأخضر`{:class="block3events"} ، قم بتغيير الرقم الثاني في التعليمة البرمجية`رسم زهرة`{:class="block3myblocks"} بحيث يظهر الزهرتان بأحجام مختلفة.
 
 ```blocks3
 when green flag clicked
@@ -181,39 +181,39 @@ draw flower (150) (50) :: custom
 
 \--- task \---
 
-Test your code to check whether the flowers have different sizes.
+اختبر تعليماتك البرمجية للتحقق مما إذا كانت الأزهار لها أحجام مختلفة.
 
 \--- /task \---
 
 \--- task \---
 
-It would be cool to choose the number of petals the flowers have.
+سيكون من الرائع اختيار عددالورق التي تملكها الزهور.
 
-Add another input so that you can draw flowers like this:
+أضف مدخلاً آخر حتى تتمكن من رسم أزهار مثل هذا:
 
-![flowers with different numbers of petals](images/flower-petals.png)
+![الزهور بأعداد مختلفة من الورق](images/flower-petals.png)
 
 \--- hints \--- \--- hint \---
 
-You need to add a 'petals' number input, and then use it in the `define draw flower`{:class="block3myblocks"} block.
+تحتاج إلى إضافة إدخال رقم "الورق" ، ثم استخدامه في التعليمة البرمجية لــ`تحديد رسم زهرة` {: class = "block3myblocks"}.
 
-There are two places where you need to add the 'petals' input.
+هناك مكانان تحتاج فيهما إلى إضافة مدخلات "الورق".
 
-The number of degrees the Flower sprite should `turn`{:class="block3looks"} by is `360` divided by the number of petals.
+عدد درجات كائن الزهرة يجب أن `تدور`{:class="block3looks"} بمقدار `360` مقسوماً على عدد الورق.
 
 \--- /hint \---
 
 \--- hint \---
 
-Change your `define draw flower`{:class="block3myblocks"} block to look like this:
+قم بتغيير النص الخاص بك `تحديد زهرة الرسم`{:class="block3myblocks"} بحيث يبدو كهذا:
 
-![flower sprite](images/flower-sprite.png)
+![كائن الزهرة](images/flower-sprite.png)
 
 ```blocks3
 define draw flower (colour) (size :: custom-arg) (petals)
 ```
 
-Update your `repeat`{:class="block3control"} and `turn`{:class="block3looks"} blocks so they use the 'petals' input.
+قم بتحديث التعليمة البرمجية الخاصة بك `كرر`{:class="block3control"} و `تدور`{:class="block3looks"} حتى يستخدموا مدخلات 'الورق'.
 
 ```blocks3
 repeat (petals :: custom-arg) 
@@ -222,7 +222,7 @@ end
 turn cw ((360) / (petals :: custom-arg)) degrees
 ```
 
-Update your `draw flower`{:class="block3myblocks"} blocks to use the 'petals' input.
+قم بتحديث التعليمة البرمجية الخاصة بك `رسم الزهرة`{:class="block3myblocks"} لاستخدام مدخلات "الورق".
 
 ```blocks3
 draw flower (150) (50) (8) :: custom
@@ -232,11 +232,11 @@ draw flower (150) (50) (8) :: custom
 
 \--- hint \---
 
-Edit your `define draw flower`{:class="block3myblocks"} block and add a new number input called 'petals'.
+تحرير التعليمة البرمجية`رسم زهرة`{:class="block3myblocks"} لإضافة رقم جديد يسمى "الحجم".
 
-![flower sprite](images/flower-sprite.png)
+![كائن الزهرة](images/flower-sprite.png)
 
-Your code should look like this:
+يجب أن تبدو التعليمات البرمجية خاصتك بالشكل التالي:
 
 ```blocks3
 define draw flower (colour) (size :: custom-arg) (petals)
@@ -249,7 +249,7 @@ end
 
 ```
 
-In the `when green flag clicked`{:class="block3events"} script, change the third number in both `draw flower`{:class="block3myblocks"} blocks so that the two flowers that appear have different numbers of petals.
+في النص `عند نقر العلم الأخضر`{:class="block3events"} ، قم بتغيير الرقم الثاني في التعليمة البرمجية `رسم زهرة`{:class="block3myblocks"} بحيث يظهر الزهرتان بأحجام مختلفة.
 
 ```blocks3
 when green flag clicked
@@ -266,13 +266,13 @@ draw flower (150) (50) (8) :: custom
 
 \--- /task \---
 
-Next, edit your code so you can draw different flowers by pressing the <kbd>f</kbd> key.
+بعد ذلك، قم بتعديل التعليمات البرمجية الخاصة بك حتى تتمكن من رسم زهرة مختلفة بالضغط على مفتاح <kbd>f</kbd>.
 
 \--- task \---
 
-Now move your code for drawing flowers away from below the `when green flag clicked`{:class="block3events"} block, and put the code under a `when f key pressed`{:class="block3events"} block.
+الآن حرك تعليماتك البرمجية لرسم الزهور بعيدا من أسفل كتلة `عند النقر فوق العلم الأخضر`{:class="block3events"}، ووضع التعليمة البرمجية تحت كتلة `عند الضغط على مفتاح f`{:class="block3events"}.
 
-![flower sprite](images/flower-sprite.png)
+![كائن الزهرة](images/flower-sprite.png)
 
 ```blocks3
 when green flag clicked
@@ -291,12 +291,12 @@ draw flower (150) (50) (8) :: custom
 
 \--- task \---
 
-Press <kbd>f</kbd> to test your code.
+اضغط <kbd>f</kbd> لاختبار الكود الخاص بك.
 
 \--- /task \---
 
 \--- task \---
 
-Add more `draw flower`{:class="block3myblocks"} blocks to your program to draw flowers with different colours, sizes, and numbers of petals all over the Stage.
+أضف المزيد من التعليمات البرمجية `رسم زهرة`{:class="block3myblocks"} إلى برنامجك لرسم زهور ذات ألوان وأحجام وأعداد مختلفة من الحيوانات الأليفة في جميع أنحاء المنصة.
 
 \--- /task \---
