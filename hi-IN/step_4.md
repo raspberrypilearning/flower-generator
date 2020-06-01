@@ -1,14 +1,14 @@
-## Customise your flowers
+## अपने फूलों को कस्टमाइज़ करें
 
-At the moment all the flowers you draw are exactly the same. Next you're going to add some inputs to the `draw flower`{:class="block3myblocks"} block so that you can draw flowers with different colours, sizes, and numbers of petals.
+फिलहाल आपके द्वारा बनाए गए सभी फूल बिल्कुल एक जैसे हैं। इसके बाद आप `draw flower`{:class="block3myblocks"} ब्लॉक में कुछ इनपुट जोड़ने जा रहे हैं ताकि आप विभिन्न रंगों, आकारों और अधिक पंखुड़ियों वाले फूल बना सकें।
 
 \--- task \---
 
-In Scratch you can use the `set colour effect`{:class="block3looks"} block to change the colour of a sprite.
+Scratch में स्प्राइट का रंग बदलने के लिए आप `set colour effect`{:class="block3looks"} ब्लॉक का उपयोग कर सकते हैं।
 
-Change your 'draw flower' definition to change the colour:
+रंग बदलने के लिए अपने 'फूल बनाएँ' की परिभाषा बदलें:
 
-![flower sprite](images/flower-sprite.png)
+![फूल स्प्राइट](images/flower-sprite.png)
 
 ```blocks3
 define draw flower
@@ -23,49 +23,49 @@ end
 
 \--- task \---
 
-Run your code to see flowers of different colours.
+विभिन्न रंगों के फूलों को देखने के लिए अपना कोड चलाएँ।
 
-![screenshot](images/flower-pink.png)
+![स्क्रीनशॉट](images/flower-pink.png)
 
-`set colour effect`{:class="block3looks"} changes the colour based on the default colour of the sprite, so if your sprite doesn't start out orange, you get different results.
-
-\--- /task \---
-
-\--- task \---
-
-Experiment with using different numbers from `0` to `199` in the `set colour effect`{:class="block3looks"} block, and see what different results you get.
-
-\--- /task \---
-
-At the moment all flowers are the same colour. To give each flower a different colour, you need to add an **input** to the `draw flower`{:class="block3myblocks"} block.
-
-\--- task \---
-
-Right-click on the `draw flower`{:class="block3myblocks"} definition block and choose **edit**:
-
-![screenshot](images/flower-edit.png)
+`set colour effect`{:class="block3looks"} स्प्राइट के डिफ़ॉल्ट रंग के आधार पर रंग बदलता है, इसलिए यदि आपका स्प्राइट नारंगी रंग को शुरू नहीं करता है, तो आपको अलग परिणाम मिलते हैं।
 
 \--- /task \---
 
 \--- task \---
 
-Now add a **input number** called 'colour':
+`set colour effect`{:class="block3looks"} ब्लॉक में, `0` से `199` तक विभिन्न संख्याओं का उपयोग करके प्रयोग करें और देखें कि आपको कौन से अलग-अलग परिणाम मिलते हैं।
 
-![screenshot](images/flower-colour-input-annotated.png)
+\--- /task \---
 
-The input appears in the `draw flower`{:class="block3myblocks"} definition, and you can drag it to where you want to use it.
+फिलहाल सभी फूल एक ही रंग के हैं। प्रत्येक फूल को एक अलग रंग देने के लिए, आपको `draw flower`{:class="block3myblocks"} ब्लॉक में एक **input** (इनपुट) जोड़ना होगा।
+
+\--- task \---
+
+`draw flower`{:class="block3myblocks"} definition block (परिभाषा ब्लॉक) पर राइट-क्लिक करें और **edit** (संपादन) चुनें:
+
+![स्क्रीनशॉट](images/flower-edit.png)
 
 \--- /task \---
 
 \--- task \---
 
-Drag the 'colour' input to the `set colour effect`{:class="block3looks"} block:
+अब 'colour' (रंग) नामक एक **input number** (इनपुट संख्या) जोड़ें:
 
-![screenshot](images/flower-use-colour-annotated.png)
+![स्क्रीनशॉट](images/flower-colour-input-annotated.png)
 
-Your code should look like this:
+इनपुट `draw flower`{:class="block3myblocks"} परिभाषा में दिखाई देती है, और आप इसे उस स्थान पर खींच सकते हैं जहाँ आप इसका उपयोग करना चाहते हैं।
 
-![flower sprite](images/flower-sprite.png)
+\--- /task \---
+
+\--- task \---
+
+'colour' (रंग) इनपुट को `set colour effect`{:class="block3looks"} ब्लॉक में खींचें:
+
+![स्क्रीनशॉट](images/flower-use-colour-annotated.png)
+
+आपका कोड इस प्रकार दिखना चाहिए:
+
+![फूल स्प्राइट](images/flower-sprite.png)
 
 ```blocks3
 define draw flower (colour)
@@ -78,7 +78,7 @@ end
 
 \--- /task \---
 
-Notice that your `draw flower`{:class="block3myblocks"} blocks now have a new input that is set to `1`:
+ध्यान दें कि आपके `draw flower`{:class="block3myblocks"} ब्लॉक्स में अब एक नया इनपुट है जो `1` पर सेट है:
 
 ```blocks3
 when green flag clicked
@@ -91,11 +91,11 @@ draw flower (1) :: custom
 
 \--- task \---
 
-Change the numbers in the `draw flower`{:class="block3myblocks"} blocks so that the two flowers appear in different colours. You can pick any numbers between 0 and 200.
+`draw flower`{:class="block3myblocks"} ब्लॉकों में संख्याएँ बदलें ताकि दोनों फूल अलग-अलग रंगों में दिखाई दें। आप 0 और 200 के बीच किसी भी संख्या को चुन सकते हैं।
 
-Your code should look similar to this:
+आपका कोड इससे मिलता-जुलता दिखना चाहिए:
 
-![flower sprite](images/flower-sprite.png)
+![फूल स्प्राइट](images/flower-sprite.png)
 
 ```blocks3
 when green flag clicked
@@ -110,31 +110,31 @@ draw flower (150) :: custom
 
 \--- task \---
 
-Now add another input to set the size of the flower, so your `draw flower`{:class="block3myblocks"} block looks like this:
+अब फूल का आकार सेट करने के लिए एक और इनपुट जोड़ें, ताकि आपका `draw flower`{:class="block3myblocks"} ब्लॉक इस तरह का दिखाई दे:
 
-![flower sprite](images/flower-sprite.png)
+![फूल स्प्राइट](images/flower-sprite.png)
 
 ```blocks3
 draw flower (180) (150) :: custom
 ```
 
-With the block above, you can create flowers with different sizes:
+उपरोक्त ब्लॉक के साथ, आप अलग-अलग आकारों के फूल बना सकते हैं:
 
-![different sized flowers](images/flower-different-sizes.png)
+![विभिन्न आकार के फूल](images/flower-different-sizes.png)
 
 \--- hints \---
 
 \--- hint \---
 
-Look at what you did to add the `colour` input, and repeat it to add a 'size' input that you can use to set the size of the Flower sprite.
+देखें कि आपने `colour` इनपुट जोड़ने के लिए क्या किया है, और 'आकार' इनपुट जोड़ने के लिए इसे दोहराएँ जिसका उपयोग आप फूल स्प्राइट के आकार को सेट करने के लिए कर सकते हैं।
 
 \--- /hint \---
 
 \--- hint \---
 
-Edit the `draw flower`{:class="block3myblocks"} block to add a new number input called 'size'.
+'आकार' नामक एक नया नंबर इनपुट जोड़ने के लिए `draw flower`{:class="block3myblocks"} ब्लॉक को संपादित करें।
 
-You need to add the following block with a 'size' input to the `draw flower`{:class="block3myblocks"} definition block:
+आपको `draw flower`{:class="block3myblocks"} परिभाषा ब्लॉक में 'size' (आकार) इनपुट के साथ निम्नलिखित ब्लॉक को जोड़ना होगा:
 
 ```blocks3
 set size to (100) %
@@ -144,11 +144,11 @@ set size to (100) %
 
 \--- hint \---
 
-Right-click on the `draw flower`{:class="block3myblocks"} definition block, click on **edit**, and add a number input called 'size'.
+`draw flower`{:class="block3myblocks"} definition block (परिभाषा ब्लॉक) पर राइट-क्लिक करें, **edit** (संपादन) पर क्लिक करें, और 'size' (आकार) नामक संख्या इनपुट जोड़ें।
 
-![flower sprite](images/flower-sprite.png)
+![फूल स्प्राइट](images/flower-sprite.png)
 
-Change your `define draw flower`{:class="block3myblocks"} script so it looks like this:
+अपनी `define draw flower`{:class="block3myblocks"} स्क्रिप्ट को बदलें ताकि यह इस तरह दिखाई दे:
 
 ```blocks3
 define draw flower (colour) (size :: custom-arg)
@@ -164,9 +164,9 @@ end
 
 \--- /hints \---
 
-\--- /task \--- \--- task \---
+\--- /hints \--- \--- /task \---
 
-In the `when green flag clicked`{:class="block3events"} script, change the second number in both `draw flower`{:class="block3myblocks"} blocks so that the two flowers appear in different sizes.
+` में, जब हरी झंडी पर क्लिक किया गया ` {: class = "block3events"} स्क्रिप्ट, दोनों में दूसरा नंबर बदलें ` ड्रा फूल ` {: class = "block3myblocks"} ब्लॉक ताकि दो फूल विभिन्न आकारों में दिखाई देते हैं।
 
 ```blocks3
 when green flag clicked
@@ -181,39 +181,39 @@ draw flower (150) (50) :: custom
 
 \--- task \---
 
-Test your code to check whether the flowers have different sizes.
+अपने कोड का परीक्षण यह जांचने के लिए करें कि क्या फूलों के अलग-अलग आकार हैं।
 
 \--- /task \---
 
 \--- task \---
 
-It would be cool to choose the number of petals the flowers have.
+यह फूल की पंखुड़ियों की संख्या का चयन करने के लिए अच्छा होगा।
 
-Add another input so that you can draw flowers like this:
+एक और इनपुट जोड़ें ताकि आप इस तरह से फूल खींच सकें:
 
-![flowers with different numbers of petals](images/flower-petals.png)
+![विभिन्न पंखुड़ियों वाले फूल](images/flower-petals.png)
 
 \--- hints \--- \--- hint \---
 
-You need to add a 'petals' number input, and then use it in the `define draw flower`{:class="block3myblocks"} block.
+आपको एक 'पंखुड़ी' नंबर इनपुट जोड़ने की जरूरत है, और फिर इसका उपयोग ` निर्धारित ड्रा फूल ` {: class = "block3myblocks"} ब्लॉक में करें।
 
-There are two places where you need to add the 'petals' input.
+ऐसी दो जगहें हैं जहाँ आपको 'पंखुड़ियों' के इनपुट को जोड़ना होगा।
 
-The number of degrees the Flower sprite should `turn`{:class="block3looks"} by is `360` divided by the number of petals.
+फ्लावर स्प्राइट की संख्या ` बारी ` {: class = "block3looks"} द्वारा होनी चाहिए ` 360 ` पंखुड़ियों की संख्या से विभाजित।
 
 \--- /hint \---
 
 \--- hint \---
 
-Change your `define draw flower`{:class="block3myblocks"} block to look like this:
+इस तरह दिखने के लिए अपने ` निर्धारित ड्रा फूल ` {: class = "block3myblocks"} ब्लॉक बदलें:
 
-![flower sprite](images/flower-sprite.png)
+![फूल स्प्राइट](images/flower-sprite.png)
 
 ```blocks3
 define draw flower (colour) (size :: custom-arg) (petals)
 ```
 
-Update your `repeat`{:class="block3control"} and `turn`{:class="block3looks"} blocks so they use the 'petals' input.
+अपने ` दोहराने ` {: class = "block3control"} और ` बारी ` बारी: {: class = "block3looks"} ब्लॉकों को अपडेट करें ताकि वे 'पंखुड़ियों' इनपुट का उपयोग करें।
 
 ```blocks3
 repeat (petals :: custom-arg) 
@@ -222,7 +222,7 @@ end
 turn cw ((360) / (petals :: custom-arg)) degrees
 ```
 
-Update your `draw flower`{:class="block3myblocks"} blocks to use the 'petals' input.
+अपने ` ड्रॉ फूल ` {: class = "block3myblocks"} ब्लॉकों को 'पंखुड़ियों' इनपुट का उपयोग करने के लिए अपडेट करें।
 
 ```blocks3
 draw flower (150) (50) (8) :: custom
@@ -232,11 +232,11 @@ draw flower (150) (50) (8) :: custom
 
 \--- hint \---
 
-Edit your `define draw flower`{:class="block3myblocks"} block and add a new number input called 'petals'.
+अपने ` परिभाषित ड्रा फूल को संपादित करें ` {: class = "block3myblocks"} ब्लॉक करें और 'पंखुड़ियों' नामक एक नया नंबर इनपुट जोड़ें।
 
-![flower sprite](images/flower-sprite.png)
+![फूल स्प्राइट](images/flower-sprite.png)
 
-Your code should look like this:
+आपका कोड इस तरह दिखना चाहिए:
 
 ```blocks3
 define draw flower (colour) (size :: custom-arg) (petals)
@@ -249,7 +249,7 @@ end
 
 ```
 
-In the `when green flag clicked`{:class="block3events"} script, change the third number in both `draw flower`{:class="block3myblocks"} blocks so that the two flowers that appear have different numbers of petals.
+` में, जब हरी झंडी पर क्लिक किया गया ` {: class = "block3events"} स्क्रिप्ट, दोनों में तीसरा नंबर बदलें ` ड्रा फूल ` {: class = "block3myblocks"} ब्लॉक ताकि दिखने वाले दो फूलों में अलग-अलग पंखुड़ियों की संख्या होती है।
 
 ```blocks3
 when green flag clicked
@@ -262,17 +262,17 @@ draw flower (150) (50) (8) :: custom
 
 \--- /hint \---
 
-\--- /hints \---
+\--- / संकेत \---
 
 \--- /task \---
 
-Next, edit your code so you can draw different flowers by pressing the <kbd>f</kbd> key.
+अगला, अपना कोड संपादित करें ताकि आप <kbd> f </kbd> कुंजी दबाकर विभिन्न फूलों को आकर्षित कर सकें।
 
 \--- task \---
 
-Now move your code for drawing flowers away from below the `when green flag clicked`{:class="block3events"} block, and put the code under a `when f key pressed`{:class="block3events"} block.
+अब अपने कोड को ` के नीचे से हरे रंग के झंडे पर क्लिक करने पर ` {: class = "block3events"} ब्लॉक करें, और कोड को ` के नीचे रखें जब f कुंजी दबाया गया हो ` {: class = "block3events"} ब्लॉक।
 
-![flower sprite](images/flower-sprite.png)
+![फूल स्प्राइट](images/flower-sprite.png)
 
 ```blocks3
 when green flag clicked
@@ -291,12 +291,12 @@ draw flower (150) (50) (8) :: custom
 
 \--- task \---
 
-Press <kbd>f</kbd> to test your code.
+अपने कोड का परीक्षण करने के लिए <kbd> f </kbd> दबाएं।
 
 \--- /task \---
 
 \--- task \---
 
-Add more `draw flower`{:class="block3myblocks"} blocks to your program to draw flowers with different colours, sizes, and numbers of petals all over the Stage.
+चरण में सभी अलग-अलग रंगों, आकारों और पंखुड़ियों की संख्या के साथ फूलों को खींचने के लिए अपने प्रोग्राम में अधिक ` ड्रा फूल ` {: class = "block3myblocks"} जोड़ें।
 
 \--- /task \---
