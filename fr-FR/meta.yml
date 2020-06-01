@@ -1,7 +1,7 @@
 ---
-title: Flower generator
+title: Générateur de fleurs
 hero_image: images/banner.png
-description: Generate flowers to create a patterned backdrop image or screensaver
+description: Générer des fleurs pour créer une image d'arrière-plan ou un économiseur d'écran
 duration: 2
 listed: true
 copyedit: true
@@ -11,22 +11,22 @@ steps:
   - 
     title: Introduction
   - 
-    title: Generate a flower
+    title: Concevoir une fleur
   - 
-    title: Make a custom block to draw flowers
+    title: Créer un bloc personnalisé pour dessiner des fleurs
   - 
-    title: Customise your flowers
+    title: Personnalise tes fleurs
   - 
-    title: "Challenge: create a flower design"
+    title: "Défi: créer un design floral"
     challenge: true
   - 
-    title: Save your images
+    title: Enregistre tes images
   - 
-    title: Random flower generator
+    title: Générateur de fleurs aléatoire
   - 
-    title: Flower patterns
+    title: Motifs floraux
   - 
-    title: "Challenge: custom flower blocks"
+    title: "Défi : blocs de fleurs personnalisés"
     challenge: true
   - 
-    title: What next?
+    title: Et ensuite ?
