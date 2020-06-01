@@ -1,16 +1,16 @@
 \--- no-print \---
 
-This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/flower-generator-scratch2).
+这是该项目的 **Scratch 3** 版本。 项目还有一个 [Scratch 2](https://projects.raspberrypi.org/en/projects/flower-generator-scratch2) 版本。
 
 \--- /no-print \---
 
-## Introduction
+## 简介
 
 You will create hundreds of flowers of different sizes, shapes, and colours.
 
 You can export the flower pictures and use them as wallpapers on your phone or computer, or as backdrops in other Scratch projects.
 
-### What you will make
+### 学习成果
 
 \--- no-print \---
 
