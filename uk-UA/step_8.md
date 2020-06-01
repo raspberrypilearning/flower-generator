@@ -1,12 +1,12 @@
-## Flower patterns
+## Квіткові візерунки
 
-You can also use your `draw flower`{:class="block3myblocks"} block to create neat flower patterns.
+Ти також можеш використовувати свій блок `намалювати квітку`{:class="block3myblocks"}, щоб створювати гарні квіткові візерунки.
 
 \--- task \---
 
-Create a flower or a combination of flowers that you like. Here's an example:
+Намалюй квітку або комбінацію квітів, яка тобі подобається. Ось приклад:
 
-![flower sprite](images/flower-sprite.png)
+![спрайт квітки](images/flower-sprite.png)
 
 ```blocks3
 when [p v] key pressed
@@ -20,17 +20,17 @@ draw flower (130) (35) (20) :: custom
 
 \--- task \---
 
-Press <kbd>p</kbd> to see your flower. The example looks like this:
+Щоб побачити свою квітку, натисни <kbd>p</kbd>. Цей приклад виглядає ось так:
 
-![a flower pattern](images/flower-for-pattern-example.png)
+![квітковий візерунок](images/flower-for-pattern-example.png)
 
 \--- /task \---
 
-Before you can create your pattern, you should clear the Stage of any leftover flowers.
+Перед тим, як ти будеш створювати власний візерунок, треба очистити Сцену від усіх квітів, що на ній залишилися.
 
 \--- task \---
 
-Click on the `erase all` block in the Pen tab.
+Клацни на блок `очистити все` у вкладці Олівець.
 
 ```blocks3
 erase all
@@ -40,15 +40,15 @@ erase all
 
 \--- task \---
 
-Right-click on the Flower sprite and `hide`{:class="block3looks"} it so it doesn't appear on the Stage. (You can `show`{:class="block3looks"} the sprite again if you need to see where it is.)
+Клацни правою кнопкою по спрайту Квітка і `сховай`{:class="block3looks"} його, щоб він не відображався на Сцені. (Ти можеш `показати`{:class="block3looks"} спрайт знову, якщо тобі треба побачити, де він знаходиться.)
 
 \--- /task \---
 
 \--- task \---
 
-Now draw a row of these flowers across the top of the Stage. Here is some example code, in which you might need to adjust the numbers so it works with your flower:
+Тепер намалюй рядок квітів зверху Сцени. Ось зразок коду, в якому тобі може бути потрібно змінити числа, щоб він підходив для твоєї квітки:
 
-![flower sprite](images/flower-sprite.png)
+![спрайт квітки](images/flower-sprite.png)
 
 ```blocks3
 when [p v] key pressed
@@ -65,17 +65,17 @@ end
 
 \--- task \---
 
-Press `p` to see a row of flowers:
+Натисни `p`, щоб побачити рядок квітів:
 
-![4 flowers in a row](images/flower-pattern-row-example.png)
+![4 квітки в ряд](images/flower-pattern-row-example.png)
 
 \--- /task \---
 
 \--- task \---
 
-Add another loop to create more rows of flowers. This example adds a `repeat 3`{:class="block3control"} loop to create three rows.
+Додай ще один цикл, щоб створити більше рядків із квітів. Наступний приклад додає цикл `повторити 3`{:class="block3control"}, щоб намалювати три рядки.
 
-![flower sprite](images/flower-sprite.png)
+![спрайт квітки](images/flower-sprite.png)
 
 ```blocks3
 when [p v] key pressed
@@ -96,41 +96,41 @@ end
 
 \--- task \---
 
-Press <kbd>p</kbd> to create a grid of flowers:
+Натисни <kbd>p</kbd>, щоб створити сітку із квітів:
 
-![a 4 x 4 grid of flowers](images/flower-pattern-rows-example.png)
-
-\--- /task \---
-
-Do you want to speed up the drawing of the flowers?
-
-\--- task \---
-
-Right-click on the `draw flower`{:class="block3myblocks"} definition block and then click on **edit**. Click on the **Run without screen refresh** box.
-
-![turn no refresh option off](images/flower-no-refresh.png)
-
-Now the flowers get drawn more quickly.
+![сітка 3 на 4 з квітів](images/flower-pattern-rows-example.png)
 
 \--- /task \---
 
-You can also change the colour of the Stage.
+Чи хочеш ти прискорити малювання квітів?
 
 \--- task \---
 
-Click on **Choose a backdrop**, and then click on **Paint**. Create an orange backdrop by using the Fill tool in Bitmap mode.
+Клацни правою кнопкою мишки по визначенню блока `намалювати квітку`{:class="block3myblocks"} та вибери **правка**. Клацни на квадратик **Виконання без оновлення екрану**.
 
-![paint new backdrop](images/flower-orange-backdrop.png)
+![вимкнути функцію оновлення](images/flower-no-refresh.png)
 
-If you use orange for the backdrop and the Flower sprite, then the numbers for different colours will match for the sprite and the backdrop.
+Тепер квіти малюються швидше.
+
+\--- /task \---
+
+Ти також можеш змінити колір Сцени.
+
+\--- task \---
+
+Клацни на **Обрати тло**, а далі — **Намалювати**. Створи оранжеве тло за допомогою інструмента Заповнення у растровому режимі.
+
+![намалювати нове тло](images/flower-orange-backdrop.png)
+
+Якщо ти використовуєш оранжевий колір і для тла, і для спрайта Квітка, тоді числа для різних кольорів будуть для них збігатися.
 
 \--- /task \---
 
 \--- task \---
 
-Now you can use the `set colour effect`{:class="block3looks"} on the Stage to change the colour of the backdrop.
+Тепер ти можеш використати `встановити ефект колір`{:class="block3looks"} для Сцени, щоб змінити колір тла.
 
-![stage sprite](images/stage-sprite.png)
+![спрайт сцени](images/stage-sprite.png)
 
 ```blocks3
 when [p v] key pressed
@@ -141,14 +141,14 @@ set [color v] effect to (30)
 
 \--- task \---
 
-Try to create a pattern you like.
+Спробуй створити візерунок, який тобі подобається.
 
-Here's an example:
+Наприклад:
 
-![flowers on a green background](images/flower-pattern-background.png)
+![квіти на зеленому фоні](images/flower-pattern-background.png)
 
 \--- /task \---
 
-When you put it all together, you can create an amazing effect:
+Коли ти збереш усе до купи, то можеш створити чудовий ефект:
 
-![animation of lots of flowers](images/flower-gen-example.gif)
+![анімація великої кількості квітів](images/flower-gen-example.gif)
