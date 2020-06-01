@@ -165,7 +165,8 @@ end
 
 --- /hints ---
 
---- /hints --- --- /task ---
+--- /task --- 
+--- task ---
 
 `when green flag clickded`{:class="block3events"} स्क्रिप्ट, दोनों में दूसरा नंबर बदलें `draw flower`{:class="block3myblocks"} ब्लॉक ताकि दो फूल विभिन्न आकारों में दिखाई देते हैं।
 
@@ -195,7 +196,7 @@ draw flower (150) (50) :: custom
 ![विभिन्न पंखुड़ियों वाले फूल](images/flower-petals.png)
 
 --- hints ---
- --- hint ---
+--- hint ---
 
 आपको एक 'पंखुड़ी' नंबर इनपुट जोड़ने की जरूरत है, और फिर इसका उपयोग `define draw flower`{:class="block3myblocks"} ब्लॉक में करें।
 
@@ -264,7 +265,7 @@ draw flower (150) (50) (8) :: custom
 
 --- /hint ---
 
---- / संकेत ---
+--- /hints ---
 
 --- /task ---
 
