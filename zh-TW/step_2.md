@@ -1,10 +1,10 @@
-## Generate a flower
+## 創造一朵花
 
-First you're going to generate a flower that can be drawn on the Stage.
+首先，創造一朵可以在場景上繪製的花朵。
 
 \--- task \---
 
-Create a new Scratch project, and delete the cat sprite.
+新建一個新的Scratch專案，然後刪除貓咪角色。
 
 [[[generic-scratch3-new-project]]]
 
@@ -12,7 +12,7 @@ Create a new Scratch project, and delete the cat sprite.
 
 \--- task \---
 
-Add the Pen extension to your project.
+把畫筆這個擴充功能添加到專案裡。
 
 [[[generic-scratch3-add-pen-extension]]]
 
@@ -20,9 +20,9 @@ Add the Pen extension to your project.
 
 \--- task \---
 
-Now use the Paint tool to create a new sprite shaped like a flower petal.
+現在使用"繪畫"工具來創造形狀如同花瓣的新角色。
 
-Click on **Choose a sprite**, then click on **Paint** and rename the sprite 'Flower'.
+點擊**選擇角色** ，接著點擊**繪畫**並將角色重新命名為“花朵”。
 
 [[[generic-scratch3-draw-sprite]]]
 
@@ -30,7 +30,7 @@ Click on **Choose a sprite**, then click on **Paint** and rename the sprite 'Flo
 
 \--- task \---
 
-Use the Circle tool to draw a petal shape filled in orange.
+使用圓形工具來畫出一個橘色的實心花瓣形狀。
 
 ![screenshot](images/flower-petal.png)
 
