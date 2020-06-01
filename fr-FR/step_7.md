@@ -1,14 +1,14 @@
-## Random flower generator
+## Générateur de fleurs aléatoires
 
-You will now use your `draw flower`{:class="block3myblocks"} block to create a hundred random flowers all over the Stage whenever you press the <kbd>r</kbd>.
+Tu vas maintenant utiliser ton bloc `dessiner une fleur`{:class="block3myblocks"} pour créer une centaine de fleurs aléatoires sur toute la scène chaque fois que tu appuies sur la touche <kbd>r</kbd>.
 
-![random flowers](images/flower-random.png)
+![fleurs aléatoires](images/flower-random.png)
 
 \--- task \---
 
-Add a new Event block to your sprite's code so that `when the r key is pressed`{:class="block3events"}, the screen is `cleared`{:class="block3extensions"}.
+Ajoute un nouveau bloc événement au code de ton sprite afin que `quand la touche r est pressée`{:class="block3events"}, l'écran est `effacé`{:class="block3extensions"}.
 
-![flower sprite](images/flower-sprite.png)
+![sprite de fleur](images/flower-sprite.png)
 
 ```blocks3
 when [r v] key pressed
@@ -19,9 +19,9 @@ erase all
 
 \--- task \---
 
-Add in a `repeat`{:class="block3control"} block to go to a `random position`{:class="block3motion"} `100` times.
+Ajoute un bloc `répéter`{:class="block3control"} pour aller à une `position aléatoire`{:class="block3motion"} `100` fois.
 
-![flower sprite](images/flower-sprite.png)
+![sprite de fleur](images/flower-sprite.png)
 
 ```blocks3
 repeat (100)
@@ -33,11 +33,11 @@ end
 
 \--- task \---
 
-Use the `draw flower`{:class="block3myblocks"} block to create a flower that has a `random`{:class="block3operators"} colour between `0` and `199`.
+Utilise le bloc `dessiner une fleur`{:class="block3myblocks"} pour créer une fleur qui a une couleur `aléatoire`{:class="block3operators"} entre `0` et `199`.
 
-You code should now look like this:
+Ton code devrait maintenant ressembler à ceci :
 
-![flower sprite](images/flower-sprite.png)
+![sprite de fleur](images/flower-sprite.png)
 
 ```blocks3
 when [r v] key pressed
@@ -50,27 +50,27 @@ end
 
 \--- /task \---
 
-This code creates one hundred flowers with different colours but with the same size and numbers of petals.
+Ce code crée une centaine de fleurs aux couleurs différentes, mais avec la même taille et le même nombre de pétales.
 
-![flowers just with random colours](images/flower-random-colour.png)
+![fleurs juste avec des couleurs aléatoires](images/flower-random-colour.png)
 
 \--- task \---
 
-Can you modify the `when the r key is pressed`{:class="block3events"} script so the flowers' size and number of petals are also random?
+Peux-tu modifier le script `quand la touche r est pressée`{:class="block3events"} pour que la taille des fleurs et le nombre de pétales soient aussi aléatoires ?
 
-\--- hints \---
-
-\--- hint \---
-
-The `draw flower`{:class="block3myblocks"} block should `pick random`{:class="block3operators"} numbers for the size and number of petals.
-
-\--- /hint \---
+\--- astuces \---
 
 \--- hint \---
 
-The following blocks pick a random size between `50` and `150` and a random number of petals between `4` and `12`.
+Le bloc `dessiner une fleur`{:class="block3myblocks"} devrait `choisir des nombres aléatoires`{:class="block3operators"} pour la taille et le nombre de pétales.
 
-![flower sprite](images/flower-sprite.png)
+\--- /indice \---
+
+\--- hint \---
+
+Les blocs suivants choisissent une taille aléatoire entre `50` et `150` et un nombre aléatoire de pétales entre `4` et `12`.
+
+![sprite de fleur](images/flower-sprite.png)
 
 ```blocks3
 (pick random (50) to (150))
@@ -78,13 +78,13 @@ The following blocks pick a random size between `50` and `150` and a random numb
 (pick random (4) to (12))
 ```
 
-\--- /hint \---
+\--- /indice \---
 
 \--- hint \---
 
-Your code should look like this:
+Ton code devrait ressembler à ceci :
 
-![flower sprite](images/flower-sprite.png)
+![sprite de fleur](images/flower-sprite.png)
 
 ```blocks3
 when [r v] key pressed
@@ -95,14 +95,14 @@ repeat (100)
 end
 ```
 
-\--- /hint \---
+\--- /indice \---
 
-\--- /hints \---
+\--- /astuces \---
 
 \--- /task \---
 
 \--- task \---
 
-Press <kbd>r</kbd> to see your random flowers.
+Appuie sur <kbd>r</kbd> pour voir tes fleurs aléatoires.
 
 \--- /task \---
