@@ -2,13 +2,13 @@
 
 سوف تستخدم الآن تعليمة برمجية لــ`ارسم زهرة`{:class="block3myblocks"} لإنشاء مئات الزهور العشوائية في جميع أنحاء المرحلة كلما قمت بالضغط على <kbd>r</kbd>.
 
-![random flowers](images/flower-random.png)
+![أزهار عشوائية](images/flower-random.png)
 
 \--- task \---
 
 أضف تعليمة برمجية جديدة من مجموعة الاحداث إلى تعليمة الكائن لخاص بك بحيث أن `عندما يتم الضغط على مفتاح r `{:class="block3events"}، تكون الشاشة`خالية`{:class="block3extensions"}.
 
-![flower sprite](images/flower-sprite.png)
+![كائن الزهرة](images/flower-sprite.png)
 
 ```blocks3
 when [r v] key pressed
@@ -21,7 +21,7 @@ erase all
 
 أضف في التعليمة `كرر`{:class="block3control"} للذهاب إلى `وضع عشوائي`{:class="block3motion"} `100` مرة.
 
-![flower sprite](images/flower-sprite.png)
+![كائن الزهرة](images/flower-sprite.png)
 
 ```blocks3
 repeat (100)
@@ -37,7 +37,7 @@ end
 
 يجب أن تبدو تعليماتك البرمجية على الشكل التالي:
 
-![flower sprite](images/flower-sprite.png)
+![كائن الزهرة](images/flower-sprite.png)
 
 ```blocks3
 when [r v] key pressed
@@ -52,7 +52,7 @@ end
 
 هذه التعليمات البرمجية تنشئ مائة زهرة بألوان مختلفة ولكن بنفس الحجم وأعداد الورق.
 
-![flowers just with random colours](images/flower-random-colour.png)
+![الزهور فقط بألوان عشوائية](images/flower-random-colour.png)
 
 \--- task \---
 
@@ -62,37 +62,35 @@ end
 
 \--- hint \---
 
-The `draw flower`{:class="block3myblocks"} block should `pick random`{:class="block3operators"} numbers for the size and number of petals.
+التعليمة `رسم زهرة`{:class="block3myblocks"} يجب أن `تختار أرقام عشوائية `{:class="block3operators"} لحجم وعدد الورق.
 
 \--- /hint \---
 
 \--- hint \---
 
-The following blocks pick a random size between `50` and `150` and a random number of petals between `4` and `12`.
+التعليمة التالية تختار حجم عشوائي بين `50` و `150` وعدد عشوائي من الورق بين `4` و `12`.
 
-![flower sprite](images/flower-sprite.png)
+![كائن الزهرة](images/flower-sprite.png)
 
 ```blocks3
-(pick random (50) to (150))
+(اختر عشوائيا (50) إلى (150))
 
-(pick random (4) to (12))
+(اختر عشوائيا من (4) إلى (12))
 ```
 
 \--- /hint \---
 
 \--- hint \---
 
-Your code should look like this:
+يجب أن تبدو التعليمات البرمجية خاصتك بالشكل التالي:
 
-![flower sprite](images/flower-sprite.png)
+![كائن الزهرة](images/flower-sprite.png)
 
 ```blocks3
-when [r v] key pressed
-erase all
-repeat (100) 
-  go to (random position v)
-  draw flower (pick random (0) to (199)) (pick random (50) to (150)) (pick random (4) to (12)) :: custom
-end
+عند الضغط على مفتاح [rv]
+يمحو الكل تكرار (100) 
+  انتقل إلى (الوضع العشوائي v)
+  رسم زهرة (اختيار عشوائي (0) إلى (199)) (اختيار عشوائي (50) إلى (150)) (اختيار عشوائي (4) إلى (12)) :: مظهر نهاية
 ```
 
 \--- /hint \---
@@ -103,6 +101,6 @@ end
 
 \--- task \---
 
-Press <kbd>r</kbd> to see your random flowers.
+اضغط على <kbd> r </kbd> لرؤية زهورك العشوائية.
 
 \--- /task \---
