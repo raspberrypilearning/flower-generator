@@ -1,21 +1,21 @@
-## Challenge: create a flower design
+## चुनौती: एक फूल का डिज़ाइन बनाएँ
 
-Can you use your `draw flower`{:class="block3myblocks"} block several times to draw more flowers and create an interesting design? Drawing different flowers at the same location creates an interesting effect.
+क्या आप अधिक फूल बनाने और एक दिलचस्प डिज़ाइन बनाने के लिए अपने `draw flower`{:class="block3myblocks"} ब्लॉक का कई बार उपयोग कर सकते हैं? एक ही स्थान पर विभिन्न फूल बनाना एक दिलचस्प प्रभाव पैदा करता है।
 
-Create a design that you like. Here's an example:
+अपनी पसंद का कोई डिज़ाइन बनाएँ। यहाँ एक उदाहरण है:
 
-![screenshot](images/flower-three.png)
+![स्क्रीनशॉट](images/flower-three.png)
 
-You don't have to use petals shaped like ellipses. For example, you can use thick straight lines and a black backdrop to create a firework pattern like this:
+आपको गोल आकार की पंखुड़ियों का उपयोग करने की आवश्यकता नहीं है। उदाहरण के लिए, आप इस तरह का आतिशबाज़ी (फायरवर्क) पैटर्न बनाने के लिए मोटी सीधी रेखाओं और एक काली पृष्ठभूमि का उपयोग कर सकते हैं:
 
-![screenshot](images/flower-fireworks.png)
+![स्क्रीनशॉट](images/flower-fireworks.png)
 
-The 'petal' for the firework pattern is just a line:
+आतिशबाज़ी पैटर्न के लिए 'पंखुड़ी' सिर्फ एक लाइन है:
 
-![screenshot](images/flower-firework-petal.png)
+![स्क्रीनशॉट](images/flower-firework-petal.png)
 
-Add new petal costumes and see what flowers you can come up with.
+नई पंखुड़ियों के परिधान जोड़ें और देखें कि आप कौन से फूलों को पेश कर सकते हैं।
 
-Try out a sprite shape that is not filled in, such as a square, and see what happens
+एक ऐसे स्प्राइट आकार की कोशिश करें जिसे भरा न गया हो, जैस कोई चौकोर, और देखें कि क्या होता है
 
-![screenshot](images/flower-square-petal.png)
+![स्क्रीनशॉट](images/flower-square-petal.png)
