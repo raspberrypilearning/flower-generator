@@ -1,12 +1,12 @@
-## Customise your flowers
+## 自訂您的花朵
 
-At the moment all the flowers you draw are exactly the same. Next you're going to add some inputs to the `draw flower`{:class="block3myblocks"} block so that you can draw flowers with different colours, sizes, and numbers of petals.
+目前為止，你畫的花都是一模一樣的。 接下來你要新增一些"輸入"到 `花朵積木`{:class="block3myblocks"}，這樣一來你就可以畫出不同顏色、大小和花瓣數的花。
 
 \--- task \---
 
-In Scratch you can use the `set colour effect`{:class="block3looks"} block to change the colour of a sprite.
+在Scratch中，你可以使用`圖像效果-顏色` {：class =“ block3looks”}積木來更改角色的顏色。
 
-Change your 'draw flower' definition to change the colour:
+變更"畫花朵"定義積木來改變顏色：
 
 ![flower sprite](images/flower-sprite.png)
 
@@ -23,25 +23,25 @@ end
 
 \--- task \---
 
-Run your code to see flowers of different colours.
+執行程式碼，看看花朵是不是變成了不同的顏色。
 
 ![screenshot](images/flower-pink.png)
 
-`set colour effect`{:class="block3looks"} changes the colour based on the default colour of the sprite, so if your sprite doesn't start out orange, you get different results.
+`圖像效果-顏色` {：class =“ block3looks”}會根據原本角色設定的顏色來更改色彩，所以如果你的角色一開始不是設定成橘色，則會得到不同的結果。
 
 \--- /task \---
 
 \--- task \---
 
-Experiment with using different numbers from `0` to `199` in the `set colour effect`{:class="block3looks"} block, and see what different results you get.
+實驗看看在`圖像效果-顏色` {：class =“ block3looks”}積木裡使用從` 0 `到` 199 `的不同數字，看看會得到什麼結果。
 
 \--- /task \---
 
-At the moment all flowers are the same colour. To give each flower a different colour, you need to add an **input** to the `draw flower`{:class="block3myblocks"} block.
+目前為止，所有花都是相同顏色。 要給每朵花不同的顏色，你需要新增**輸入**到`畫花朵` {：class =“ block3myblocks”}積木。
 
 \--- task \---
 
-Right-click on the `draw flower`{:class="block3myblocks"} definition block and choose **edit**:
+在`畫花朵` {：class =“ block3myblocks”}定義積木上點擊右鍵並選擇**編輯 ** ：
 
 ![screenshot](images/flower-edit.png)
 
@@ -49,7 +49,7 @@ Right-click on the `draw flower`{:class="block3myblocks"} definition block and c
 
 \--- task \---
 
-Now add a **input number** called 'colour':
+添加**輸入方塊**並命名為“顏色”：
 
 ![screenshot](images/flower-colour-input-annotated.png)
 
