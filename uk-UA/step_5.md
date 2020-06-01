@@ -1,21 +1,21 @@
-## Challenge: create a flower design
+## Завдання: створи власний квітковий малюнок
 
-Can you use your `draw flower`{:class="block3myblocks"} block several times to draw more flowers and create an interesting design? Drawing different flowers at the same location creates an interesting effect.
+Чи можеш ти використати свій блок `намалювати квітку`{:class="block3myblocks"} декілька разів, щоб зобразити багато квітів і створити цікавий малюнок? Малювання різних квітів в одному й тому ж місці створює цікавий ефект.
 
-Create a design that you like. Here's an example:
+Створи малюнок, який тобі подобається. Ось приклад:
 
-![screenshot](images/flower-three.png)
+![знімок екрана](images/flower-three.png)
 
-You don't have to use petals shaped like ellipses. For example, you can use thick straight lines and a black backdrop to create a firework pattern like this:
+Тобі не обов’язково використовувати пелюстки в формі еліпсів. Наприклад, ти можеш використовувати товсті прямі лінії і чорне тло, щоб створити ось такий візерунок у формі феєрверків:
 
-![screenshot](images/flower-fireworks.png)
+![знімок екрана](images/flower-fireworks.png)
 
-The 'petal' for the firework pattern is just a line:
+"Пелюсткою" для візерунка у формі феєрверків є звичайна лінія:
 
-![screenshot](images/flower-firework-petal.png)
+![знімок екрана](images/flower-firework-petal.png)
 
-Add new petal costumes and see what flowers you can come up with.
+Додай нові образи пелюсток, щоб побачити, які квіти в тебе вийдуть.
 
-Try out a sprite shape that is not filled in, such as a square, and see what happens
+Спробуй використати форму спрайта без заливки, наприклад, квадрат, і подивись, що вийде.
 
-![screenshot](images/flower-square-petal.png)
+![знімок екрана](images/flower-square-petal.png)
