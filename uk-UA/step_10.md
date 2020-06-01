@@ -1,10 +1,10 @@
-## What next?
+## Що далі?
 
-Try our [Guess the flag](https://projects.raspberrypi.org/en/projects/guess-the-flag?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) project, where you can create a flag quiz to test yourself and your friends.
+Спробуй наш проєкт [Вгадай прапор](https://projects.raspberrypi.org/en/projects/guess-the-flag?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects), де ти зможеш створити тест про прапори, щоб перевірити себе та своїх друзів.
 
 \--- no-print \---
 
-Click on the flag of the country for which you are being asked.
+Клацни на прапор країни, про яку тебе запитують.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/276891625/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -14,6 +14,6 @@ Click on the flag of the country for which you are being asked.
 
 \--- print-only \---
 
-![Finished game](images/finished-game.png)
+![Готова гра](images/finished-game.png)
 
 \--- /print-only \---
