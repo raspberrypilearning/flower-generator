@@ -1,0 +1,22 @@
+---
+title: Générateur de fleurs
+hero_image: images/banner.png
+description: Générer des fleurs pour créer une image d'arrière-plan ou un économiseur d'écran
+duration: 2
+listed: true
+copyedit: true
+version: 4.1.0
+last_tested: 2018-10-18
+steps:
+  - title: Introduction
+  - title: Concevoir une fleur
+  - title: Créer un bloc personnalisé pour dessiner des fleurs
+  - title: Personnalise tes fleurs
+  - title: "Défi: créer un design floral"
+    challenge: true
+  - title: Enregistre tes images
+  - title: Générateur de fleurs aléatoires
+  - title: Motifs floraux
+  - title: "Défi: blocs de fleurs personnalisés"
+    challenge: true
+  - title: Et ensuite?

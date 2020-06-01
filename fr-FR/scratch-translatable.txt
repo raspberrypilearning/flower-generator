@@ -1,0 +1,19 @@
+fleur
+
+costume1
+
+costume2
+
+dessiner une fleur
+
+dessiner une fleur double
+
+couleur
+
+pétales
+
+taille
+
+couleur bordure
+
+couleur remplissage
