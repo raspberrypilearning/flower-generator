@@ -78,7 +78,7 @@ end
 
 \--- /task \---
 
-Notice that your `draw flower`{:class="block3myblocks"} blocks now have a new input that is set to `1`:
+你將注意到你的`畫花朵` {：class =“ block3myblocks”}積木現在有一個新"輸入"，該輸入設定為` 1 ` ：
 
 ```blocks3
 when green flag clicked
@@ -91,9 +91,9 @@ draw flower (1) :: custom
 
 \--- task \---
 
-Change the numbers in the `draw flower`{:class="block3myblocks"} blocks so that the two flowers appear in different colours. You can pick any numbers between 0 and 200.
+更改`畫花朵` {：class =“ block3myblocks”}積木中的數字，如此一來這兩朵花會呈現不同的顏色。 你可以選擇0到200之間的任何數字。
 
-Your code should look similar to this:
+你的程式碼應該會看起來像這樣：
 
 ![flower sprite](images/flower-sprite.png)
 
@@ -110,7 +110,7 @@ draw flower (150) :: custom
 
 \--- task \---
 
-Now add another input to set the size of the flower, so your `draw flower`{:class="block3myblocks"} block looks like this:
+現在添加另一個"輸入"來設定花朵的大小，你的`畫花朵` {：class =“ block3myblocks”}積木會看起來如下：
 
 ![flower sprite](images/flower-sprite.png)
 
@@ -118,7 +118,7 @@ Now add another input to set the size of the flower, so your `draw flower`{:clas
 draw flower (180) (150) :: custom
 ```
 
-With the block above, you can create flowers with different sizes:
+使用上面的積木，你可以做出不同大小的花朵：
 
 ![different sized flowers](images/flower-different-sizes.png)
 
