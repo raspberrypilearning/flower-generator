@@ -1,6 +1,6 @@
-## Make a custom block to draw flowers
+## 製作一個畫花朵的專屬積木
 
-What if you want to draw lots of flowers? Instead of making lots of copies of the code, you will create your own block in Scratch and use it every time you want to draw a flower.
+如果要畫很多花的時候該怎麼辦呢？ 為了避免複製很多程式碼，你可以在Scratch中創造專屬你的積木，每當要畫花朵時就可以使用它。
 
 \--- task \---
 
