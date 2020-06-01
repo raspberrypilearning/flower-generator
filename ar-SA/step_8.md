@@ -1,12 +1,12 @@
-## Flower patterns
+## أنماط الزهور
 
-You can also use your `draw flower`{:class="block3myblocks"} block to create neat flower patterns.
+يمكنك أيضًا استخدام كتلة `رسم زهرة` {: class = "block3myblocks"} لإنشاء أنماط زهور أنيقة.
 
 \--- task \---
 
-Create a flower or a combination of flowers that you like. Here's an example:
+إنشاء زهرة أو مزيج من الزهور التي تحب. إليك مثالًا:
 
-![flower sprite](images/flower-sprite.png)
+![كائن الزهرة](images/flower-sprite.png)
 
 ```blocks3
 when [p v] key pressed
@@ -20,35 +20,35 @@ draw flower (130) (35) (20) :: custom
 
 \--- task \---
 
-Press <kbd>p</kbd> to see your flower. The example looks like this:
+اضغط على <kbd> r </kbd> لرؤية زهورك العشوائية. المثال يبدو كالتالي:
 
-![a flower pattern](images/flower-for-pattern-example.png)
+![أنماط الزهور](images/flower-for-pattern-example.png)
 
 \--- /task \---
 
-Before you can create your pattern, you should clear the Stage of any leftover flowers.
+قبل أن تتمكن من إنشاء نمطك ، يجب عليك مسح الشاشة من أي بقايا زهور.
 
 \--- task \---
 
-Click on the `erase all` block in the Pen tab.
+انقر فوق التعليمة البرمجية `مسح الكل` في مقطع التعليمة البرمجية للقلم.
 
 ```blocks3
-erase all
+مسح الكل
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Right-click on the Flower sprite and `hide`{:class="block3looks"} it so it doesn't appear on the Stage. (You can `show`{:class="block3looks"} the sprite again if you need to see where it is.)
+انقر بالزر الأيمن على كائن الزهرة و `اختف`{:class="block3looks"} حتى لا يظهر على الشاشة. (يمكنك `عرض `{:class="block3looks"} الكائن مرة أخرى إذا كنت بحاجة إلى رؤية أين هي.)
 
 \--- /task \---
 
 \--- task \---
 
-Now draw a row of these flowers across the top of the Stage. Here is some example code, in which you might need to adjust the numbers so it works with your flower:
+الآن ارسم صف من هذه الزهور عبر قمة الشاشة. إليك بعض التعليمات البرمجية التي قد تحتاج فيها إلى تعديل الأرقام حتى تعمل مع الزهرة الخاصة بك:
 
-![flower sprite](images/flower-sprite.png)
+![كائن الزهرة](images/flower-sprite.png)
 
 ```blocks3
 when [p v] key pressed
@@ -65,17 +65,17 @@ end
 
 \--- task \---
 
-Press `p` to see a row of flowers:
+اضغط على ` r ` لرؤية زهورك العشوائية:
 
-![4 flowers in a row](images/flower-pattern-row-example.png)
+![4 زهور متتالية](images/flower-pattern-row-example.png)
 
 \--- /task \---
 
 \--- task \---
 
-Add another loop to create more rows of flowers. This example adds a `repeat 3`{:class="block3control"} loop to create three rows.
+أضف حلقة تكرار أخرى لإنشاء المزيد من صفوف الزهور. يضيف هذا المثال يضيف حلقة `كرّر ٣`{:class="block3control"} لإنشاء ثلاثة صفوف.
 
-![flower sprite](images/flower-sprite.png)
+![كائن الزهرة](images/flower-sprite.png)
 
 ```blocks3
 when [p v] key pressed
@@ -96,41 +96,41 @@ end
 
 \--- task \---
 
-Press <kbd>p</kbd> to create a grid of flowers:
+اضغط على <kbd> r </kbd> لرؤية زهورك العشوائية:
 
-![a 4 x 4 grid of flowers](images/flower-pattern-rows-example.png)
-
-\--- /task \---
-
-Do you want to speed up the drawing of the flowers?
-
-\--- task \---
-
-Right-click on the `draw flower`{:class="block3myblocks"} definition block and then click on **edit**. Click on the **Run without screen refresh** box.
-
-![turn no refresh option off](images/flower-no-refresh.png)
-
-Now the flowers get drawn more quickly.
+![شبكة 4 × 4 من الزهور](images/flower-pattern-rows-example.png)
 
 \--- /task \---
 
-You can also change the colour of the Stage.
+هل تريد تسريع رسم الزهور؟
 
 \--- task \---
 
-Click on **Choose a backdrop**, and then click on **Paint**. Create an orange backdrop by using the Fill tool in Bitmap mode.
+انقر بزر الماوس الأيمن على التعليمة البرمجية لـ`رسم زهرة` {: class = "block3myblocks"} واختر ** تعديل**. انقر فوق ** التشغيل دون تحديث شاشة** الصندوق.
 
-![paint new backdrop](images/flower-orange-backdrop.png)
+![إيقاف تشغيل أي خيار التحديث](images/flower-no-refresh.png)
 
-If you use orange for the backdrop and the Flower sprite, then the numbers for different colours will match for the sprite and the backdrop.
+الآن يتم رسم الزهور بسرعة أكبر.
+
+\--- /task \---
+
+يمكنك أيضًا تغيير حجم الصورة.
+
+\--- task \---
+
+انقر فوق ** اختيار خلفية** ، ثم انقر فوق ** الرسم**. إنشاء خلفية برتقالية باستخدام أداة التعبئة في وضع الخريطة.
+
+![رسم خلفية جديدة](images/flower-orange-backdrop.png)
+
+إذا كنت تستخدم اللون البرتقالي للخلفية وكائن الزهرة ، فستطابق الأرقام الخاصة بالألوان المختلفة للكائن والخلفية.
 
 \--- /task \---
 
 \--- task \---
 
-Now you can use the `set colour effect`{:class="block3looks"} on the Stage to change the colour of the backdrop.
+في Scratch يمكنك استخدام تعليمة `اجعل مؤثر اللون مساويا`{:class="block3looks"} لتغيير لون كائن.
 
-![stage sprite](images/stage-sprite.png)
+![كائن خلغية العمل](images/stage-sprite.png)
 
 ```blocks3
 when [p v] key pressed
@@ -141,14 +141,14 @@ set [color v] effect to (30)
 
 \--- task \---
 
-Try to create a pattern you like.
+حاول إنشاء نمط تحبه.
 
-Here's an example:
+إليك مثالاً:
 
-![flowers on a green background](images/flower-pattern-background.png)
+![الزهور على خلفية خضراء](images/flower-pattern-background.png)
 
 \--- /task \---
 
-When you put it all together, you can create an amazing effect:
+عندما تضع كل ذلك معًا ، يمكنك إنشاء تأثير مذهل:
 
-![animation of lots of flowers](images/flower-gen-example.gif)
+![الرسوم المتحركة لكثير من الزهور](images/flower-gen-example.gif)
