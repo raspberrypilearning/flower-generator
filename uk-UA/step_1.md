@@ -1,20 +1,20 @@
 \--- no-print \---
 
-This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/flower-generator-scratch2).
+Це — версія проєкту для **Скретч 3**. Також існує [версія проєкту для Скретч 2](https://projects.raspberrypi.org/en/projects/flower-generator-scratch2).
 
 \--- /no-print \---
 
-## Introduction
+## Вступ
 
-You will create hundreds of flowers of different sizes, shapes, and colours.
+Ти створиш сотні квітів різних розмірів, форм та кольорів.
 
-You can export the flower pictures and use them as wallpapers on your phone or computer, or as backdrops in other Scratch projects.
+Ти зможеш експортувати ці зображення квітів і використовувати їх як шпалери на своєму телефоні чи комп'ютері або як тло для інших проєктів Скретч.
 
-### What you will make
+### Що ти зробиш
 
 \--- no-print \---
 
-Press `f` to draw a few flowers, or `r` to draw lots of random flowers, or `p` to draw a flower pattern.
+Натисни `f`, щоб намалювати кілька квітів, `r`, щоб намалювати безліч випадкових квітів, або `p` для квіткового візерунку.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/253355932/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -24,45 +24,45 @@ Press `f` to draw a few flowers, or `r` to draw lots of random flowers, or `p` t
 
 \--- print-only \---
 
-![random flowers](images/flower-random.png)
+![випадкові квіти](images/flower-random.png)
 
 \--- /print-only \---
 
 ## \--- collapse \---
 
-## title: What you will need
+## title: Що тобі знадобиться
 
-### Hardware
+### Обладнання
 
-+ A computer capable of running Scratch 3
++ Комп'ютер, що підтримує Скретч 3
 
-### Software
+### Програмне забезпечення
 
-+ Scratch 3 (either [online](https://rpf.io/scratch-on) or [offline](https://rpf.io/scratch-off))
-
-\--- /collapse \---
-
-## \--- collapse \---
-
-## title: What you will learn
-
-+ How to stamp a sprite 
-+ How to make your own Scratch blocks
-+ How to use block inputs 
-+ How to create random numbers 
++ Скретч 3 ([онлайн](https://rpf.io/scratch-on) або [офлайн](https://rpf.io/scratch-off))
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: Additional notes for educators
+## title: Чого ти навчишся
+
++ Як робити штамп спрайта 
++ Як створювати власні блоки в Скретч
++ Як використовувати вхідні параметри блоків 
++ Як створювати випадкові числа 
+
+\--- /collapse \---
+
+## \--- collapse \---
+
+## title: Додаткова інформація для викладачів
 
 \--- no-print \---
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/flower-generator/print){:target="_blank"}.
+Якщо вам потрібно роздрукувати цей проєкт, будь ласка, скористайтеся [версією для друку](https://projects.raspberrypi.org/en/projects/flower-generator/print){:target="_blank"}.
 
 \--- /no-print \---
 
-You can find the [completed project here](http://rpf.io/p/en/flower-generator-get){:target="_blank"}.
+Ви можете знайти [завершений проєкт тут](http://rpf.io/p/en/flower-generator-get){:target="_blank"}.
 
 \--- /collapse \---
