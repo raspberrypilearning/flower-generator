@@ -24,27 +24,27 @@ Press `f` to draw a few flowers, or `r` to draw lots of random flowers, or `p` t
 
 \--- print-only \---
 
-![random flowers](images/flower-random.png)
+![随机生成花朵](images/flower-random.png)
 
 \--- /print-only \---
 
 ## \--- collapse \---
 
-## title: What you will need
+## 标题: 你需要准备什么
 
-### Hardware
+### 硬件
 
-+ A computer capable of running Scratch 3
++ 能够运行Scratch 3的电脑
 
-### Software
+### 软件
 
-+ Scratch 3 (either [online](https://rpf.io/scratch-on) or [offline](https://rpf.io/scratch-off))
++ Scratch 3（[在线版](https://rpf.io/scratch-on)或[离线版](https://rpf.io/scratch-off)）
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: What you will learn
+## 你将学到什么
 
 + How to stamp a sprite 
 + How to make your own Scratch blocks
@@ -63,6 +63,6 @@ If you need to print this project, please use the [printer-friendly version](htt
 
 \--- /no-print \---
 
-You can find the [completed project here](http://rpf.io/p/en/flower-generator-get){:target="_blank"}.
+你可以在这里找到 [完成的项目](http://rpf.io/p/en/flower-generator-get){:target="_blank"}。
 
 \--- /collapse \---
