@@ -1,18 +1,18 @@
-## Make a custom block to draw flowers
+## إنشاء تعليمة برمجية مخصصة لرسم الزهور
 
-What if you want to draw lots of flowers? Instead of making lots of copies of the code, you will create your own block in Scratch and use it every time you want to draw a flower.
+ماذا لو كنت تريد رسم الكثير من الزهور؟ بدلاً من عمل الكثير من النسخ من التعليمات البرمجية، ستقوم بإنشاء تعليم برمجية خاصة بك في سكراتش واستخدامها في كل مرة تريد فيها رسم زهرة.
 
 \--- task \---
 
-Click on **My Blocks** and then on **Make a Block** to create your own block called 'draw flower'.
+انقر على **الكتل الخاصة بي** ثم على **اصنع تعليمة برمجية** لإنشاء تعليمة برمجية خاصة بك تسمى "رسم زهرة".
 
-![screenshot](images/flower-make-block.png)
+![لقطة الشاشة](images/flower-make-block.png)
 
 \--- /task \---
 
 \--- task \---
 
-There is now a new block called `draw flower`{:class="block3myblocks"} in the **More blocks** section, and a new definition block on the Stage.
+يوجد الآن تعليمة برمجية جديدة تسمى `رسم زهرة` {: class = "block3myblocks"} في خانة ** المزيد من التعليمات البرمجية ** مقطع وتعليمات برمجية جديدة على المسرح.
 
 ```blocks3
 draw flower :: custom
@@ -24,11 +24,11 @@ define draw flower
 
 \--- task \---
 
-Move your code for drawing the flower from the `when green flag clicked`{:class="block3events"} block to the new `draw flower`{:class="block3myblocks"} definition block.
+نقل التعليمات البرمجية الخاصة بك لرسم الزهرة من التعليمة البرمجية `عند النقر فوق العلم الأخضر`{:class="block3events"} الى التعليمة البرمجية الجديدة `رسم زهرة`{:class="block3myblocks"}.
 
-Your code should look like this:
+يجب أن تبدو التعليمة البرمجية الخاص بك بالشكل التالي:
 
-![flower sprite](images/flower-sprite.png)
+![كائن الزهرة](images/flower-sprite.png)
 
 ```blocks3
 define draw flower
@@ -44,9 +44,9 @@ when green flag clicked
 
 \--- task \---
 
-Add the following code to clear the Stage and to use your new `draw flower`{:class="block3myblocks"} block when the green flag is clicked:
+أضف التعليمة البرمجية التالية لتنظيف شاشة التنفيذ ولاستخدام ` رسم زهرة جديدة ` {: class = "block3myblocks"} عند النقر على العلم الأخضر:
 
-![flower sprite](images/flower-sprite.png)
+![كائن الزهرة](images/flower-sprite.png)
 
 ```blocks3
 when green flag clicked
@@ -58,15 +58,15 @@ draw flower :: custom
 
 \--- task \---
 
-Click the green flag to test your code and check whether you see a flower.
+انقر فوق العلم الأخضر لاختبار التعليمة البرمجية الخاصة بك والتحقق مما إذا كنت ترى زهرة.
 
 \--- /task \---
 
 \--- task \---
 
-Now change your code to move the sprite and then draw another flower:
+الآن قم بتغيير تعليمتك البرمجية لتحريك الكائن ثم ارسم زهرة أخرى:
 
-![flower sprite](images/flower-sprite.png)
+![كائن الزهرة](images/flower-sprite.png)
 
 ```blocks3
 when green flag clicked
@@ -81,8 +81,8 @@ draw flower :: custom
 
 \--- task \---
 
-Test your code to check that you now see two flowers.
+اختبر التعليمة البرمجية للتحقق من أنك ترى الآن زهرتان.
 
-![screenshot](images/flower-two.png)
+![لقطة الشاشة](images/flower-two.png)
 
 \--- /task \---
