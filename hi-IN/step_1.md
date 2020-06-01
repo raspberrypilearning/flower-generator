@@ -59,10 +59,10 @@
 
 \--- no-print \---
 
-यदि आपको इस परियोजना को प्रिंट करने की आवश्यकता है, तो कृपया  प्रिंटर के अनुकूल संस्करण का उपयोग करें </ 0> {: target = "_ blank"}।</p> 
+यदि आपको इस परियोजना को प्रिंट करने की आवश्यकता है, तो कृपया [प्रिंटर के अनुकूल संस्करण का उपयोग करें](https://projects.raspberrypi.org/en/projects/flower-generator/print){:target="_blank"}।
 
 \--- /no-print \---
 
-आप यहां [completed project here](http://rpf.io/p/en/flower-generator-get){:target="_blank"} पा सकते हैं I
+आप इधर [पूरा किया हुआ प्रोजेक्ट](http://rpf.io/p/en/flower-generator-get){:target="_blank"} देख सकते हैं ।
 
 \--- /collapse \---
