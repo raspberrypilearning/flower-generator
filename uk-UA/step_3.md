@@ -1,18 +1,18 @@
-## Make a custom block to draw flowers
+## Створи власний блок для малювання квітів
 
-What if you want to draw lots of flowers? Instead of making lots of copies of the code, you will create your own block in Scratch and use it every time you want to draw a flower.
+Що робити, якщо ти хочеш намалювати багато квітів? Замість того, щоб робити багато копій якогось коду, ти створиш свій власний блок в Скретч і будеш його використовувати кожного разу, коли захочеш намалювати квітку.
 
 \--- task \---
 
-Click on **My Blocks** and then on **Make a Block** to create your own block called 'draw flower'.
+Клацни на **Мої блоки**, а далі на **Створити блок**, щоб створити власний блок із назвою "намалювати квітку".
 
-![screenshot](images/flower-make-block.png)
+![знімок екрана](images/flower-make-block.png)
 
 \--- /task \---
 
 \--- task \---
 
-There is now a new block called `draw flower`{:class="block3myblocks"} in the **More blocks** section, and a new definition block on the Stage.
+Тепер в розділі **Мої блоки** з’явився блок `намалювати квітку`{:class="block3myblocks"}, а в області коду — місце для його визначення.
 
 ```blocks3
 draw flower :: custom
@@ -24,11 +24,11 @@ define draw flower
 
 \--- task \---
 
-Move your code for drawing the flower from the `when green flag clicked`{:class="block3events"} block to the new `draw flower`{:class="block3myblocks"} definition block.
+Перенеси свій код малювання квітки з-під блоку `коли зелений прапор натиснуто`{:class="block3events"} під визначення нового блоку `намалювати квітку`{:class="block3myblocks"}.
 
-Your code should look like this:
+Твій код повинен виглядати так:
 
-![flower sprite](images/flower-sprite.png)
+![спрайт квітки](images/flower-sprite.png)
 
 ```blocks3
 define draw flower
@@ -44,9 +44,9 @@ when green flag clicked
 
 \--- task \---
 
-Add the following code to clear the Stage and to use your new `draw flower`{:class="block3myblocks"} block when the green flag is clicked:
+Додай наступний код, щоб очистити Сцену і застосувати твій новий блок `намалювати квітку`{:class="block3myblocks"}, коли натиснуто на зелений прапор:
 
-![flower sprite](images/flower-sprite.png)
+![спрайт квітки](images/flower-sprite.png)
 
 ```blocks3
 when green flag clicked
@@ -58,15 +58,15 @@ draw flower :: custom
 
 \--- task \---
 
-Click the green flag to test your code and check whether you see a flower.
+Клацни на зелений прапор, щоб протестувати свій код, і перевір, чи бачиш ти квітку.
 
 \--- /task \---
 
 \--- task \---
 
-Now change your code to move the sprite and then draw another flower:
+Тепер зміни свій код, щоб перемістити спрайт, а потім намалюй ще одну квітку:
 
-![flower sprite](images/flower-sprite.png)
+![спрайт квітки](images/flower-sprite.png)
 
 ```blocks3
 when green flag clicked
@@ -81,8 +81,8 @@ draw flower :: custom
 
 \--- task \---
 
-Test your code to check that you now see two flowers.
+Перевір свій код і впевнись, що ти бачиш дві квітки.
 
-![screenshot](images/flower-two.png)
+![знімок екрана](images/flower-two.png)
 
 \--- /task \---
