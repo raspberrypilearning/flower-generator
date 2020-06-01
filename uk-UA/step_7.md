@@ -1,14 +1,14 @@
-## Random flower generator
+## Генератор випадкових квітів
 
-You will now use your `draw flower`{:class="block3myblocks"} block to create a hundred random flowers all over the Stage whenever you press the <kbd>r</kbd>.
+Тепер ти використаєш свій блок `намалювати квітку`{:class="block3myblocks"}, щоб після того, як натиснуто <kbd>r</kbd>, створити сотні випадкових квітів по всій Сцені.
 
-![random flowers](images/flower-random.png)
+![випадкові квіти](images/flower-random.png)
 
 \--- task \---
 
-Add a new Event block to your sprite's code so that `when the r key is pressed`{:class="block3events"}, the screen is `cleared`{:class="block3extensions"}.
+Додай новий блок з розділу Події до коду свого спрайта, щоб `коли клавішу r натиснуто`{:class="block3events"}, екран було `очищено`{:class="block3extensions"}.
 
-![flower sprite](images/flower-sprite.png)
+![спрайт квітки](images/flower-sprite.png)
 
 ```blocks3
 when [r v] key pressed
@@ -19,9 +19,9 @@ erase all
 
 \--- task \---
 
-Add in a `repeat`{:class="block3control"} block to go to a `random position`{:class="block3motion"} `100` times.
+Додай блок `повторити`{:class="block3control"}, щоб перейти до `випадкової позиції`{:class="block3motion"} `100` разів.
 
-![flower sprite](images/flower-sprite.png)
+![спрайт квітки](images/flower-sprite.png)
 
 ```blocks3
 repeat (100)
@@ -33,11 +33,11 @@ end
 
 \--- task \---
 
-Use the `draw flower`{:class="block3myblocks"} block to create a flower that has a `random`{:class="block3operators"} colour between `0` and `199`.
+Використай блок `намалювати квітку`{:class="block3myblocks"}, щоб створити квітку, яка має `випадковий`{:class="block3operators"} колір від `0` до `199`.
 
-You code should now look like this:
+Твій код має виглядати так:
 
-![flower sprite](images/flower-sprite.png)
+![спрайт квітки](images/flower-sprite.png)
 
 ```blocks3
 when [r v] key pressed
@@ -50,27 +50,27 @@ end
 
 \--- /task \---
 
-This code creates one hundred flowers with different colours but with the same size and numbers of petals.
+Цей код створює сотню квітів різних кольорів, але з однаковим розміром та кількістю пелюсток.
 
-![flowers just with random colours](images/flower-random-colour.png)
+![квіти випадкових кольорів](images/flower-random-colour.png)
 
 \--- task \---
 
-Can you modify the `when the r key is pressed`{:class="block3events"} script so the flowers' size and number of petals are also random?
+Чи можеш ти змінити скрипт `коли клавішу r натиснуто`{:class="block3events"}, щоб розмір квітів та кількість пелюсток також була випадковою?
 
 \--- hints \---
 
 \--- hint \---
 
-The `draw flower`{:class="block3myblocks"} block should `pick random`{:class="block3operators"} numbers for the size and number of petals.
+Блок `намалювати квітку`{:class="block3myblocks"} має містити `випадкові`{:class="block3operators"} числа для розміру та кількості пелюсток.
 
 \--- /hint \---
 
 \--- hint \---
 
-The following blocks pick a random size between `50` and `150` and a random number of petals between `4` and `12`.
+Наступні блоки вибирають випадковий розмір між `50` та `150`, а також випадкову кількість пелюсток між `4` та `12`.
 
-![flower sprite](images/flower-sprite.png)
+![спрайт квітки](images/flower-sprite.png)
 
 ```blocks3
 (pick random (50) to (150))
@@ -82,9 +82,9 @@ The following blocks pick a random size between `50` and `150` and a random numb
 
 \--- hint \---
 
-Your code should look like this:
+Твій код повинен виглядати так:
 
-![flower sprite](images/flower-sprite.png)
+![спрайт квітки](images/flower-sprite.png)
 
 ```blocks3
 when [r v] key pressed
@@ -103,6 +103,6 @@ end
 
 \--- task \---
 
-Press <kbd>r</kbd> to see your random flowers.
+Натисни <kbd>r</kbd>, щоб побачити свої випадкові квіти.
 
 \--- /task \---
