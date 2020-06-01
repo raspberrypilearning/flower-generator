@@ -1,18 +1,18 @@
-## Make a custom block to draw flowers
+## Créer un bloc personnalisé pour dessiner des fleurs
 
-What if you want to draw lots of flowers? Instead of making lots of copies of the code, you will create your own block in Scratch and use it every time you want to draw a flower.
+Comment faire si tu veux dessiner beaucoup de fleurs ? Au lieu de faire de nombreuses copies du code, tu vas créer ton propre bloc dans Scratch et l'utiliser à chaque fois que tu voudras dessiner une fleur.
 
 \--- task \---
 
-Click on **My Blocks** and then on **Make a Block** to create your own block called 'draw flower'.
+Cliques sur **Mes blocs** puis sur **Créer un bloc** pour créer ton propre bloc appelé « dessiner une fleur ».
 
-![screenshot](images/flower-make-block.png)
+![capture d'écran](images/flower-make-block.png)
 
 \--- /task \---
 
 \--- task \---
 
-There is now a new block called `draw flower`{:class="block3myblocks"} in the **More blocks** section, and a new definition block on the Stage.
+Il y a maintenant un nouveau bloc appelé `dessiner une fleur`{:class="block3myblocks"} dans la section **Plus de blocs** et un nouveau bloc de définition sur la scène.
 
 ```blocks3
 draw flower :: custom
@@ -24,11 +24,11 @@ define draw flower
 
 \--- task \---
 
-Move your code for drawing the flower from the `when green flag clicked`{:class="block3events"} block to the new `draw flower`{:class="block3myblocks"} definition block.
+Déplace ton code pour dessiner la fleur depuis le bloc `quand le drapeau vert est cliqué`{:class="block3events"} vers le nouveau bloc de définition `dessiner la fleur`{:class="block3myblocks"}.
 
-Your code should look like this:
+Ton code devrait ressembler à ceci :
 
-![flower sprite](images/flower-sprite.png)
+![sprite de fleur](images/flower-sprite.png)
 
 ```blocks3
 define draw flower
@@ -44,9 +44,9 @@ when green flag clicked
 
 \--- task \---
 
-Add the following code to clear the Stage and to use your new `draw flower`{:class="block3myblocks"} block when the green flag is clicked:
+Ajoute le code suivant pour vider la scène et utilise ton nouveau bloc `dessiner une fleur`{:class="block3myblocks"} quand le drapeau vert est cliqué :
 
-![flower sprite](images/flower-sprite.png)
+![sprite de fleur](images/flower-sprite.png)
 
 ```blocks3
 when green flag clicked
@@ -58,15 +58,15 @@ draw flower :: custom
 
 \--- task \---
 
-Click the green flag to test your code and check whether you see a flower.
+Clique sur le drapeau vert pour tester ton code et vérifie si tu vois une fleur.
 
 \--- /task \---
 
 \--- task \---
 
-Now change your code to move the sprite and then draw another flower:
+Maintenant, change ton code pour déplacer le sprite puis dessine une autre fleur :
 
-![flower sprite](images/flower-sprite.png)
+![sprite de fleur](images/flower-sprite.png)
 
 ```blocks3
 when green flag clicked
@@ -81,8 +81,8 @@ draw flower :: custom
 
 \--- task \---
 
-Test your code to check that you now see two flowers.
+Teste ton code pour vérifier que tu vois maintenant deux fleurs.
 
-![screenshot](images/flower-two.png)
+![capture d'écran](images/flower-two.png)
 
 \--- /task \---
