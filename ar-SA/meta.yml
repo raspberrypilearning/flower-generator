@@ -13,20 +13,20 @@ steps:
   - 
     title: توليد زهرة
   - 
-    title: Make a custom block to draw flowers
+    title: إنشاء تعليمة برمجية مخصصة لرسم الزهور
   - 
-    title: Customise your flowers
+    title: مظاهر الزهور الخاصة بك
   - 
-    title: "Challenge: create a flower design"
+    title: "التحدي: إنشاء تصميم للزهور"
     challenge: true
   - 
-    title: Save your images
+    title: حفظ صورك
   - 
-    title: Random flower generator
+    title: مولد زهور عشوائي
   - 
-    title: Flower patterns
+    title: أنماط الزهور
   - 
-    title: "Challenge: custom flower blocks"
+    title: "التحدي: تعليمة الزهور المخصصة"
     challenge: true
   - 
-    title: What next?
+    title: ماهو التالي؟
