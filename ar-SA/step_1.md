@@ -1,20 +1,20 @@
 \--- no-print \---
 
-This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/flower-generator-scratch2).
+هذا هو إصدار ** Scratch 3 ** من المشروع. هنالك أيضًا [ إصدار Scratch 2 للمشروع ](https://projects.raspberrypi.org/en/projects/flower-generator-scratch2).
 
 \--- /no-print \---
 
-## Introduction
+## المقدمة
 
-You will create hundreds of flowers of different sizes, shapes, and colours.
+سوف تصنع مئات الزهور من الأحجام والأشكال والألوان المختلفة.
 
-You can export the flower pictures and use them as wallpapers on your phone or computer, or as backdrops in other Scratch projects.
+يمكنك تصدير صور الزهور واستخدامها كخلفيات على هاتفك أو حاسوبك، أو كخلفية في مشاريع سكراتش أخرى.
 
-### What you will make
+### ما الذي ستصنعه
 
 \--- no-print \---
 
-Press `f` to draw a few flowers, or `r` to draw lots of random flowers, or `p` to draw a flower pattern.
+اضغط حرف `f` لرسم بعض الأزهار، أو حرف `r` لرسم العديد من الأزهار العشوائية، أو حرف `p` لرسم نمط زهرة.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/253355932/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -24,45 +24,45 @@ Press `f` to draw a few flowers, or `r` to draw lots of random flowers, or `p` t
 
 \--- print-only \---
 
-![random flowers](images/flower-random.png)
+![أزهار عشوائية](images/flower-random.png)
 
 \--- /print-only \---
 
 ## \--- collapse \---
 
-## title: What you will need
+## title: ما الذي ستحتاجه
 
-### Hardware
+### الأجهزة
 
-+ A computer capable of running Scratch 3
++ جهاز حاسوب يدعم تشغيل برنامج Scratch 3
 
-### Software
+### البرامج
 
-+ Scratch 3 (either [online](https://rpf.io/scratch-on) or [offline](https://rpf.io/scratch-off))
-
-\--- /collapse \---
-
-## \--- collapse \---
-
-## title: What you will learn
-
-+ How to stamp a sprite 
-+ How to make your own Scratch blocks
-+ How to use block inputs 
-+ How to create random numbers 
++ برنامج Scratch 3 (سواء كان [عبر الإنترنت](https://rpf.io/scratch-on) أو [دون اتصال بالإنترنت](https://rpf.io/scratch-off))
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: Additional notes for educators
+## title: ما الذي ستتعلمه
+
++ كيفية ختم الكائن 
++ كيفية إنشاء تعليمة برمجية باستخدام الــ Scratch الخاصة بك
++ كيفية استخدام مدخلات التعليمة البرمجية 
++ كيفية إنشاء أرقام عشوائية 
+
+\--- /collapse \---
+
+## \--- collapse \---
+
+## title: ملاحظات إضافية للمعلمين
 
 \--- no-print \---
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/flower-generator/print){:target="_blank"}.
+إذا كنت بحاجة إلى طباعة هذا المشروع، فالرجاء استخدام الإصدار [الملائم للطابعة](https://projects.raspberrypi.org/en/projects/flower-generator/print){:target="_blank"}.
 
 \--- /no-print \---
 
-You can find the [completed project here](http://rpf.io/p/en/flower-generator-get){:target="_blank"}.
+يمكنك الحصول على [المشروع كاملاً من هنا](http://rpf.io/p/en/flower-generator-get){:target="_blank"}.
 
 \--- /collapse \---
