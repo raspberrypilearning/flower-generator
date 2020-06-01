@@ -1,19 +1,19 @@
-flower
+квітка
 
-costume1
+образ1
 
-costume2
+образ2
 
-draw flower
+намалювати квітку
 
-draw double flower
+намалювати подвійну квітку
 
-colour
+колір
 
-petals
+пелюстки
 
-size
+розмір
 
-outer colour
+зовнішній колір
 
-inner colour
+внутрішній колір
