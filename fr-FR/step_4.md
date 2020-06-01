@@ -1,14 +1,14 @@
-## Customise your flowers
+## Personnalise tes fleurs
 
-At the moment all the flowers you draw are exactly the same. Next you're going to add some inputs to the `draw flower`{:class="block3myblocks"} block so that you can draw flowers with different colours, sizes, and numbers of petals.
+Pour le moment toutes les fleurs que tu dessines sont exactement les mêmes. Ensuite tu vas ajouter quelques entrées au bloc `dessiner la fleur`{:class="block3myblocks"} pour que tu puisses dessiner des fleurs avec des couleurs , tailles et nombres de pétales différents.
 
 \--- task \---
 
-In Scratch you can use the `set colour effect`{:class="block3looks"} block to change the colour of a sprite.
+Dans Scratch, tu peux utiliser le bloc `mettre l'effet couleur à`{:class="block3looks"} pour changer la couleur d'un sprite.
 
-Change your 'draw flower' definition to change the colour:
+Modifie la définition de « dessiner une fleur » pour changer la couleur :
 
-![flower sprite](images/flower-sprite.png)
+![sprite de fleur](images/flower-sprite.png)
 
 ```blocks3
 define draw flower
@@ -23,49 +23,49 @@ end
 
 \--- task \---
 
-Run your code to see flowers of different colours.
+Exécute ton code et observe que les fleurs ont changé de couleurs.
 
-![screenshot](images/flower-pink.png)
+![capture d'écran](images/flower-pink.png)
 
-`set colour effect`{:class="block3looks"} changes the colour based on the default colour of the sprite, so if your sprite doesn't start out orange, you get different results.
-
-\--- /task \---
-
-\--- task \---
-
-Experiment with using different numbers from `0` to `199` in the `set colour effect`{:class="block3looks"} block, and see what different results you get.
-
-\--- /task \---
-
-At the moment all flowers are the same colour. To give each flower a different colour, you need to add an **input** to the `draw flower`{:class="block3myblocks"} block.
-
-\--- task \---
-
-Right-click on the `draw flower`{:class="block3myblocks"} definition block and choose **edit**:
-
-![screenshot](images/flower-edit.png)
+`mettre l'effet couleur à`{:class="block3looks"} change la couleur basée sur la couleur par défaut du sprite, donc si ton sprite ne démarre pas orange, tu obtiens des résultats différents.
 
 \--- /task \---
 
 \--- task \---
 
-Now add a **input number** called 'colour':
+Expérimente avec l'utilisation de nombres différents du bloc `0` à `199` dans le bloc `mettre l'effet couleur à`{:class="block3looks"}, et observe quels sont les différents résultats que tu obtiens.
 
-![screenshot](images/flower-colour-input-annotated.png)
+\--- /task \---
 
-The input appears in the `draw flower`{:class="block3myblocks"} definition, and you can drag it to where you want to use it.
+Pour l'instant toutes les fleurs sont de la même couleur. Pour donner à chaque fleur une couleur différente, tu dois ajouter un bloc **entrée** au bloc `dessiner la fleur`{:class="block3myblocks"}.
+
+\--- task \---
+
+Fais un clic droit sur le bloc de définition `dessiner la fleur`{:class="block3myblocks"} et choisis **modifier**:
+
+![capture d'écran](images/flower-edit.png)
 
 \--- /task \---
 
 \--- task \---
 
-Drag the 'colour' input to the `set colour effect`{:class="block3looks"} block:
+Ajoute une **entrée de type nombre** appelée « couleur » :
 
-![screenshot](images/flower-use-colour-annotated.png)
+![capture d'écran](images/flower-colour-input-annotated.png)
 
-Your code should look like this:
+Cette entrée apparaît dans la définition `dessiner la fleur`{:class="block3myblocks"}, et tu peux la glisser là où tu veux l'utiliser.
 
-![flower sprite](images/flower-sprite.png)
+\--- /task \---
+
+\--- task \---
+
+Fais glisser l'entrée « couleur » vers le bloc `définir l'effet de couleur`{:class="block3looks"} :
+
+![capture d'écran](images/flower-use-colour-annotated.png)
+
+Ton code devrait ressembler à ceci :
+
+![sprite de fleur](images/flower-sprite.png)
 
 ```blocks3
 define draw flower (colour)
@@ -78,7 +78,7 @@ end
 
 \--- /task \---
 
-Notice that your `draw flower`{:class="block3myblocks"} blocks now have a new input that is set to `1`:
+Remarque que tes blocs `dessiner une fleur`{:class="block3myblocks"} ont maintenant une nouvelle entrée qui est définie sur `1`:
 
 ```blocks3
 when green flag clicked
@@ -91,11 +91,11 @@ draw flower (1) :: custom
 
 \--- task \---
 
-Change the numbers in the `draw flower`{:class="block3myblocks"} blocks so that the two flowers appear in different colours. You can pick any numbers between 0 and 200.
+Change les nombres dans les blocs `dessiner une fleur`{:class="block3myblocks"} pour que les deux fleurs apparaissent dans des couleurs différentes. Tu peux choisir n'importe quel nombre entre 0 et 200.
 
-Your code should look similar to this:
+Ton code devrait ressembler à ceci :
 
-![flower sprite](images/flower-sprite.png)
+![sprite de fleur](images/flower-sprite.png)
 
 ```blocks3
 when green flag clicked
@@ -110,45 +110,45 @@ draw flower (150) :: custom
 
 \--- task \---
 
-Now add another input to set the size of the flower, so your `draw flower`{:class="block3myblocks"} block looks like this:
+Maintenant, ajoute une autre entrée pour définir la taille de la fleur, de sorte que ton bloc `dessiner une fleur`{:class="block3myblocks"} ressemble à ceci :
 
-![flower sprite](images/flower-sprite.png)
+![sprite de fleur](images/flower-sprite.png)
 
 ```blocks3
 draw flower (180) (150) :: custom
 ```
 
-With the block above, you can create flowers with different sizes:
+Avec le bloc ci-dessus, tu peux créer des fleurs de différentes tailles :
 
-![different sized flowers](images/flower-different-sizes.png)
+![fleurs de différentes tailles](images/flower-different-sizes.png)
 
-\--- hints \---
-
-\--- hint \---
-
-Look at what you did to add the `colour` input, and repeat it to add a 'size' input that you can use to set the size of the Flower sprite.
-
-\--- /hint \---
+\--- astuces \---
 
 \--- hint \---
 
-Edit the `draw flower`{:class="block3myblocks"} block to add a new number input called 'size'.
+Regarde ce que tu as fait pour ajouter l'entrée `couleur`, et répète-le pour ajouter une entrée « taille » que tu peux utiliser pour définir la taille du sprite Fleur.
 
-You need to add the following block with a 'size' input to the `draw flower`{:class="block3myblocks"} definition block:
+\--- /indice \---
+
+\--- hint \---
+
+Modifie le bloc `Dessiner la fleur`{:class="block3myblocks"} pour ajouter une nouvelle entrée appelée « taille ».
+
+Tu dois ajouter le bloc suivant avec une entrée « taille » au bloc de définition `dessiner la fleur`{:class="block3myblocks"} :
 
 ```blocks3
 set size to (100) %
 ```
 
-\--- /hint \---
+\--- /indice \---
 
 \--- hint \---
 
-Right-click on the `draw flower`{:class="block3myblocks"} definition block, click on **edit**, and add a number input called 'size'.
+Fais un clic droit sur le bloc de définition `dessiner une fleur`{:class="block3myblocks"}, clique sur **modifier**, et ajoute un nombre appelé « taille ».
 
-![flower sprite](images/flower-sprite.png)
+![sprite de fleur](images/flower-sprite.png)
 
-Change your `define draw flower`{:class="block3myblocks"} script so it looks like this:
+Change ton script `définit dessiner une fleur`{:class="block3myblocks"} pour qu'il ressemble à ceci :
 
 ```blocks3
 define draw flower (colour) (size :: custom-arg)
@@ -160,13 +160,13 @@ repeat (6)
 end
 ```
 
-\--- /hint \---
+\--- /indice \---
 
-\--- /hints \---
+\--- /astuces \---
 
 \--- /task \--- \--- task \---
 
-In the `when green flag clicked`{:class="block3events"} script, change the second number in both `draw flower`{:class="block3myblocks"} blocks so that the two flowers appear in different sizes.
+Dans le script `quand le drapeau vert est cliqué`{:class="block3events"}, change le deuxième nombre dans les deux blocs `dessiner une fleur`{:class="block3myblocks"} pour que les deux fleurs apparaissent en différentes tailles.
 
 ```blocks3
 when green flag clicked
@@ -181,39 +181,39 @@ draw flower (150) (50) :: custom
 
 \--- task \---
 
-Test your code to check whether the flowers have different sizes.
+Teste ton code pour vérifier si les fleurs ont des tailles différentes.
 
 \--- /task \---
 
 \--- task \---
 
-It would be cool to choose the number of petals the flowers have.
+Ce serait cool de choisir le nombre de pétales des fleurs.
 
-Add another input so that you can draw flowers like this:
+Ajoute une autre entrée pour que tu puisses dessiner des fleurs comme ceci :
 
-![flowers with different numbers of petals](images/flower-petals.png)
+![fleurs avec différents nombres de pétales](images/flower-petals.png)
 
 \--- hints \--- \--- hint \---
 
-You need to add a 'petals' number input, and then use it in the `define draw flower`{:class="block3myblocks"} block.
+Tu dois ajouter une entrée « pétales », puis l'utiliser dans le bloc `définir dessiner une fleur`{:class="block3myblocks"}.
 
-There are two places where you need to add the 'petals' input.
+Il y a deux endroits où tu dois ajouter l'entrée « pétales ».
 
-The number of degrees the Flower sprite should `turn`{:class="block3looks"} by is `360` divided by the number of petals.
+Le nombre de degrés que le sprite Fleur devrait `tourner`{:class="block3looks"} est `360` divisé par le nombre de pétales.
 
 \--- /hint \---
 
 \--- hint \---
 
-Change your `define draw flower`{:class="block3myblocks"} block to look like this:
+Change ton `définir dessiner une fleur`{:class="block3myblocks"} pour ressembler à ceci :
 
-![flower sprite](images/flower-sprite.png)
+![sprite de fleur](images/flower-sprite.png)
 
 ```blocks3
 define draw flower (colour) (size :: custom-arg) (petals)
 ```
 
-Update your `repeat`{:class="block3control"} and `turn`{:class="block3looks"} blocks so they use the 'petals' input.
+Mets à jour tes blocs `répéter`{:class="block3control"} et `tourner`{:class="block3looks"} de sorte qu'ils utilisent l'entrée « pétales ».
 
 ```blocks3
 repeat (petals :: custom-arg) 
@@ -222,7 +222,7 @@ end
 turn cw ((360) / (petals :: custom-arg)) degrees
 ```
 
-Update your `draw flower`{:class="block3myblocks"} blocks to use the 'petals' input.
+Mets à jour tes blocs `dessiner une fleur`{:class="block3myblocks"} pour utiliser l'entrée « pétales ».
 
 ```blocks3
 draw flower (150) (50) (8) :: custom
@@ -232,11 +232,11 @@ draw flower (150) (50) (8) :: custom
 
 \--- hint \---
 
-Edit your `define draw flower`{:class="block3myblocks"} block and add a new number input called 'petals'.
+Modifie ton bloc `définir dessiner une fleur`{:class="block3myblocks"} et ajoute une nouvelle entrée de numéro appelée « pétales ».
 
-![flower sprite](images/flower-sprite.png)
+![sprite de fleur](images/flower-sprite.png)
 
-Your code should look like this:
+Ton code devrait ressembler à ceci :
 
 ```blocks3
 define draw flower (colour) (size :: custom-arg) (petals)
@@ -249,7 +249,7 @@ end
 
 ```
 
-In the `when green flag clicked`{:class="block3events"} script, change the third number in both `draw flower`{:class="block3myblocks"} blocks so that the two flowers that appear have different numbers of petals.
+Dans le script `quand le drapeau vert est cliqué`{:class="block3events"}, change le troisième nombre dans les deux blocs `dessiner une fleur`{:class="block3myblocks"} pour que les deux fleurs qui apparaissent aient un nombre différent de pétales.
 
 ```blocks3
 when green flag clicked
@@ -266,13 +266,13 @@ draw flower (150) (50) (8) :: custom
 
 \--- /task \---
 
-Next, edit your code so you can draw different flowers by pressing the <kbd>f</kbd> key.
+Ensuite, modifie ton code pour pouvoir dessiner des fleurs différentes en appuyant sur la touche <kbd>f</kbd>.
 
 \--- task \---
 
-Now move your code for drawing flowers away from below the `when green flag clicked`{:class="block3events"} block, and put the code under a `when f key pressed`{:class="block3events"} block.
+Maintenant, déplace ton code pour dessiner des fleurs en dessous du bloc `quand le drapeau vert est cliqué`{:class="block3events"}, et mets le code sous un bloc `quand la touche f est pressée`{:class="block3events"}.
 
-![flower sprite](images/flower-sprite.png)
+![sprite de fleur](images/flower-sprite.png)
 
 ```blocks3
 when green flag clicked
@@ -291,12 +291,12 @@ draw flower (150) (50) (8) :: custom
 
 \--- task \---
 
-Press <kbd>f</kbd> to test your code.
+Appuie sur <kbd>f</kbd> pour tester ton code.
 
 \--- /task \---
 
 \--- task \---
 
-Add more `draw flower`{:class="block3myblocks"} blocks to your program to draw flowers with different colours, sizes, and numbers of petals all over the Stage.
+Ajoute plus de blocs `dessiner une fleur`{:class="block3myblocks"} à ton programme pour dessiner des fleurs avec des couleurs, tailles et nombres de pétales différents sur toute la scène.
 
 \--- /task \---
