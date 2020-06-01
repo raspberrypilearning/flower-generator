@@ -1,15 +1,15 @@
-## Save your images
+## حفظ صورك
 
-When you create an image you like, you can save it and use it in another Scratch project, as a screensaver, or on a website.
+عند إنشاء صورة تعجبك ، يمكنك حفظها واستخدامها في مشروع سكراتش آخر ، أو شاشة توقف ، أو على موقع ويب.
 
 \--- task \---
 
-When there is an image on the Stage that you like, right-click it and then click on **save image as**
+عندما تكون هناك صورة على المسرح تريدها ، انقر بزر الماوس الأيمن عليها ثم انقر فوق **حفظ الصورة باسم**
 
-**Note:** on some computers or browsers, the menu option for saving your image may be named differently.
+** ملاحظة: ** في بعض أجهزة الحاسوب أو المتصفحات ، قد تتم تسمية خيار القائمة لحفظ صورتك بشكل مختلف.
 
-![screenshot](images/flower-save-stage.png)
+![لقطة الشاشة](images/flower-save-stage.png)
 
-Then you can save a PNG image of the Stage.
+ثم يمكنك حفظ الصورة بشكل PNG للمنصة.
 
 \--- /task \---
