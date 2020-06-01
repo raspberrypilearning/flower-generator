@@ -1,6 +1,6 @@
-## Customise your flowers
+## مظاهر الزهور الخاصة بك
 
-At the moment all the flowers you draw are exactly the same. Next you're going to add some inputs to the `draw flower`{:class="block3myblocks"} block so that you can draw flowers with different colours, sizes, and numbers of petals.
+في الوقت الحالي ، كل الأزهار التي ترسمها هي نفسها تمامًا. بعد ذلك ستقوم بإضافة بعض المدخلات إلى `رسم زهرة` {: class = "block3myblocks"} تعليمة برمجية بحيث يمكنك رسم الزهور بألوان وأحجام وأعداد مختلفة من الورق.
 
 \--- task \---
 
