@@ -1,19 +1,19 @@
-flower
+fleur
 
 costume1
 
 costume2
 
-draw flower
+dessiner une fleur
 
-draw double flower
+dessiner une fleur double
 
-colour
+couleur
 
-petals
+pétales
 
-size
+taille
 
-outer colour
+couleur bordure
 
-inner colour
+couleur remplissage
