@@ -4,15 +4,15 @@
 
 \--- task \---
 
-Click on **My Blocks** and then on **Make a Block** to create your own block called 'draw flower'.
+點擊 **函式積木**，再點擊 **建立一個積木** 創造你專屬的積木並取名為「畫花朵」。
 
-![screenshot](images/flower-make-block.png)
+![截圖](images/flower-make-block.png)
 
 \--- /task \---
 
 \--- task \---
 
-There is now a new block called `draw flower`{:class="block3myblocks"} in the **More blocks** section, and a new definition block on the Stage.
+現在會有一個名為`畫花朵`{:class="block3myblocks"} 的新積木在 **函式積木** 下，和一個新的定義積木在舞台上。
 
 ```blocks3
 draw flower :: custom
@@ -24,11 +24,11 @@ define draw flower
 
 \--- task \---
 
-Move your code for drawing the flower from the `when green flag clicked`{:class="block3events"} block to the new `draw flower`{:class="block3myblocks"} definition block.
+移動畫花朵的程式碼，將它們從 `當綠色旗子被點擊時`{:class="block3events"} 積木下移動到 `畫花朵`{:class="block3myblocks"} 定義積木下。
 
-Your code should look like this:
+你的程式應該會像這樣：
 
-![flower sprite](images/flower-sprite.png)
+![花朵角色](images/flower-sprite.png)
 
 ```blocks3
 define draw flower
@@ -44,9 +44,9 @@ when green flag clicked
 
 \--- task \---
 
-Add the following code to clear the Stage and to use your new `draw flower`{:class="block3myblocks"} block when the green flag is clicked:
+新增下列程式碼：當綠色旗子被點擊時，先清除舞台然後運行你的`畫花朵`{:class="block3myblocks"} 積木。
 
-![flower sprite](images/flower-sprite.png)
+![花朵角色](images/flower-sprite.png)
 
 ```blocks3
 when green flag clicked
@@ -58,15 +58,15 @@ draw flower :: custom
 
 \--- task \---
 
-Click the green flag to test your code and check whether you see a flower.
+點擊綠色旗子，測試你的程式碼，看看是不是能看到花朵。
 
 \--- /task \---
 
 \--- task \---
 
-Now change your code to move the sprite and then draw another flower:
+現在更改你的程式碼，來移動角色並畫一朵花。
 
-![flower sprite](images/flower-sprite.png)
+![花朵角色](images/flower-sprite.png)
 
 ```blocks3
 when green flag clicked
@@ -81,8 +81,8 @@ draw flower :: custom
 
 \--- task \---
 
-Test your code to check that you now see two flowers.
+測試你的程式碼，看看能不能看到兩朵花。
 
-![screenshot](images/flower-two.png)
+![截圖](images/flower-two.png)
 
 \--- /task \---
