@@ -1,6 +1,6 @@
 ## 創造一朵花
 
-首先，創造一朵可以在場景上繪製的花朵。
+首先，創造一朵可以在"舞台"上繪製的花朵。
 
 \--- task \---
 
@@ -32,17 +32,17 @@
 
 使用圓形工具來畫出一個橘色的實心花瓣形狀。
 
-![screenshot](images/flower-petal.png)
+![截圖](images/flower-petal.png)
 
-Later, you will use code to add more colour.
+接下來，你將會使用程式碼來新增更多色彩。
 
 \--- /task \---
 
 \--- task \---
 
-Add the following code to the Flower sprite to `stamp`{:class="block3extensions"} a flower with six equally rotated petals `when the green flag is clicked`{:class="block3control"}.
+新增以下程式碼使 `當綠色旗子被點擊時`{:class="block3control"}，用花瓣角色`蓋章`{:class="block3extensions"}成一朵有著六片同旋轉角度花瓣的花朵
 
-![screenshot](images/flower-6-straight.png)
+![截圖](images/flower-6-straight.png)
 
 ```blocks3
 when green flag clicked
@@ -54,27 +54,27 @@ end
 
 \--- /task \---
 
-You may find that your petals are arranged in an odd way:
+你可能會發現花瓣的排列方式很奇怪：
 
-![screenshot](images/flower-6-offset.png)
+![截圖](images/flower-6-offset.png)
 
-This is because the sprite is being rotated around its centre.
+這是因為角色會繞中心旋轉。
 
 \--- task \---
 
-Move your petal so its bottom is in the centre.
+移動你的花瓣，使其底部位於中央。
 
-![screenshot](images/flower-crosshair-annotated.png)
+![截圖](images/flower-crosshair-annotated.png)
 
-Doing this may be easier if you zoom out.
+縮小的話可能會比較容易操作。
 
 \--- /task \---
 
-Before you run your code again, you should `erase all`{:class="block3extensions"} the sprites on the Stage to clear it.
+在重新跑程式碼之前, 記得用`筆跡全部清除`{:class="block3extensions"} 來清理舞台上的角色。
 
 \--- task \---
 
-Click on the `erase all` block in the Pen blocks section.
+點擊畫筆欄位的 `筆跡全部清除` 積木。
 
 ```blocks3
 erase all
@@ -84,10 +84,10 @@ erase all
 
 \--- task \---
 
-Run your code again to check that the flower's petals are straight now.
+再跑一次程式碼，檢查看看花朵的花瓣是不是都正常了。
 
-![screenshot](images/flower-6-straight.png)
+![截圖](images/flower-6-straight.png)
 
-If not, adjust the petal's position until its bottom in the centre.
+如果還是怪怪的，調整花瓣角度直到它的底部在正中央。
 
 \--- /task \---
