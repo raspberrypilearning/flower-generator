@@ -1,7 +1,7 @@
 ---
-title: Flower generator
+title: 花朵生成器
 hero_image: images/banner.png
-description: Generate flowers to create a patterned backdrop image or screensaver
+description: 画出很多花，用来创建有图案的背景图或屏幕保护程序
 duration: 2
 listed: true
 copyedit: true
@@ -9,7 +9,7 @@ version: 4.1.0
 last_tested: 2018-10-18
 steps:
   - 
-    title: Introduction
+    title: 介绍
   - 
     title: Generate a flower
   - 
@@ -29,4 +29,4 @@ steps:
     title: "Challenge: custom flower blocks"
     challenge: true
   - 
-    title: What next?
+    title: 接下来呢？
