@@ -1,10 +1,10 @@
-## Generate a flower
+## توليد زهرة
 
-First you're going to generate a flower that can be drawn on the Stage.
+أولا ستقوم بتوليد زهرة يمكن رسمها على المنصة.
 
 \--- task \---
 
-Create a new Scratch project, and delete the cat sprite.
+إنشاء مشروع Scratch جديد، وحذف كائن القطة.
 
 [[[generic-scratch3-new-project]]]
 
@@ -12,7 +12,7 @@ Create a new Scratch project, and delete the cat sprite.
 
 \--- task \---
 
-Add the Pen extension to your project.
+أضف ملحق القلم إلى مشروعك.
 
 [[[generic-scratch3-add-pen-extension]]]
 
@@ -20,9 +20,9 @@ Add the Pen extension to your project.
 
 \--- task \---
 
-Now use the Paint tool to create a new sprite shaped like a flower petal.
+الآن استخدم أداة الطلاء لإنشاء كائن جديد يشبه ورق الزهور.
 
-Click on **Choose a sprite**, then click on **Paint** and rename the sprite 'Flower'.
+انقر فوق **اختر كائن**، ثم انقر فوق **رسم** وأعد تسمية الكائن 'زهرة'.
 
 [[[generic-scratch3-draw-sprite]]]
 
@@ -30,19 +30,19 @@ Click on **Choose a sprite**, then click on **Paint** and rename the sprite 'Flo
 
 \--- task \---
 
-Use the Circle tool to draw a petal shape filled in orange.
+استخدم أداة الدائرة لرسم شكل الورقة مليئة باللون البرتقالي.
 
-![screenshot](images/flower-petal.png)
+![لقطة الشاشة](images/flower-petal.png)
 
-Later, you will use code to add more colour.
+لاحقًا، سوف تستخدم التعليمات البرمجية لإضافة المزيد من اللون.
 
 \--- /task \---
 
 \--- task \---
 
-Add the following code to the Flower sprite to `stamp`{:class="block3extensions"} a flower with six equally rotated petals `when the green flag is clicked`{:class="block3control"}.
+أضف التعليمات البرمجية التالية إلى كائن الزهرة إلى `ختم` {: class = "block3extensions"} زهرة بستة اوراق متساوية الاستدارة ` عند النقر على العلم الأخضر ` {: class = "block3control"}.
 
-![screenshot](images/flower-6-straight.png)
+![لقطة الشاشة](images/flower-6-straight.png)
 
 ```blocks3
 when green flag clicked
@@ -54,27 +54,27 @@ end
 
 \--- /task \---
 
-You may find that your petals are arranged in an odd way:
+قد تجد أن اوراقك مرتبة بطريقة غريبة او غير منتظمة:
 
-![screenshot](images/flower-6-offset.png)
+![لقطة الشاشة](images/flower-6-offset.png)
 
-This is because the sprite is being rotated around its centre.
+هذا لأن الكائن يدور حول مركزه.
 
 \--- task \---
 
-Move your petal so its bottom is in the centre.
+حرك اوراقك حتى تصبح اسفلها في المنتصف.
 
-![screenshot](images/flower-crosshair-annotated.png)
+![لقطة الشاشة](images/flower-crosshair-annotated.png)
 
-Doing this may be easier if you zoom out.
+قد يكون القيام بذلك أسهل إذا قمت بالتصغير.
 
 \--- /task \---
 
-Before you run your code again, you should `erase all`{:class="block3extensions"} the sprites on the Stage to clear it.
+قبل أن تقوم بتشغيل التعليمات البرمجية مرة أخرى، يجب أن `مسح الكل`{:class="block3extensions"} الكائنات الموجودة على المنصة.
 
 \--- task \---
 
-Click on the `erase all` block in the Pen blocks section.
+انقر فوق التعليمة البرمجية `مسح الكل` في مقطع التعليمة البرمجية للقلم.
 
 ```blocks3
 erase all
@@ -84,10 +84,10 @@ erase all
 
 \--- task \---
 
-Run your code again to check that the flower's petals are straight now.
+قم بتشغيل التعليمات البرمجية الخاصة بك مرة أخرى للتحقق من أن ورق الزهور مستقيمة الآن.
 
-![screenshot](images/flower-6-straight.png)
+![لقطة الشاشة](images/flower-6-straight.png)
 
-If not, adjust the petal's position until its bottom in the centre.
+إذا لم يكن الأمر كذلك ، اضبط موضع الورقة حتى قاعها في المنتصف.
 
 \--- /task \---
