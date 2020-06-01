@@ -33,7 +33,7 @@ draw flower (130) (35) (20) :: custom
 Pen (पेन) टैब में `erase all` ब्लॉक पर क्लिक करें।
 
 ```blocks3
-सभी मिटाएँ
+erase all
 ```
 
 --- /task ---
