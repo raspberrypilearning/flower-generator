@@ -1,14 +1,14 @@
-## Customise your flowers
+## Налаштуй свої квіти
 
-At the moment all the flowers you draw are exactly the same. Next you're going to add some inputs to the `draw flower`{:class="block3myblocks"} block so that you can draw flowers with different colours, sizes, and numbers of petals.
+Наразі усі намальовані тобою квіти абсолютно однакові. Далі ти додаси деякі параметри до блоку `намалювати квітку`{:class="block3myblocks"}, щоб можна було малювати квіти різних кольорів, розмірів та з різною кількістю пелюсток.
 
 \--- task \---
 
-In Scratch you can use the `set colour effect`{:class="block3looks"} block to change the colour of a sprite.
+В Скретч можна використовувати блок `встановити ефект колір`{:class="block3looks"}, щоб змінювати колір спрайтів.
 
-Change your 'draw flower' definition to change the colour:
+Зміни визначення "намалювати квітку", щоб змінювати її колір:
 
-![flower sprite](images/flower-sprite.png)
+![спрайт квітки](images/flower-sprite.png)
 
 ```blocks3
 define draw flower
@@ -23,49 +23,49 @@ end
 
 \--- task \---
 
-Run your code to see flowers of different colours.
+Запусти свй код, щоб побачити квіти іншого кольору.
 
-![screenshot](images/flower-pink.png)
+![знімок екрана](images/flower-pink.png)
 
-`set colour effect`{:class="block3looks"} changes the colour based on the default colour of the sprite, so if your sprite doesn't start out orange, you get different results.
-
-\--- /task \---
-
-\--- task \---
-
-Experiment with using different numbers from `0` to `199` in the `set colour effect`{:class="block3looks"} block, and see what different results you get.
-
-\--- /task \---
-
-At the moment all flowers are the same colour. To give each flower a different colour, you need to add an **input** to the `draw flower`{:class="block3myblocks"} block.
-
-\--- task \---
-
-Right-click on the `draw flower`{:class="block3myblocks"} definition block and choose **edit**:
-
-![screenshot](images/flower-edit.png)
+`встановити ефект колір`{:class="block3looks"} змінює колір на основі початкового кольору спрайта, тому якщо твій спрайт спочатку не був оранжевим, ти побачиш інший результат.
 
 \--- /task \---
 
 \--- task \---
 
-Now add a **input number** called 'colour':
+Поекспериментуй з різними числами від `0` до `199` в блоці `встановити ефект колір`{:class="block3looks"}, щоб побачити, які результати ти можеш отримати.
 
-![screenshot](images/flower-colour-input-annotated.png)
+\--- /task \---
 
-The input appears in the `draw flower`{:class="block3myblocks"} definition, and you can drag it to where you want to use it.
+Зараз усі квіти мають однаковий колір. Щоб надати квітам різних кольорів, тобі треба додати **параметр** до блока `намалювати квітку`{:class="block3myblocks"}.
+
+\--- task \---
+
+Клацни правою кнопкою мишки на визначення блока `намалювати квітку`{:class="block3myblocks"} і вибери **правка**:
+
+![знімок екрана](images/flower-edit.png)
 
 \--- /task \---
 
 \--- task \---
 
-Drag the 'colour' input to the `set colour effect`{:class="block3looks"} block:
+Тепер додай **числовий параметр** з назвою "колір":
 
-![screenshot](images/flower-use-colour-annotated.png)
+![знімок екрана](images/flower-colour-input-annotated.png)
 
-Your code should look like this:
+Цей параметр з’явиться у визначенні `намалювати квітку`{:class="block3myblocks"}, і ти зможеш перетягувати його в будь-яке місце для використання.
 
-![flower sprite](images/flower-sprite.png)
+\--- /task \---
+
+\--- task \---
+
+Перетягни параметр "колір" в блок `встановити ефект колір`{:class="block3looks"}:
+
+![знімок екрана](images/flower-use-colour-annotated.png)
+
+Твій код повинен виглядати так:
+
+![спрайт квітки](images/flower-sprite.png)
 
 ```blocks3
 define draw flower (colour)
@@ -78,7 +78,7 @@ end
 
 \--- /task \---
 
-Notice that your `draw flower`{:class="block3myblocks"} blocks now have a new input that is set to `1`:
+Зверни увагу, що тепер твої блоки `намалювати квітку`{:class="block3myblocks"} мають новий параметр зі значенням `1`:
 
 ```blocks3
 when green flag clicked
@@ -91,11 +91,11 @@ draw flower (1) :: custom
 
 \--- task \---
 
-Change the numbers in the `draw flower`{:class="block3myblocks"} blocks so that the two flowers appear in different colours. You can pick any numbers between 0 and 200.
+Зміни числа в блоках `намалювати квітку`{:class="block3myblocks"}, щоб дві квітки були різних кольорів. Ти можеш вибрати будь-які числа між 0 та 200.
 
-Your code should look similar to this:
+Твій код виглядатиме якось так:
 
-![flower sprite](images/flower-sprite.png)
+![спрайт квітки](images/flower-sprite.png)
 
 ```blocks3
 when green flag clicked
@@ -110,31 +110,31 @@ draw flower (150) :: custom
 
 \--- task \---
 
-Now add another input to set the size of the flower, so your `draw flower`{:class="block3myblocks"} block looks like this:
+Тепер додай іще один параметр, щоб задавати розмір квітки, а отже твій блок `намалювати квітку`{:class="block3myblocks"} виглядатиме так:
 
-![flower sprite](images/flower-sprite.png)
+![спрайт квітки](images/flower-sprite.png)
 
 ```blocks3
 draw flower (180) (150) :: custom
 ```
 
-With the block above, you can create flowers with different sizes:
+За допомогою вищенаведеного блоку ти можеш створювати квіти різних розмірів:
 
-![different sized flowers](images/flower-different-sizes.png)
+![квіти різних розмірів](images/flower-different-sizes.png)
 
 \--- hints \---
 
 \--- hint \---
 
-Look at what you did to add the `colour` input, and repeat it to add a 'size' input that you can use to set the size of the Flower sprite.
+Поглянь, що ти зробив (-ла) для того, щоб додати параметр `колір`, і повтори ті ж кроки для параметра "розмір", який знадобиться, щоб задавати розмір спрайта Квітка.
 
 \--- /hint \---
 
 \--- hint \---
 
-Edit the `draw flower`{:class="block3myblocks"} block to add a new number input called 'size'.
+Зміни блок `намалювати квітку`{:class="block3myblocks"}, щоб додати новий числовий параметр із назвою "розмір".
 
-You need to add the following block with a 'size' input to the `draw flower`{:class="block3myblocks"} definition block:
+Тобі треба буде додати наступний блок з параметром "розмір" у визначення блоку `намалювати квітку`{:class="block3myblocks"}:
 
 ```blocks3
 set size to (100) %
@@ -144,11 +144,11 @@ set size to (100) %
 
 \--- hint \---
 
-Right-click on the `draw flower`{:class="block3myblocks"} definition block, click on **edit**, and add a number input called 'size'.
+Клацни правою кнопкою мишки на визначення блоку `намалювати квітку`{:class="block3myblocks"}, далі вибери **правка** і додай числовий параметр із назвою "розмір".
 
-![flower sprite](images/flower-sprite.png)
+![спрайт квітки](images/flower-sprite.png)
 
-Change your `define draw flower`{:class="block3myblocks"} script so it looks like this:
+Зміни скрипт `визначити намалювати квіту`{:class="block3myblocks"}, щоб він виглядав таким чином:
 
 ```blocks3
 define draw flower (colour) (size :: custom-arg)
@@ -166,7 +166,7 @@ end
 
 \--- /task \--- \--- task \---
 
-In the `when green flag clicked`{:class="block3events"} script, change the second number in both `draw flower`{:class="block3myblocks"} blocks so that the two flowers appear in different sizes.
+В скрипті `коли зелений прапор натистнуто`{:class="block3events"} зміни друге число в обох блоках `намалювати квітку`{:class="block3myblocks"}, щоб обидві квітки стали різних розмірів.
 
 ```blocks3
 when green flag clicked
@@ -181,39 +181,39 @@ draw flower (150) (50) :: custom
 
 \--- task \---
 
-Test your code to check whether the flowers have different sizes.
+Протестуй свій код, щоб переконатися, що квіти мають різні розміри.
 
 \--- /task \---
 
 \--- task \---
 
-It would be cool to choose the number of petals the flowers have.
+Було би класно змінювати кількість пелюсток квітів.
 
-Add another input so that you can draw flowers like this:
+Додай іще один параметр, щоб ти міг (могла) малювати такі квіти:
 
-![flowers with different numbers of petals](images/flower-petals.png)
+![квіти з різною кількістю пелюсток](images/flower-petals.png)
 
 \--- hints \--- \--- hint \---
 
-You need to add a 'petals' number input, and then use it in the `define draw flower`{:class="block3myblocks"} block.
+Тобі потрібно додати числовий параметр "пелюстки", а далі використати його в блоці `визначити намалювати квітку`{:class="block3myblocks"}.
 
-There are two places where you need to add the 'petals' input.
+Існує два місця, де тобі треба буде використати параметр "пелюстки".
 
-The number of degrees the Flower sprite should `turn`{:class="block3looks"} by is `360` divided by the number of petals.
+Кількість градусів, на які повинен `повернути`{:class="block3looks"} спрайт Квітка, складатиме `360`, розділене на кількість пелюсток.
 
 \--- /hint \---
 
 \--- hint \---
 
-Change your `define draw flower`{:class="block3myblocks"} block to look like this:
+Зміни свій блок `визначити намалювати квітку`{:class="block3myblocks"}, щоб він виглядав таким чином:
 
-![flower sprite](images/flower-sprite.png)
+![спрайт квітки](images/flower-sprite.png)
 
 ```blocks3
 define draw flower (colour) (size :: custom-arg) (petals)
 ```
 
-Update your `repeat`{:class="block3control"} and `turn`{:class="block3looks"} blocks so they use the 'petals' input.
+Онови свої блоки `повторити`{:class="block3control"} та `поворот`{:class="block3looks"}, щоб вони використовували "пелюстки" як параметр.
 
 ```blocks3
 repeat (petals :: custom-arg) 
@@ -222,7 +222,7 @@ end
 turn cw ((360) / (petals :: custom-arg)) degrees
 ```
 
-Update your `draw flower`{:class="block3myblocks"} blocks to use the 'petals' input.
+Онови свої блоки `намалювати квітку`{:class="block3myblocks"}, щоб вони використовували параметр "пелюстки".
 
 ```blocks3
 draw flower (150) (50) (8) :: custom
@@ -232,11 +232,11 @@ draw flower (150) (50) (8) :: custom
 
 \--- hint \---
 
-Edit your `define draw flower`{:class="block3myblocks"} block and add a new number input called 'petals'.
+Зміни свій блок `визначити намалювати квітку`{:class="block3myblocks"}, додавши новий параметр з назвою "пелюстки".
 
-![flower sprite](images/flower-sprite.png)
+![спрайт квітки](images/flower-sprite.png)
 
-Your code should look like this:
+Твій код повинен виглядати так:
 
 ```blocks3
 define draw flower (colour) (size :: custom-arg) (petals)
@@ -249,7 +249,7 @@ end
 
 ```
 
-In the `when green flag clicked`{:class="block3events"} script, change the third number in both `draw flower`{:class="block3myblocks"} blocks so that the two flowers that appear have different numbers of petals.
+В скрипті `коли зелений прапор натиснуто`{:class="block3events"} зміни третє число в обох блоках `намалювати квітку`{:class="block3myblocks"}, щоб квіти мали різну кількість пелюсток.
 
 ```blocks3
 when green flag clicked
@@ -266,13 +266,13 @@ draw flower (150) (50) (8) :: custom
 
 \--- /task \---
 
-Next, edit your code so you can draw different flowers by pressing the <kbd>f</kbd> key.
+Далі, зміни свій код, щоб ти міг (могла) малювати різні квіти по натисканню клавіші <kbd>f</kbd>.
 
 \--- task \---
 
-Now move your code for drawing flowers away from below the `when green flag clicked`{:class="block3events"} block, and put the code under a `when f key pressed`{:class="block3events"} block.
+Перенеси свій код для малювання квітів з-під блоку `коли зелений прапор натиснуто`{:class="block3events"} під блок `коли клавішу f натиснуто`{:class="block3events"}.
 
-![flower sprite](images/flower-sprite.png)
+![спрайт квітки](images/flower-sprite.png)
 
 ```blocks3
 when green flag clicked
@@ -291,12 +291,12 @@ draw flower (150) (50) (8) :: custom
 
 \--- task \---
 
-Press <kbd>f</kbd> to test your code.
+Натисни <kbd>f</kbd>, щоб протестувати свій код.
 
 \--- /task \---
 
 \--- task \---
 
-Add more `draw flower`{:class="block3myblocks"} blocks to your program to draw flowers with different colours, sizes, and numbers of petals all over the Stage.
+Додай іще кілька блоків `намалювати квітку`{:class="block3myblocks"} до своєї програми, щоб намалювати по всій Сцені квіти різних кольорів, розмірів та з різним числом пелюсток.
 
 \--- /task \---
