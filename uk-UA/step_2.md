@@ -1,10 +1,10 @@
-## Generate a flower
+## Згенеруй квітку
 
-First you're going to generate a flower that can be drawn on the Stage.
+Спочатку ти згенеруєш квітку, яку можна буде малювати на Сцені.
 
 \--- task \---
 
-Create a new Scratch project, and delete the cat sprite.
+Створи новий проєкт Скретч і видали спрайт кота.
 
 [[[generic-scratch3-new-project]]]
 
@@ -12,7 +12,7 @@ Create a new Scratch project, and delete the cat sprite.
 
 \--- task \---
 
-Add the Pen extension to your project.
+Додай розширення Олівець до свого проєкту.
 
 [[[generic-scratch3-add-pen-extension]]]
 
@@ -20,9 +20,9 @@ Add the Pen extension to your project.
 
 \--- task \---
 
-Now use the Paint tool to create a new sprite shaped like a flower petal.
+Тепер використай вбудований інструмент для малювання, щоб створити новий спрайт у формі квіткової пелюстки.
 
-Click on **Choose a sprite**, then click on **Paint** and rename the sprite 'Flower'.
+Клацни **Обрати спрайт**, далі вибери **Малювати** і назви спрайт "Квітка".
 
 [[[generic-scratch3-draw-sprite]]]
 
@@ -30,19 +30,19 @@ Click on **Choose a sprite**, then click on **Paint** and rename the sprite 'Flo
 
 \--- task \---
 
-Use the Circle tool to draw a petal shape filled in orange.
+Використовуй інструмент Коло, щоб намалювати контур пелюстки, заповнений оранжевим кольором.
 
-![screenshot](images/flower-petal.png)
+![знімок екрана](images/flower-petal.png)
 
-Later, you will use code to add more colour.
+Далі, за допомогою коду ти зможеш додати більше кольорів.
 
 \--- /task \---
 
 \--- task \---
 
-Add the following code to the Flower sprite to `stamp`{:class="block3extensions"} a flower with six equally rotated petals `when the green flag is clicked`{:class="block3control"}.
+Додай наступний код до спрайта квітки, щоб зробити її `штамп`{:class="block3extensions"} з шістьома рівномірно розподіленими пелюстками, `коли зелений прапор натиснуто`{:class="block3control"}.
 
-![screenshot](images/flower-6-straight.png)
+![знімок екрана](images/flower-6-straight.png)
 
 ```blocks3
 when green flag clicked
@@ -54,27 +54,27 @@ end
 
 \--- /task \---
 
-You may find that your petals are arranged in an odd way:
+Може виявитися, що твої пелюстки розміщені дивним чином:
 
-![screenshot](images/flower-6-offset.png)
+![знімок екрана](images/flower-6-offset.png)
 
-This is because the sprite is being rotated around its centre.
+Це тому, що спрайт обертається навколо власного центру.
 
 \--- task \---
 
-Move your petal so its bottom is in the centre.
+Перемісти свою пелюстку, щоб її низ був у центрі спрайта.
 
-![screenshot](images/flower-crosshair-annotated.png)
+![знімок екрана](images/flower-crosshair-annotated.png)
 
-Doing this may be easier if you zoom out.
+Це може бути легше зробити, якщо змінити масштаб.
 
 \--- /task \---
 
-Before you run your code again, you should `erase all`{:class="block3extensions"} the sprites on the Stage to clear it.
+Перед повторним запуском свого коду, тобі треба `очистити всі`{:class="block3extensions"} спрайти зі сцени.
 
 \--- task \---
 
-Click on the `erase all` block in the Pen blocks section.
+Клацни на блок `очистити все` в розділі Олівець.
 
 ```blocks3
 erase all
@@ -84,10 +84,10 @@ erase all
 
 \--- task \---
 
-Run your code again to check that the flower's petals are straight now.
+Запусти свій код знову, щоб переконатися, що квіткові пелюстки тепер прямі.
 
-![screenshot](images/flower-6-straight.png)
+![знімок екрана](images/flower-6-straight.png)
 
-If not, adjust the petal's position until its bottom in the centre.
+Якщо ні, то змінюй розміщення пелюстки, поки її низ не опиниться в центрі спрайта.
 
 \--- /task \---
