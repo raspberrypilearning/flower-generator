@@ -1,12 +1,12 @@
-## Random flower generator
+## مولد زهور عشوائي
 
-You will now use your `draw flower`{:class="block3myblocks"} block to create a hundred random flowers all over the Stage whenever you press the <kbd>r</kbd>.
+سوف تستخدم الآن تعليمة برمجية لــ`ارسم زهرة`{:class="block3myblocks"} لإنشاء مئات الزهور العشوائية في جميع أنحاء المرحلة كلما قمت بالضغط على <kbd>r</kbd>.
 
 ![random flowers](images/flower-random.png)
 
 \--- task \---
 
-Add a new Event block to your sprite's code so that `when the r key is pressed`{:class="block3events"}, the screen is `cleared`{:class="block3extensions"}.
+أضف تعليمة برمجية جديدة من مجموعة الاحداث إلى تعليمة الكائن لخاص بك بحيث أن `عندما يتم الضغط على مفتاح r `{:class="block3events"}، تكون الشاشة`خالية`{:class="block3extensions"}.
 
 ![flower sprite](images/flower-sprite.png)
 
@@ -19,7 +19,7 @@ erase all
 
 \--- task \---
 
-Add in a `repeat`{:class="block3control"} block to go to a `random position`{:class="block3motion"} `100` times.
+أضف في التعليمة `كرر`{:class="block3control"} للذهاب إلى `وضع عشوائي`{:class="block3motion"} `100` مرة.
 
 ![flower sprite](images/flower-sprite.png)
 
@@ -33,9 +33,9 @@ end
 
 \--- task \---
 
-Use the `draw flower`{:class="block3myblocks"} block to create a flower that has a `random`{:class="block3operators"} colour between `0` and `199`.
+استخدم التعليمة البرمجية `رسم زهرة`{:class="block3myblocks"} لإنشاء زهرة لها لون `عشوائي`{:class="block3operators"} بين `0` و `199`.
 
-You code should now look like this:
+يجب أن تبدو تعليماتك البرمجية على الشكل التالي:
 
 ![flower sprite](images/flower-sprite.png)
 
@@ -50,13 +50,13 @@ end
 
 \--- /task \---
 
-This code creates one hundred flowers with different colours but with the same size and numbers of petals.
+هذه التعليمات البرمجية تنشئ مائة زهرة بألوان مختلفة ولكن بنفس الحجم وأعداد الورق.
 
 ![flowers just with random colours](images/flower-random-colour.png)
 
 \--- task \---
 
-Can you modify the `when the r key is pressed`{:class="block3events"} script so the flowers' size and number of petals are also random?
+هل يمكنك تعديل `عند الضغط على مفتاح r`{:class="block3events"} بحيث يكون حجم الزهور وعدد الورق البيضاء عشوائيًا أيضاً؟
 
 \--- hints \---
 
