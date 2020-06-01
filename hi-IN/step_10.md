@@ -10,7 +10,7 @@
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/276891625/?autostart=false" frameborder="0" scrolling="no"></iframe>
 </div>
 
---- no-print ---
+--- /no-print ---
 
 --- print-only ---
 
