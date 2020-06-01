@@ -1,7 +1,7 @@
 ---
-title: Flower generator
+title: Генератор квітів
 hero_image: images/banner.png
-description: Generate flowers to create a patterned backdrop image or screensaver
+description: Згенеруй квіти для створення фонового зображення із візерунками або заставки на екран
 duration: 2
 listed: true
 copyedit: true
@@ -9,24 +9,24 @@ version: 4.1.0
 last_tested: 2018-10-18
 steps:
   - 
-    title: Introduction
+    title: Вступ
   - 
-    title: Generate a flower
+    title: Згенеруй квітку
   - 
-    title: Make a custom block to draw flowers
+    title: Створи власний блок для малювання квітів
   - 
-    title: Customise your flowers
+    title: Налаштуй свої квіти
   - 
-    title: "Challenge: create a flower design"
+    title: "Завдання: створи власний квітковий малюнок"
     challenge: true
   - 
-    title: Save your images
+    title: Збережи свої зображення
   - 
-    title: Random flower generator
+    title: Генератор випадкових квітів
   - 
-    title: Flower patterns
+    title: Квіткові візерунки
   - 
-    title: "Challenge: custom flower blocks"
+    title: "Завдання: власні блоки для квітів"
     challenge: true
   - 
-    title: What next?
+    title: Що далі?
