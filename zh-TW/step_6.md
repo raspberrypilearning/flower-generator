@@ -1,15 +1,15 @@
-## Save your images
+## 儲存圖片
 
-When you create an image you like, you can save it and use it in another Scratch project, as a screensaver, or on a website.
+當你創造出你喜歡的圖片時，你可以將它儲存並用在另一個Scratch專案、作為螢幕保護程式，或使用在網站中。
 
 \--- task \---
 
-When there is an image on the Stage that you like, right-click it and then click on **save image as**
+當舞台上有你喜歡的圖片時，單擊右鍵，接著點擊**另存圖片**
 
-**Note:** on some computers or browsers, the menu option for saving your image may be named differently.
+**注意： **在某些電腦或瀏覽器上，"另存圖片"可能會以不太一樣的名稱出現在選單中。
 
-![screenshot](images/flower-save-stage.png)
+![截圖](images/flower-save-stage.png)
 
-Then you can save a PNG image of the Stage.
+接下來你就可以儲存舞台的PNG圖片。
 
 \--- /task \---
