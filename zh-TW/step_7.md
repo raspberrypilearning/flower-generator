@@ -1,6 +1,6 @@
-## Random flower generator
+## 隨機花朵產生器
 
-You will now use your `draw flower`{:class="block3myblocks"} block to create a hundred random flowers all over the Stage whenever you press the <kbd>r</kbd>.
+你將會使用你的`畫花朵` {：class =“ block3myblocks”}積木，在每次按下<kbd> r </kbd>時，出現一百朵隨機樣式的花在舞台上。
 
 ![random flowers](images/flower-random.png)
 
