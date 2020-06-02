@@ -144,11 +144,11 @@ set size to (100) %
 
 \--- hint \---
 
-Right-click on the `draw flower`{:class="block3myblocks"} definition block, click on **edit**, and add a number input called 'size'.
+在`畫花朵` {：class =“ block3myblocks”}定義積木上點擊右鍵，單擊**編輯** ，並添加一個名為“ 大小”的數字輸入。
 
 ![flower sprite](images/flower-sprite.png)
 
-Change your `define draw flower`{:class="block3myblocks"} script so it looks like this:
+將你的`定義 - 畫花朵` {：class =“ block3myblocks”}的腳本改成如下的樣子：
 
 ```blocks3
 define draw flower (colour) (size :: custom-arg)
@@ -166,7 +166,7 @@ end
 
 \--- /task \--- \--- task \---
 
-In the `when green flag clicked`{:class="block3events"} script, change the second number in both `draw flower`{:class="block3myblocks"} blocks so that the two flowers appear in different sizes.
+在`當綠色旗子被點擊時` {：class =“ block3events”}的腳本中，更改兩個`畫花朵` {：class =“ block3myblocks”}積木中的第二個數字，這樣兩朵花就會呈現不同的大小。
 
 ```blocks3
 when green flag clicked
@@ -181,13 +181,13 @@ draw flower (150) (50) :: custom
 
 \--- task \---
 
-Test your code to check whether the flowers have different sizes.
+測試你的程式碼，看看花朵是否呈現不同的大小。
 
 \--- /task \---
 
 \--- task \---
 
-It would be cool to choose the number of petals the flowers have.
+如果能選擇花朵的花瓣數的話就更酷了。
 
 Add another input so that you can draw flowers like this:
 
