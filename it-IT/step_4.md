@@ -1,14 +1,14 @@
-## Customise your flowers
+## Personalizza i tuoi fiori
 
-At the moment all the flowers you draw are exactly the same. Next you're going to add some inputs to the `draw flower`{:class="block3myblocks"} block so that you can draw flowers with different colours, sizes, and numbers of petals.
+Per ora tutti i fiori che disegni sono perfettamente uguali. Proviamo ad aggiungere alcuni parametri al blocco `disegna un fiore`{:class="block3myblocks"} per poter disegnare fiori con colore, dimensione e numero di petali diversi.
 
 \--- task \---
 
-In Scratch you can use the `set colour effect`{:class="block3looks"} block to change the colour of a sprite.
+In Scratch puoi usare il blocco `porta effetto colore a`{:class="block3looks"} per cambiare il colore di uno sprite.
 
-Change your 'draw flower' definition to change the colour:
+Modifica la definizione del tuo 'disegna un fiore' per cambiare il colore:
 
-![flower sprite](images/flower-sprite.png)
+![sprite fiore](images/flower-sprite.png)
 
 ```blocks3
 define draw flower
@@ -23,25 +23,25 @@ end
 
 \--- task \---
 
-Run your code to see flowers of different colours.
+Esegui il tuo codice per vedere i fiori di un colore diverso.
 
 ![screenshot](images/flower-pink.png)
 
-`set colour effect`{:class="block3looks"} changes the colour based on the default colour of the sprite, so if your sprite doesn't start out orange, you get different results.
+il blocco `porta effetto colore a`{:class="block3looks"} cambia il colore dello sprite in base al suo colore originale, quindi se inizialmente il tuo sprite non è arancione, otterrai un risultato diverso.
 
 \--- /task \---
 
 \--- task \---
 
-Experiment with using different numbers from `0` to `199` in the `set colour effect`{:class="block3looks"} block, and see what different results you get.
+Prova a usare numeri diversi da `0` a `199` in `porta effetto colore a`{:class="block3looks"} e vedi quali risultati si ottengono.
 
 \--- /task \---
 
-At the moment all flowers are the same colour. To give each flower a different colour, you need to add an **input** to the `draw flower`{:class="block3myblocks"} block.
+Per ora i fiori sono tutti dello stesso colore. Per dare ad ogni fiore un colore diverso, devi aggiungere un **argomento** al blocco `disegna un fiore`{:class="block3myblocks"}.
 
 \--- task \---
 
-Right-click on the `draw flower`{:class="block3myblocks"} definition block and choose **edit**:
+Fai clic con il tasto destro del mouse sul blocco di definizione `disegna un fiore`{:class="block3myblocks"} e scegli **modifica**:
 
 ![screenshot](images/flower-edit.png)
 
@@ -49,23 +49,23 @@ Right-click on the `draw flower`{:class="block3myblocks"} definition block and c
 
 \--- task \---
 
-Now add a **input number** called 'colour':
+Aggiungi un **argomento** chiamato 'colore':
 
 ![screenshot](images/flower-colour-input-annotated.png)
 
-The input appears in the `draw flower`{:class="block3myblocks"} definition, and you can drag it to where you want to use it.
+L'argomento apparirà nella definizione di `disegna un fiore`{:class="block3myblocks"}, e potrai trascinarlo dove vorrai usarlo.
 
 \--- /task \---
 
 \--- task \---
 
-Drag the 'colour' input to the `set colour effect`{:class="block3looks"} block:
+Trascina l'argomento 'colore' sul blocco `porta effetto colore a`{:class="block3looks"}:
 
 ![screenshot](images/flower-use-colour-annotated.png)
 
-Your code should look like this:
+Il tuo codice dovrebbe apparire così:
 
-![flower sprite](images/flower-sprite.png)
+![sprite fiore](images/flower-sprite.png)
 
 ```blocks3
 define draw flower (colour)
@@ -78,7 +78,7 @@ end
 
 \--- /task \---
 
-Notice that your `draw flower`{:class="block3myblocks"} blocks now have a new input that is set to `1`:
+Nota che i tuoi blocchi `disegna un fiore`{:class="block3myblocks"} ora hanno un nuovo input impostato a `1`:
 
 ```blocks3
 when green flag clicked
@@ -91,11 +91,11 @@ draw flower (1) :: custom
 
 \--- task \---
 
-Change the numbers in the `draw flower`{:class="block3myblocks"} blocks so that the two flowers appear in different colours. You can pick any numbers between 0 and 200.
+Cambia i numeri nei blocchi `disegna un fiore`{:class="block3myblocks"} in modo che i due fiori appaiano in colori diversi. Puoi scegliere qualsiasi numero tra 0 e 200.
 
-Your code should look similar to this:
+Il tuo codice dovrebbe apparire così:
 
-![flower sprite](images/flower-sprite.png)
+![sprite fiore](images/flower-sprite.png)
 
 ```blocks3
 when green flag clicked
@@ -110,31 +110,31 @@ draw flower (150) :: custom
 
 \--- task \---
 
-Now add another input to set the size of the flower, so your `draw flower`{:class="block3myblocks"} block looks like this:
+Ora aggiungi un altro input per impostare la dimensione del fiore, il tuo blocco `disegna un fiore`{:class="block3myblocks"} dovrebbe assomigliare a questo:
 
-![flower sprite](images/flower-sprite.png)
+![sprite fiore](images/flower-sprite.png)
 
 ```blocks3
 draw flower (180) (150) :: custom
 ```
 
-With the block above, you can create flowers with different sizes:
+Con il blocco qui sopra, è possibile creare fiori di diverse dimensioni:
 
-![different sized flowers](images/flower-different-sizes.png)
-
-\--- hints \---
+![fiori di diverse dimensioni](images/flower-different-sizes.png)
 
 \--- hint \---
 
-Look at what you did to add the `colour` input, and repeat it to add a 'size' input that you can use to set the size of the Flower sprite.
+\--- hint \---
+
+Guarda quello che hai fatto per aggiungere l'argomento `colore`. e usalo come traccia per aggiungere un argomento 'dimensione' per impostare la dimensione dello sprite Fiore.
 
 \--- /hint \---
 
 \--- hint \---
 
-Edit the `draw flower`{:class="block3myblocks"} block to add a new number input called 'size'.
+Modifica il blocco `disegna un fiore`{:class="block3myblocks"} per aggiungere un nuovo argomento numerico chiamato 'dimensione'.
 
-You need to add the following block with a 'size' input to the `draw flower`{:class="block3myblocks"} definition block:
+Devi aggiungere questo blocco con un parametro 'dimensione' alla definizione del blocco `disegna un fiore`{:class="block3myblocks"}:
 
 ```blocks3
 set size to (100) %
@@ -144,11 +144,11 @@ set size to (100) %
 
 \--- hint \---
 
-Right-click on the `draw flower`{:class="block3myblocks"} definition block, click on **edit**, and add a number input called 'size'.
+Fai clic con il tasto destro del mouse sul blocco di definizione `disegna un fiore`{:class="block3myblocks"}, poi su **modifica**, e infine aggiungi un argomento numerico chiamato 'dimensione'.
 
-![flower sprite](images/flower-sprite.png)
+![sprite fiore](images/flower-sprite.png)
 
-Change your `define draw flower`{:class="block3myblocks"} script so it looks like this:
+Cambia lo script `definisci disegna un fiore`{:class="block3myblocks"} in modo che assomigli a questo:
 
 ```blocks3
 define draw flower (colour) (size :: custom-arg)
@@ -166,7 +166,7 @@ end
 
 \--- /task \--- \--- task \---
 
-In the `when green flag clicked`{:class="block3events"} script, change the second number in both `draw flower`{:class="block3myblocks"} blocks so that the two flowers appear in different sizes.
+Nello script `quando si clicca sulla bandierina verde`{:class="block3events"}, cambia il secondo numero in entrambi i blocchi `disegna un fiore`{:class="block3myblocks"} in modo che i due fiori appaiano di diverse dimensioni.
 
 ```blocks3
 when green flag clicked
@@ -181,39 +181,39 @@ draw flower (150) (50) :: custom
 
 \--- task \---
 
-Test your code to check whether the flowers have different sizes.
+Prova il tuo codice e verifica che i fiori abbiano dimensioni diverse.
 
 \--- /task \---
 
 \--- task \---
 
-It would be cool to choose the number of petals the flowers have.
+Sarebbe bello scegliere il numero dei petali dei fiori.
 
-Add another input so that you can draw flowers like this:
+Aggiungi un altro argomento per poter disegnare i fiori in questo modo:
 
-![flowers with different numbers of petals](images/flower-petals.png)
+![fiori con un numero diverso di petali](images/flower-petals.png)
 
 \--- hints \--- \--- hint \---
 
-You need to add a 'petals' number input, and then use it in the `define draw flower`{:class="block3myblocks"} block.
+Bisogna aggiungere un argomento 'petali' al blocco `definisci disegna un fiore`{:class="block3myblocks"} e usarlo all'interno del codice.
 
-There are two places where you need to add the 'petals' input.
+Ci sono due posti in cui bisogna usare l'argomento 'petali'.
 
-The number of degrees the Flower sprite should `turn`{:class="block3looks"} by is `360` divided by the number of petals.
+Lo sprite Fiore dovrebbe `ruotare` di `360` gradi diviso per il numero di petali.
 
 \--- /hint \---
 
 \--- hint \---
 
-Change your `define draw flower`{:class="block3myblocks"} block to look like this:
+Cambia il tuo blocco `definisci disegna un fiore`{:class="block3myblocks"} in modo che sia simile a questo:
 
-![flower sprite](images/flower-sprite.png)
+![sprite fiore](images/flower-sprite.png)
 
 ```blocks3
 define draw flower (colour) (size :: custom-arg) (petals)
 ```
 
-Update your `repeat`{:class="block3control"} and `turn`{:class="block3looks"} blocks so they use the 'petals' input.
+Aggiorna i tuoi blocchi `ripeti`{:class="block3control"} e `ruota`{:class="block3looks"} in modo che utilizzino l'argomento 'petali'.
 
 ```blocks3
 repeat (petals :: custom-arg) 
@@ -222,7 +222,7 @@ end
 turn cw ((360) / (petals :: custom-arg)) degrees
 ```
 
-Update your `draw flower`{:class="block3myblocks"} blocks to use the 'petals' input.
+Aggiorna i tuoi blocchi `disegna un fiore`{:class="block3myblocks"} usando l'argomento 'petali'.
 
 ```blocks3
 draw flower (150) (50) (8) :: custom
@@ -232,11 +232,11 @@ draw flower (150) (50) (8) :: custom
 
 \--- hint \---
 
-Edit your `define draw flower`{:class="block3myblocks"} block and add a new number input called 'petals'.
+Modifica il tuo blocco `definisci disegna un fiore`{:class="block3myblocks"} e aggiungi un nuovo argomento chiamato 'petali'.
 
-![flower sprite](images/flower-sprite.png)
+![sprite fiore](images/flower-sprite.png)
 
-Your code should look like this:
+Il tuo codice dovrebbe apparire così:
 
 ```blocks3
 define draw flower (colour) (size :: custom-arg) (petals)
@@ -249,7 +249,7 @@ end
 
 ```
 
-In the `when green flag clicked`{:class="block3events"} script, change the third number in both `draw flower`{:class="block3myblocks"} blocks so that the two flowers that appear have different numbers of petals.
+Nello script `quando si clicca sulla bandierina verde`{:class="block3events"}, cambia il terzo numero in entrambi i blocchi `disegna un fiore`{:class="block3myblocks"} in modo che i due fiori che appaiono abbiano un numero di petali diverso tra loro.
 
 ```blocks3
 when green flag clicked
@@ -266,16 +266,16 @@ draw flower (150) (50) (8) :: custom
 
 \--- /task \---
 
-Next, edit your code so you can draw different flowers by pressing the <kbd>f</kbd> key.
+Adesso, modifica il codice per poter disegnare diversi fiori premendo il tasto <kbd>f</kbd>.
 
 \--- task \---
 
-Now move your code for drawing flowers away from below the `when green flag clicked`{:class="block3events"} block, and put the code under a `when f key pressed`{:class="block3events"} block.
+Sposta il codice per disegnare i fiori da sotto il blocco `quando si clicca la bandierina verde`{:class="block3events"}, e metti il codice sotto un blocco `quando si preme il tasto f`{:class="block3events"}.
 
-![flower sprite](images/flower-sprite.png)
+![sprite fiore](images/flower-sprite.png)
 
 ```blocks3
-when green flag clicked
+quando si clicca sulla bandiera verde
 ```
 
 ```blocks3
@@ -291,12 +291,12 @@ draw flower (150) (50) (8) :: custom
 
 \--- task \---
 
-Press <kbd>f</kbd> to test your code.
+Premi <kbd>f</kbd> per testare il tuo codice.
 
 \--- /task \---
 
 \--- task \---
 
-Add more `draw flower`{:class="block3myblocks"} blocks to your program to draw flowers with different colours, sizes, and numbers of petals all over the Stage.
+Aggiungi più blocchi `disegna un fiore`{:class="block3myblocks"} al tuo programma per disegnare fiori con colori, dimensioni e numeri di petali diversi per tutto lo Stage.
 
 \--- /task \---
