@@ -1,12 +1,12 @@
-## Flower patterns
+## Patrones de flores
 
-You can also use your `draw flower`{:class="block3myblocks"} block to create neat flower patterns.
+También puedes usar tu bloque `dibujar flor`{:class="block3myblocks"} para crear patrones nítidos de flores.
 
 \--- task \---
 
-Create a flower or a combination of flowers that you like. Here's an example:
+Crea una flor o una combinación de flores que te gusten. Aquí tienes un ejemplo:
 
-![flower sprite](images/flower-sprite.png)
+![objeto flor](images/flower-sprite.png)
 
 ```blocks3
 when [p v] key pressed
@@ -20,20 +20,20 @@ draw flower (130) (35) (20) :: custom
 
 \--- task \---
 
-Press <kbd>p</kbd> to see your flower. The example looks like this:
+Presiona <kbd> p </kbd> para ver tu flor. El ejemplo se ve así:
 
-![a flower pattern](images/flower-for-pattern-example.png)
+![un patrón de flor](images/flower-for-pattern-example.png)
 
 \--- /task \---
 
-Before you can create your pattern, you should clear the Stage of any leftover flowers.
+Antes de que puedas crear tu modelo, debes limpiar el Escenario para que no queden flores sobrantes.
 
 \--- task \---
 
-Click on the `erase all` block in the Pen tab.
+Haz clic en el bloque `borrar todo` en la sección de bloques de Lapicero.
 
 ```blocks3
-erase all
+borrar todo
 ```
 
 \--- /task \---
