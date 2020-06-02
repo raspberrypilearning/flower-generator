@@ -1,21 +1,21 @@
-## Challenge: create a flower design
+## 挑戰：設計花朵
 
-Can you use your `draw flower`{:class="block3myblocks"} block several times to draw more flowers and create an interesting design? Drawing different flowers at the same location creates an interesting effect.
+你有辦法使用你的`畫花朵` {：class =“ block3myblocks”}積木多次以創造出有趣的設計嗎？ 在同一位置繪製不同的花朵來產生有趣的效果。
 
-Create a design that you like. Here's an example:
+創造出你喜歡的設計。 範例如下：
 
 ![screenshot](images/flower-three.png)
 
-You don't have to use petals shaped like ellipses. For example, you can use thick straight lines and a black backdrop to create a firework pattern like this:
+你不一定要使用形狀像橢圓形的花瓣。 例如，你可以使用粗直線和黑色背景來創造如下煙火圖案：
 
 ![screenshot](images/flower-fireworks.png)
 
-The 'petal' for the firework pattern is just a line:
+煙火的“花瓣”只是一條線：
 
 ![screenshot](images/flower-firework-petal.png)
 
-Add new petal costumes and see what flowers you can come up with.
+新增新的花瓣造型，看看你能畫出什麼樣的花。
 
-Try out a sprite shape that is not filled in, such as a square, and see what happens
+試看看用不填滿顏色的形狀角色（例如正方形），看看會發生什麼。
 
 ![screenshot](images/flower-square-petal.png)
