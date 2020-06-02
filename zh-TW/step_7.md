@@ -19,7 +19,7 @@ erase all
 
 \--- task \---
 
-Add in a `repeat`{:class="block3control"} block to go to a `random position`{:class="block3motion"} `100` times.
+添加`重複` {：class =“ block3control”}` 100 `次積木和`定位到隨機位置` {：class =“ block3motion”}積木 ，使一百朵花會產生在隨機位置。
 
 ![flower sprite](images/flower-sprite.png)
 
@@ -33,9 +33,9 @@ end
 
 \--- task \---
 
-Use the `draw flower`{:class="block3myblocks"} block to create a flower that has a `random`{:class="block3operators"} colour between `0` and `199`.
+使用`畫花朵` {：class =“ block3myblocks”}積木，讓產生的花朵顏色在色彩碼` 0 `和` 199 `之間`隨機` {：class =“ block3operators”}挑選。
 
-You code should now look like this:
+現在你的程式應該會像這樣：
 
 ![flower sprite](images/flower-sprite.png)
 
@@ -50,13 +50,13 @@ end
 
 \--- /task \---
 
-This code creates one hundred flowers with different colours but with the same size and numbers of petals.
+這個程式碼創造了一百種不同顏色的花，但是大小和花瓣數量卻是一樣的。
 
 ![flowers just with random colours](images/flower-random-colour.png)
 
 \--- task \---
 
-Can you modify the `when the r key is pressed`{:class="block3events"} script so the flowers' size and number of petals are also random?
+你有辦法修改` 當r鍵被按下` {：class =“ block3events”}的腳本，使花朵的大小和花瓣數也能隨機變化嗎？
 
 \--- hints \---
 
