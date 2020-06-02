@@ -8,7 +8,7 @@
 
 變更"畫花朵"定義積木來改變顏色：
 
-![flower sprite](images/flower-sprite.png)
+![花朵角色](images/flower-sprite.png)
 
 ```blocks3
 define draw flower
@@ -25,7 +25,7 @@ end
 
 執行程式碼，看看花朵是不是變成了不同的顏色。
 
-![screenshot](images/flower-pink.png)
+![截圖](images/flower-pink.png)
 
 `圖像效果-顏色` {：class =“ block3looks”}會根據原本角色設定的顏色來更改色彩，所以如果你的角色一開始不是設定成橘色，則會得到不同的結果。
 
@@ -43,7 +43,7 @@ end
 
 在`畫花朵` {：class =“ block3myblocks”}定義積木上點擊右鍵並選擇**編輯 ** ：
 
-![screenshot](images/flower-edit.png)
+![截圖](images/flower-edit.png)
 
 \--- /task \---
 
@@ -51,7 +51,7 @@ end
 
 添加**輸入方塊**並命名為“顏色”：
 
-![screenshot](images/flower-colour-input-annotated.png)
+![截圖](images/flower-colour-input-annotated.png)
 
 The input appears in the `draw flower`{:class="block3myblocks"} definition, and you can drag it to where you want to use it.
 
@@ -61,11 +61,11 @@ The input appears in the `draw flower`{:class="block3myblocks"} definition, and 
 
 將“顏色”輸入拖到`圖像效果-顏色` {：class =“ block3looks”}積木：
 
-![screenshot](images/flower-use-colour-annotated.png)
+![截圖](images/flower-use-colour-annotated.png)
 
 你的程式應該會像這樣：
 
-![flower sprite](images/flower-sprite.png)
+![花朵角色](images/flower-sprite.png)
 
 ```blocks3
 define draw flower (colour)
@@ -95,7 +95,7 @@ draw flower (1) :: custom
 
 你的程式碼應該會看起來像這樣：
 
-![flower sprite](images/flower-sprite.png)
+![花朵角色](images/flower-sprite.png)
 
 ```blocks3
 when green flag clicked
@@ -112,7 +112,7 @@ draw flower (150) :: custom
 
 現在添加另一個"輸入"來設定花朵的大小，你的`畫花朵` {：class =“ block3myblocks”}積木會看起來如下：
 
-![flower sprite](images/flower-sprite.png)
+![花朵角色](images/flower-sprite.png)
 
 ```blocks3
 draw flower (180) (150) :: custom
@@ -120,7 +120,7 @@ draw flower (180) (150) :: custom
 
 使用上面的積木，你可以做出不同大小的花朵：
 
-![different sized flowers](images/flower-different-sizes.png)
+![不同大小的花](images/flower-different-sizes.png)
 
 \--- hints \---
 
@@ -146,7 +146,7 @@ set size to (100) %
 
 在`畫花朵` {：class =“ block3myblocks”}定義積木上點擊右鍵，單擊**編輯** ，並添加一個名為“ 大小”的數字輸入。
 
-![flower sprite](images/flower-sprite.png)
+![花朵角色](images/flower-sprite.png)
 
 將你的`定義 - 畫花朵` {：class =“ block3myblocks”}的腳本改成如下的樣子：
 
@@ -191,7 +191,7 @@ draw flower (150) (50) :: custom
 
 新增另一個"輸入"，讓你可以像這樣繪製花朵：
 
-![flowers with different numbers of petals](images/flower-petals.png)
+![不同花瓣數的花](images/flower-petals.png)
 
 \--- hints \--- \--- hint \---
 
@@ -207,7 +207,7 @@ draw flower (150) (50) :: custom
 
 將你的`畫花朵` {：class =“ block3myblocks”}定義積木改成如下的樣子：
 
-![flower sprite](images/flower-sprite.png)
+![花朵角色](images/flower-sprite.png)
 
 ```blocks3
 define draw flower (colour) (size :: custom-arg) (petals)
@@ -234,7 +234,7 @@ draw flower (150) (50) (8) :: custom
 
 編輯`定義 - 畫花朵` {：class =“ block3myblocks”}積木，新增一個數字輸入並將它命名為“ 花瓣數”。
 
-![flower sprite](images/flower-sprite.png)
+![花朵角色](images/flower-sprite.png)
 
 你的程式應該會像這樣：
 
@@ -272,7 +272,7 @@ draw flower (150) (50) (8) :: custom
 
 現在，將程式碼從`當綠色旗子被點擊` {：class =“ block3events”}積木下移開，並將程式碼放到`當f鍵被按下` {：class =“ block3events”}積木底下。
 
-![flower sprite](images/flower-sprite.png)
+![花朵角色](images/flower-sprite.png)
 
 ```blocks3
 when green flag clicked
@@ -291,12 +291,12 @@ draw flower (150) (50) (8) :: custom
 
 \--- task \---
 
-Press <kbd>f</kbd> to test your code.
+按<kbd> f </kbd>測試你的程式碼。
 
 \--- /task \---
 
 \--- task \---
 
-Add more `draw flower`{:class="block3myblocks"} blocks to your program to draw flowers with different colours, sizes, and numbers of petals all over the Stage.
+增加更多`畫花朵` {：class =“ block3myblocks”}積木到你的程式，將舞台上畫滿不同顏色，大小和花瓣數的花朵。
 
 \--- /task \---
