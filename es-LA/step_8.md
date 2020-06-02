@@ -40,15 +40,15 @@ borrar todo
 
 \--- task \---
 
-Right-click on the Flower sprite and `hide`{:class="block3looks"} it so it doesn't appear on the Stage. (You can `show`{:class="block3looks"} the sprite again if you need to see where it is.)
+Haz clic derecho en el objeto Flor y `selecciona ocultar`{:class="block3looks"} para que no aparezca en el Escenario. (Puedes `mostrar`{:class="block3looks"} el objeto de nuevo si necesitas ver dónde está.)
 
 \--- /task \---
 
 \--- task \---
 
-Now draw a row of these flowers across the top of the Stage. Here is some example code, in which you might need to adjust the numbers so it works with your flower:
+Ahora dibuja una fila de estas flores a lo largo de la parte superior del Escenario. Aquí hay un código de ejemplo, en el que es posible que debas ajustar los números para que funcione con tu flor:
 
-![flower sprite](images/flower-sprite.png)
+![objeto flor](images/flower-sprite.png)
 
 ```blocks3
 when [p v] key pressed
@@ -65,17 +65,17 @@ end
 
 \--- task \---
 
-Press `p` to see a row of flowers:
+Presiona `p` para ver una fila de flores:
 
-![4 flowers in a row](images/flower-pattern-row-example.png)
+![4 flores seguidas](images/flower-pattern-row-example.png)
 
 \--- /task \---
 
 \--- task \---
 
-Add another loop to create more rows of flowers. This example adds a `repeat 3`{:class="block3control"} loop to create three rows.
+Agrega otro ciclo para crear más filas de flores. Este ejemplo agrega el ciclo ` repetir 3 ` {:class = "block3control"} para crear tres filas.
 
-![flower sprite](images/flower-sprite.png)
+![objeto flor](images/flower-sprite.png)
 
 ```blocks3
 when [p v] key pressed
@@ -96,13 +96,13 @@ end
 
 \--- task \---
 
-Press <kbd>p</kbd> to create a grid of flowers:
+Presiona <kbd>p</kbd> para crear una red de flores:
 
-![a 4 x 4 grid of flowers](images/flower-pattern-rows-example.png)
+![una red de flores 4 x 4](images/flower-pattern-rows-example.png)
 
 \--- /task \---
 
-Do you want to speed up the drawing of the flowers?
+¿Quieres acelerar el dibujo de las flores?
 
 \--- task \---
 
