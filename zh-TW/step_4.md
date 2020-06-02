@@ -126,15 +126,15 @@ draw flower (180) (150) :: custom
 
 \--- hint \---
 
-Look at what you did to add the `colour` input, and repeat it to add a 'size' input that you can use to set the size of the Flower sprite.
+看著你新增`顏色`輸入的過程，並重複同樣的操作來新增一個“大小”輸入，以用來設定花朵角色的大小。
 
 \--- /hint \---
 
 \--- hint \---
 
-Edit the `draw flower`{:class="block3myblocks"} block to add a new number input called 'size'.
+編輯`畫花朵` {：class =“ block3myblocks”}積木，新增一個數字輸入並將它命名為“ 大小”。
 
-You need to add the following block with a 'size' input to the `draw flower`{:class="block3myblocks"} definition block:
+你需要將“大小”輸入積木加入`畫花朵` {：class =“ block3myblocks”}定義積木：
 
 ```blocks3
 set size to (100) %
