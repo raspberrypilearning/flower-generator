@@ -37,7 +37,7 @@ Experiment with using different numbers from `0` to `199` in the `set colour eff
 
 \--- /task \---
 
-At the moment all flowers are the same colour. To give each flower a different colour, you need to add an **input** to the `draw flower`{:class="block3myblocks"} block.
+At the moment all flowers are the same colour. 要实现每朵花都是不同的颜色，您需要添加一个**输入**的菜单到`画花` {：class =“ block3myblocks”}积木块。
 
 \--- task \---
 
@@ -63,7 +63,7 @@ Drag the 'colour' input to the `set colour effect`{:class="block3looks"} block:
 
 ![screenshot](images/flower-use-colour-annotated.png)
 
-Your code should look like this:
+你的代码应该像这样：
 
 ![flower sprite](images/flower-sprite.png)
 
