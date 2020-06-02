@@ -1,21 +1,21 @@
-## Challenge: create a flower design
+## Sfida: crea un motivo floreale
 
-Can you use your `draw flower`{:class="block3myblocks"} block several times to draw more flowers and create an interesting design? Drawing different flowers at the same location creates an interesting effect.
+Puoi usare il tuo blocco `disegna un fiore`{:class="block3myblocks"} più volte per disegnare più fiori e creare un motivo interessante? Disegnare fiori diversi nella stessa posizione crea un effetto interessante.
 
-Create a design that you like. Here's an example:
+Crea un motivo che ti piace. Ecco un esempio:
 
 ![screenshot](images/flower-three.png)
 
-You don't have to use petals shaped like ellipses. For example, you can use thick straight lines and a black backdrop to create a firework pattern like this:
+Non devi per forza usare petali a forma di ellissi. Per esempio, puoi usare linee dritte spesse e uno sfondo nero per creare un motivo di fuochi d'artificio come questo:
 
 ![screenshot](images/flower-fireworks.png)
 
-The 'petal' for the firework pattern is just a line:
+Il 'petalo' per il modello di fuochi d'artificio è solo una linea:
 
 ![screenshot](images/flower-firework-petal.png)
 
-Add new petal costumes and see what flowers you can come up with.
+Aggiungi nuovi costumi petalo e guarda quali fiori puoi inventare.
 
-Try out a sprite shape that is not filled in, such as a square, and see what happens
+Prova ad usare una forma con l'interno trasparente, come un quadrato, e vedi cosa succede
 
 ![screenshot](images/flower-square-petal.png)
