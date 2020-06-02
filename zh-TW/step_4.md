@@ -213,7 +213,7 @@ draw flower (150) (50) :: custom
 define draw flower (colour) (size :: custom-arg) (petals)
 ```
 
-Update your `repeat`{:class="block3control"} and `turn`{:class="block3looks"} blocks so they use the 'petals' input.
+更新`重複`{:class="block3control"} 和 `旋轉`{:class="block3looks"} 積木，讓它們使用"花瓣數"輸入。
 
 ```blocks3
 repeat (petals :: custom-arg) 
