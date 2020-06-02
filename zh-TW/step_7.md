@@ -6,7 +6,7 @@
 
 \--- task \---
 
-Add a new Event block to your sprite's code so that `when the r key is pressed`{:class="block3events"}, the screen is `cleared`{:class="block3extensions"}.
+新增一個事件積木到角色的程式碼中，使`當r鍵被按下`{:class="block3events"}時, 會把舞台上的 `筆跡全部清除`{:class="block3extensions"}。
 
 ![flower sprite](images/flower-sprite.png)
 
