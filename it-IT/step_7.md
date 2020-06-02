@@ -1,14 +1,14 @@
-## Random flower generator
+## Generatore casuale di fiori
 
-You will now use your `draw flower`{:class="block3myblocks"} block to create a hundred random flowers all over the Stage whenever you press the <kbd>r</kbd>.
+Ora utilizzeremo il tuo blocco `disegna un fiore`{:class="block3myblocks"} per creare un centinaio di fiori diversi su tutto lo stage ogni volta che premi <kbd>r</kbd>.
 
-![random flowers](images/flower-random.png)
+![fiori a caso](images/flower-random.png)
 
 \--- task \---
 
-Add a new Event block to your sprite's code so that `when the r key is pressed`{:class="block3events"}, the screen is `cleared`{:class="block3extensions"}.
+Aggiungi un nuovo blocco di eventi al codice del tuo sprite in modo che `quando si preme il tasto r`{:class="block3events"}, lo schermo viene `cancellato`{:class="block3extensions"}.
 
-![flower sprite](images/flower-sprite.png)
+![sprite fiore](images/flower-sprite.png)
 
 ```blocks3
 when [r v] key pressed
@@ -19,9 +19,9 @@ erase all
 
 \--- task \---
 
-Add in a `repeat`{:class="block3control"} block to go to a `random position`{:class="block3motion"} `100` times.
+Aggiungi in un blocco `ripeti`{:class="block3control"} `100` volte un blocco `raggiungi posizione a caso`{:class="block3motion"}.
 
-![flower sprite](images/flower-sprite.png)
+![sprite fiore](images/flower-sprite.png)
 
 ```blocks3
 repeat (100)
@@ -33,11 +33,11 @@ end
 
 \--- task \---
 
-Use the `draw flower`{:class="block3myblocks"} block to create a flower that has a `random`{:class="block3operators"} colour between `0` and `199`.
+Usa il blocco `disegna un fiore`{:class="block3myblocks"} per creare un fiore con un colore `a caso`{:class="block3operators"} tra `0` e `199`.
 
-You code should now look like this:
+Il tuo codice dovrebbe assomigliare a questo:
 
-![flower sprite](images/flower-sprite.png)
+![sprite fiore](images/flower-sprite.png)
 
 ```blocks3
 when [r v] key pressed
@@ -50,27 +50,27 @@ end
 
 \--- /task \---
 
-This code creates one hundred flowers with different colours but with the same size and numbers of petals.
+Questo codice crea cento fiori con colori diversi ma con le stesse dimensioni e lo stesso numero di petali.
 
-![flowers just with random colours](images/flower-random-colour.png)
+![fiori con solo colori casuali](images/flower-random-colour.png)
 
 \--- task \---
 
-Can you modify the `when the r key is pressed`{:class="block3events"} script so the flowers' size and number of petals are also random?
-
-\--- hints \---
+Puoi modificare lo script `quando si preme il tasto r`{:class="block3events"} in modo che anche le dimensioni dei fiori e il numero dei loro petali siano casuali?
 
 \--- hint \---
 
-The `draw flower`{:class="block3myblocks"} block should `pick random`{:class="block3operators"} numbers for the size and number of petals.
+\--- hint \---
+
+Il blocco `disegna un fiore`{:class="block3myblocks"} dovrebbe scegliere un `numero a caso`{:class="block3operators"} per dimensione e numero di petali.
 
 \--- /hint \---
 
 \--- hint \---
 
-The following blocks pick a random size between `50` and `150` and a random number of petals between `4` and `12`.
+I seguenti blocchi scelgono a caso una dimensione tra `50` e `150` e un numero di petali compreso tra `4` e `12`.
 
-![flower sprite](images/flower-sprite.png)
+![sprite fiore](images/flower-sprite.png)
 
 ```blocks3
 (pick random (50) to (150))
@@ -82,9 +82,9 @@ The following blocks pick a random size between `50` and `150` and a random numb
 
 \--- hint \---
 
-Your code should look like this:
+Il tuo codice dovrebbe apparire così:
 
-![flower sprite](images/flower-sprite.png)
+![sprite fiore](images/flower-sprite.png)
 
 ```blocks3
 when [r v] key pressed
@@ -103,6 +103,6 @@ end
 
 \--- task \---
 
-Press <kbd>r</kbd> to see your random flowers.
+Premi <kbd>r</kbd> per vedere i tuoi fiori casuali.
 
 \--- /task \---
