@@ -1,10 +1,10 @@
-## Make a custom block to draw flowers
+## Crea un blocco personalizzato per disegnare i fiori
 
-What if you want to draw lots of flowers? Instead of making lots of copies of the code, you will create your own block in Scratch and use it every time you want to draw a flower.
+E se volessi disegnare molti fiori? Invece di fare molte copie del codice, crea il tuo blocco Scratch da usare ogni volta che vorrai disegnare un fiore.
 
 \--- task \---
 
-Click on **My Blocks** and then on **Make a Block** to create your own block called 'draw flower'.
+Fai clic su **I miei blocchi** e poi su **Crea un blocco** per creare il tuo blocco chiamato 'disegna un fiore'.
 
 ![screenshot](images/flower-make-block.png)
 
@@ -12,7 +12,7 @@ Click on **My Blocks** and then on **Make a Block** to create your own block cal
 
 \--- task \---
 
-There is now a new block called `draw flower`{:class="block3myblocks"} in the **More blocks** section, and a new definition block on the Stage.
+Ora c'è un nuovo blocco chiamato `disegna un fiore`{:class="block3myblocks"} nella sezione **I Miei Blocchi** e un nuovo blocco di definizione sullo stage.
 
 ```blocks3
 draw flower :: custom
@@ -24,11 +24,11 @@ define draw flower
 
 \--- task \---
 
-Move your code for drawing the flower from the `when green flag clicked`{:class="block3events"} block to the new `draw flower`{:class="block3myblocks"} definition block.
+Sposta il codice per disegnare il fiore dal blocco `quando si clicca sulla bandiera verde`{:class="block3events"} al nuovo blocco di definizione `disegna un fiore`{:class="block3myblocks"}.
 
-Your code should look like this:
+Il tuo codice dovrebbe apparire così:
 
-![flower sprite](images/flower-sprite.png)
+![sprite di un fiore](images/flower-sprite.png)
 
 ```blocks3
 define draw flower
@@ -44,9 +44,9 @@ when green flag clicked
 
 \--- task \---
 
-Add the following code to clear the Stage and to use your new `draw flower`{:class="block3myblocks"} block when the green flag is clicked:
+Aggiungi questo codice per cancellare lo Stage e per usare il tuo nuovo blocco `disegna un fiore`{:class="block3myblocks"} quando si clicca sulla bandiera verde:
 
-![flower sprite](images/flower-sprite.png)
+![sprite di un fiore](images/flower-sprite.png)
 
 ```blocks3
 when green flag clicked
@@ -58,15 +58,15 @@ draw flower :: custom
 
 \--- task \---
 
-Click the green flag to test your code and check whether you see a flower.
+Fai clic sulla bandiera verde per testare il tuo codice e controlla se vedi un fiore.
 
 \--- /task \---
 
 \--- task \---
 
-Now change your code to move the sprite and then draw another flower:
+Ora cambia il tuo codice per spostare lo sprite e disegnare un altro fiore:
 
-![flower sprite](images/flower-sprite.png)
+![sprite di un fiore](images/flower-sprite.png)
 
 ```blocks3
 when green flag clicked
@@ -81,7 +81,7 @@ draw flower :: custom
 
 \--- task \---
 
-Test your code to check that you now see two flowers.
+Prova il tuo codice e verifica di vedere due fiori.
 
 ![screenshot](images/flower-two.png)
 
