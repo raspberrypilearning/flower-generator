@@ -205,7 +205,7 @@ draw flower (150) (50) :: custom
 
 \--- hint \---
 
-Change your `define draw flower`{:class="block3myblocks"} block to look like this:
+將你的`畫花朵` {：class =“ block3myblocks”}定義積木改成如下的樣子：
 
 ![flower sprite](images/flower-sprite.png)
 
