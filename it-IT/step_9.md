@@ -1,10 +1,10 @@
-## Challenge: custom flower blocks
+## Sfida: blocchi per fiori personalizzati
 
-These flowers all have the same number of outer and inner petals, and the size of the inner flower is in proportion to the outer flower:
+Questi fiori hanno tutti lo stesso numero di petali esterni e interni, e la dimensione del fiore interno è proporzionale al fiore esterno:
 
 ![screenshot](images/flower-double-flowers.png)
 
-You can create flowers like this with the help of a `draw double flower`{:class="block3myblocks"} custom block that has inputs for `outer colour`, `inner colour`, and `size`:
+Puoi creare fiori come questo con l'aiuto di un blocco personalizzato `disegna un fiore doppio`{:class="block3myblocks"} che ha argomenti per `colore esterno`, `colore interno`, e `dimensione`:
 
 ```blocks3
 define draw double flower (outer colour) (inner colour) (size :: custom-arg)
@@ -12,7 +12,7 @@ draw flower (outer colour :: custom-arg) (size :: custom-arg) (12) :: custom
 draw flower (inner colour :: custom-arg) ((size :: custom-arg) / (2)) (20) :: custom
 ```
 
-The `draw double flower`{:class="block3myblocks"} block can draw lots of flowers in the same style:
+Il blocco `disegna un fiore doppio`{:class="block3myblocks"} può disegnare molti fiori nello stesso stile:
 
 ```blocks3
 when [d v] key pressed
@@ -25,6 +25,6 @@ change x by (75)
 draw double flower (140) (160) (50) :: custom
 ```
 
-Make a new custom block with the necessary inputs that you need to be able to change to create a type of flower that you like.
+Crea un nuovo blocco personalizzato con gli argomenti necessari a creare un tipo di fiore che ti piace.
 
-Then use your new block to create a cool design!
+Adesso usa il tuo nuovo blocco per creare un bel disegno!
