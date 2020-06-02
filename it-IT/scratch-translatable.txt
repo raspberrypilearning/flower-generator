@@ -1,19 +1,19 @@
-flower
+fiore
 
-costume1
+costume 1
 
-costume2
+costume 2
 
-draw flower
+disegna un fiore
 
-draw double flower
+disegna fiore doppio
 
-colour
+colore
 
-petals
+petali
 
-size
+dimensione
 
-outer colour
+colore esterno
 
-inner colour
+colore interno
