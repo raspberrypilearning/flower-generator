@@ -1,8 +1,8 @@
-## Sfida: crea un motivo floreale
+## Sfida: crea un disegno floreale
 
 Puoi usare il tuo blocco `disegna un fiore`{:class="block3myblocks"} più volte per disegnare più fiori e creare un motivo interessante? Disegnare fiori diversi nella stessa posizione crea un effetto interessante.
 
-Crea un motivo che ti piace. Ecco un esempio:
+Crea un disegno che ti piace. Ecco un esempio:
 
 ![screenshot](images/flower-three.png)
 
