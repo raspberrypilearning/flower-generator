@@ -189,17 +189,17 @@ draw flower (150) (50) :: custom
 
 如果能選擇花朵的花瓣數的話就更酷了。
 
-Add another input so that you can draw flowers like this:
+新增另一個"輸入"，讓你可以像這樣繪製花朵：
 
 ![flowers with different numbers of petals](images/flower-petals.png)
 
 \--- hints \--- \--- hint \---
 
-You need to add a 'petals' number input, and then use it in the `define draw flower`{:class="block3myblocks"} block.
+你需要添加一個“花瓣數”的輸入，然後把它用在`畫花朵` {：class =“ block3myblocks”}定義積木中。
 
-There are two places where you need to add the 'petals' input.
+你需要在這兩個地方加入“花瓣數”輸入。
 
-The number of degrees the Flower sprite should `turn`{:class="block3looks"} by is `360` divided by the number of petals.
+花朵角色的`旋轉度數` {：class =“ block3looks”}是` 360 `除以花瓣數量。
 
 \--- /hint \---
 
