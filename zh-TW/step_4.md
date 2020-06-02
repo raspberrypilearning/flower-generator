@@ -222,7 +222,7 @@ end
 turn cw ((360) / (petals :: custom-arg)) degrees
 ```
 
-Update your `draw flower`{:class="block3myblocks"} blocks to use the 'petals' input.
+更新你的`畫花朵` {：class =“ block3myblocks”}積木以讓它使用“花瓣數”輸入。
 
 ```blocks3
 draw flower (150) (50) (8) :: custom
@@ -232,11 +232,11 @@ draw flower (150) (50) (8) :: custom
 
 \--- hint \---
 
-Edit your `define draw flower`{:class="block3myblocks"} block and add a new number input called 'petals'.
+編輯`定義 - 畫花朵` {：class =“ block3myblocks”}積木，新增一個數字輸入並將它命名為“ 花瓣數”。
 
 ![flower sprite](images/flower-sprite.png)
 
-Your code should look like this:
+你的程式應該會像這樣：
 
 ```blocks3
 define draw flower (colour) (size :: custom-arg) (petals)
@@ -249,7 +249,7 @@ end
 
 ```
 
-In the `when green flag clicked`{:class="block3events"} script, change the third number in both `draw flower`{:class="block3myblocks"} blocks so that the two flowers that appear have different numbers of petals.
+在`當綠色旗子被點擊時` {：class =“ block3events”}的腳本中，更改兩個`畫花朵` {：class =“ block3myblocks”}積木中的第三個數字，這樣兩朵花就會呈現不同的花瓣數。
 
 ```blocks3
 when green flag clicked
@@ -266,11 +266,11 @@ draw flower (150) (50) (8) :: custom
 
 \--- /task \---
 
-Next, edit your code so you can draw different flowers by pressing the <kbd>f</kbd> key.
+接下來，編輯程式碼，讓你按<kbd> f</kbd>鍵就可以繪製不同的花朵。
 
 \--- task \---
 
-Now move your code for drawing flowers away from below the `when green flag clicked`{:class="block3events"} block, and put the code under a `when f key pressed`{:class="block3events"} block.
+現在，將程式碼從`當綠色旗子被點擊` {：class =“ block3events”}積木下移開，並將程式碼放到`當f鍵被按下` {：class =“ block3events”}積木底下。
 
 ![flower sprite](images/flower-sprite.png)
 
