@@ -6,7 +6,7 @@
 
 Scratch में स्प्राइट का रंग बदलने के लिए आप `set colour effect`{:class="block3looks"} ब्लॉक का उपयोग कर सकते हैं।
 
-रंग बदलने के लिए अपने 'फूल बनाएँ' की परिभाषा बदलें:
+रंग बदलने के लिए अपने 'draw flower' की परिभाषा बदलें:
 
 ![फूल स्प्राइट](images/flower-sprite.png)
 
@@ -127,7 +127,7 @@ draw flower (180) (150) :: custom
 
 --- hint ---
 
-देखें कि आपने `colour` इनपुट जोड़ने के लिए क्या किया है, और 'आकार' इनपुट जोड़ने के लिए इसे दोहराएँ जिसका उपयोग आप फूल स्प्राइट के आकार को सेट करने के लिए कर सकते हैं।
+देखें कि आपने `colour` इनपुट जोड़ने के लिए क्या किया है, और 'आकार' (size) इनपुट जोड़ने के लिए इसे दोहराएँ जिसका उपयोग आप फूल स्प्राइट के आकार को सेट करने के लिए कर सकते हैं।
 
 --- /hint ---
 
@@ -168,7 +168,7 @@ end
 --- /task --- 
 --- task ---
 
-`when green flag clickded`{:class="block3events"} स्क्रिप्ट, दोनों में दूसरा नंबर बदलें `draw flower`{:class="block3myblocks"} ब्लॉक ताकि दो फूल विभिन्न आकारों में दिखाई देते हैं।
+`when green flag clicked`{:class="block3events"} स्क्रिप्ट, दोनों में दूसरा नंबर बदलें `draw flower`{:class="block3myblocks"} ब्लॉक ताकि दो फूल विभिन्न आकारों में दिखाई देते हैं।
 
 ```blocks3
 when green flag clicked
@@ -198,17 +198,17 @@ draw flower (150) (50) :: custom
 --- hints ---
 --- hint ---
 
-आपको एक 'पंखुड़ी' नंबर इनपुट जोड़ने की जरूरत है, और फिर इसका उपयोग `define draw flower`{:class="block3myblocks"} ब्लॉक में करें।
+आपको एक 'petals' नंबर इनपुट जोड़ने की जरूरत है, और फिर इसका उपयोग `define draw flower`{:class="block3myblocks"} ब्लॉक में करें।
 
-ऐसी दो जगहें हैं जहाँ आपको 'पंखुड़ियों' के इनपुट को जोड़ना होगा।
+ऐसी दो जगहें हैं जहाँ आपको 'पंखुड़ियों' (petals) के इनपुट को जोड़ना होगा।
 
-फ्लावर स्प्राइट की संख्या `बारी`{:class="block3looks"} द्वारा होनी चाहिए `360` पंखुड़ियों की संख्या से विभाजित।
+फ्लावर स्प्राइट की संख्या `turn`{:class="block3looks"} द्वारा होनी चाहिए `360` पंखुड़ियों की संख्या से विभाजित।
 
 --- /hint ---
 
 --- hint ---
 
-इस तरह दिखने के लिए अपने `निर्धारित ड्रा फूल`{:class="block3myblocks"} ब्लॉक बदलें:
+इस तरह दिखने के लिए अपने `define draw flower`{:class="block3myblocks"} ब्लॉक बदलें:
 
 ![फूल स्प्राइट](images/flower-sprite.png)
 
@@ -216,7 +216,7 @@ draw flower (150) (50) :: custom
 define draw flower (colour) (size :: custom-arg) (petals)
 ```
 
-अपने `दोहराने`{:class="block3control"} और `बारी`{:class="block3looks"} बारी ब्लॉकों को अपडेट करें ताकि वे 'पंखुड़ियों' इनपुट का उपयोग करें।
+अपने `repeat`{:class="block3control"} और `turn`{:class="block3looks"} ब्लॉकों को अपडेट करें ताकि वे 'पंखुड़ियों' (petals) इनपुट का उपयोग करें।
 
 ```blocks3
 repeat (petals :: custom-arg) 
@@ -225,7 +225,7 @@ end
 turn cw ((360) / (petals :: custom-arg)) degrees
 ```
 
-अपने `ड्रॉ फूल`{:class="block3myblocks"} ब्लॉकों को 'पंखुड़ियों' इनपुट का उपयोग करने के लिए अपडेट करें।
+अपने `draw flower`{:class="block3myblocks"} ब्लॉकों को 'पंखुड़ियों' (petals) इनपुट का उपयोग करने के लिए अपडेट करें।
 
 ```blocks3
 draw flower (150) (50) (8) :: custom
@@ -252,7 +252,7 @@ end
 
 ```
 
-`में, जब हरी झंडी पर क्लिक किया गया`{:class="block3events"} स्क्रिप्ट, दोनों में तीसरा नंबर बदलें `ड्रा फूल`{:class="block3myblocks"} ब्लॉक ताकि दिखने वाले दो फूलों में अलग-अलग पंखुड़ियों की संख्या होती है।
+`when green flag clicked`{:class="block3events"} स्क्रिप्ट में, दोनों में तीसरा नंबर बदलें `draw flower`{:class="block3myblocks"} ब्लॉक ताकि दिखने वाले दो फूलों में अलग-अलग पंखुड़ियों की संख्या होती है।
 
 ```blocks3
 when green flag clicked
@@ -273,7 +273,7 @@ draw flower (150) (50) (8) :: custom
 
 --- task ---
 
-अब अपने कोड को `के नीचे से हरे रंग के झंडे पर क्लिक करने पर`{:class="block3events"} ब्लॉक करें, और कोड को `के नीचे रखें जब f कुंजी दबाया गया हो`{:class="block3events"} ब्लॉक।
+अब अपने कोड को `when green flag clicked`{:class="block3events"} ब्लॉक के नीचे से हटाएँ और कोड को `when f key pressed`{:class="block3events"} ब्लॉक के नीचे जोड़ें।
 
 ![फूल स्प्राइट](images/flower-sprite.png)
 
@@ -300,6 +300,6 @@ draw flower (150) (50) (8) :: custom
 
 --- task ---
 
-चरण में सभी अलग-अलग रंगों, आकारों और पंखुड़ियों की संख्या के साथ फूलों को खींचने के लिए अपने प्रोग्राम में अधिक `ड्रा फूल`{:class="block3myblocks"} जोड़ें।
+चरण में सभी अलग-अलग रंगों, आकारों और पंखुड़ियों की संख्या के साथ फूलों को खींचने के लिए अपने प्रोग्राम में अधिक `draw flower`{:class="block3myblocks"} जोड़ें।
 
 --- /task ---
