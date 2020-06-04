@@ -1,4 +1,4 @@
-## Challenge: custom flower blocks
+## チャレンジ：花を描くブロックをつくり直す
 
 These flowers all have the same number of outer and inner petals, and the size of the inner flower is in proportion to the outer flower:
 
