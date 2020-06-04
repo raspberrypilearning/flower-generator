@@ -1,19 +1,19 @@
-flower
+花
 
-costume1
+コスチューム1
 
-costume2
+コスチューム2
 
-draw flower
+花を描く
 
-draw double flower
+八重咲きを描く
 
-colour
+色
 
-petals
+花びら
 
-size
+大きさ
 
-outer colour
+外側の色
 
-inner colour
+内側の色
