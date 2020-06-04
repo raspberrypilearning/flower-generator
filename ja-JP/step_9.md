@@ -1,10 +1,10 @@
 ## チャレンジ：花を描くブロックをつくり直す
 
-These flowers all have the same number of outer and inner petals, and the size of the inner flower is in proportion to the outer flower:
+これらの花はすべて外側と内側の花びらの数が同じで、内側の花の大きさは外側の花の大きさに応じて変わります。
 
-![screenshot](images/flower-double-flowers.png)
+![スクリーンショット](images/flower-double-flowers.png)
 
-You can create flowers like this with the help of a `draw double flower`{:class="block3myblocks"} custom block that has inputs for `outer colour`, `inner colour`, and `size`:
+このような花は引数に`外側の色`、`内側の色`、`大きさ`を引数に持つ独自の`八重咲きを描く`{:class="block3myblocks"}ブロックを使ってつくることができます。
 
 ```blocks3
 define draw double flower (outer colour) (inner colour) (size :: custom-arg)
@@ -12,7 +12,7 @@ draw flower (outer colour :: custom-arg) (size :: custom-arg) (12) :: custom
 draw flower (inner colour :: custom-arg) ((size :: custom-arg) / (2)) (20) :: custom
 ```
 
-The `draw double flower`{:class="block3myblocks"} block can draw lots of flowers in the same style:
+`八重咲きを描く`{:class="block3myblocks"}ブロックは同じ形式でたくさんの花を描（えが）くことができます：
 
 ```blocks3
 when [d v] key pressed
