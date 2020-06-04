@@ -1,21 +1,21 @@
-## Challenge: create a flower design
+## チャレンジ：花の模様をつくる
 
-Can you use your `draw flower`{:class="block3myblocks"} block several times to draw more flowers and create an interesting design? Drawing different flowers at the same location creates an interesting effect.
+`花を描く`{:class="block3myblocks"}ブロックを何回か使って、たくさんの花を描いて面白い模様を作ることができますか？ 同じ場所に違う花を描（えが）くと面白い効果が生まれます。
 
-Create a design that you like. Here's an example:
+好きな模様をつくりましょう。 次に例を示します：
 
-![screenshot](images/flower-three.png)
+![スクリーンショット](images/flower-three.png)
 
-You don't have to use petals shaped like ellipses. For example, you can use thick straight lines and a black backdrop to create a firework pattern like this:
+楕円形（だえんけい）の花びらを使う必要はありません。 たとえば、太い直線と黒い背景を利用して、次のような花火の模様をつくれます：
 
-![screenshot](images/flower-fireworks.png)
+![スクリーンショット](images/flower-fireworks.png)
 
-The 'petal' for the firework pattern is just a line:
+花火の模様の「花びら」は単なる線です。
 
-![screenshot](images/flower-firework-petal.png)
+![スクリーンショット](images/flower-firework-petal.png)
 
-Add new petal costumes and see what flowers you can come up with.
+新しい花びらのコスチュームを追加して、どんな花になるか見てみましょう。
 
-Try out a sprite shape that is not filled in, such as a square, and see what happens
+正方形のような塗りつぶされていない形のスプライトを試して、何が起きるか確かめてください。
 
-![screenshot](images/flower-square-petal.png)
+![スクリーンショット](images/flower-square-petal.png)
