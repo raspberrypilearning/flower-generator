@@ -1,12 +1,12 @@
-## Flower patterns
+## 花の模様（もよう）
 
-You can also use your `draw flower`{:class="block3myblocks"} block to create neat flower patterns.
+`花を描く`{:class="block3myblocks"}ブロックは、すてきな花の模様（もよう）をつくるのにも使えます。
 
 \--- task \---
 
-Create a flower or a combination of flowers that you like. Here's an example:
+好きな花や花の組み合わせをつくりましょう。 次に例を示します：
 
-![flower sprite](images/flower-sprite.png)
+![花のスプライト](images/flower-sprite.png)
 
 ```blocks3
 when [p v] key pressed
@@ -20,17 +20,17 @@ draw flower (130) (35) (20) :: custom
 
 \--- task \---
 
-Press <kbd>p</kbd> to see your flower. The example looks like this:
+<kbd>p</kbd>キーを押すと花が表示されます。 例は次のようになります：
 
-![a flower pattern](images/flower-for-pattern-example.png)
+![花の模様（もよう）](images/flower-for-pattern-example.png)
 
 \--- /task \---
 
-Before you can create your pattern, you should clear the Stage of any leftover flowers.
+模様（もよう）をつくる前に、ステージに残っている花を消しておきましょう。
 
 \--- task \---
 
-Click on the `erase all` block in the Pen tab.
+ペンのタブにある`全部消す`ブロックをクリックします。
 
 ```blocks3
 erase all
@@ -40,15 +40,15 @@ erase all
 
 \--- task \---
 
-Right-click on the Flower sprite and `hide`{:class="block3looks"} it so it doesn't appear on the Stage. (You can `show`{:class="block3looks"} the sprite again if you need to see where it is.)
+花のスプライトを右クリックして、`隠す`{:class="block3looks"}ことで、ステージに表示されないようにします。 （スプライトがどこにあるか確かめる必要がある場合は、もう一度`表示する`{:class="block3looks"}ことができます。）
 
 \--- /task \---
 
 \--- task \---
 
-Now draw a row of these flowers across the top of the Stage. Here is some example code, in which you might need to adjust the numbers so it works with your flower:
+ここでステージの上の方に花の列を描（えが）きます。 次にプログラムの例を示しますが、あなたがつくった花でうまく動くように数値を調整する必要があるかもしれません：
 
-![flower sprite](images/flower-sprite.png)
+![花のスプライト](images/flower-sprite.png)
 
 ```blocks3
 when [p v] key pressed
@@ -65,17 +65,17 @@ end
 
 \--- task \---
 
-Press `p` to see a row of flowers:
+`p`キーを押すと並んだ花が表示されます。
 
-![4 flowers in a row](images/flower-pattern-row-example.png)
+![並んだ4つの花](images/flower-pattern-row-example.png)
 
 \--- /task \---
 
 \--- task \---
 
-Add another loop to create more rows of flowers. This example adds a `repeat 3`{:class="block3control"} loop to create three rows.
+もう一つ繰り返しを追加して、花の並びをふやします。 この例では`3回繰り返す`{:class="block3control"}を追加して、3行にしています。
 
-![flower sprite](images/flower-sprite.png)
+![花のスプライト](images/flower-sprite.png)
 
 ```blocks3
 when [p v] key pressed
@@ -96,41 +96,41 @@ end
 
 \--- task \---
 
-Press <kbd>p</kbd> to create a grid of flowers:
+<kbd>p</kbd>キーを押すと、花が格子状（こうしじょう）に並びます。
 
-![a 4 x 4 grid of flowers](images/flower-pattern-rows-example.png)
-
-\--- /task \---
-
-Do you want to speed up the drawing of the flowers?
-
-\--- task \---
-
-Right-click on the `draw flower`{:class="block3myblocks"} definition block and then click on **edit**. Click on the **Run without screen refresh** box.
-
-![turn no refresh option off](images/flower-no-refresh.png)
-
-Now the flowers get drawn more quickly.
+![4 x 4の格子状に並んだ花](images/flower-pattern-rows-example.png)
 
 \--- /task \---
 
-You can also change the colour of the Stage.
+花を描（えが）くのを速くしたいですか？
 
 \--- task \---
 
-Click on **Choose a backdrop**, and then click on **Paint**. Create an orange backdrop by using the Fill tool in Bitmap mode.
+`花を描く`{:class="block3myblocks"}定義ブロックを右クリックし、**編集**をクリックします。 **画面を再描画せずに実行する**チェックボックスをクリックします。
 
-![paint new backdrop](images/flower-orange-backdrop.png)
+![画面を再描画せずに実行するオプションをオンにする](images/flower-no-refresh.png)
 
-If you use orange for the backdrop and the Flower sprite, then the numbers for different colours will match for the sprite and the backdrop.
+すると、花が速く描（えが）かれます。
+
+\--- /task \---
+
+ステージの色も変えられます。
+
+\--- task \---
+
+**背景を選ぶ**をクリックし、**描く**をクリックします。 ビットマップモードで塗りつぶしツールを使って橙（だいだい）色の背景を作ります。
+
+![新しい背景を描（えが）く](images/flower-orange-backdrop.png)
+
+背景と花のスプライトに橙（だいだい）色を使うと、異なる色の数値はスプライトと背景で同じになります。
 
 \--- /task \---
 
 \--- task \---
 
-Now you can use the `set colour effect`{:class="block3looks"} on the Stage to change the colour of the backdrop.
+ここで背景の色を変えるのにステージにある`色の効果を〜にする`{:class="block3looks"}を使うことができます。
 
-![stage sprite](images/stage-sprite.png)
+![ステージのスプライト](images/stage-sprite.png)
 
 ```blocks3
 when [p v] key pressed
@@ -141,14 +141,14 @@ set [color v] effect to (30)
 
 \--- task \---
 
-Try to create a pattern you like.
+好きな模様（もよう）をつくってみましょう。
 
-Here's an example:
+次に例を示します：
 
-![flowers on a green background](images/flower-pattern-background.png)
+![緑の背景にある花](images/flower-pattern-background.png)
 
 \--- /task \---
 
-When you put it all together, you can create an amazing effect:
+すべてを組み合わせると、すばらしい効果を生み出すことができます。
 
-![animation of lots of flowers](images/flower-gen-example.gif)
+![たくさんの花を動かす](images/flower-gen-example.gif)
