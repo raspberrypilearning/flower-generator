@@ -1,18 +1,18 @@
 ## 花を描（えが）く独自のブロックをつくる
 
-花をたくさん描（えが）きたいときはどうしますか？ Instead of making lots of copies of the code, you will create your own block in Scratch and use it every time you want to draw a flower.
+花をたくさん描（えが）きたいときはどうしますか？ 同じプログラムをたくさんコピーするのでなく、Scratchに独自のブロックを作り、花を描（えが）きたいときにはその作ったブロックを使うようにします。
 
 \--- task \---
 
-Click on **My Blocks** and then on **Make a Block** to create your own block called 'draw flower'.
+**ブロック定義**をクリックし、**ブロックを作る**をクリックして「花を描く」ブロックを作ります。
 
-![screenshot](images/flower-make-block.png)
+![スクリーンショット](images/flower-make-block.png)
 
 \--- /task \---
 
 \--- task \---
 
-There is now a new block called `draw flower`{:class="block3myblocks"} in the **More blocks** section, and a new definition block on the Stage.
+**ブロック定義**のところに新しい`花を描く`{:class="block3myblocks"}ブロックがあり、ステージに新しい定義ブロックがあります。
 
 ```blocks3
 draw flower :: custom
@@ -24,11 +24,11 @@ define draw flower
 
 \--- task \---
 
-Move your code for drawing the flower from the `when green flag clicked`{:class="block3events"} block to the new `draw flower`{:class="block3myblocks"} definition block.
+花を描（えが）くためのプログラムを`緑の旗が押されたとき`{:class="block3events"}ブロックから`花を描く`{:class="block3myblocks"}定義ブロックに移動します。
 
-Your code should look like this:
+コードは次のようになります：
 
-![flower sprite](images/flower-sprite.png)
+![花のスプライト](images/flower-sprite.png)
 
 ```blocks3
 define draw flower
@@ -44,9 +44,9 @@ when green flag clicked
 
 \--- task \---
 
-Add the following code to clear the Stage and to use your new `draw flower`{:class="block3myblocks"} block when the green flag is clicked:
+次のプログラムを追加して、緑の旗を押したときにステージをクリアし、新しい`花を描く`{:class="block3myblocks"}ブロックを使います。
 
-![flower sprite](images/flower-sprite.png)
+![花のスプライト](images/flower-sprite.png)
 
 ```blocks3
 when green flag clicked
@@ -58,15 +58,15 @@ draw flower :: custom
 
 \--- task \---
 
-Click the green flag to test your code and check whether you see a flower.
+緑の旗を押してプログラムを試し、花が表示されるか確かめましょう。
 
 \--- /task \---
 
 \--- task \---
 
-Now change your code to move the sprite and then draw another flower:
+今度はプログラムを変更してスプライトを動かし、別の花を描（えが）いてみましょう。
 
-![flower sprite](images/flower-sprite.png)
+![花のスプライト](images/flower-sprite.png)
 
 ```blocks3
 when green flag clicked
@@ -81,8 +81,8 @@ draw flower :: custom
 
 \--- task \---
 
-Test your code to check that you now see two flowers.
+プログラムを試して、2つの花が表示されることを確かめましょう。
 
-![screenshot](images/flower-two.png)
+![スクリーンショット](images/flower-two.png)
 
 \--- /task \---
