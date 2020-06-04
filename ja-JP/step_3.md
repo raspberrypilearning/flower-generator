@@ -1,6 +1,6 @@
-## Make a custom block to draw flowers
+## 花を描（えが）く独自のブロックをつくる
 
-What if you want to draw lots of flowers? Instead of making lots of copies of the code, you will create your own block in Scratch and use it every time you want to draw a flower.
+花をたくさん描（えが）きたいときはどうしますか？ Instead of making lots of copies of the code, you will create your own block in Scratch and use it every time you want to draw a flower.
 
 \--- task \---
 
