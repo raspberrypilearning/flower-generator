@@ -1,14 +1,14 @@
-## Random flower generator
+## ランダムに花をつくりだす
 
-You will now use your `draw flower`{:class="block3myblocks"} block to create a hundred random flowers all over the Stage whenever you press the <kbd>r</kbd>.
+`花を描く`{:class="block3myblocks"}ブロックを、<kbd>r</kbd>キーを押すたびにステージ全体にランダムに100本の花をつくるのに使えます。
 
-![random flowers](images/flower-random.png)
+![ランダムな花](images/flower-random.png)
 
 \--- task \---
 
-Add a new Event block to your sprite's code so that `when the r key is pressed`{:class="block3events"}, the screen is `cleared`{:class="block3extensions"}.
+新しくイベントブロックを追加して、`rキーが押されたとき`{:class="block3events"}に、スクリーンを`全部消す`{:class="block3events"}ようにします。
 
-![flower sprite](images/flower-sprite.png)
+![花のスプライト](images/flower-sprite.png)
 
 ```blocks3
 when [r v] key pressed
@@ -19,9 +19,9 @@ erase all
 
 \--- task \---
 
-Add in a `repeat`{:class="block3control"} block to go to a `random position`{:class="block3motion"} `100` times.
+`繰り返す`{:class="block3control"}ブロックを追加し、`どこかの場所へ行く`{:class="block3motion"}を`100回`繰り返すようにします。
 
-![flower sprite](images/flower-sprite.png)
+![花のスプライト](images/flower-sprite.png)
 
 ```blocks3
 repeat (100)
@@ -33,11 +33,11 @@ end
 
 \--- task \---
 
-Use the `draw flower`{:class="block3myblocks"} block to create a flower that has a `random`{:class="block3operators"} colour between `0` and `199`.
+`花を描く`{:class="block3myblocks"}ブロックを使って、`0`から`199`までの`ランダム`{:class="block3operators"}な色になっている花をつくります。
 
-You code should now look like this:
+コードは以下のようになります：
 
-![flower sprite](images/flower-sprite.png)
+![花のスプライト](images/flower-sprite.png)
 
 ```blocks3
 when [r v] key pressed
@@ -50,27 +50,27 @@ end
 
 \--- /task \---
 
-This code creates one hundred flowers with different colours but with the same size and numbers of petals.
+このプログラムでは、いろんな色で100個の花をつくりますが、大きさと花びらの数は同じです。
 
-![flowers just with random colours](images/flower-random-colour.png)
+![ランダムな色だけの花](images/flower-random-colour.png)
 
 \--- task \---
 
-Can you modify the `when the r key is pressed`{:class="block3events"} script so the flowers' size and number of petals are also random?
+`rキーを押したとき`{:class="block3events"}のスクリプトを変更して、花の大きさや花びらの数もランダムにできますか？
 
 \--- hints \---
 
 \--- hint \---
 
-The `draw flower`{:class="block3myblocks"} block should `pick random`{:class="block3operators"} numbers for the size and number of petals.
+`花を描く`{:class="block3myblocks"}ブロックは、大きさや花びらの数を`乱数`{:class="block3operators"}にしなければなりません。
 
 \--- /hint \---
 
 \--- hint \---
 
-The following blocks pick a random size between `50` and `150` and a random number of petals between `4` and `12`.
+次のブロックは大きさを`50`から`150`までのランダムな大きさに、花びらの数を`4`から`12`のランダムな枚数にします。
 
-![flower sprite](images/flower-sprite.png)
+![花のスプライト](images/flower-sprite.png)
 
 ```blocks3
 (pick random (50) to (150))
@@ -82,9 +82,9 @@ The following blocks pick a random size between `50` and `150` and a random numb
 
 \--- hint \---
 
-Your code should look like this:
+コードは次のようになります：
 
-![flower sprite](images/flower-sprite.png)
+![花のスプライト](images/flower-sprite.png)
 
 ```blocks3
 when [r v] key pressed
@@ -103,6 +103,6 @@ end
 
 \--- task \---
 
-Press <kbd>r</kbd> to see your random flowers.
+<kbd>r</kbd>キーを押すとランダムに花が表示されます。
 
 \--- /task \---
