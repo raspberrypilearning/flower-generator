@@ -134,7 +134,7 @@ draw flower (180) (150) :: custom
 
 `花を描く`{:class="block3myblocks"}ブロックを編集して、新しい数値の引数「大きさ」を追加します。
 
-You need to add the following block with a 'size' input to the `draw flower`{:class="block3myblocks"} definition block:
+引数「大きさ」を持つ次のブロックを`花を描く`{:class="block3myblocks"}定義ブロックに追加する必要があります。
 
 ```blocks3
 set size to (100) %
@@ -144,11 +144,11 @@ set size to (100) %
 
 \--- hint \---
 
-Right-click on the `draw flower`{:class="block3myblocks"} definition block, click on **edit**, and add a number input called 'size'.
+`花を描く`{:class="block3myblocks"}定義ブロックを右クリックし、**編集**をクリックし、「大きさ」という数値の引数を追加します。
 
-![flower sprite](images/flower-sprite.png)
+![花のスプライト](images/flower-sprite.png)
 
-Change your `define draw flower`{:class="block3myblocks"} script so it looks like this:
+`定義 花を描く`{:class="block3myblocks"}スクリプトを次のように変更します：
 
 ```blocks3
 define draw flower (colour) (size :: custom-arg)
@@ -166,7 +166,7 @@ end
 
 \--- /task \--- \--- task \---
 
-In the `when green flag clicked`{:class="block3events"} script, change the second number in both `draw flower`{:class="block3myblocks"} blocks so that the two flowers appear in different sizes.
+`緑の旗が押されたとき`{:class="block3events"}スクリプトで、両方の`花を描く`{:class="block3myblocks"}ブロックの2番目の数値を変更し、2つの花が違う大きさで表示されるようにします。
 
 ```blocks3
 when green flag clicked
@@ -181,39 +181,39 @@ draw flower (150) (50) :: custom
 
 \--- task \---
 
-Test your code to check whether the flowers have different sizes.
+プログラムを試して、花の大きさが違うか確かめましょう。
 
 \--- /task \---
 
 \--- task \---
 
-It would be cool to choose the number of petals the flowers have.
+花にある花びらの枚数が選べるとかっこいいですね。
 
-Add another input so that you can draw flowers like this:
+次のように花を描けるように別の引数を追加します：
 
-![flowers with different numbers of petals](images/flower-petals.png)
+![花びらの数がちがう花](images/flower-petals.png)
 
 \--- hints \--- \--- hint \---
 
-You need to add a 'petals' number input, and then use it in the `define draw flower`{:class="block3myblocks"} block.
+「花びら」という数値の引数を追加し、`花を描く`{:class="block3myblocks"}ブロックで使う必要があります。
 
-There are two places where you need to add the 'petals' input.
+引数「花びら」を追加する必要がある場所は2つあります。
 
-The number of degrees the Flower sprite should `turn`{:class="block3looks"} by is `360` divided by the number of petals.
+花のスプライトを`回す`{:class="block3looks"}角度は`360`を花びらの数で割ったものです。
 
 \--- /hint \---
 
 \--- hint \---
 
-Change your `define draw flower`{:class="block3myblocks"} block to look like this:
+`定義 花を描く`{:class="block3myblocks"}ブロックを次のように変更します：
 
-![flower sprite](images/flower-sprite.png)
+![花のスプライト](images/flower-sprite.png)
 
 ```blocks3
 define draw flower (colour) (size :: custom-arg) (petals)
 ```
 
-Update your `repeat`{:class="block3control"} and `turn`{:class="block3looks"} blocks so they use the 'petals' input.
+`繰り返す`{:class="block3control"}ブロックと`回す`{:class="block3looks"}ブロックを更新し、引数「花びら」を使うようにします。
 
 ```blocks3
 repeat (petals :: custom-arg) 
@@ -222,7 +222,7 @@ end
 turn cw ((360) / (petals :: custom-arg)) degrees
 ```
 
-Update your `draw flower`{:class="block3myblocks"} blocks to use the 'petals' input.
+`花を描く`{:class="block3myblocks"}ブロックを更新し、引数「花びら」を使うようにします。
 
 ```blocks3
 draw flower (150) (50) (8) :: custom
@@ -232,11 +232,11 @@ draw flower (150) (50) (8) :: custom
 
 \--- hint \---
 
-Edit your `define draw flower`{:class="block3myblocks"} block and add a new number input called 'petals'.
+`定義 花を描く`{:class="block3myblocks"}ブロックを編集し、「花びら」という新しい数値の引数を追加します。
 
-![flower sprite](images/flower-sprite.png)
+![花のスプライト](images/flower-sprite.png)
 
-Your code should look like this:
+コードは次のようになります：
 
 ```blocks3
 define draw flower (colour) (size :: custom-arg) (petals)
@@ -249,7 +249,7 @@ end
 
 ```
 
-In the `when green flag clicked`{:class="block3events"} script, change the third number in both `draw flower`{:class="block3myblocks"} blocks so that the two flowers that appear have different numbers of petals.
+`緑の旗を押したとき`{:class="block3events"}スクリプトで、両方の`花を描く`{:class="block3myblocks"}にある3番目の数値を変更し、2つの花の花びらの枚数が違うようにします。
 
 ```blocks3
 when green flag clicked
@@ -266,13 +266,13 @@ draw flower (150) (50) (8) :: custom
 
 \--- /task \---
 
-Next, edit your code so you can draw different flowers by pressing the <kbd>f</kbd> key.
+次に、プログラムを変更し、<kbd>f</kbd>キーを押したときにさまざまな花を描（えが）けるようにします。
 
 \--- task \---
 
-Now move your code for drawing flowers away from below the `when green flag clicked`{:class="block3events"} block, and put the code under a `when f key pressed`{:class="block3events"} block.
+`緑の旗が押されたとき`{:class="block3events"}ブロックの下から花を描（えが）くプログラムを移動し、`fキーが押されたとき`{:class="block3events"}ブロックの下に置きます。
 
-![flower sprite](images/flower-sprite.png)
+![花のスプライト](images/flower-sprite.png)
 
 ```blocks3
 when green flag clicked
@@ -291,12 +291,12 @@ draw flower (150) (50) (8) :: custom
 
 \--- task \---
 
-Press <kbd>f</kbd> to test your code.
+<kbd>f</kbd>キーを押してプログラムを試します。
 
 \--- /task \---
 
 \--- task \---
 
-Add more `draw flower`{:class="block3myblocks"} blocks to your program to draw flowers with different colours, sizes, and numbers of petals all over the Stage.
+さらに`花を描く`{:class="block3myblocks"}ブロックをプログラムに追加して、ステージ全体にさまざまな色、大きさ、花びらの枚数で花を描（えが）いてみましょう。
 
 \--- /task \---
