@@ -25,6 +25,6 @@ change x by (75)
 draw double flower (140) (160) (50) :: custom
 ```
 
-Make a new custom block with the necessary inputs that you need to be able to change to create a type of flower that you like.
+好きな花の種類を作るのに必要な引数を変更できるようにした、新しい独自のブロックをつくりましょう。
 
-Then use your new block to create a cool design!
+その新しいブロックを使ってかっこいい模様（もよう）をつくりましょう！
