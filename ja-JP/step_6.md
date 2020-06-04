@@ -1,15 +1,15 @@
-## Save your images
+## 画像を保存する
 
-When you create an image you like, you can save it and use it in another Scratch project, as a screensaver, or on a website.
+気に入った画像ができたら、それを保存して他のScratchプロジェクトで使ったり、スクリーンセーバーとして使ったり、ウェブサイトで使えます。
 
 \--- task \---
 
-When there is an image on the Stage that you like, right-click it and then click on **save image as**
+好きな画像がステージにある場合は、その画像を右クリックして、**名前を付けて画像を保存**をクリックします。
 
-**Note:** on some computers or browsers, the menu option for saving your image may be named differently.
+**注意：**一部のコンピュータやブラウザでは、画像を保存するためのメニュー表示が違っている場合があります。
 
-![screenshot](images/flower-save-stage.png)
+![スクリーンショット](images/flower-save-stage.png)
 
-Then you can save a PNG image of the Stage.
+ステージの画像をPNG形式で保存できます。
 
 \--- /task \---
