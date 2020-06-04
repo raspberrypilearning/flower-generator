@@ -1,7 +1,7 @@
 ---
-title: Flower generator
+title: 花をつくりだす
 hero_image: images/banner.png
-description: Generate flowers to create a patterned backdrop image or screensaver
+description: 花を作り出して模様のある背景画像やスクリーンセーバーをつくる
 duration: 2
 listed: true
 copyedit: true
@@ -9,24 +9,24 @@ version: 4.1.0
 last_tested: 2018-10-18
 steps:
   - 
-    title: Introduction
+    title: はじめに
   - 
-    title: Generate a flower
+    title: 花をつくりだす
   - 
-    title: Make a custom block to draw flowers
+    title: 花を描（えが）く独自のブロックをつくる
   - 
-    title: Customise your flowers
+    title: 花をつくり直してみる
   - 
-    title: "Challenge: create a flower design"
+    title: "チャレンジ：花の図柄(ずがら)をつくる"
     challenge: true
   - 
-    title: Save your images
+    title: 画像を保存する
   - 
-    title: Random flower generator
+    title: ランダムに花をつくりだす
   - 
-    title: Flower patterns
+    title: 花の模様（もよう）
   - 
-    title: "Challenge: custom flower blocks"
+    title: "チャレンジ：花を描くブロックをつくり直す"
     challenge: true
   - 
-    title: What next?
+    title: 次は何をしましょうか？
