@@ -1,20 +1,20 @@
 \--- no-print \---
 
-This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/flower-generator-scratch2).
+これはプロジェクトの**Scratch 3**バージョンです。 [Scratch 2用のプロジェクト](https://projects.raspberrypi.org/en/projects/flower-generator-scratch2)もあります。
 
 \--- /no-print \---
 
-## Introduction
+## はじめに
 
-You will create hundreds of flowers of different sizes, shapes, and colours.
+いろいろな大きさ、形、色になっている何百もの花をつくります。
 
-You can export the flower pictures and use them as wallpapers on your phone or computer, or as backdrops in other Scratch projects.
+花の画像を書き出すと、携帯電話やコンピュータの壁紙や、他のScratchプロジェクトの背景として使えます。
 
-### What you will make
+### つくるもの
 
 \--- no-print \---
 
-Press `f` to draw a few flowers, or `r` to draw lots of random flowers, or `p` to draw a flower pattern.
+`f`を押すとちょっとだけ花を描（えが）き、`r`を押すとランダムにたくさん花を描（えが）き、`p`を押すと花の模様（もよう）を描（えが）きます。
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/253355932/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -24,45 +24,45 @@ Press `f` to draw a few flowers, or `r` to draw lots of random flowers, or `p` t
 
 \--- print-only \---
 
-![random flowers](images/flower-random.png)
+![ランダムな花](images/flower-random.png)
 
 \--- /print-only \---
 
 ## \--- collapse \---
 
-## title: What you will need
+## title: 必要（ひつよう）なもの
 
-### Hardware
+### ハードウェア
 
-+ A computer capable of running Scratch 3
++ Scratch 3を実行できるコンピュータ
 
-### Software
+### ソフトウェア
 
-+ Scratch 3 (either [online](https://rpf.io/scratch-on) or [offline](https://rpf.io/scratch-off))
-
-\--- /collapse \---
-
-## \--- collapse \---
-
-## title: What you will learn
-
-+ How to stamp a sprite 
-+ How to make your own Scratch blocks
-+ How to use block inputs 
-+ How to create random numbers 
++ Scratch 3 ([オンライン](https://rpf.io/scratch-on)または[オフライン](https://rpf.io/scratch-off))
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: Additional notes for educators
+## title: 学ぶこと
+
++ スプライトをスタンプする方法 
++ 独自のScratchブロックを作る方法
++ ブロック入力を使う方法 
++ 乱数（らんすう）をつくる方法 
+
+\--- /collapse \---
+
+## \--- collapse \---
+
+## title: 教育者向けの追加情報
 
 \--- no-print \---
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/flower-generator/print){:target="_blank"}.
+このプロジェクトを印刷する必要がある場合は、[印刷用バージョン](https://projects.raspberrypi.org/ja-JP/projects/flower-generator/print){:target="_ blank"}を使用してください。
 
 \--- /no-print \---
 
-You can find the [completed project here](http://rpf.io/p/en/flower-generator-get){:target="_blank"}.
+[完成したプロジェクトはこちらに](http://rpf.io/p/ja-JP/flower-generator-get){:target="_blank"}あります 。
 
 \--- /collapse \---
