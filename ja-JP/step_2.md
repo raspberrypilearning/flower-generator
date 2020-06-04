@@ -1,10 +1,10 @@
-## Generate a flower
+## 花をつくりだす
 
-First you're going to generate a flower that can be drawn on the Stage.
+まず、ステージに描（えが）ける花をつくってみましょう。
 
 \--- task \---
 
-Create a new Scratch project, and delete the cat sprite.
+新しいScratchプロジェクトを作成し、ネコのスプライトを消します。
 
 [[[generic-scratch3-new-project]]]
 
@@ -12,7 +12,7 @@ Create a new Scratch project, and delete the cat sprite.
 
 \--- task \---
 
-Add the Pen extension to your project.
+プロジェクトにペン拡張機能（かくちょうきのう）を追加します。
 
 [[[generic-scratch3-add-pen-extension]]]
 
@@ -20,9 +20,9 @@ Add the Pen extension to your project.
 
 \--- task \---
 
-Now use the Paint tool to create a new sprite shaped like a flower petal.
+次に、ペイントツールを使って花びらのような形をした新しいスプライトをつくります。
 
-Click on **Choose a sprite**, then click on **Paint** and rename the sprite 'Flower'.
+**スプライトを選ぶ**をクリックし、次に**描（えが）く**をクリックしてスプライトの名前を「花」にかえます。
 
 [[[generic-scratch3-draw-sprite]]]
 
@@ -30,19 +30,19 @@ Click on **Choose a sprite**, then click on **Paint** and rename the sprite 'Flo
 
 \--- task \---
 
-Use the Circle tool to draw a petal shape filled in orange.
+円ツールを使って橙（だいだい）色でぬりつぶした花びらの形を描（えが）きます。
 
-![screenshot](images/flower-petal.png)
+![スクリーンショット](images/flower-petal.png)
 
-Later, you will use code to add more colour.
+あとでプログラムを使って色を増やします。
 
 \--- /task \---
 
 \--- task \---
 
-Add the following code to the Flower sprite to `stamp`{:class="block3extensions"} a flower with six equally rotated petals `when the green flag is clicked`{:class="block3control"}.
+次のプログラムを花のスプライトに追加すると、`緑の旗が押されたとき`{:class="block3control"}、同じ角度で並んだ6つの花びらがある花を`スタンプ`{:class="block3extensions"}します。
 
-![screenshot](images/flower-6-straight.png)
+![スクリーンショット](images/flower-6-straight.png)
 
 ```blocks3
 when green flag clicked
@@ -54,27 +54,27 @@ end
 
 \--- /task \---
 
-You may find that your petals are arranged in an odd way:
+花びらが変なふうに並べられていることに気付くでしょう。
 
-![screenshot](images/flower-6-offset.png)
+![スクリーンショット](images/flower-6-offset.png)
 
-This is because the sprite is being rotated around its centre.
+これは、スプライトがその中心(ちゅうしん)のまわりを回っているからです。
 
 \--- task \---
 
-Move your petal so its bottom is in the centre.
+花びらの下の部分が中心になるように花びらを動かします。
 
-![screenshot](images/flower-crosshair-annotated.png)
+![スクリーンショット](images/flower-crosshair-annotated.png)
 
-Doing this may be easier if you zoom out.
+ズームアウトすると簡単になります。
 
 \--- /task \---
 
-Before you run your code again, you should `erase all`{:class="block3extensions"} the sprites on the Stage to clear it.
+プログラムを実行する前に、ステージをきれいにするためにステージ上のスプライトを`全部消す`{:class="block3extensions"}必要があります。
 
 \--- task \---
 
-Click on the `erase all` block in the Pen blocks section.
+ペンブロック項目にある`全部消す`ブロックをクリックします。
 
 ```blocks3
 erase all
@@ -84,10 +84,10 @@ erase all
 
 \--- task \---
 
-Run your code again to check that the flower's petals are straight now.
+プログラムをもう一度実行し、今回は花びらがきれいに並んでいることを確認しましょう。
 
-![screenshot](images/flower-6-straight.png)
+![スクリーンショット](images/flower-6-straight.png)
 
-If not, adjust the petal's position until its bottom in the centre.
+そうなってないときは、花びらの下の部分が真ん中になるまで花びらの位置を調節します。
 
 \--- /task \---
