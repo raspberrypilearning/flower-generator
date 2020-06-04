@@ -1,14 +1,14 @@
-## Customise your flowers
+## 花をつくり直してみる
 
-At the moment all the flowers you draw are exactly the same. Next you're going to add some inputs to the `draw flower`{:class="block3myblocks"} block so that you can draw flowers with different colours, sizes, and numbers of petals.
+ここまででは、描（えが）かれる花はすべて同じ花になっています。 次は`花を描く`{:class="block3myblocks"}ブロックに引数をいくつか追加して、さまざまな色や大きさ、花びらの数の花を描（えが）くようにしましょう。
 
 \--- task \---
 
-In Scratch you can use the `set colour effect`{:class="block3looks"} block to change the colour of a sprite.
+Scratchでは、スプライトの色を変えるのに`色の効果を〜にする`{:class="block3looks"} ブロックが使えます。
 
-Change your 'draw flower' definition to change the colour:
+「花を描く」の定義を変更して、色を変えてみましょう。
 
-![flower sprite](images/flower-sprite.png)
+![花のスプライト](images/flower-sprite.png)
 
 ```blocks3
 define draw flower
@@ -23,49 +23,49 @@ end
 
 \--- task \---
 
-Run your code to see flowers of different colours.
+プログラムを実行して、さまざまな色の花を確かめましょう。
 
-![screenshot](images/flower-pink.png)
+![スクリーンショット](images/flower-pink.png)
 
-`set colour effect`{:class="block3looks"} changes the colour based on the default colour of the sprite, so if your sprite doesn't start out orange, you get different results.
-
-\--- /task \---
-
-\--- task \---
-
-Experiment with using different numbers from `0` to `199` in the `set colour effect`{:class="block3looks"} block, and see what different results you get.
-
-\--- /task \---
-
-At the moment all flowers are the same colour. To give each flower a different colour, you need to add an **input** to the `draw flower`{:class="block3myblocks"} block.
-
-\--- task \---
-
-Right-click on the `draw flower`{:class="block3myblocks"} definition block and choose **edit**:
-
-![screenshot](images/flower-edit.png)
+`色の効果を〜にする`{:class="block3looks"} はスプライトの最初の色に基づいて色を変えるので、スプライトの色が橙（だいだい）色から始まっていないときは違う結果になります。
 
 \--- /task \---
 
 \--- task \---
 
-Now add a **input number** called 'colour':
+`色の効果を〜にする`{:class="block3looks"}ブロックの中の数字を`0`から`199`まで変えて実験し、どのような結果になるか確かめてみましょう。
 
-![screenshot](images/flower-colour-input-annotated.png)
+\--- /task \---
 
-The input appears in the `draw flower`{:class="block3myblocks"} definition, and you can drag it to where you want to use it.
+現在、花はすべて同じ色になっています。 それぞれの花を別の色にするために、`花を描く`{:class="block3myblocks"}ブロックに**引数**を追加する必要があります。
+
+\--- task \---
+
+`花を描く`{:class="block3myblocks"}定義ブロックを右クリックし、**編集**を選びます。
+
+![スクリーンショット](images/flower-edit.png)
 
 \--- /task \---
 
 \--- task \---
 
-Drag the 'colour' input to the `set colour effect`{:class="block3looks"} block:
+次に「色」という名前で**数値の引数**を追加します。
 
-![screenshot](images/flower-use-colour-annotated.png)
+![スクリーンショット](images/flower-colour-input-annotated.png)
 
-Your code should look like this:
+`花を描く`{:class="block3myblocks"}定義に引数が表示され、使いたい場所にドラッグできます。
 
-![flower sprite](images/flower-sprite.png)
+\--- /task \---
+
+\--- task \---
+
+引数「色」を `色の効果を〜にする`{:class="block3looks"}ブロックにドラッグします：
+
+![スクリーンショット](images/flower-use-colour-annotated.png)
+
+プログラムは次のようになります：
+
+![花のスプライト](images/flower-sprite.png)
 
 ```blocks3
 define draw flower (colour)
@@ -78,7 +78,7 @@ end
 
 \--- /task \---
 
-Notice that your `draw flower`{:class="block3myblocks"} blocks now have a new input that is set to `1`:
+ここで`花を描く`{:class="block3myblocks"}ブロックに`1`に設定された新しい引数があることに注意してください。
 
 ```blocks3
 when green flag clicked
@@ -91,11 +91,11 @@ draw flower (1) :: custom
 
 \--- task \---
 
-Change the numbers in the `draw flower`{:class="block3myblocks"} blocks so that the two flowers appear in different colours. You can pick any numbers between 0 and 200.
+`花を描く`{:class="block3myblocks"}ブロックにある数値を変更し、2つの花が違う色で表示されるようにしましょう。 数値は0から200までのどれでも良いです。
 
-Your code should look similar to this:
+コードは次のようになります：
 
-![flower sprite](images/flower-sprite.png)
+![花のスプライト](images/flower-sprite.png)
 
 ```blocks3
 when green flag clicked
@@ -110,29 +110,29 @@ draw flower (150) :: custom
 
 \--- task \---
 
-Now add another input to set the size of the flower, so your `draw flower`{:class="block3myblocks"} block looks like this:
+次に、花の大きさを設定する別の引数を追加すると、`花を描く`{:class="block3myblocks"}ブロックは次のようになります：
 
-![flower sprite](images/flower-sprite.png)
+![花のスプライト](images/flower-sprite.png)
 
 ```blocks3
 draw flower (180) (150) :: custom
 ```
 
-With the block above, you can create flowers with different sizes:
+上のブロックを使うと、大きさの違う花を作ることができます。
 
-![different sized flowers](images/flower-different-sizes.png)
+![いろんな大きさの花](images/flower-different-sizes.png)
 
 \--- hints \---
 
 \--- hint \---
 
-Look at what you did to add the `colour` input, and repeat it to add a 'size' input that you can use to set the size of the Flower sprite.
+引数`色`を追加するためにやったことを見て、それを繰り返して花のスプライトの大きさを設定するのに使う引数「大きさ」を追加します。
 
 \--- /hint \---
 
 \--- hint \---
 
-Edit the `draw flower`{:class="block3myblocks"} block to add a new number input called 'size'.
+`花を描く`{:class="block3myblocks"}ブロックを編集して、新しい数値の引数「大きさ」を追加します。
 
 You need to add the following block with a 'size' input to the `draw flower`{:class="block3myblocks"} definition block:
 
