@@ -1,10 +1,10 @@
-## Flower patterns
+## 花朵圖案
 
-You can also use your `draw flower`{:class="block3myblocks"} block to create neat flower patterns.
+你還可以使用你的`畫花朵` {：class =“ block3myblocks”}積木創造出整齊的花朵圖案。
 
 \--- task \---
 
-Create a flower or a combination of flowers that you like. Here's an example:
+創造一個你喜歡的花朵或花朵組合。 範例如下：
 
 ![flower sprite](images/flower-sprite.png)
 
