@@ -2,13 +2,13 @@
 
 你將會使用你的`畫花朵` {：class =“ block3myblocks”}積木，在每次按下<kbd> r </kbd>時，出現一百朵隨機樣式的花在舞台上。
 
-![random flowers](images/flower-random.png)
+![隨機花朵](images/flower-random.png)
 
 \--- task \---
 
 新增一個事件積木到角色的程式碼中，使`當r鍵被按下`{:class="block3events"}時, 會把舞台上的 `筆跡全部清除`{:class="block3extensions"}。
 
-![flower sprite](images/flower-sprite.png)
+![花朵角色](images/flower-sprite.png)
 
 ```blocks3
 when [r v] key pressed
@@ -21,7 +21,7 @@ erase all
 
 添加`重複` {：class =“ block3control”}` 100 `次積木和`定位到隨機位置` {：class =“ block3motion”}積木 ，使一百朵花會產生在隨機位置。
 
-![flower sprite](images/flower-sprite.png)
+![花朵角色](images/flower-sprite.png)
 
 ```blocks3
 repeat (100)
@@ -37,7 +37,7 @@ end
 
 現在你的程式應該會像這樣：
 
-![flower sprite](images/flower-sprite.png)
+![花朵角色](images/flower-sprite.png)
 
 ```blocks3
 when [r v] key pressed
@@ -52,7 +52,7 @@ end
 
 這個程式碼創造了一百種不同顏色的花，但是大小和花瓣數量卻是一樣的。
 
-![flowers just with random colours](images/flower-random-colour.png)
+![只有顏色隨機的花朵](images/flower-random-colour.png)
 
 \--- task \---
 
@@ -62,15 +62,15 @@ end
 
 \--- hint \---
 
-The `draw flower`{:class="block3myblocks"} block should `pick random`{:class="block3operators"} numbers for the size and number of petals.
+`畫花朵` {：class =“ block3myblocks”}積木應該`隨機取數` {：class =“ block3operators”}來呈現大小和花瓣數。
 
 \--- /hint \---
 
 \--- hint \---
 
-The following blocks pick a random size between `50` and `150` and a random number of petals between `4` and `12`.
+以下積木會隨機選擇` 50 `到` 150 `之間的大小，以及 ` 4 `到` 12 `之間的花瓣數量 。
 
-![flower sprite](images/flower-sprite.png)
+![花朵角色](images/flower-sprite.png)
 
 ```blocks3
 (pick random (50) to (150))
@@ -82,9 +82,9 @@ The following blocks pick a random size between `50` and `150` and a random numb
 
 \--- hint \---
 
-Your code should look like this:
+你的程式應該會像這樣：
 
-![flower sprite](images/flower-sprite.png)
+![花朵角色](images/flower-sprite.png)
 
 ```blocks3
 when [r v] key pressed
@@ -103,6 +103,6 @@ end
 
 \--- task \---
 
-Press <kbd>r</kbd> to see your random flowers.
+按<kbd> r </kbd>看看你創造的隨機花朵。
 
 \--- /task \---
