@@ -20,17 +20,17 @@ draw flower (130) (35) (20) :: custom
 
 \--- task \---
 
-Press <kbd>p</kbd> to see your flower. The example looks like this:
+按<kbd> p </kbd>看看你創造的花朵。 範例看起來如下：
 
 ![a flower pattern](images/flower-for-pattern-example.png)
 
 \--- /task \---
 
-Before you can create your pattern, you should clear the Stage of any leftover flowers.
+在創造圖案之前，應清除所有留在舞台上的花朵。
 
 \--- task \---
 
-Click on the `erase all` block in the Pen tab.
+點擊畫筆欄位的 `筆跡全部清除` 積木。
 
 ```blocks3
 erase all
@@ -40,13 +40,13 @@ erase all
 
 \--- task \---
 
-Right-click on the Flower sprite and `hide`{:class="block3looks"} it so it doesn't appear on the Stage. (You can `show`{:class="block3looks"} the sprite again if you need to see where it is.)
+在花朵角色上點擊右鍵並` 隱藏 ` {：class =“ block3looks”}它，這樣它就不會出現在舞台上。 （如果需要查看角色，你可以`顯示` {：class =“ block3looks”}角色。）
 
 \--- /task \---
 
 \--- task \---
 
-Now draw a row of these flowers across the top of the Stage. Here is some example code, in which you might need to adjust the numbers so it works with your flower:
+現在在舞台上方繪製一排花。 這裡有一些範例程式碼，你可能需要調整數字，讓它能配合你的花朵：
 
 ![flower sprite](images/flower-sprite.png)
 
@@ -65,7 +65,7 @@ end
 
 \--- task \---
 
-Press `p` to see a row of flowers:
+按` p `看看你創造的一排花朵。
 
 ![4 flowers in a row](images/flower-pattern-row-example.png)
 
@@ -73,7 +73,7 @@ Press `p` to see a row of flowers:
 
 \--- task \---
 
-Add another loop to create more rows of flowers. This example adds a `repeat 3`{:class="block3control"} loop to create three rows.
+新增一個迴圈來創造更多排花朵。 This example adds a `repeat 3`{:class="block3control"} loop to create three rows.
 
 ![flower sprite](images/flower-sprite.png)
 
