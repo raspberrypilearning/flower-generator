@@ -1,18 +1,18 @@
-## Make a custom block to draw flowers
+## 꽃을 그리는 커스텀 블록 만들기
 
-What if you want to draw lots of flowers? Instead of making lots of copies of the code, you will create your own block in Scratch and use it every time you want to draw a flower.
+꽃을 많이 그리려면 어떻게 해야 할까요? 코드를 여러 번 복사/붙여넣기 하는 대신 스크래치에서 자신 만의 블록을 만들고 꽃을 그릴 때마다 사용해봅시다.
 
 \--- task \---
 
-Click on **My Blocks** and then on **Make a Block** to create your own block called 'draw flower'.
+**나만의 블록**을 클릭한 뒤 **블록 만들기**를 클릭하여 '꽃 그리기'라는 이름의 블럭을 만들어줍니다.
 
-![screenshot](images/flower-make-block.png)
+![스크린샷](images/flower-make-block.png)
 
 \--- /task \---
 
 \--- task \---
 
-There is now a new block called `draw flower`{:class="block3myblocks"} in the **More blocks** section, and a new definition block on the Stage.
+이제 **나만의 블록** 영역에 `꽃 그리기`{:class="block3myblocks"}라는 블록이 추가되었는데요, 이제 이 블록에 대한 정의하기 블록을 무대에 추가합니다.
 
 ```blocks3
 draw flower :: custom
@@ -24,11 +24,11 @@ define draw flower
 
 \--- task \---
 
-Move your code for drawing the flower from the `when green flag clicked`{:class="block3events"} block to the new `draw flower`{:class="block3myblocks"} definition block.
+꽃을 그리기 위한 코드를 `녹색 깃발을 클릭했을 때`{:class="block3events"} 블록 아래에서 `꽃 그리기`{:class="block3myblocks"} 정의하기 블록 아래로 옮겨줍니다.
 
-Your code should look like this:
+다음과 같은 코드가 될 것입니다:
 
-![flower sprite](images/flower-sprite.png)
+![꽃 스프라이트](images/flower-sprite.png)
 
 ```blocks3
 define draw flower
@@ -44,9 +44,9 @@ when green flag clicked
 
 \--- task \---
 
-Add the following code to clear the Stage and to use your new `draw flower`{:class="block3myblocks"} block when the green flag is clicked:
+다음 코드를 추가하여 녹색 깃발을 클릭했을 때 스테이지를 비우고 새로 만든 `꽃 그리기`{:class="block3myblocks"} 블록을 사용할 수 있게 합니다.
 
-![flower sprite](images/flower-sprite.png)
+![꽃 스프라이트](images/flower-sprite.png)
 
 ```blocks3
 when green flag clicked
@@ -58,15 +58,15 @@ draw flower :: custom
 
 \--- task \---
 
-Click the green flag to test your code and check whether you see a flower.
+녹색 깃발을 클릭하여 코드를 테스트하고 꽃이 보이는지 확인하세요.
 
 \--- /task \---
 
 \--- task \---
 
-Now change your code to move the sprite and then draw another flower:
+이제 코드를 변경하여 스프라이트의 위치를 이동시킨 다음 다른 꽃을 그리게 합니다:
 
-![flower sprite](images/flower-sprite.png)
+![꽃 스프라이트](images/flower-sprite.png)
 
 ```blocks3
 when green flag clicked
@@ -81,8 +81,8 @@ draw flower :: custom
 
 \--- task \---
 
-Test your code to check that you now see two flowers.
+코드를 테스트하여 이번에는 두 개의 꽃이 보이는지 확인하세요.
 
-![screenshot](images/flower-two.png)
+![스크린샷](images/flower-two.png)
 
 \--- /task \---
