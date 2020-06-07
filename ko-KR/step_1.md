@@ -1,20 +1,20 @@
 \--- no-print \---
 
-This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/flower-generator-scratch2).
+이 프로젝트의 **스크래치 3** 버전입니다. [프로젝트의 스크래치 2 버전](https://projects.raspberrypi.org/en/projects/flower-generator-scratch2)도 있습니다.
 
 \--- /no-print \---
 
-## Introduction
+## 들어가며
 
-You will create hundreds of flowers of different sizes, shapes, and colours.
+크기, 모양 및 색깔이 서로 다른 수백 가지의 꽃을 만들 것입니다.
 
-You can export the flower pictures and use them as wallpapers on your phone or computer, or as backdrops in other Scratch projects.
+꽃 그림을 만들어 저장하고 휴대폰이나 컴퓨터의 배경 화면으로 사용하거나 다른 스크래치 프로젝트의 배경으로 사용할 수 있습니다.
 
-### What you will make
+### 만들 작품
 
 \--- no-print \---
 
-Press `f` to draw a few flowers, or `r` to draw lots of random flowers, or `p` to draw a flower pattern.
+`f`를 눌러 꽃 몇 개를 그리거나, `r`을 눌러 수많은 임의의 꽃을 그리거나, `p`를 눌러 꽃 패턴을 그려보세요.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/253355932/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -30,26 +30,26 @@ Press `f` to draw a few flowers, or `r` to draw lots of random flowers, or `p` t
 
 ## \--- collapse \---
 
-## title: What you will need
+## title: 준비물
 
-### Hardware
+### 하드웨어
 
-+ A computer capable of running Scratch 3
++ 스크래치 3을 실행할 수 있는 컴퓨터
 
-### Software
+### 소프트웨어
 
-+ Scratch 3 (either [online](https://rpf.io/scratch-on) or [offline](https://rpf.io/scratch-off))
++ 스크래치 3 ([온라인](https://rpf.io/scratch-on) 또는 [오프라인](https://rpf.io/scratch-off))
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: What you will learn
+## title: 이런 것들을 배우게 됩니다.
 
-+ How to stamp a sprite 
-+ How to make your own Scratch blocks
-+ How to use block inputs 
-+ How to create random numbers 
++ 스프라이트를 도장 찍는 방법 
++ 자신만의 스크래치 블록을 만드는 방법
++ 입력 블록을 사용하는 방법 
++ 난수 사용 방법 
 
 \--- /collapse \---
 
