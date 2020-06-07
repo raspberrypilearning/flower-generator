@@ -1,15 +1,15 @@
-## Save your images
+## 이미지 저장하기
 
-When you create an image you like, you can save it and use it in another Scratch project, as a screensaver, or on a website.
+원하는 이미지를 만들면 이미지를 저장하여 다른 스크래치 프로젝트, 화면 보호기 또는 웹 사이트에서 사용할 수 있습니다.
 
 \--- task \---
 
-When there is an image on the Stage that you like, right-click it and then click on **save image as**
+스테이지에 원하는 이미지가 있으면 마우스 오른쪽 버튼으로 클릭하고 **다른 이름으로 이미지 저장**을 클릭합니다.
 
-**Note:** on some computers or browsers, the menu option for saving your image may be named differently.
+**참고:** 일부 컴퓨터 또는 브라우저에서는 이미지 저장을 위한 메뉴 이름이 다를 수 있습니다.
 
-![screenshot](images/flower-save-stage.png)
+![스크린샷](images/flower-save-stage.png)
 
-Then you can save a PNG image of the Stage.
+그런 다음 스테이지를 PNG 이미지로 저장할 수 있습니다.
 
 \--- /task \---
