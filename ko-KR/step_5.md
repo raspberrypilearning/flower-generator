@@ -1,21 +1,21 @@
-## Challenge: create a flower design
+## 도전 과제: 꽃 디자인 만들기
 
-Can you use your `draw flower`{:class="block3myblocks"} block several times to draw more flowers and create an interesting design? Drawing different flowers at the same location creates an interesting effect.
+`꽃 그리기`{:class="block3myblocks"} 블럭을 여러 번 이용하여 더 많의 꽃을 그리고 인상적인 디자인을 만들 수 있나요? 같은 위치에 서로 다른 꽃을 그리면 흥미로운 효과가 나타납니다.
 
-Create a design that you like. Here's an example:
+원하는 디자인을 만들어보세요. 아래 예제를 참고하세요:
 
-![screenshot](images/flower-three.png)
+![스크린샷](images/flower-three.png)
 
-You don't have to use petals shaped like ellipses. For example, you can use thick straight lines and a black backdrop to create a firework pattern like this:
+반드시 타원 모양의 꽃잎을 사용할 필요는 없습니다. 예를 들어, 두꺼운 직선과 검은 색 배경을 사용하여 다음과 같은 불꽃 패턴을 만들 수 있습니다:
 
-![screenshot](images/flower-fireworks.png)
+![스크린샷](images/flower-fireworks.png)
 
-The 'petal' for the firework pattern is just a line:
+불꽃 패턴의 '꽃잎'은 단지 한 줄뿐입니다:
 
-![screenshot](images/flower-firework-petal.png)
+![스크린샷](images/flower-firework-petal.png)
 
-Add new petal costumes and see what flowers you can come up with.
+새로운 꽃잎 모양을 추가하고 어떤 꽃을 만들 수 있는지 직접 시도해보세요.
 
-Try out a sprite shape that is not filled in, such as a square, and see what happens
+정사각형과 같이 채워지지 않은 스프라이트 모양을 시도하고 그 결과를 확인해보세요.
 
-![screenshot](images/flower-square-petal.png)
+![스크린샷](images/flower-square-petal.png)
