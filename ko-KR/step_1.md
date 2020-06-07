@@ -24,7 +24,7 @@
 
 \--- print-only \---
 
-![random flowers](images/flower-random.png)
+![임의의 꽃](images/flower-random.png)
 
 \--- /print-only \---
 
@@ -55,14 +55,14 @@
 
 ## \--- collapse \---
 
-## title: Additional notes for educators
+## title: 교사를 위한 추가 노트
 
 \--- no-print \---
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/flower-generator/print){:target="_blank"}.
+이 프로젝트를 인쇄할 필요가 있다면 [프린트용 버전](https://projects.raspberrypi.org/en/projects/flower-generator/print){:target="_blank"}을 사용해 주십시오.
 
 \--- /no-print \---
 
-You can find the [completed project here](http://rpf.io/p/en/flower-generator-get){:target="_blank"}.
+여기서 찾을 수 있습니다 [완료된 프로젝트](http://rpf.io/p/en/flower-generator-get){:target="_blank"}.
 
 \--- /collapse \---
