@@ -8,7 +8,7 @@
 
 '꽃 그리기'의 정의를 바꾸어 색깔을 바꿔보세요:
 
-![flower sprite](images/flower-sprite.png)
+![꽃 스프라이트](images/flower-sprite.png)
 
 ```blocks3
 define draw flower
@@ -25,7 +25,7 @@ end
 
 코드를 실행하여 서로 다른 색깔의 꽃이 그려졌는지 확인하세요.
 
-![screenshot](images/flower-pink.png)
+![스크린샷](images/flower-pink.png)
 
 `색깔 효과 정하기`{:class="block3looks"} 블록은 스프라이트의 기본 색깔을 기준으로 색깔을 바꾸기 때문에, 만일 스프라이트가 주황색으로 시작하지 않으면 서로 다른 결과를 얻게 됩니다.
 
@@ -43,7 +43,7 @@ end
 
 `꽃 그리기`{:class="block3myblocks"} 정의하기 블록을 우클릭하고 **편집**을 클릭합니다:
 
-![screenshot](images/flower-edit.png)
+![스크린샷](images/flower-edit.png)
 
 \--- /task \---
 
@@ -51,7 +51,7 @@ end
 
 '색깔'이라는 이름의 **입력 값**을 추가하세요:
 
-![screenshot](images/flower-colour-input-annotated.png)
+![스크린샷](images/flower-colour-input-annotated.png)
 
 `꽃 그리기`{:class="block3myblocks"} 정의하기 블록에서 입력이 나타날 것인데, 이 입력을 드래그하여 사용하고 싶은 어디에든 변수로서 사용할 수 있습니다.
 
@@ -61,11 +61,11 @@ end
 
 '색깔' 입력 정보를 `색깔 효과 정하기`{:class="block3looks"} 블록으로 드래그합니다:
 
-![screenshot](images/flower-use-colour-annotated.png)
+![스크린샷](images/flower-use-colour-annotated.png)
 
 다음과 같은 코드가 될 것입니다:
 
-![flower sprite](images/flower-sprite.png)
+![꽃 스프라이트](images/flower-sprite.png)
 
 ```blocks3
 define draw flower (colour)
@@ -95,7 +95,7 @@ draw flower (1) :: custom
 
 다음과 같은 코드가 될 것입니다:
 
-![flower sprite](images/flower-sprite.png)
+![꽃 스프라이트](images/flower-sprite.png)
 
 ```blocks3
 when green flag clicked
@@ -112,7 +112,7 @@ draw flower (150) :: custom
 
 이제 꽃의 크기를 설정하기 위한 입력을 추가하여 `꽃 그리기`{:class="block3myblocks"} 블록이 아래와 같이 보이게 바꿔주세요:
 
-![flower sprite](images/flower-sprite.png)
+![꽃 스프라이트](images/flower-sprite.png)
 
 ```blocks3
 draw flower (180) (150) :: custom
@@ -120,7 +120,7 @@ draw flower (180) (150) :: custom
 
 위의 블록을 사용하면 크기가 다른 꽃을 만들 수 있습니다:
 
-![different sized flowers](images/flower-different-sizes.png)
+![다른 크기의 꽃](images/flower-different-sizes.png)
 
 \--- hints \---
 
@@ -146,7 +146,7 @@ set size to (100) %
 
 `꽃 그리기`{:class="block3myblocks"} 정의 블록을 우클릭한 다음, **편집**을 클릭한 뒤 '크기'라는 이름의 숫자 입력을 추가합니다:
 
-![flower sprite](images/flower-sprite.png)
+![꽃 스프라이트](images/flower-sprite.png)
 
 `꽃 그리기 정의하기`{:class="block3myblocks"} 스크립트를 아래와 같이 편집합니다:
 
@@ -191,7 +191,7 @@ draw flower (150) (50) :: custom
 
 다음과 같이 꽃을 그릴 수 있도록 다른 입력을 추가하세요:
 
-![flowers with different numbers of petals](images/flower-petals.png)
+![꽃잎의 수가 다른 꽃](images/flower-petals.png)
 
 \--- hints \--- \--- hint \---
 
@@ -207,7 +207,7 @@ draw flower (150) (50) :: custom
 
 `꽃 그리기 정의하기`{:class="block3myblocks"} 스크립트를 아래와 같이 편집합니다:
 
-![flower sprite](images/flower-sprite.png)
+![꽃 스프라이트](images/flower-sprite.png)
 
 ```blocks3
 define draw flower (colour) (size :: custom-arg) (petals)
@@ -234,9 +234,9 @@ draw flower (150) (50) (8) :: custom
 
 `꽃 그리기 정의하기`{:class="block3myblocks"} 블록을 수정하여 '꽃잎' 변수를 추가합니다.
 
-![flower sprite](images/flower-sprite.png)
+![꽃 스프라이트](images/flower-sprite.png)
 
-Your code should look like this:
+다음과 같은 코드가 될 것입니다:
 
 ```blocks3
 define draw flower (colour) (size :: custom-arg) (petals)
@@ -249,7 +249,7 @@ end
 
 ```
 
-In the `when green flag clicked`{:class="block3events"} script, change the third number in both `draw flower`{:class="block3myblocks"} blocks so that the two flowers that appear have different numbers of petals.
+`녹색 깃발을 클릭했을 때`{:class="block3events"} 아래의 스크립트에서, 두 개의 `꽃 그리기`{:class="block3myblocks"} 블럭의 세 번째 숫자를 바꿈으로서 서로 다른 꽃잎의 개수를 가진 두 꽃이 되도록 합니다.
 
 ```blocks3
 when green flag clicked
@@ -266,13 +266,13 @@ draw flower (150) (50) (8) :: custom
 
 \--- /task \---
 
-Next, edit your code so you can draw different flowers by pressing the <kbd>f</kbd> key.
+그런 다음 <kbd>f</kbd>를 눌러 다른 꽃을 그릴 수 있도록 코드를 편집하세요.
 
 \--- task \---
 
-Now move your code for drawing flowers away from below the `when green flag clicked`{:class="block3events"} block, and put the code under a `when f key pressed`{:class="block3events"} block.
+이제 `녹색 깃발을 클릭할 때` 블록 아래 꽃을 그리기 위한 코드를 `f 키를 눌렀을 때` 블록 아래로 옮겨주세요.
 
-![flower sprite](images/flower-sprite.png)
+![꽃 스프라이트](images/flower-sprite.png)
 
 ```blocks3
 when green flag clicked
@@ -291,12 +291,12 @@ draw flower (150) (50) (8) :: custom
 
 \--- task \---
 
-Press <kbd>f</kbd> to test your code.
+<kbd>f</kbd> 를 눌러 코드를 테스트하세요.
 
 \--- /task \---
 
 \--- task \---
 
-Add more `draw flower`{:class="block3myblocks"} blocks to your program to draw flowers with different colours, sizes, and numbers of petals all over the Stage.
+프로그램에 더 많은 `꽃 그리기`{:class="block3myblocks"} 블록을 추가하여 더로 다른 색깔, 크기, 꽃잎 개수를 가진 꽃을 무대에 만들 수 있도록 합니다.
 
 \--- /task \---
