@@ -1,19 +1,19 @@
-flower
+꽃
 
-costume1
+모양1
 
-costume2
+모양2
 
-draw flower
+꽃 그리기
 
-draw double flower
+이중 꽃 그리기
 
-colour
+색깔
 
-petals
+꽃잎
 
-size
+크기
 
-outer colour
+바깥쪽 색깔
 
-inner colour
+안쪽 색깔
