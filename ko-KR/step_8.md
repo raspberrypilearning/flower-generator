@@ -1,10 +1,10 @@
-## Flower patterns
+## 꽃 패턴 그리기
 
-You can also use your `draw flower`{:class="block3myblocks"} block to create neat flower patterns.
+`꽃 그리기`{:class="block3myblocks"} 블록을 사용하여 근사한 꽃 패턴을 만들 수도 있습니다.
 
 \--- task \---
 
-Create a flower or a combination of flowers that you like. Here's an example:
+꽃이나 원하는 꽃의 조합을 만들어봅시다. 아래 예제를 참고하세요:
 
 ![flower sprite](images/flower-sprite.png)
 
@@ -20,17 +20,17 @@ draw flower (130) (35) (20) :: custom
 
 \--- task \---
 
-Press <kbd>p</kbd> to see your flower. The example looks like this:
+<kbd>p</kbd>를 눌러 꽃을 확인하세요. 그러면 다음과 같이 보일 것입니다:
 
 ![a flower pattern](images/flower-for-pattern-example.png)
 
 \--- /task \---
 
-Before you can create your pattern, you should clear the Stage of any leftover flowers.
+패턴을 만들려면 먼저 무대에서 남은 꽃을 지워야 합니다.
 
 \--- task \---
 
-Click on the `erase all` block in the Pen tab.
+펜 블록 영역에 있는 `모두 지우기` 블럭을 누릅니다.
 
 ```blocks3
 erase all
@@ -40,13 +40,13 @@ erase all
 
 \--- task \---
 
-Right-click on the Flower sprite and `hide`{:class="block3looks"} it so it doesn't appear on the Stage. (You can `show`{:class="block3looks"} the sprite again if you need to see where it is.)
+꽃 스프라이트를 마우스 오른쪽 버튼으로 클릭하고 `숨기기`{:class="block3looks"} 를 눌러 무대에 표시되지 않도록 합니다. (어디 있는지 확인해야 한다면 `보이기`{:class="block3looks"}를 눌러 스프라이트를 다시 보이게 할 수 있습니다.)
 
 \--- /task \---
 
 \--- task \---
 
-Now draw a row of these flowers across the top of the Stage. Here is some example code, in which you might need to adjust the numbers so it works with your flower:
+이제 무대 상단에 꽃들의 행을 그립니다. 다음은 예제 코드입니다(숫자를 조정해야 할 수도 있습니다):
 
 ![flower sprite](images/flower-sprite.png)
 
@@ -65,7 +65,7 @@ end
 
 \--- task \---
 
-Press `p` to see a row of flowers:
+`p` 키를 눌러 꽃을 확인하세요:
 
 ![4 flowers in a row](images/flower-pattern-row-example.png)
 
@@ -73,7 +73,7 @@ Press `p` to see a row of flowers:
 
 \--- task \---
 
-Add another loop to create more rows of flowers. This example adds a `repeat 3`{:class="block3control"} loop to create three rows.
+더 많은 꽃 행을 만들려면 다른 반복을 추가하세요. 다음 예시는 `3번 반복하기`{:class="block3control"} 블록을 추가하여 3개의 행을 만듭니다:
 
 ![flower sprite](images/flower-sprite.png)
 
@@ -96,13 +96,13 @@ end
 
 \--- task \---
 
-Press <kbd>p</kbd> to create a grid of flowers:
+<kbd>p</kbd> 키를 눌러 꽃으로 된 격자를 확인하세요:
 
 ![a 4 x 4 grid of flowers](images/flower-pattern-rows-example.png)
 
 \--- /task \---
 
-Do you want to speed up the drawing of the flowers?
+꽃 그리기 속도를 높이고 싶나요?
 
 \--- task \---
 
