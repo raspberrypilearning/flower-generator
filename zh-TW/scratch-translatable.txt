@@ -1,19 +1,19 @@
-flower
+花朵
 
-costume1
+造型1
 
-costume2
+造型2
 
-draw flower
+畫花朵
 
-draw double flower
+畫雙花
 
-colour
+顏色
 
-petals
+花瓣數
 
-size
+大小
 
-outer colour
+外部顏色
 
-inner colour
+內部顏色
