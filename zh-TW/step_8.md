@@ -73,7 +73,7 @@ end
 
 \--- task \---
 
-新增一個迴圈來創造更多排花朵。 This example adds a `repeat 3`{:class="block3control"} loop to create three rows.
+新增一個迴圈來創造更多排花朵。 這個範例會新增 `重複3次`{:class="block3control"} 的迴圈來畫出三排花朵。
 
 ![flower sprite](images/flower-sprite.png)
 
@@ -96,29 +96,29 @@ end
 
 \--- task \---
 
-Press <kbd>p</kbd> to create a grid of flowers:
+按<kbd> p </kbd>來畫出網格狀排列花朵。
 
 ![a 4 x 4 grid of flowers](images/flower-pattern-rows-example.png)
 
 \--- /task \---
 
-Do you want to speed up the drawing of the flowers?
+想要加快畫花的速度嗎？
 
 \--- task \---
 
-Right-click on the `draw flower`{:class="block3myblocks"} definition block and then click on **edit**. Click on the **Run without screen refresh** box.
+在`畫花朵` {：class =“ block3myblocks”}定義積木上點擊右鍵並選擇**編輯 ** ： 勾選 **執行完畢再更新畫面**。
 
 ![turn no refresh option off](images/flower-no-refresh.png)
 
-Now the flowers get drawn more quickly.
+現在花畫得更快了。
 
 \--- /task \---
 
-You can also change the colour of the Stage.
+你還可以更改舞台的顏色。
 
 \--- task \---
 
-Click on **Choose a backdrop**, and then click on **Paint**. Create an orange backdrop by using the Fill tool in Bitmap mode.
+點擊**選個背景** ，然後單擊** 繪畫 ** 。 Create an orange backdrop by using the Fill tool in Bitmap mode.
 
 ![paint new backdrop](images/flower-orange-backdrop.png)
 
