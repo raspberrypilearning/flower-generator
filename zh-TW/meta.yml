@@ -1,7 +1,7 @@
 ---
-title: Flower generator
+title: 花朵產生器
 hero_image: images/banner.png
-description: Generate flowers to create a patterned backdrop image or screensaver
+description: 畫花朵來創造背景圖案或屏螢幕保護程式
 duration: 2
 listed: true
 copyedit: true
@@ -9,24 +9,24 @@ version: 4.1.0
 last_tested: 2018-10-18
 steps:
   - 
-    title: Introduction
+    title: 簡介
   - 
-    title: Generate a flower
+    title: 創造一朵花
   - 
-    title: Make a custom block to draw flowers
+    title: 製作一個畫花朵的專屬積木
   - 
-    title: Customise your flowers
+    title: 自訂您的花朵
   - 
-    title: "Challenge: create a flower design"
+    title: "挑戰：設計花朵"
     challenge: true
   - 
-    title: Save your images
+    title: 儲存圖片
   - 
-    title: Random flower generator
+    title: 隨機花朵產生器
   - 
-    title: Flower patterns
+    title: 花朵圖案
   - 
-    title: "Challenge: custom flower blocks"
+    title: "挑戰：客製花朵積木"
     challenge: true
   - 
-    title: What next?
+    title: 接下來是什麼？
