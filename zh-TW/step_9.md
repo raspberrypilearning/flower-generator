@@ -1,10 +1,10 @@
-## Challenge: custom flower blocks
+## 挑戰：客製花朵積木
 
-These flowers all have the same number of outer and inner petals, and the size of the inner flower is in proportion to the outer flower:
+這些花的外花瓣和內花瓣數量都一樣，而且內花朵和外花朵的大小成比例：
 
-![screenshot](images/flower-double-flowers.png)
+![截圖](images/flower-double-flowers.png)
 
-You can create flowers like this with the help of a `draw double flower`{:class="block3myblocks"} custom block that has inputs for `outer colour`, `inner colour`, and `size`:
+你可以創造一個有`外部顏色` ，`內部顏色`和` 大小 `輸入的 `畫雙花` {：class =“ block3myblocks”}的客製積木，來畫出這些花：
 
 ```blocks3
 define draw double flower (outer colour) (inner colour) (size :: custom-arg)
@@ -12,7 +12,7 @@ draw flower (outer colour :: custom-arg) (size :: custom-arg) (12) :: custom
 draw flower (inner colour :: custom-arg) ((size :: custom-arg) / (2)) (20) :: custom
 ```
 
-The `draw double flower`{:class="block3myblocks"} block can draw lots of flowers in the same style:
+`畫雙花` {：class =“ block3myblocks”}積木可以繪製許多相同樣式的花朵：
 
 ```blocks3
 when [d v] key pressed
@@ -25,6 +25,6 @@ change x by (75)
 draw double flower (140) (160) (50) :: custom
 ```
 
-Make a new custom block with the necessary inputs that you need to be able to change to create a type of flower that you like.
+創建一個客製積木並設定你想要變更的輸入，來畫出你喜歡的花朵類型。
 
-Then use your new block to create a cool design!
+然後使用你的新積木來創造一個很酷的設計吧！
