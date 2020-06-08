@@ -6,7 +6,7 @@
 
 創造一個你喜歡的花朵或花朵組合。 範例如下：
 
-![flower sprite](images/flower-sprite.png)
+![花朵角色](images/flower-sprite.png)
 
 ```blocks3
 when [p v] key pressed
@@ -22,7 +22,7 @@ draw flower (130) (35) (20) :: custom
 
 按<kbd> p </kbd>看看你創造的花朵。 範例看起來如下：
 
-![a flower pattern](images/flower-for-pattern-example.png)
+![花朵圖案](images/flower-for-pattern-example.png)
 
 \--- /task \---
 
@@ -48,7 +48,7 @@ erase all
 
 現在在舞台上方繪製一排花。 這裡有一些範例程式碼，你可能需要調整數字，讓它能配合你的花朵：
 
-![flower sprite](images/flower-sprite.png)
+![花朵角色](images/flower-sprite.png)
 
 ```blocks3
 when [p v] key pressed
@@ -67,7 +67,7 @@ end
 
 按` p `看看你創造的一排花朵。
 
-![4 flowers in a row](images/flower-pattern-row-example.png)
+![四朵花在一排](images/flower-pattern-row-example.png)
 
 \--- /task \---
 
@@ -75,7 +75,7 @@ end
 
 新增一個迴圈來創造更多排花朵。 這個範例會新增 `重複3次`{:class="block3control"} 的迴圈來畫出三排花朵。
 
-![flower sprite](images/flower-sprite.png)
+![花朵角色](images/flower-sprite.png)
 
 ```blocks3
 when [p v] key pressed
@@ -98,7 +98,7 @@ end
 
 按<kbd> p </kbd>來畫出網格狀排列花朵。
 
-![a 4 x 4 grid of flowers](images/flower-pattern-rows-example.png)
+![4 x 4網格狀排列的花](images/flower-pattern-rows-example.png)
 
 \--- /task \---
 
@@ -108,7 +108,7 @@ end
 
 在`畫花朵` {：class =“ block3myblocks”}定義積木上點擊右鍵並選擇**編輯 ** ： 勾選 **執行完畢再更新畫面**。
 
-![turn no refresh option off](images/flower-no-refresh.png)
+![關閉不更新選項](images/flower-no-refresh.png)
 
 現在花畫得更快了。
 
@@ -118,19 +118,19 @@ end
 
 \--- task \---
 
-點擊**選個背景** ，然後單擊** 繪畫 ** 。 Create an orange backdrop by using the Fill tool in Bitmap mode.
+點擊**選個背景** ，然後單擊** 繪畫 ** 。 在點陣圖模式中使用"填滿"工具來製作一個橘色的背景。
 
-![paint new backdrop](images/flower-orange-backdrop.png)
+![畫新背景](images/flower-orange-backdrop.png)
 
-If you use orange for the backdrop and the Flower sprite, then the numbers for different colours will match for the sprite and the backdrop.
+如果你的背景和花朵角色都是用橘色，那麼背景和花朵角色的色彩編碼將會一致。
 
 \--- /task \---
 
 \--- task \---
 
-Now you can use the `set colour effect`{:class="block3looks"} on the Stage to change the colour of the backdrop.
+現在你可以使用`圖像效果-顏色` {：class =“ block3looks”}積木來更改背景的顏色。
 
-![stage sprite](images/stage-sprite.png)
+![舞台角色](images/stage-sprite.png)
 
 ```blocks3
 when [p v] key pressed
@@ -141,14 +141,14 @@ set [color v] effect to (30)
 
 \--- task \---
 
-Try to create a pattern you like.
+試著畫出你喜歡的圖案。
 
-Here's an example:
+範例如下：
 
-![flowers on a green background](images/flower-pattern-background.png)
+![在綠色背景上的花](images/flower-pattern-background.png)
 
 \--- /task \---
 
-When you put it all together, you can create an amazing effect:
+當你將所有東西組合在一起，你可以創造出驚人的效果：
 
-![animation of lots of flowers](images/flower-gen-example.gif)
+![很多花的動畫](images/flower-gen-example.gif)
