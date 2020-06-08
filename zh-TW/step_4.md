@@ -53,7 +53,7 @@ end
 
 ![截圖](images/flower-colour-input-annotated.png)
 
-The input appears in the `draw flower`{:class="block3myblocks"} definition, and you can drag it to where you want to use it.
+這個"輸入"會出現在 `畫花朵`{:class="block3myblocks"}定義積木裡，然後你可以把它拖拉到你想使用的地方。
 
 \--- /task \---
 
