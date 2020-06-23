@@ -1,7 +1,7 @@
 ---
-title: Flower generator
+title: Δημιουργία λουλουδιών
 hero_image: images/banner.png
-description: Generate flowers to create a patterned backdrop image or screensaver
+description: Δημιουργία λουλουδιών για χρήση ως σκηνικό ή προφύλαξη οθόνης
 duration: 2
 listed: true
 copyedit: true
@@ -9,24 +9,24 @@ version: 4.1.0
 last_tested: 2018-10-18
 steps:
   - 
-    title: Introduction
+    title: Εισαγωγή
   - 
-    title: Generate a flower
+    title: Δημιούργησε ένα λουλούδι
   - 
-    title: Make a custom block to draw flowers
+    title: Φτιάξε μια εντολή που σχεδιάζει λουλούδια
   - 
-    title: Customise your flowers
+    title: Φτιάξε τα δικά σου λουλούδια
   - 
-    title: "Challenge: create a flower design"
+    title: "Πρόκληση: δημιούργησε ένα σχέδιο λουλουδιών"
     challenge: true
   - 
-    title: Save your images
+    title: Αποθήκευσε τις εικόνες σου
   - 
-    title: Random flower generator
+    title: Δημιουργία τυχαίων λουλουδιών
   - 
-    title: Flower patterns
+    title: Μοτίβα για λουλούδια
   - 
-    title: "Challenge: custom flower blocks"
+    title: "Πρόκληση: προσαρμοσμένα μπλοκ λουλουδιών"
     challenge: true
   - 
-    title: What next?
+    title: Τι υπάρχει στη συνέχεια;
