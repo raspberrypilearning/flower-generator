@@ -212,7 +212,7 @@ go to x: (-75) y: (-75)
 ![كائن الزهرة](images/flower-sprite.png)
 
 ```blocks3
-define رسم زهرة (اللون) (size :: custom-arg) (petals)
+define رسم زهرة (اللون) (حجم :: custom-arg) (بتلة)
 ```
 
 قم بتحديث التعليمة البرمجية الخاصة بك `كرر`{:class="block3control"} و `تدور`{:class="block3looks"} حتى يستخدموا مدخلات 'الورق'.
