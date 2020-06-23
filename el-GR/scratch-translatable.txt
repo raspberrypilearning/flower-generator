@@ -1,19 +1,19 @@
-flower
+λουλούδι
 
-costume1
+ενδυμασία1
 
-costume2
+ενδυμασία2
 
-draw flower
+ζωγράφισε λουλούδι
 
-draw double flower
+σχεδίασε διπλό λουλούδι
 
-colour
+χρώμα
 
-petals
+πέταλα
 
-size
+μέγεθος
 
-outer colour
+εξωτερικό χρώμα
 
-inner colour
+εσωτερικό χρώμα
