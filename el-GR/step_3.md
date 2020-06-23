@@ -1,18 +1,18 @@
-## Make a custom block to draw flowers
+## Φτιάξε μια εντολή που σχεδιάζει λουλούδια
 
-What if you want to draw lots of flowers? Instead of making lots of copies of the code, you will create your own block in Scratch and use it every time you want to draw a flower.
+Τι γίνεται αν θέλεις να σχεδιάσεις πολλά λουλούδια; Αντί να δημιουργείς πολλά αντίγραφα του κώδικα, θα δημιουργήσεις το δικό σου μπλοκ στο Scratch και θα το χρησιμοποιείς κάθε φορά που θέλεις να σχεδιάσεις ένα λουλούδι.
 
-\--- task \---
+\--- task --
 
-Click on **My Blocks** and then on **Make a Block** to create your own block called 'draw flower'.
+Κάνε κλικ στο μενού **Οι Εντολές μου** και μετά στη **Δημιουργία εντολής** για να δημιουργήσεις το δικό σου μπλοκ που θα ονομάζεται «ζωγράφισε λουλούδι».
 
-![screenshot](images/flower-make-block.png)
+![στιγμιότυπο οθόνης](images/flower-make-block.png)
 
 \--- /task \---
 
-\--- task \---
+\--- task --
 
-There is now a new block called `draw flower`{:class="block3myblocks"} in the **More blocks** section, and a new definition block on the Stage.
+Υπάρχει τώρα ένα νέο μπλοκ που ονομάζεται `ζωγράφισε λουλούδι`{:class="block3myblocks"} στις **Εντολές μου** και ένα νέο μπλοκ ορισμού στη Σκηνή.
 
 ```blocks3
 draw flower :: custom
@@ -22,13 +22,13 @@ define draw flower
 
 \--- /task \---
 
-\--- task \---
+\--- task --
 
-Move your code for drawing the flower from the `when green flag clicked`{:class="block3events"} block to the new `draw flower`{:class="block3myblocks"} definition block.
+Μετακίνησε τον κώδικά σου για τη δημιουργία του λουλουδιού από το μπλοκ `όταν γίνει κλικ σε πράσινη σημαία`{:class="block3events"} στον ορισμό της νέας εντολής `ζωγράφισε λουλούδι`{:class="block3myblocks"}.
 
-Your code should look like this:
+Ο κώδικας θα πρέπει να μοιάζει κάπως έτσι:
 
-![flower sprite](images/flower-sprite.png)
+![αντικείμενο λουλούδι](images/flower-sprite.png)
 
 ```blocks3
 define draw flower
@@ -42,11 +42,11 @@ when green flag clicked
 
 \--- /task \---
 
-\--- task \---
+\--- task --
 
-Add the following code to clear the Stage and to use your new `draw flower`{:class="block3myblocks"} block when the green flag is clicked:
+Πρόσθεσε τον ακόλουθο κώδικα για να καθαρίσεις τη Σκηνή και να χρησιμοποιήσεις το νέο σου μπλοκ `ζωγράφισε λουλούδι`{:class="block3myblocks"} όταν κάνεις κλικ στην πράσινη σημαία:
 
-![flower sprite](images/flower-sprite.png)
+![αντικείμενο λουλούδι](images/flower-sprite.png)
 
 ```blocks3
 when green flag clicked
@@ -56,17 +56,17 @@ draw flower :: custom
 
 \--- /task \---
 
-\--- task \---
+\--- task --
 
-Click the green flag to test your code and check whether you see a flower.
+Κάνε κλικ στην πράσινη σημαία για να ελέγξεις τον κώδικά σου και έλεγξε αν πράγματι σχηματίζεται ένα λουλούδι.
 
 \--- /task \---
 
-\--- task \---
+\--- task --
 
-Now change your code to move the sprite and then draw another flower:
+Τώρα άλλαξε τον κώδικα για να μετακινήσεις το αντικείμενο και στη συνέχεια να σχεδιάσεις ένα άλλο λουλούδι:
 
-![flower sprite](images/flower-sprite.png)
+![αντικείμενο λουλούδι](images/flower-sprite.png)
 
 ```blocks3
 when green flag clicked
@@ -79,10 +79,10 @@ draw flower :: custom
 
 \--- /task \---
 
-\--- task \---
+\--- task --
 
-Test your code to check that you now see two flowers.
+Δοκίμασε τον κώδικά σου για να βεβαιωθείς ότι τώρα βλέπεις δύο λουλούδια.
 
-![screenshot](images/flower-two.png)
+![στιγμιότυπο οθόνης](images/flower-two.png)
 
 \--- /task \---
