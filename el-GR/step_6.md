@@ -1,15 +1,15 @@
-## Save your images
+## Αποθήκευσε τις εικόνες σoυ
 
-When you create an image you like, you can save it and use it in another Scratch project, as a screensaver, or on a website.
+Όταν δημιουργείς μια εικόνα που σου αρέσει, μπορείς να την αποθηκεύσεις και να τη χρησιμοποιήσεις σε άλλο έργο Scratch, ως προφύλαξη οθόνης ή σε κάποιον ιστότοπο.
 
-\--- task \---
+\--- task --
 
-When there is an image on the Stage that you like, right-click it and then click on **save image as**
+Όταν υπάρχει μια εικόνα στη σκηνή που σου αρέσει, κάνε δεξί κλικ και, στη συνέχεια, κάνε κλικ στο **Αποθήκευση εικόνας ως**
 
-**Note:** on some computers or browsers, the menu option for saving your image may be named differently.
+**Σημείωση:** Σε ορισμένους υπολογιστές ή προγράμματα περιήγησης, η επιλογή μενού για την αποθήκευση της εικόνας σου μπορεί να ονομάζεται κάπως διαφορετικά.
 
-![screenshot](images/flower-save-stage.png)
+![στιγμιότυπο οθόνης](images/flower-save-stage.png)
 
-Then you can save a PNG image of the Stage.
+Στη συνέχεια, μπορείς να αποθηκεύσεις τη Σκηνή σου με μια εικόνα PNG.
 
 \--- /task \---
