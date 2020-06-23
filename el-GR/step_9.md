@@ -1,10 +1,10 @@
-## Challenge: custom flower blocks
+## Πρόκληση: προσαρμοσμένα μπλοκ λουλουδιών
 
-These flowers all have the same number of outer and inner petals, and the size of the inner flower is in proportion to the outer flower:
+Αυτά τα λουλούδια έχουν όλα τον ίδιο αριθμό εξωτερικών και εσωτερικών πετάλων και το μέγεθος του εσωτερικού λουλουδιού είναι ανάλογο με το εξωτερικό λουλούδι:
 
-![screenshot](images/flower-double-flowers.png)
+![στιγμιότυπο οθόνης](images/flower-double-flowers.png)
 
-You can create flowers like this with the help of a `draw double flower`{:class="block3myblocks"} custom block that has inputs for `outer colour`, `inner colour`, and `size`:
+Μπορείς να δημιουργήσεις λουλούδια σαν αυτό με τη βοήθεια του προσαρμοσμένου μπλοκ `σχεδίασε διπλό λουλούδι`{:class="block3myblocks"} που έχει εισόδους για `εξωτερικό χρώμα`, `εσωτερικό χρώμα` και `μέγεθος`:
 
 ```blocks3
 define draw double flower (outer colour) (inner colour) (size :: custom-arg)
@@ -12,7 +12,7 @@ draw flower (outer colour :: custom-arg) (size :: custom-arg) (12) :: custom
 draw flower (inner colour :: custom-arg) ((size :: custom-arg) / (2)) (20) :: custom
 ```
 
-The `draw double flower`{:class="block3myblocks"} block can draw lots of flowers in the same style:
+Το μπλοκ `σχεδίασε διπλό λουλούδι`{:class="block3myblocks"} μπορεί να σχεδιάσει πολλά λουλούδια με το ίδιο στυλ:
 
 ```blocks3
 when [d v] key pressed
@@ -25,6 +25,6 @@ change x by (75)
 draw double flower (140) (160) (50) :: custom
 ```
 
-Make a new custom block with the necessary inputs that you need to be able to change to create a type of flower that you like.
+Δημιούργησε νέο μπλοκ με τις απαραίτητες παραμέτρους εισόδου που θα μπορείς να αλλάζεις για να δημιουργείς έναν τύπο λουλουδιού που σου αρέσει.
 
-Then use your new block to create a cool design!
+Στη συνέχεια, χρησιμοποίησε το νέο σου μπλοκ για να δημιουργήσεις ένα εντυπωσιακό σχέδιο!
