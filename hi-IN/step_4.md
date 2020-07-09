@@ -132,7 +132,7 @@ draw flower (180) (150) :: custom
 
 \--- hint \---
 
-'आकार' नामक एक नया नंबर इनपुट जोड़ने के लिए `draw flower`{:class="block3myblocks"} ब्लॉक को संपादित करें।
+'size' नामक एक नया नंबर इनपुट जोड़ने के लिए `draw flower`{:class="block3myblocks"} ब्लॉक को संपादित करें।
 
 आपको `draw flower`{:class="block3myblocks"} परिभाषा ब्लॉक में 'size' (आकार) इनपुट के साथ निम्नलिखित ब्लॉक को जोड़ना होगा:
 
@@ -166,7 +166,7 @@ end
 
 \--- /hints \--- \--- /task \---
 
-`when green flag clicked` {: class = "block3events"} स्क्रिप्ट, दोनों में दूसरा नंबर बदलें `draw flower`{:class="block3myblocks"} ब्लॉक ताकि दो फूल विभिन्न आकारों में दिखाई देते हैं।
+`when green flag clicked` {:class="block3events"} स्क्रिप्ट, दोनों में दूसरा नंबर बदलें `draw flower`{:class="block3myblocks"} ब्लॉक ताकि दो फूल विभिन्न आकारों में दिखाई देते हैं।
 
 ```blocks3
 when green flag clicked
@@ -232,7 +232,7 @@ draw flower (150) (50) (8) :: custom
 
 \--- hint \---
 
-अपने ` परिभाषित ड्रा फूल को संपादित करें ` {: class = "block3myblocks"} ब्लॉक करें और 'पंखुड़ियों' नामक एक नया नंबर इनपुट जोड़ें।
+अपने `define draw flower`{:class="block3myblocks"} ब्लॉक करें और 'petals' नामक एक नया नंबर इनपुट जोड़ें।
 
 ![फूल स्प्राइट](images/flower-sprite.png)
 
