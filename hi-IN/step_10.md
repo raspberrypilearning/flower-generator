@@ -1,6 +1,6 @@
 ## आगे क्या?
 
-हमारे [ध्वज का प्रयास करें](https://projects.raspberrypi.org/en/projects/guess-the-flag?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) प्रोजेक्ट, जहां आप अपने और अपने दोस्तों के परीक्षण के लिए एक ध्वज प्रश्नोत्तरी बना सकते हैं।
+हमारे [Guess the flag](https://projects.raspberrypi.org/en/projects/guess-the-flag?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) प्रोजेक्ट, जहां आप अपने और अपने दोस्तों के परीक्षण के लिए एक ध्वज प्रश्नोत्तरी बना सकते हैं।
 
 \--- no-print \---
 
