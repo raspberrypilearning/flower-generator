@@ -1,19 +1,19 @@
-फूल
+flower
 
-पोशाक1
+costume1
 
-पोशाक2
+costume2
 
-फूल खींचो
+draw flower
 
-डबल फूल ड्रा
+draw double flower
 
-रंग
+colour
 
-पंखुड़ियों
+petals
 
-आकार
+size
 
-बाहरी रंग
+outer colour
 
-भीतरी रंग
+inner colour
