@@ -167,7 +167,7 @@ end
 
 --- /task --- --- task ---
 
-`녹색 깃발을 클릭했을 때`{:class="block3events"} 아래의 스크립트에서, 두 개의 `꽃 그리기` 블록을 모두 바꿔서 두 개의 꽃이 서로 다른 크기로 나타나게 합니다.
+`녹색 깃발을 클릭했을 때`{:class="block3events"} 아래의 스크립트에서, 두 개의 `꽃 그리기`{:class="block3myblocks"} 블록을 모두 바꿔서 두 개의 꽃이 서로 다른 크기로 나타나게 합니다.
 
 ```blocks3
 when green flag clicked
@@ -272,7 +272,7 @@ go to x: (-75) y: (-75)
 
 --- task ---
 
-이제 `녹색 깃발을 클릭할 때` 블록 아래 꽃을 그리기 위한 코드를 `f 키를 눌렀을 때` 블록 아래로 옮겨주세요.
+이제 `녹색 깃발을 클릭할 때`{:class="block3events"} 블록 아래 꽃을 그리기 위한 코드를 `f 키를 눌렀을 때`{:class="block3events"} 블록 아래로 옮겨주세요.
 
 ![꽃 스프라이트](images/flower-sprite.png)
 

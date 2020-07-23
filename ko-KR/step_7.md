@@ -19,7 +19,7 @@ erase all
 
 --- task ---
 
-`반복하기`{:class="block3control"} 블럭을 추가하여 `무작위 위치로 이동하기`가 `100`번 일어나게 합니다.
+`반복하기`{:class="block3control"} 블럭을 추가하여 `무작위 위치로 이동하기`{:class="block3motion"} 가 `100`번 일어나게 합니다.
 
 ![꽃 스프라이트](images/flower-sprite.png)
 
@@ -63,7 +63,7 @@ end
 
 --- hint ---
 
-`꽃 그리기`{:class="block3myblocks"} 블록은 꽃잎의 크기와 개수를 위한 `난수`를 골라야 합니다.
+`꽃 그리기`{:class="block3myblocks"} 블록은 꽃잎의 크기와 개수를 위한 `난수`{:class="block3operators"}를 골라야 합니다.
 
 --- /hint ---
 

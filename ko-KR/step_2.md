@@ -40,7 +40,7 @@
 
 --- task ---
 
-꽃 스프라이트에 다음 코드를 추가하여 `녹색 깃발을 클릭할 때` 일정한 각도으로 놓인 6개의 꽃잎을 `도장 찍기`{:class="block3extensions"} 할 수 있게 해주세요.
+꽃 스프라이트에 다음 코드를 추가하여 `녹색 깃발을 클릭할 때`{:class="block3control"} 일정한 각도으로 놓인 6개의 꽃잎을 `도장 찍기`{:class="block3extensions"} 할 수 있게 해주세요.
 
 ![스크린샷](images/flower-6-straight.png)
 
