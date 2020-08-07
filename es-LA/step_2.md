@@ -58,7 +58,7 @@ Puede que los pétalos estén organizados de una manera extraña:
 
 ![captura de pantalla](images/flower-6-offset.png)
 
-This is because the sprite is being rotated around its centre.
+Esto se debe a que el objeto está girando alrededor de su centro.
 
 \--- task \---
 
