@@ -1,0 +1,19 @@
+fiore
+
+costume 1
+
+costume 2
+
+disegna un fiore
+
+disegna fiore doppio
+
+colore
+
+petali
+
+dimensione
+
+colore esterno
+
+colore interno
