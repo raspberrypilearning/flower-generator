@@ -106,31 +106,31 @@ Presiona <kbd>p</kbd> para crear una red de flores:
 
 \--- task \---
 
-Right-click on the `draw flower`{:class="block3myblocks"} definition block and then click on **edit**. Click on the **Run without screen refresh** box.
+Haz un clic derecho en el bloque de definición `dibujar flor`{:class="block3myblocks"} y luego elige **editar**. Haga clic en la caja **Ejecutar sin actualizar la pantalla**.
 
-![turn no refresh option off](images/flower-no-refresh.png)
+![desactivar la opción de no actualizar](images/flower-no-refresh.png)
 
-Now the flowers get drawn more quickly.
-
-\--- /task \---
-
-You can also change the colour of the Stage.
-
-\--- task \---
-
-Click on **Choose a backdrop**, and then click on **Paint**. Create an orange backdrop by using the Fill tool in Bitmap mode.
-
-![paint new backdrop](images/flower-orange-backdrop.png)
-
-If you use orange for the backdrop and the Flower sprite, then the numbers for different colours will match for the sprite and the backdrop.
+Ahora las flores se dibujan más rápidamente.
 
 \--- /task \---
 
+También puedes cambiar el color del Escenario.
+
 \--- task \---
 
-Now you can use the `set colour effect`{:class="block3looks"} on the Stage to change the colour of the backdrop.
+Haz clic en **Elegir un fondo**, y luego haz clic en **Pintura**. Crea un fondo color naranja con la herramienta Relleno en modo Mapa de bits.
 
-![stage sprite](images/stage-sprite.png)
+![pintar un nuevo fondo](images/flower-orange-backdrop.png)
+
+Si usas color naranja para el fondo y el objeto Flor, entonces los números para diferentes colores coincidirán para el objeto y el fondo.
+
+\--- /task \---
+
+\--- task \---
+
+Ahora puedes usar el `efecto de color`{:class="block3looks"} en el Escenario para cambiar el color del fondo.
+
+![objeto escenario](images/stage-sprite.png)
 
 ```blocks3
 when [p v] key pressed
@@ -141,14 +141,14 @@ set [color v] effect to (30)
 
 \--- task \---
 
-Try to create a pattern you like.
+Intenta crear un patrón que te guste.
 
-Here's an example:
+Aquí tienes un ejemplo:
 
-![flowers on a green background](images/flower-pattern-background.png)
+![flores sobre un fondo verde](images/flower-pattern-background.png)
 
 \--- /task \---
 
-When you put it all together, you can create an amazing effect:
+Cuando lo juntas todo, puedes crear un efecto sorprendente:
 
-![animation of lots of flowers](images/flower-gen-example.gif)
+![animación de muchas flores](images/flower-gen-example.gif)
