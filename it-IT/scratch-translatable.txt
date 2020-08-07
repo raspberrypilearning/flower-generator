@@ -6,7 +6,7 @@ costume 2
 
 disegna un fiore
 
-disegna fiore doppio
+disegna un fiore doppio
 
 colore
 
