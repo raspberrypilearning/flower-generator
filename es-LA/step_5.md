@@ -16,6 +16,6 @@ El "pétalo" para el patrón de fuegos artificiales es sólo una línea:
 
 Agrega nuevos estilos de pétalos y descubre las diferentes flores que puedes crear.
 
-Try out a sprite shape that is not filled in, such as a square, and see what happens
+Prueba una forma de objeto que no tenga relleno, como un cuadrado, y mira lo qué pasa
 
 ![captura de pantalla](images/flower-square-petal.png)
