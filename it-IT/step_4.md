@@ -122,7 +122,7 @@ Con il blocco qui sopra, è possibile creare fiori di diverse dimensioni:
 
 ![fiori di diverse dimensioni](images/flower-different-sizes.png)
 
---- hint ---
+--- hints ---
 
 --- hint ---
 
@@ -200,7 +200,7 @@ Bisogna aggiungere un argomento 'petali' al blocco `definisci disegna un fiore`{
 
 Ci sono due posti in cui bisogna usare l'argomento 'petali'.
 
-Lo sprite Fiore dovrebbe `ruotare` di `360` gradi diviso per il numero di petali.
+Lo sprite Fiore dovrebbe `ruotare`{:class="block3looks"} di `360` gradi diviso per il numero di petali.
 
 --- /hint ---
 

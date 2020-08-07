@@ -12,7 +12,7 @@ define 畫雙花 (外部顏色) (內部顏色) (大小 :: custom-arg)
 畫花朵 (內部顏色 :: custom-arg) ((大小 :: custom-arg) / (2)) (20) :: custom
 ```
 
-`畫雙花` {：class =“ block3myblocks”}積木可以繪製許多相同樣式的花朵：
+`畫雙花`{:class="block3myblocks"}積木可以繪製許多相同樣式的花朵：
 
 ```blocks3
 when [d v] key pressed

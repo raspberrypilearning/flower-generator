@@ -251,7 +251,7 @@ end
 
 ```
 
-在`當綠色旗子被點擊時` {：class =“ block3events”}的腳本中，更改兩個`畫花朵`{:class="block3myblocks"}積木中的第三個數字，這樣兩朵花就會呈現不同的花瓣數。
+在`當綠色旗子被點擊時`{:class="block3events"}的腳本中，更改兩個`畫花朵`{:class="block3myblocks"}積木中的第三個數字，這樣兩朵花就會呈現不同的花瓣數。
 
 ```blocks3
 when green flag clicked

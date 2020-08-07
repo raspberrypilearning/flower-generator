@@ -58,7 +58,7 @@ Questo codice crea cento fiori con colori diversi ma con le stesse dimensioni e 
 
 Puoi modificare lo script `quando si preme il tasto r`{:class="block3events"} in modo che anche le dimensioni dei fiori e il numero dei loro petali siano casuali?
 
---- hint ---
+--- hints ---
 
 --- hint ---
 
