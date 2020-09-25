@@ -1,10 +1,10 @@
-## Challenge: custom flower blocks
+## Herausforderung: benutzerdefinierte Blumen-Blöcke
 
-These flowers all have the same number of outer and inner petals, and the size of the inner flower is in proportion to the outer flower:
+Diese Blumen haben alle die gleiche Anzahl an äußeren und inneren Blüten, und die Größe der inneren Blume ist proportional zur äußeren Blume:
 
-![screenshot](images/flower-double-flowers.png)
+![Bildschirmfoto](images/flower-double-flowers.png)
 
-You can create flowers like this with the help of a `draw double flower`{:class="block3myblocks"} custom block that has inputs for `outer colour`, `inner colour`, and `size`:
+Du kannst Blumen wie diese mit Hilfe eines benutzerdefinierten Blocks `Doppelblume zeichnen`{:class="block3myblocks"} mit Eingaben für `Außenfarbe`, `Innenfarbe` und `Größe` erstellen:
 
 ```blocks3
 define draw double flower (outer colour) (inner colour) (size :: custom-arg)
@@ -12,7 +12,7 @@ draw flower (outer colour :: custom-arg) (size :: custom-arg) (12) :: custom
 draw flower (inner colour :: custom-arg) ((size :: custom-arg) / (2)) (20) :: custom
 ```
 
-The `draw double flower`{:class="block3myblocks"} block can draw lots of flowers in the same style:
+Der `Doppelte Blume zeichnen`{:class="block3myblocks"}-Block kann viele Blumen im gleichen Stil zeichnen:
 
 ```blocks3
 when [d v] key pressed
@@ -25,6 +25,6 @@ change x by (75)
 draw double flower (140) (160) (50) :: custom
 ```
 
-Make a new custom block with the necessary inputs that you need to be able to change to create a type of flower that you like.
+Erstelle einen neuen Block mit den notwendigen Eingaben, die du ändern musst, um eine Blume zu erstellen, die dir gefällt.
 
-Then use your new block to create a cool design!
+Benutze nun deinen neuen Block, um ein cooles Design zu erstellen!
