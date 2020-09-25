@@ -1,10 +1,10 @@
-## Generate a flower
+## Crea una flor
 
-First you're going to generate a flower that can be drawn on the Stage.
+Primero vas a generar una flor que puede ser dibujada en el área de trabajo.
 
 \--- task \---
 
-Create a new Scratch project, and delete the cat sprite.
+Comienza un nuevo proyecto de Scratch y elimina el objeto del gato.
 
 [[[generic-scratch3-new-project]]]
 
@@ -12,7 +12,7 @@ Create a new Scratch project, and delete the cat sprite.
 
 \--- task \---
 
-Add the Pen extension to your project.
+Añade la extensión Lápiz a tu proyecto.
 
 [[[generic-scratch3-add-pen-extension]]]
 
@@ -20,9 +20,9 @@ Add the Pen extension to your project.
 
 \--- task \---
 
-Now use the Paint tool to create a new sprite shaped like a flower petal.
+Ahora usa la herramienta Pinta para crear un nuevo objeto con forma de pétalo de flor.
 
-Click on **Choose a sprite**, then click on **Paint** and rename the sprite 'Flower'.
+Haz clic en **Elige un objeto**, luego haz clic en **Pinta** y renombra el objeto a 'Flor'.
 
 [[[generic-scratch3-draw-sprite]]]
 
@@ -30,19 +30,19 @@ Click on **Choose a sprite**, then click on **Paint** and rename the sprite 'Flo
 
 \--- task \---
 
-Use the Circle tool to draw a petal shape filled in orange.
+Usa la herramienta Círculo para hacer un dibujo en forma de pétalo relleno de color naranja.
 
-![screenshot](images/flower-petal.png)
+![captura de pantalla](images/flower-petal.png)
 
-Later, you will use code to add more colour.
+Después, usarás código para añadir más color.
 
 \--- /task \---
 
 \--- task \---
 
-Add the following code to the Flower sprite to `stamp`{:class="block3extensions"} a flower with six equally rotated petals `when the green flag is clicked`{:class="block3control"}.
+Añade el siguiente código al objeto Flor para `sellar`{: class = "block3extensions"} una flor con seis pétalos rotados igualmente ` cuando se haga clic en la bandera verde ` {: class = "block3control"}.
 
-![screenshot](images/flower-6-straight.png)
+![captura de pantalla](images/flower-6-straight.png)
 
 ```blocks3
 when green flag clicked
@@ -54,27 +54,27 @@ end
 
 \--- /task \---
 
-You may find that your petals are arranged in an odd way:
+Puede que encuentres que tus pétalos están organizados de una manera extraña:
 
-![screenshot](images/flower-6-offset.png)
+![captura de pantalla](images/flower-6-offset.png)
 
-This is because the sprite is being rotated around its centre.
+Esto se debe a que el objeto se está girando alrededor de su centro.
 
 \--- task \---
 
-Move your petal so its bottom is in the centre.
+Mueve tu pétalo para que su parte inferior quede en el centro.
 
-![screenshot](images/flower-crosshair-annotated.png)
+![captura de pantalla](images/flower-crosshair-annotated.png)
 
-Doing this may be easier if you zoom out.
+Hacer esto puede ser más fácil si alejas el zoom.
 
 \--- /task \---
 
-Before you run your code again, you should `erase all`{:class="block3extensions"} the sprites on the Stage to clear it.
+Antes de volver a ejecutar tu código, deberías `borrar todos`{:class="block3extensions"} los objetos en el área de trabajo para limpiarlo.
 
 \--- task \---
 
-Click on the `erase all` block in the Pen blocks section.
+Haz clic en el bloque `borrar todo` en la sección de bloques del Lápiz.
 
 ```blocks3
 erase all
@@ -84,10 +84,10 @@ erase all
 
 \--- task \---
 
-Run your code again to check that the flower's petals are straight now.
+Ejecuta tu código nuevamente para verificar que los pétalos de la flor ahora estén rectos.
 
-![screenshot](images/flower-6-straight.png)
+![captura de pantalla](images/flower-6-straight.png)
 
-If not, adjust the petal's position until its bottom in the centre.
+Si no es así, ajusta la posición del pétalo hasta su fondo este situado sobre el centro.
 
 \--- /task \---
