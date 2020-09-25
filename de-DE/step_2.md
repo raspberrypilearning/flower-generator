@@ -1,10 +1,10 @@
-## Generate a flower
+## Erstelle eine Blume
 
-First you're going to generate a flower that can be drawn on the Stage.
+Zuerst wirst du eine Blume erstellen, die auf der Bühne gezeichnet werden kann.
 
 \--- task \---
 
-Create a new Scratch project, and delete the cat sprite.
+Starte ein neues Scratch-Projekt und lösche die Katzen-Figur.
 
 [[[generic-scratch3-new-project]]]
 
@@ -12,7 +12,7 @@ Create a new Scratch project, and delete the cat sprite.
 
 \--- task \---
 
-Add the Pen extension to your project.
+Füge die Malstift-Erweiterung zu deinem Projekt hinzu.
 
 [[[generic-scratch3-add-pen-extension]]]
 
@@ -20,9 +20,9 @@ Add the Pen extension to your project.
 
 \--- task \---
 
-Now use the Paint tool to create a new sprite shaped like a flower petal.
+Verwende nun das Malwerkzeug, um eine neue Figur in Form eines Blütenblattes zu erstellen.
 
-Click on **Choose a sprite**, then click on **Paint** and rename the sprite 'Flower'.
+Klicke auf **Figur wählen**, klicke dann auf **Malen** und benenne die Figur in 'Blume' um.
 
 [[[generic-scratch3-draw-sprite]]]
 
@@ -30,19 +30,19 @@ Click on **Choose a sprite**, then click on **Paint** and rename the sprite 'Flo
 
 \--- task \---
 
-Use the Circle tool to draw a petal shape filled in orange.
+Verwende das Kreis-Werkzeug, um eine orange gefüllte Blütenblattform zu zeichnen.
 
-![screenshot](images/flower-petal.png)
+![Bildschirmfoto](images/flower-petal.png)
 
-Later, you will use code to add more colour.
+Später wirst du Code verwenden, um mehr Farben hinzuzufügen.
 
 \--- /task \---
 
 \--- task \---
 
-Add the following code to the Flower sprite to `stamp`{:class="block3extensions"} a flower with six equally rotated petals `when the green flag is clicked`{:class="block3control"}.
+Füge der Blumen-Figur folgenden Code hinzu, um eine Blume mit sechs gleichmäßig angeordneten Blütenblättern `abzudrucken`{:class="block3extensions"}, `wenn auf die grüne Flagge geklickt wird` {:class="block3control"}.
 
-![screenshot](images/flower-6-straight.png)
+![Bildschirmfoto](images/flower-6-straight.png)
 
 ```blocks3
 when green flag clicked
@@ -54,27 +54,27 @@ end
 
 \--- /task \---
 
-You may find that your petals are arranged in an odd way:
+Möglicherweise wirst du feststellen, dass deine Blütenblätter komisch angeordnet sind:
 
-![screenshot](images/flower-6-offset.png)
+![Bildschirmfoto](images/flower-6-offset.png)
 
-This is because the sprite is being rotated around its centre.
+Dies liegt daran, dass das Sprite um seine Mitte gedreht wird.
 
 \--- task \---
 
-Move your petal so its bottom is in the centre.
+Bewege dein Blütenblatt so, dass sich der untere Teil in der Mitte befindet.
 
-![screenshot](images/flower-crosshair-annotated.png)
+![Bildschirmfoto](images/flower-crosshair-annotated.png)
 
-Doing this may be easier if you zoom out.
+Das ist vielleicht einfacher, wenn du herauszoomst.
 
 \--- /task \---
 
-Before you run your code again, you should `erase all`{:class="block3extensions"} the sprites on the Stage to clear it.
+Bevor du deinen Code erneut ausführst, solltest du die Figuren auf der Bühne mit dem `lösche alles`{:class="block3extensions"}-Block entfernen.
 
 \--- task \---
 
-Click on the `erase all` block in the Pen blocks section.
+Klicke auf den `lösche alles`-Block im Block-Abschnitt Malstift.
 
 ```blocks3
 erase all
@@ -84,10 +84,10 @@ erase all
 
 \--- task \---
 
-Run your code again to check that the flower's petals are straight now.
+Führe dein Code erneut aus, um zu überprüfen, ob die Blütenblätter gerade sind.
 
-![screenshot](images/flower-6-straight.png)
+![Bildschirmfoto](images/flower-6-straight.png)
 
-If not, adjust the petal's position until its bottom in the centre.
+Wenn nicht, passe die Position des Blütenblatts an, bis der untere Teil in der Mitte ist.
 
 \--- /task \---
