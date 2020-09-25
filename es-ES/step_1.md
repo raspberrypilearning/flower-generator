@@ -1,20 +1,20 @@
 \--- no-print \---
 
-This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/flower-generator-scratch2).
+Esta la versión **Scratch 3** del proyecto. También hay una [versión del proyecto en Scratch 2](https://projects.raspberrypi.org/en/projects/flower-generator-scratch2).
 
 \--- /no-print \---
 
-## Introduction
+## Introducción
 
-You will create hundreds of flowers of different sizes, shapes, and colours.
+Crearás cientos de flores de diferentes tamaños, formas y colores.
 
-You can export the flower pictures and use them as wallpapers on your phone or computer, or as backdrops in other Scratch projects.
+Puedes exportar las fotos de flores y usarlas como fondos de pantalla en tu teléfono u ordenador, o como fondos en otros proyectos de Scratch.
 
-### What you will make
+### Lo que harás
 
 \--- no-print \---
 
-Press `f` to draw a few flowers, or `r` to draw lots of random flowers, or `p` to draw a flower pattern.
+Presiona `f` para dibujar algunas flores, o `r` para dibujar un montón de flores aleatorias, o `p` para dibujar un patrón de flores.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/253355932/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -24,45 +24,45 @@ Press `f` to draw a few flowers, or `r` to draw lots of random flowers, or `p` t
 
 \--- print-only \---
 
-![random flowers](images/flower-random.png)
+![flores aleatorias](images/flower-random.png)
 
 \--- /print-only \---
 
 ## \--- collapse \---
 
-## title: What you will need
+## title: Lo que necesitarás
 
 ### Hardware
 
-+ A computer capable of running Scratch 3
++ Un ordenador capaz de ejecutar Scratch 3
 
 ### Software
 
-+ Scratch 3 (either [online](https://rpf.io/scratch-on) or [offline](https://rpf.io/scratch-off))
++ Scratch 3 (ya sea [en línea](https://rpf.io/scratch-on) o [sin conexión](https://rpf.io/scratch-off))
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: What you will learn
+## title: Lo que aprenderás
 
-+ How to stamp a sprite 
-+ How to make your own Scratch blocks
-+ How to use block inputs 
-+ How to create random numbers 
++ Cómo estampar un objeto 
++ Cómo hacer tus propios bloques de Scratch
++ Cómo usar bloques de entrada 
++ Cómo crear números aleatorios 
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: Additional notes for educators
+## title: Información adicional para educadores
 
 \--- no-print \---
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/flower-generator/print){:target="_blank"}.
+Si necesitas imprimir este proyecto, usa la [versión para imprimir](https://projects.raspberrypi.org/en/projects/flower-generator/print){:target="_blank"}.
 
 \--- /no-print \---
 
-You can find the [completed project here](http://rpf.io/p/en/flower-generator-get){:target="_blank"}.
+Puedes encontrar el [ proyecto completo aquí](http://rpf.io/p/en/flower-generator-get){:target ="_blank"}.
 
 \--- /collapse \---
