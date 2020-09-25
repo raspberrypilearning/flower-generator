@@ -1,18 +1,18 @@
-## Make a custom block to draw flowers
+## Erstelle einen eigenen Block, um Blumen zu zeichnen
 
-What if you want to draw lots of flowers? Instead of making lots of copies of the code, you will create your own block in Scratch and use it every time you want to draw a flower.
+Was ist, wenn du viele Blumen zeichnen möchtest? Anstatt viele Kopien des Codes zu erstellen, wirst du einen eigenen Block in Scratch erstellen und ihn jedes Mal, wenn du eine Blume zeichnen möchtest, verwenden.
 
 \--- task \---
 
-Click on **My Blocks** and then on **Make a Block** to create your own block called 'draw flower'.
+Klicke auf **Meine Blöcke** und dann auf **Neuer Block**, um deinen eigenen Block namens 'Blume zeichnen' zu erstellen.
 
-![screenshot](images/flower-make-block.png)
+![Bildschirmfoto](images/flower-make-block.png)
 
 \--- /task \---
 
 \--- task \---
 
-There is now a new block called `draw flower`{:class="block3myblocks"} in the **More blocks** section, and a new definition block on the Stage.
+Es gibt jetzt einen neuen Block namens `Blume zeichnen`{:class="block3myblocks"} im **Mehr-Blöcke**-Abschnitt und einen neuen Definitionsblock auf der Bühne.
 
 ```blocks3
 draw flower :: custom
@@ -24,11 +24,11 @@ define draw flower
 
 \--- task \---
 
-Move your code for drawing the flower from the `when green flag clicked`{:class="block3events"} block to the new `draw flower`{:class="block3myblocks"} definition block.
+Verschiebe deinen Code zum Zeichnen der Blume von `Wenn die grüne Flagge angeklickt wird`{:class="block3events"} zu dem neuen `Blume zeichnen`{:class="block3myblocks"}-Definitionsblock.
 
-Your code should look like this:
+Dein Code sollte so aussehen:
 
-![flower sprite](images/flower-sprite.png)
+![Blumen-Figur](images/flower-sprite.png)
 
 ```blocks3
 define draw flower
@@ -44,9 +44,9 @@ when green flag clicked
 
 \--- task \---
 
-Add the following code to clear the Stage and to use your new `draw flower`{:class="block3myblocks"} block when the green flag is clicked:
+Füge folgenden Code hinzu, um die Bühne zu löschen und deinen neuen `Blume zeichnen`{:class="block3myblocks"}-Block zu verwenden, wenn die grüne Flagge angeklickt wird:
 
-![flower sprite](images/flower-sprite.png)
+![Blumen-Figur](images/flower-sprite.png)
 
 ```blocks3
 when green flag clicked
@@ -58,15 +58,15 @@ draw flower :: custom
 
 \--- task \---
 
-Click the green flag to test your code and check whether you see a flower.
+Klicke auf die grüne Flagge, um deinen Code zu testen und zu überprüfen, ob du eine Blume siehst.
 
 \--- /task \---
 
 \--- task \---
 
-Now change your code to move the sprite and then draw another flower:
+Ändere nun deinen Code, um die Figur zu verschieben, und zeichne dann eine weitere Blume:
 
-![flower sprite](images/flower-sprite.png)
+![Blumen-Figur](images/flower-sprite.png)
 
 ```blocks3
 when green flag clicked
@@ -81,8 +81,8 @@ draw flower :: custom
 
 \--- task \---
 
-Test your code to check that you now see two flowers.
+Teste deinen Code, um sicherzustellen, dass du jetzt zwei Blumen siehst.
 
-![screenshot](images/flower-two.png)
+![Bildschirmfoto](images/flower-two.png)
 
 \--- /task \---
