@@ -1,14 +1,14 @@
-## Random flower generator
+## Zufälliger Blumengenerator
 
-You will now use your `draw flower`{:class="block3myblocks"} block to create a hundred random flowers all over the Stage whenever you press the <kbd>r</kbd>.
+Du wirst nun deinen `Blume zeichnen`{:class="block3myblocks"}-Block benutzen, um hundert zufällige Blumen auf der gesamten Bühne zu erstellen, wann immer du <kbd>r</kbd> drückst.
 
-![random flowers](images/flower-random.png)
+![zufällige Blumen](images/flower-random.png)
 
 \--- task \---
 
-Add a new Event block to your sprite's code so that `when the r key is pressed`{:class="block3events"}, the screen is `cleared`{:class="block3extensions"}.
+Füge deinem Code der Figur einen neuen Event-Block hinzu, so dass `Wenn Taste f gedrückt wird`{:class="block3events"}, der Bildschirm `geleert`{:class="block3extensions"} ist.
 
-![flower sprite](images/flower-sprite.png)
+![Blumen-Figur](images/flower-sprite.png)
 
 ```blocks3
 when [r v] key pressed
@@ -19,9 +19,9 @@ erase all
 
 \--- task \---
 
-Add in a `repeat`{:class="block3control"} block to go to a `random position`{:class="block3motion"} `100` times.
+Füge einen `Wiederhole 100 mal`{:class="block3control"}-Block ein, um zu einer `Zufallsposition zu gehen`{:class="block3motion"}.
 
-![flower sprite](images/flower-sprite.png)
+![Blumen-Figur](images/flower-sprite.png)
 
 ```blocks3
 repeat (100)
@@ -33,11 +33,11 @@ end
 
 \--- task \---
 
-Use the `draw flower`{:class="block3myblocks"} block to create a flower that has a `random`{:class="block3operators"} colour between `0` and `199`.
+Verwende den `Blume zeichnen`{:class="block3myblocks"}-Block, um eine Blume zu erstellen, die eine `zufällige`{:class="block3operators"} Farbe zwischen `0` und `199` hat.
 
-You code should now look like this:
+Dein Code sollte jetzt so aussehen:
 
-![flower sprite](images/flower-sprite.png)
+![Blumen-Figur](images/flower-sprite.png)
 
 ```blocks3
 when [r v] key pressed
@@ -50,59 +50,59 @@ end
 
 \--- /task \---
 
-This code creates one hundred flowers with different colours but with the same size and numbers of petals.
+Dieser Code erzeugt hundert Blumen mit unterschiedlichen Farben, aber mit der gleichen Größe und Anzahl von Blüten.
 
-![flowers just with random colours](images/flower-random-colour.png)
+![Blumen mit zufälligen Farben](images/flower-random-colour.png)
 
 \--- task \---
 
-Can you modify the `when the r key is pressed`{:class="block3events"} script so the flowers' size and number of petals are also random?
+Kannst du das `Wenn Taste r gedrückt wird`{:class="block3events"}-Skript ändern, sodass die Größe und Anzahl der Blütenblätter ebenfalls zufällig sind?
 
 \--- hints \---
 
 \--- hint \---
 
-The `draw flower`{:class="block3myblocks"} block should `pick random`{:class="block3operators"} numbers for the size and number of petals.
+Der `Blume zeichnen`{:class="block3myblocks"}-Block sollte `zufällig`{:class="block3operators"} die Anzahl und Größe der Blütenblätter wählen.
 
 \--- /hint \---
 
 \--- hint \---
 
-The following blocks pick a random size between `50` and `150` and a random number of petals between `4` and `12`.
+Die folgenden Blöcke wählen eine zufällige Größe zwischen `50` und `150` und eine zufällige Anzahl an Blütenblättern zwischen `4` und `12`.
 
-![flower sprite](images/flower-sprite.png)
+![Blumen-Figur](images/flower-sprite.png)
 
 ```blocks3
-(pick random (50) to (150))
+(Zufallszahl von (50) bis (150))
 
-(pick random (4) to (12))
+(Zufallszahl von (4) bis (12))
 ```
 
 \--- /hint \---
 
 \--- hint \---
 
-Your code should look like this:
+Dein Code sollte so aussehen:
 
-![flower sprite](images/flower-sprite.png)
+![Blumen-Figur](images/flower-sprite.png)
 
 ```blocks3
-when [r v] key pressed
-erase all
-repeat (100) 
-  go to (random position v)
-  draw flower (pick random (0) to (199)) (pick random (50) to (150)) (pick random (4) to (12)) :: custom
+Wenn Taste  [r v] gedrückt wird
+lösche alles
+wiederhole (100) mal 
+  gehe zu (Zufallsposition v)
+  Blume zeichnen (Zufallszahl von (0) bis (199)) (Zufallszahl von (50) bis (150)) (Zufallszahl von (4) bis (12)) :: custom
 end
 ```
 
 \--- /hint \---
 
-\--- /hints \---
+\---/hints\---
 
 \--- /task \---
 
 \--- task \---
 
-Press <kbd>r</kbd> to see your random flowers.
+Drücke <kbd>r</kbd>, um deine zufälligen Blume zu sehen.
 
 \--- /task \---
