@@ -1,19 +1,19 @@
-flower
+Blume
 
-costume1
+Kostüm1
 
-costume2
+Kostüm2
 
-draw flower
+Blume zeichnen
 
-draw double flower
+Doppel-Blume zeichnen
 
-colour
+Farbe
 
-petals
+Blütenblätter
 
-size
+Größe
 
-outer colour
+äußere Farbe
 
-inner colour
+innere Farbe
