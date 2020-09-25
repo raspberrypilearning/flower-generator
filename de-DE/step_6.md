@@ -1,15 +1,15 @@
-## Save your images
+## Speichere deine Bilder
 
-When you create an image you like, you can save it and use it in another Scratch project, as a screensaver, or on a website.
+Wenn du ein Bild erstellst, das dir gefällt, kannst du es speichern und in einem anderen Scratch-Projekt als Bildschirmschoner oder auf einer Website verwenden.
 
 \--- task \---
 
-When there is an image on the Stage that you like, right-click it and then click on **save image as**
+Wenn es ein Bild auf der Bühne gibt, das dir gefällt, dann klicke mit der rechten Maustaste und dann klicke auf **Bild speichern unter**
 
-**Note:** on some computers or browsers, the menu option for saving your image may be named differently.
+**Hinweis:** Auf einigen Computern oder Browsern kann die Menüoption zum Speichern deines Bildes anders benannt sein.
 
-![screenshot](images/flower-save-stage.png)
+![Bildschirmfoto](images/flower-save-stage.png)
 
-Then you can save a PNG image of the Stage.
+Dann kannst du ein PNG-Bild der Bühne speichern.
 
 \--- /task \---
