@@ -1,18 +1,18 @@
-## Make a custom block to draw flowers
+## Haz un bloque personalizado para dibujar flores
 
-What if you want to draw lots of flowers? Instead of making lots of copies of the code, you will create your own block in Scratch and use it every time you want to draw a flower.
+¿Qué pasa si quieres dibujar un montón de flores? En lugar de hacer muchas copias del código, crearás tu propio bloque en Scratch y lo usarás cada vez que quieras dibujar una flor.
 
 \--- task \---
 
-Click on **My Blocks** and then on **Make a Block** to create your own block called 'draw flower'.
+Haz clic en **Mis bloques** y luego en **Crear un bloque** para crear tu propio bloque llamado 'dibuja una flor'.
 
-![screenshot](images/flower-make-block.png)
+![captura de pantalla](images/flower-make-block.png)
 
 \--- /task \---
 
 \--- task \---
 
-There is now a new block called `draw flower`{:class="block3myblocks"} in the **More blocks** section, and a new definition block on the Stage.
+Ahora hay un nuevo bloque llamado `dibuja una flor`{:class="block3myblocks"} en la sección **Mis bloques**, y un nuevo bloque de definición en el área de trabajo.
 
 ```blocks3
 draw flower :: custom
@@ -24,11 +24,11 @@ define draw flower
 
 \--- task \---
 
-Move your code for drawing the flower from the `when green flag clicked`{:class="block3events"} block to the new `draw flower`{:class="block3myblocks"} definition block.
+Mueve tu código para dibujar una flor desde el bloque `al hacer clic en la bandera verde`{:class="block3events"} al nuevo bloque `dibuja una flor`{:class="block3myblocks"}.
 
-Your code should look like this:
+Tu código debe parecerse a esto:
 
-![flower sprite](images/flower-sprite.png)
+![objeto de flores](images/flower-sprite.png)
 
 ```blocks3
 define draw flower
@@ -44,9 +44,9 @@ when green flag clicked
 
 \--- task \---
 
-Add the following code to clear the Stage and to use your new `draw flower`{:class="block3myblocks"} block when the green flag is clicked:
+Añade el siguiente código para limpiar el Escenario y usar tu nuevo bloque `dibuja una flor`{:class="block3myblocks"} cuando se haga clic en la bandera verde:
 
-![flower sprite](images/flower-sprite.png)
+![objeto de flores](images/flower-sprite.png)
 
 ```blocks3
 when green flag clicked
@@ -58,15 +58,15 @@ draw flower :: custom
 
 \--- task \---
 
-Click the green flag to test your code and check whether you see a flower.
+Haz clic en la bandera verde para probar tu código y comprobar si ves una flor.
 
 \--- /task \---
 
 \--- task \---
 
-Now change your code to move the sprite and then draw another flower:
+Ahora cambia tu código para mover el objeto y luego dibuja otra flor:
 
-![flower sprite](images/flower-sprite.png)
+![objeto de flores](images/flower-sprite.png)
 
 ```blocks3
 when green flag clicked
@@ -81,8 +81,8 @@ draw flower :: custom
 
 \--- task \---
 
-Test your code to check that you now see two flowers.
+Prueba tu código para comprobar que ahora ves dos flores.
 
-![screenshot](images/flower-two.png)
+![captura de pantalla](images/flower-two.png)
 
 \--- /task \---
