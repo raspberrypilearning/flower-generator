@@ -66,6 +66,6 @@ title: Πρόσθετες σημειώσεις για εκπαιδευτικού
 
 --- /no-print ---
 
-Μπορείς να βρεις το [ολοκληρωμένο έργο εδώ](http://rpf.io/p/el-GR/flower-generator-get){:target="_blank"}.
+Μπορείς να βρεις το [ολοκληρωμένο έργο εδώ](https://rpf.io/p/el-GR/flower-generator-get){:target="_blank"}.
 
 --- /collapse ---

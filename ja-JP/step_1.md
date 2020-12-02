@@ -66,6 +66,6 @@ title: 教育者向けの追加情報
 
 --- /no-print ---
 
-[完成したプロジェクトはこちらに](http://rpf.io/p/ja-JP/flower-generator-get){:target="_blank"}あります 。
+[完成したプロジェクトはこちらに](https://rpf.io/p/ja-JP/flower-generator-get){:target="_blank"}あります 。
 
 --- /collapse ---

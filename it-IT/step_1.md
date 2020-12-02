@@ -66,6 +66,6 @@ Se hai bisogno di stampare questo progetto, usa la [versione stampabile](https:/
 
 --- /no-print ---
 
-Puoi trovare il [progetto completo qui](http://rpf.io/p/it-IT/flower-generator-get){:target="_blank"}.
+Puoi trovare il [progetto completo qui](https://rpf.io/p/it-IT/flower-generator-get){:target="_blank"}.
 
 --- /collapse ---

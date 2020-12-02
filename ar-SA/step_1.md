@@ -66,6 +66,6 @@ title: ملاحظات إضافية للمعلمين
 
 --- /no-print ---
 
-يمكنك الحصول على [المشروع كاملاً من هنا](http://rpf.io/p/ar-SA/flower-generator-get){:target="_blank"}.
+يمكنك الحصول على [المشروع كاملاً من هنا](https://rpf.io/p/ar-SA/flower-generator-get){:target="_blank"}.
 
 --- /collapse ---
