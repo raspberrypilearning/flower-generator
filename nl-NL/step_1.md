@@ -66,6 +66,6 @@ Als je dit project wilt afdrukken, gebruik dan de [printervriendelijke versie](h
 
 --- /no-print ---
 
-Je kunt het [voltooide project hier](http://rpf.io/p/nl-NL/flower-generator-get){:target="_blank"} vinden.
+Je kunt het [voltooide project hier](https://rpf.io/p/nl-NL/flower-generator-get){:target="_blank"} vinden.
 
 --- /collapse ---

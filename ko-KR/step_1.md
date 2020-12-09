@@ -66,6 +66,6 @@ title: 교사를 위한 추가 노트
 
 --- /no-print ---
 
-여기서 찾을 수 있습니다 [완료된 프로젝트](http://rpf.io/p/ko-KR/flower-generator-get){:target="_blank"}.
+여기서 찾을 수 있습니다 [완료된 프로젝트](https://rpf.io/p/ko-KR/flower-generator-get){:target="_blank"}.
 
 --- /collapse ---

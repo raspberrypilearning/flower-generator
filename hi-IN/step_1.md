@@ -65,6 +65,6 @@ title: शिक्षकों के लिए अतिरिक्त नो
 
 --- /no-print ---
 
-आप यहां [पूरा किया हुआ प्रोजेक्ट](http://rpf.io/p/hi-IN/flower-generator-get){:target="_blank"} पा सकते हैं I
+आप यहां [पूरा किया हुआ प्रोजेक्ट](https://rpf.io/p/hi-IN/flower-generator-get){:target="_blank"} पा सकते हैं I
 
 --- /collapse ---

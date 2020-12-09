@@ -66,6 +66,6 @@ title: Додаткова інформація для викладачів
 
 --- /no-print ---
 
-Ви можете знайти [завершений проєкт тут](http://rpf.io/p/uk-UA/flower-generator-get){:target="_blank"}.
+Ви можете знайти [завершений проєкт тут](https://rpf.io/p/uk-UA/flower-generator-get){:target="_blank"}.
 
 --- /collapse ---
