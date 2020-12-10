@@ -1,10 +1,10 @@
-## Generate a flower
+## Создание цветка
 
-First you're going to generate a flower that can be drawn on the Stage.
+Сначала ты создашь цветок, который можно нарисовать на сцене.
 
 \--- task \---
 
-Create a new Scratch project, and delete the cat sprite.
+Создай новый проект Scratch и удали спрайт кота.
 
 [[[generic-scratch3-new-project]]]
 
@@ -12,7 +12,7 @@ Create a new Scratch project, and delete the cat sprite.
 
 \--- task \---
 
-Add the Pen extension to your project.
+Добавь расширение Перо в твой проект.
 
 [[[generic-scratch3-add-pen-extension]]]
 
@@ -20,9 +20,9 @@ Add the Pen extension to your project.
 
 \--- task \---
 
-Now use the Paint tool to create a new sprite shaped like a flower petal.
+Теперь воспользуемся инструментом Нарисовать, чтобы создать новый спрайт-лепесток цветка.
 
-Click on **Choose a sprite**, then click on **Paint** and rename the sprite 'Flower'.
+Нажми на **Выбрать спрайт**, затем нажми **Нарисовать** и переименуй спрайт в «Цветок».
 
 [[[generic-scratch3-draw-sprite]]]
 
@@ -30,64 +30,64 @@ Click on **Choose a sprite**, then click on **Paint** and rename the sprite 'Flo
 
 \--- task \---
 
-Use the Circle tool to draw a petal shape filled in orange.
+Используй инструмент Круг, чтобы нарисовать форму лепестка, залитого оранжевым цветом.
 
-![screenshot](images/flower-petal.png)
+![снимок экрана](images/flower-petal.png)
 
-Later, you will use code to add more colour.
+Позже ты добавишь больше цветов с помощью кода.
 
 \--- /task \---
 
 \--- task \---
 
-Add the following code to the Flower sprite to `stamp`{:class="block3extensions"} a flower with six equally rotated petals `when the green flag is clicked`{:class="block3control"}.
+Добавь следующий код к спрайту цветка, чтобы `напечатать`{:class="block3extensions"} цветок с шестью одинаково повернутыми лепестками `когда флаг нажат`{:class="block3control"}.
 
-![screenshot](images/flower-6-straight.png)
+![скриншот](images/flower-6-straight.png)
 
 ```blocks3
-when green flag clicked
-repeat (6) 
-  stamp
-  turn cw (60) degrees
+когда щёлкнут по зелёному флагу
+повторить (6) раз 
+  печать
+  повернуть вправо на (60) градусов
 end
 ```
 
 \--- /task \---
 
-You may find that your petals are arranged in an odd way:
+Лепестки могут странно расположиться:
 
-![screenshot](images/flower-6-offset.png)
+![скриншот](images/flower-6-offset.png)
 
-This is because the sprite is being rotated around its centre.
+Это потому, что спрайт вращается вокруг своего центра.
 
 \--- task \---
 
-Move your petal so its bottom is in the centre.
+Перемести лепесток так, чтобы его основание было в центре.
 
-![screenshot](images/flower-crosshair-annotated.png)
+![скриншот](images/flower-crosshair-annotated.png)
 
-Doing this may be easier if you zoom out.
+Сделать это можно удобнее, уменьшив масштаб.
 
 \--- /task \---
 
-Before you run your code again, you should `erase all`{:class="block3extensions"} the sprites on the Stage to clear it.
+Перед повторным запуском кода ты должен `стереть все`{:class="block3extensions"} спрайты на Сцене.
 
 \--- task \---
 
-Click on the `erase all` block in the Pen blocks section.
+Нажми на блок `стереть всё` в разделе блоков Перо.
 
 ```blocks3
-erase all
+стереть всё
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Run your code again to check that the flower's petals are straight now.
+Запусти свой код еще раз, чтобы проверить, что лепестки цветка расположены правильно.
 
-![screenshot](images/flower-6-straight.png)
+![скриншот](images/flower-6-straight.png)
 
-If not, adjust the petal's position until its bottom in the centre.
+Если нет, отрегулируй положение лепестка так, чтобы его основание было в центре.
 
 \--- /task \---
