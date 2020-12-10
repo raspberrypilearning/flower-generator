@@ -73,9 +73,9 @@ end
 ![αντικείμενο λουλούδι](images/flower-sprite.png)
 
 ```blocks3
-(επιλέξτε τυχαία (50) έως (150))
+(pick random (50) to (150))
 
-(επιλέξτε τυχαία (4) έως (12))
+(pick random (4) to (12))
 ```
 
 \--- /hint \---
@@ -87,11 +87,11 @@ end
 ![αντικείμενο λουλούδι](images/flower-sprite.png)
 
 ```blocks3
-όταν πατηθεί πλήκτρο [r v]
-καθάρισε (τα) όλα
-επανάλαβε (100) 
-  πήγαινε σε (τυχαία θέση v)
-  ζωγράφισε λουλούδι (επίλεξε τυχαίο (0) έως (199)) (επίλεξε τυχαίο (50) έως (150)) (επίλεξε τυχαίο (4) έως (12)) :: custom
+when [r v] key pressed
+erase all
+repeat (100) 
+  go to (random position v)
+  draw flower (pick random (0) to (199)) (pick random (50) to (150)) (pick random (4) to (12)) :: custom
 end
 ```
 
