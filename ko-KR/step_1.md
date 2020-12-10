@@ -63,6 +63,6 @@
 
 \--- /no-print \---
 
-여기서 찾을 수 있습니다 [완료된 프로젝트](http://rpf.io/p/en/flower-generator-get){:target="_blank"}.
+You can find the [completed project here](https://rpf.io/p/en/flower-generator-get){:target="_blank"}.
 
 \--- /collapse \---
