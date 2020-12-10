@@ -207,7 +207,7 @@ Die Gradanzahl, um die die Blumen-Figur `sich drehen`{:class="block3looks"} soll
 
 Ändere deinen `Definiere Blume zeichnen`{:class="block3myblocks"}-Block, damit er so aussieht:
 
-![flower sprite](images/flower-sprite.png)
+![Blumen-Figur](images/flower-sprite.png)
 
 ```blocks3
 define draw flower (colour) (size :: custom-arg) (petals)
@@ -234,7 +234,7 @@ draw flower (150) (50) (8) :: custom
 
 Bearbeite deinen `Definiere Blume zeichnen`{:class="block3myblocks"}-Block und füge eine neue Zahleneingabe namens 'Blütenblätter' hinzu.
 
-![flower sprite](images/flower-sprite.png)
+![Blumen-Figur](images/flower-sprite.png)
 
 Dein Code sollte so aussehen:
 
@@ -272,7 +272,7 @@ Bearbeite anschließend deinen Code, damit due verschiedene Blumen zeichnen kann
 
 Bewege nun deinen Code zum Zeichnen von Blumen weg vom `Wenn grüne Flagge angeklickt wird`{:class="block3events"}-Block und setze ihn unter den `Wenn Taste f gedrückt wird`{:class="block3events"}-Block.
 
-![flower sprite](images/flower-sprite.png)
+![Blumen-Figur](images/flower-sprite.png)
 
 ```blocks3
 when green flag clicked
