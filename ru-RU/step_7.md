@@ -1,31 +1,31 @@
-## Random flower generator
+## Генератор случайных цветов
 
-You will now use your `draw flower`{:class="block3myblocks"} block to create a hundred random flowers all over the Stage whenever you press the <kbd>r</kbd>.
+Теперь мы будем использовать блок `нарисовать цветок`{:class="block3myblocks"}, чтобы создать сотню случайных цветов по всей Сцене, при нажатии <kbd>r</kbd>.
 
-![random flowers](images/flower-random.png)
+![случайные цветы](images/flower-random.png)
 
 \--- task \---
 
-Add a new Event block to your sprite's code so that `when the r key is pressed`{:class="block3events"}, the screen is `cleared`{:class="block3extensions"}.
+Добавь новый блок события в код твоего спрайта так, чтобы `когда клавиша r нажата`{:class="block3events"}, все `стиралось`{:class="block3extensions"} с экрана.
 
-![flower sprite](images/flower-sprite.png)
+![спрайт цветка](images/flower-sprite.png)
 
 ```blocks3
-when [r v] key pressed
-erase all
+когда клавиша [r v] нажата
+стереть всё
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Add in a `repeat`{:class="block3control"} block to go to a `random position`{:class="block3motion"} `100` times.
+Добавь блок `повторить`{:class="block3control"}, чтобы перейти на `случайную позицию`{:class="block3motion"} `100` раз.
 
-![flower sprite](images/flower-sprite.png)
+![спрайт цветка](images/flower-sprite.png)
 
 ```blocks3
-repeat (100)
-  go to (random position v)
+повторить (100) раз 
+  перейти на (случайное положение v)
 end
 ```
 
@@ -33,65 +33,66 @@ end
 
 \--- task \---
 
-Use the `draw flower`{:class="block3myblocks"} block to create a flower that has a `random`{:class="block3operators"} colour between `0` and `199`.
+Используй блок `нарисовать цветок`{:class="block3myblocks"}, чтобы создать цветок, который будет `случайной`{:class="block3operators"} расцветки от `0` до `199`.
 
-You code should now look like this:
+Твой код должен выглядеть так:
 
-![flower sprite](images/flower-sprite.png)
+![спрайт цветка](images/flower-sprite.png)
 
 ```blocks3
-when [r v] key pressed
-erase all
-repeat (100) 
-  go to (random position v)
-  draw flower (pick random (0) to (199)) (100) (12) :: custom
-end
+когда клавиша [r v] нажата
+стереть всё
+повторить (100) раз 
+  перейти на (случайное положение v)
+  draw flower (выдать случайное от (0) до (199)) (100) (12) :: custom
+утв
 ```
 
 \--- /task \---
 
-This code creates one hundred flowers with different colours but with the same size and numbers of petals.
+Код создаст сотню цветов разных расцветок, но одинакового размера и с одинаковым количеством лепестков.
 
-![flowers just with random colours](images/flower-random-colour.png)
+![цветы только случайной расцветки](images/flower-random-colour.png)
 
 \--- task \---
 
-Can you modify the `when the r key is pressed`{:class="block3events"} script so the flowers' size and number of petals are also random?
+Можешь ли ты изменить скрипт `когда клавиша [r v] нажата`{:class="block3events"} так, чтобы размер цветов и количество лепестков также были случайными?
 
 \--- hints \---
 
 \--- hint \---
 
-The `draw flower`{:class="block3myblocks"} block should `pick random`{:class="block3operators"} numbers for the size and number of petals.
+Блок `нарисовать цветок`{:class="block3myblocks"} должен `выбрать случайные`{:class="block3operators"} числа для размера и количества лепестков.
 
 \--- /hint \---
 
 \--- hint \---
 
-The following blocks pick a random size between `50` and `150` and a random number of petals between `4` and `12`.
+С помощью следующих блоков выбирается случайный размер между `50` и `150` и случайное количество лепестков между `4` и `12`.
 
-![flower sprite](images/flower-sprite.png)
+![спрайт цветка](images/flower-sprite.png)
 
 ```blocks3
-(pick random (50) to (150))
+(выдать случайное от (50) до (150))
 
-(pick random (4) to (12))
+(выдать случайное от (4) до (12))
 ```
 
 \--- /hint \---
 
 \--- hint \---
 
-Your code should look like this:
+Твой код должен выглядеть вот так:
 
-![flower sprite](images/flower-sprite.png)
+![спрайт цветка](images/flower-sprite.png)
 
 ```blocks3
-when [r v] key pressed
-erase all
-repeat (100) 
-  go to (random position v)
-  draw flower (pick random (0) to (199)) (pick random (50) to (150)) (pick random (4) to (12)) :: custom
+когда клавиша [r v] нажата
+стереть всё
+повторить (100) раз 
+  перейти на (случайное положение v)
+  нарисовать цветок  (выдать случайное от (90) до (199))
+(выдать случайное от (4) до (12)) :: custom
 end
 ```
 
@@ -103,6 +104,6 @@ end
 
 \--- task \---
 
-Press <kbd>r</kbd> to see your random flowers.
+Нажми <kbd>r</kbd>, чтобы увидеть случайные цветы.
 
 \--- /task \---
