@@ -63,6 +63,6 @@ Wenn du dieses Projekt ausdrucken möchtest, verwende die [druckerfreundliche Ve
 
 \--- /no-print \---
 
-Du findest das [abgeschlossene Projekt hier](http://rpf.io/p/en/flower-generator-get){:target="_blank"}.
+You can find the [completed project here](https://rpf.io/p/en/flower-generator-get){:target="_blank"}.
 
 \--- /collapse \---
