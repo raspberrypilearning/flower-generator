@@ -1,7 +1,7 @@
 ---
-title: Flower generator
+title: Генератор цветов
 hero_image: images/banner.png
-description: Generate flowers to create a patterned backdrop image or screensaver
+description: Генерируй цветы, чтобы создать изображение с узором, которое ты сможешь использовать как фон или заставку
 duration: 2
 listed: true
 copyedit: true
@@ -9,24 +9,24 @@ version: 4.1.0
 last_tested: 2018-10-18
 steps:
   - 
-    title: Introduction
+    title: Введение
   - 
-    title: Generate a flower
+    title: Создай цветок
   - 
-    title: Make a custom block to draw flowers
+    title: Создай пользовательский блок, чтобы нарисовать цветы
   - 
-    title: Customise your flowers
+    title: Отредактируй цветы
   - 
-    title: "Challenge: create a flower design"
+    title: "Задача: создать цветочный рисунок"
     challenge: true
   - 
-    title: Save your images
+    title: Сохрани изображения
   - 
-    title: Random flower generator
+    title: Генератор случайных цветов
   - 
-    title: Flower patterns
+    title: Цветочные узоры
   - 
-    title: "Challenge: custom flower blocks"
+    title: "Задача: пользовательские блоки цветов"
     challenge: true
   - 
-    title: What next?
+    title: Что дальше?
