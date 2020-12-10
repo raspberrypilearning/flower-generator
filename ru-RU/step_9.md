@@ -1,30 +1,30 @@
-## Challenge: custom flower blocks
+## Задание: пользовательские блоки цветов
 
-These flowers all have the same number of outer and inner petals, and the size of the inner flower is in proportion to the outer flower:
+Все цветы имеют одинаковое количество внешних и внутренних лепестков, а размер внутреннего цветка пропорционален внешнему цветку:
 
-![screenshot](images/flower-double-flowers.png)
+![скриншот](images/flower-double-flowers.png)
 
-You can create flowers like this with the help of a `draw double flower`{:class="block3myblocks"} custom block that has inputs for `outer colour`, `inner colour`, and `size`:
-
-```blocks3
-define draw double flower (outer colour) (inner colour) (size :: custom-arg)
-draw flower (outer colour :: custom-arg) (size :: custom-arg) (12) :: custom
-draw flower (inner colour :: custom-arg) ((size :: custom-arg) / (2)) (20) :: custom
-```
-
-The `draw double flower`{:class="block3myblocks"} block can draw lots of flowers in the same style:
+Ты можешь создать такие цветы с помощью пользовательского блока `нарисовать двойной цветок`{:class="block3myblocks"}, у которого есть входные данные `внешний цвет`, `внутренний цвет` и `размер`:
 
 ```blocks3
-when [d v] key pressed
-erase all
-go to x: (-100) y: (0)
-draw double flower (160) (120) (100) :: custom
-change x by (100)
-draw double flower (120) (140) (75) :: custom
-change x by (75)
-draw double flower (140) (160) (50) :: custom
+определить нарисовать двойной цветок (внешний цвет) (внутренний цвет) (размер :: custom-arg)
+нарисовать цветок (внешний цвет :: custom-arg) (размер :: custom-arg) (12) :: custom
+нарисовать цветок (внутренний цвет :: custom-arg) (размер :: custom-arg) / (2)) (20) :: custom
 ```
 
-Make a new custom block with the necessary inputs that you need to be able to change to create a type of flower that you like.
+Блок `нарисовать двойной цветок`{:class="block3myblocks"} может нарисовать много цветов в одном стиле:
 
-Then use your new block to create a cool design!
+```blocks3
+когда клавиша [d v] нажата
+стереть всё
+перейти в x: (-100) y: (0)
+нарисовать двойной цветок (160) (120) (100) :: custom
+изменить x на (100)
+нарисовать двойной цветок (120) (140) (75) :: custom
+изменить x на (75)
+нарисовать двойной цветок(140) (160) (50) :: custom
+```
+
+Создай новый пользовательский блок с необходимыми входными данными, которые нужно изменить, чтобы создать тип цветка, который тебе нравится.
+
+Затем используй новый блок, чтобы создать крутой дизайн!
