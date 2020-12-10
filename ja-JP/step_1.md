@@ -63,6 +63,6 @@
 
 \--- /no-print \---
 
-[完成したプロジェクトはこちらに](http://rpf.io/p/ja-JP/flower-generator-get){:target="_blank"}あります 。
+You can find the [completed project here](https://rpf.io/p/en/flower-generator-get){:target="_blank"}.
 
 \--- /collapse \---
