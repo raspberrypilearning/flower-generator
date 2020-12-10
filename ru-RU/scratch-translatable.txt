@@ -1,19 +1,19 @@
-flower
+цветок
 
-costume1
+костюм1
 
-costume2
+костюм2
 
-draw flower
+нарисовать цветок
 
-draw double flower
+нарисовать двойной цветок
 
-colour
+цвет
 
-petals
+лепестки
 
-size
+размер
 
-outer colour
+внешний цвет
 
-inner colour
+внутренний цвет
