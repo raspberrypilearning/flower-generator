@@ -63,6 +63,6 @@
 
 \--- /no-print \---
 
-You can find the [completed project here](https://rpf.io/p/en/flower-generator-get){:target="_blank"}.
+Здесь ты можешь найти [завершённый проект](https://rpf.io/p/en/flower-generator-get){:target="_blank"}.
 
 \--- /collapse \---
