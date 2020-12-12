@@ -12,7 +12,7 @@ Haz clic en **Mis Bloques** y luego en **Crea un Bloque** para crear tu propio b
 
 \--- task \---
 
-Ahora hay un nuevo bloque llamado `dibujar flor` {:class = "block3myblocks"} en la sección **Más bloques** y un nuevo bloque de definición en el escenario.
+Ahora hay un nuevo bloque llamado `dibuja flor` {:class = "block3myblocks"} en la sección **Más bloques** y un nuevo bloque de definición en el escenario.
 
 ```blocks3
 draw flower :: custom
@@ -24,7 +24,7 @@ define draw flower
 
 \--- task \---
 
-Mueve tu código para dibujar la flor desde el bloque `cuando hagas clic en la bandera verde`{:class="block3events"} al nuevo bloque `dibuja la flor`{:class="block3myblocks"} bloque de definición.
+Mueve tu código para dibujar la flor desde el bloque `al presionar ⚑`{:class="block3events"} al nuevo bloque `dibuja flor`{:class="block3myblocks"} bloque de definición.
 
 Tu código debería verse así:
 
@@ -44,7 +44,7 @@ when green flag clicked
 
 \--- task \---
 
-Añade el siguiente código para limpiar el Escenario y usar tu nuevo bloque `dibujar flor`{:class="block3myblocks"} cuando se haga clic en la bandera verde:
+Añade el siguiente código para limpiar el Escenario y usar tu nuevo bloque `dibuja flor`{:class="block3myblocks"} cuando se haga clic en la bandera verde:
 
 ![objeto flor](images/flower-sprite.png)
 
