@@ -4,7 +4,7 @@ Hasta este momento, todas las flores que dibujas son exactamente iguales. A cont
 
 \--- task \---
 
-En Scratch puedes usar el bloque `fijar efecto de color`{:class="block3looks"} para cambiar el color de un objeto.
+En Scratch puedes usar el bloque `fijar efecto color`{:class="block3looks"} para cambiar el color de un objeto.
 
 Cambia tu definición de "dibujar una flor" para cambiar el color:
 
@@ -78,7 +78,7 @@ end
 
 \--- /task \---
 
-Ten en cuenta que los bloques `dibujar flor`{:class="block3myblocks"} ahora tienen una nueva entrada establecida en `1`:
+Ten en cuenta que los bloques `dibuja flor`{:class="block3myblocks"} ahora tienen una nueva entrada establecida en `1`:
 
 ```blocks3
 when green flag clicked
@@ -91,7 +91,7 @@ draw flower (1) :: custom
 
 \--- task \---
 
-Cambia los números en los bloques `dibujar flor`{:class="block3myblocks"} para que las dos flores aparezcan en diferentes colores. Puedes elegir cualquier número entre 0 y 200.
+Cambia los números en los bloques `dibuja flor`{:class="block3myblocks"} para que las dos flores aparezcan en diferentes colores. Puedes elegir cualquier número entre 0 y 200.
 
 Tu código debe parecerse a esto:
 
@@ -148,7 +148,7 @@ Dale un clic derecho en el bloque de definición `dibuja flor`{:class="block3myb
 
 ![objeto flor](images/flower-sprite.png)
 
-Cambia tu texto `definir dibujo flor`{:class="block3myblocks"} para que se vea así:
+Cambia tu texto `definir dibuja flor`{:class="block3myblocks"} para que se vea así:
 
 ```blocks3
 define draw flower (colour) (size :: custom-arg)
@@ -205,7 +205,7 @@ El número de grados por los que el objeto Flores debe `girar`{:class="block3loo
 
 \--- hint \---
 
-Cambia tu bloque `definir dibujar flor`{:class="block3myblocks"} para que se vea así:
+Cambia tu bloque `definir dibuja flor`{:class="block3myblocks"} para que se vea así:
 
 ![objeto flor](images/flower-sprite.png)
 
@@ -232,7 +232,7 @@ draw flower (150) (50) (8) :: custom
 
 \--- hint \---
 
-Edita tu bloque `definir dibujar flor`{:class="block3myblocks"} y agrega una nueva entrada de número llamada 'pétalos'.
+Edita tu bloque `definir dibuja flor`{:class="block3myblocks"} y agrega una nueva entrada de número llamada 'pétalos'.
 
 ![objeto flor](images/flower-sprite.png)
 
@@ -249,7 +249,7 @@ end
 
 ```
 
-En el texto `al hacer clic en la bandera verde`{:class="block3events"}, cambia el tercer número en ambos bloques `dibujar flor`{:class="block3myblocks"} para que así las dos flores aparezcan tengan diferentes números de pétalos.
+En el bloque `al presionar ⚑`{:class="block3events"}, cambia el tercer número en ambos bloques `dibuja flor`{:class="block3myblocks"} para que así las dos flores aparezcan tengan diferentes números de pétalos.
 
 ```blocks3
 when green flag clicked
@@ -270,7 +270,7 @@ A continuación, edita tu código para que puedas dibujar diferentes flores puls
 
 \--- task \---
 
-Ahora mueve tu código para dibujar flores desde abajo del bloque `cuando haga clic en la bandera verde`{:class="block3events"}, y poner el código bajo el bloque `cuando tecla f es presionada`{:class="block3events"}.
+Ahora mueve tu código para dibujar flores desde abajo del bloque `al presionar ⚑`{:class="block3events"}, y poner el código bajo el bloque `al presionar la tecla f`{:class="block3events"}.
 
 ![objeto flor](images/flower-sprite.png)
 
@@ -297,6 +297,6 @@ Pulsa <kbd>f</kbd> para probar tu código.
 
 \--- task \---
 
-Añade más bloques `dibujar flor`{:class="block3myblocks"} a tu programa para dibujar flores con diferentes colores, tamaños y números de pétalos por todo el Escenario.
+Añade más bloques `dibuja flor`{:class="block3myblocks"} a tu programa para dibujar flores con diferentes colores, tamaños y números de pétalos por todo el Escenario.
 
 \--- /task \---
