@@ -40,7 +40,7 @@ Después, usarás código para añadir más color.
 
 \--- task \---
 
-Añade el siguiente código al objeto de Flor para `estampar`{:class="block3extensions"} una flor con seis pétalos iguales `cuando se haga clic en la bandera verde`{:class="block3control"}.
+Añade el siguiente código al objeto de Flor para `sellar`{:class="block3extensions"} una flor con seis pétalos iguales `cuando se haga clic en la bandera verde`{:class="block3control"}.
 
 ![captura de pantalla](images/flower-6-straight.png)
 
