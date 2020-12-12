@@ -12,7 +12,7 @@ draw flower (outer colour :: custom-arg) (size :: custom-arg) (12) :: custom
 draw flower (inner colour :: custom-arg) ((size :: custom-arg) / (2)) (20) :: custom
 ```
 
-El bloque `dibujar doble flor`{:class="block3myblocks"} puede crear un montón de flores del mismo estilo:
+El bloque `dibuja flor doble`{:class="block3myblocks"} puede crear un montón de flores del mismo estilo:
 
 ```blocks3
 when [d v] key pressed
