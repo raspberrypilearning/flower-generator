@@ -1,12 +1,12 @@
 flor
 
-personalizado 1
+disfraz1
 
-personalizado 2
+disfraz2
 
-dibuja una flor
+dibuja flor
 
-dibuja una flor doble
+dibuja flor doble
 
 color
 
