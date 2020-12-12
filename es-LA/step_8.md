@@ -1,6 +1,6 @@
 ## Patrones de flores
 
-También puedes usar tu bloque `dibujar flor`{:class="block3myblocks"} para crear patrones nítidos de flores.
+También puedes usar tu bloque `dibuja flor`{:class="block3myblocks"} para crear patrones nítidos de flores.
 
 \--- task \---
 
@@ -128,7 +128,7 @@ Si usas color naranja para el fondo y el objeto Flor, entonces los números para
 
 \--- task \---
 
-Ahora puedes usar el `efecto de color`{:class="block3looks"} en el Escenario para cambiar el color del fondo.
+Ahora puedes usar el `fijar efecto color`{:class="block3looks"} en el Escenario para cambiar el color del fondo.
 
 ![objeto escenario](images/stage-sprite.png)
 
