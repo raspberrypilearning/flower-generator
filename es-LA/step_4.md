@@ -1,6 +1,6 @@
 ## Personaliza tus flores
 
-Hasta este momento, todas las flores que dibujas son exactamente iguales. A continuación añadirás algunas entradas al bloque `dibujar flor`{:class="block3myblocks"} para que puedas dibujar flores de diferentes colores, tamaños y números de pétalos.
+Hasta este momento, todas las flores que dibujas son exactamente iguales. A continuación añadirás algunas entradas al bloque `dibuja flor`{:class="block3myblocks"} para que puedas dibujar flores de diferentes colores, tamaños y números de pétalos.
 
 \--- task \---
 
@@ -27,21 +27,21 @@ Ejecuta tu código para ver flores de diferentes colores.
 
 ![captura de pantalla](images/flower-pink.png)
 
-`establecer el efecto de color`{:class="block3looks"} cambia el color según el color predeterminado del objeto. Así que si tu objeto no empieza color naranja, obtendrás resultados diferentes.
+`set colour effect`{:class="block3looks"} changes the colour based on the default colour of the sprite, so if your sprite doesn't start out orange, you get different results.
 
 \--- /task \---
 
 \--- task \---
 
-Experimenta con el uso de diferentes números desde `0` a `199` en el bloque `establecer efecto de color`{:class="block3looks"} y ve los diferentes resultados que obtienes.
+Experimenta con el uso de diferentes números desde `0` a `199` en el bloque `fijar efecto color`{:class="block3looks"} y ve los diferentes resultados que obtienes.
 
 \--- /task \---
 
-Hasta el momento, todas las flores son del mismo color. Para darle a cada flor un color diferente, tienes que añadir un bloque **input** al bloque`dibuja la flor`{:class="block3myblocks"}.
+Hasta el momento, todas las flores son del mismo color. Para darle a cada flor un color diferente, tienes que añadir un bloque **input** al bloque`dibuja flor`{:class="block3myblocks"}.
 
 \--- task \---
 
-Haz un clic derecho en el bloque de definición `dibujar flor`{:class="block3myblocks"} y selecciona **editar**:
+Haz un clic derecho en el bloque de definición `dibuja flor`{:class="block3myblocks"} y selecciona **editar**:
 
 ![captura de pantalla](images/flower-edit.png)
 
@@ -53,13 +53,13 @@ Ahora añade un **número de entrada** que se llame 'color':
 
 ![captura de pantalla](images/flower-colour-input-annotated.png)
 
-La entrada aparece en la definición `dibujar flor`{:class="block3myblocks"}, y puedes arrastrarla a donde quieras usarla.
+La entrada aparece en la definición `dibuja flor`{:class="block3myblocks"}, y puedes arrastrarla a donde quieras usarla.
 
 \--- /task \---
 
 \--- task \---
 
-Arrastra la entrada 'color' al bloque `establecer efecto de color`{:class="block3looks"}:
+Arrastra la entrada 'color' al bloque `fijar efecto color`{:class="block3looks"}:
 
 ![captura de pantalla](images/flower-use-colour-annotated.png)
 
@@ -132,7 +132,7 @@ Mira lo que hiciste para añadir la entrada `color`, y repítelo para añadir un
 
 \--- hint \---
 
-Editar el bloque `dibujar flor`{:class="block3myblocks"} para añadir una nueva entrada de número llamada 'tamaño'.
+Editar el bloque `dibuja flor`{:class="block3myblocks"} para añadir una nueva entrada de número llamada 'tamaño'.
 
 Necesitas añadir el siguiente bloque con una entrada de 'tamaño' al `dibuja flor`{:class="block3myblocks"} bloque de definición:
 
@@ -144,7 +144,7 @@ set size to (100) %
 
 \--- hint \---
 
-Dale un clic derecho en el bloque de definición `dibujar flor`{:class="block3myblocks"}, haga clic en **editar**, y agrega un número de entrada llamado 'tamaño'.
+Dale un clic derecho en el bloque de definición `dibuja flor`{:class="block3myblocks"}, haga clic en **editar**, y agrega un número de entrada llamado 'tamaño'.
 
 ![objeto flor](images/flower-sprite.png)
 
@@ -166,7 +166,7 @@ end
 
 \--- /task \--- \--- task \---
 
-En el texto `al hacer clic en la bandera verde`{:class="block3events"}, cambia el segundo número en ambos bloques `dibujar flor`{:class="block3myblocks"} para que así las dos flores aparezcan en diferentes tamaños.
+En el bloque `al presionar ⚑`{:class="block3events"}, cambia el segundo número en ambos bloques `dibuja flor`{:class="block3myblocks"} para que así las dos flores aparezcan en diferentes tamaños.
 
 ```blocks3
 when green flag clicked
@@ -195,7 +195,7 @@ Agrega otra entrada para que así puedas dibujar flores como esta:
 
 \--- hints \--- \--- hint \---
 
-Necesitas añadir una entrada de número de 'pétalos' y luego usarla en el bloque `definir dibujar flor`{:class="block3myblocks"}.
+Necesitas añadir una entrada de número de 'pétalos' y luego usarla en el bloque `definir dibuja flor`{:class="block3myblocks"}.
 
 Hay dos lugares donde necesitas agregar la entrada de 'pétalos'.
 
@@ -222,7 +222,7 @@ end
 turn cw ((360) / (petals :: custom-arg)) degrees
 ```
 
-Actualiza tus bloques `dibujar flor`{:class="block3myblocks"} para usar la entrada 'pétalos'.
+Actualiza tus bloques `dibuja flor`{:class="block3myblocks"} para usar la entrada 'pétalos'.
 
 ```blocks3
 draw flower (150) (50) (8) :: custom
