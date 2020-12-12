@@ -1,6 +1,6 @@
 ## Generador aleatorio de flores
 
-Ahora usarás tu bloque `dibujar flor`{:class="block3myblocks"} para crear muchas flores de manera aleatoria por todo el Escenario cada vez que presionas <kbd>r</kbd>.
+Ahora usarás tu bloque `dibuja flor`{:class="block3myblocks"} para crear muchas flores de manera aleatoria por todo el Escenario cada vez que presionas <kbd>r</kbd>.
 
 ![flores aleatorias](images/flower-random.png)
 
@@ -62,7 +62,7 @@ Este código crea cien flores con diferentes colores pero con el mismo tamaño y
 
 \--- hint \---
 
-El bloque `dibujar flor`{:class="block3myblocks"} debe `escoger números aleatorios`{:class="block3operators"} para el tamaño y el número de pétalos.
+El bloque `dibuja flor`{:class="block3myblocks"} debe elegir un `número al azar entre`{:class="block3operators"} para el tamaño y el número de pétalos.
 
 \--- /hint \---
 
