@@ -27,7 +27,7 @@ Ejecuta tu código para ver flores de diferentes colores.
 
 ![captura de pantalla](images/flower-pink.png)
 
-`set colour effect`{:class="block3looks"} changes the colour based on the default colour of the sprite, so if your sprite doesn't start out orange, you get different results.
+`fijar efecto color`{:class="block3looks"} cambia el color según el color predeterminado del objeto. Así que si tu objeto no empieza color naranja, obtendrás resultados diferentes.
 
 \--- /task \---
 
