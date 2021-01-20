@@ -1,0 +1,19 @@
+flor
+
+disfraz1
+
+disfraz2
+
+dibuja flor
+
+dibuja flor doble
+
+color
+
+pétalos
+
+tamaño
+
+color exterior
+
+color interior

@@ -1,0 +1,22 @@
+---
+title: Generador de flores
+hero_image: images/banner.png
+description: Genera flores para crear una imagen de fondo estampada o un protector de pantalla
+duration: 2
+listed: true
+copyedit: true
+version: 4.1.0
+last_tested: 2018-10-18
+steps:
+  - title: Introducción
+  - title: Generar una flor
+  - title: Crea un bloque personalizado para dibujar flores
+  - title: Personaliza tus flores
+  - title: "Desafío: crea un diseño de flores"
+    challenge: true
+  - title: Guardar tus imágenes
+  - title: Generador aleatorio de flores
+  - title: Patrones de flores
+  - title: "Desafío: bloques de flores personalizados"
+    challenge: true
+  - title: '¿Qué sigue?'
