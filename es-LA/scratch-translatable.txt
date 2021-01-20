@@ -14,6 +14,6 @@ pétalos
 
 tamaño
 
-color exterior
+color externo
 
-color interior
+color interno
