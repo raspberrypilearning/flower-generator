@@ -17,7 +17,7 @@ Puedes exportar las imágenes de las flores y usarlas como fondos de pantalla en
 Presiona `f` para dibujar algunas flores, o `r` para dibujar un montón de flores de manera aleatoria, o `p` para dibujar un patrón de flores.
 
 <div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/476255406/?autostart=false" frameborder="0" scrolling="no"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/253355932/?autostart=false" frameborder="0" scrolling="no"></iframe>
 </div>
 
 --- /no-print ---
