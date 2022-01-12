@@ -8,15 +8,17 @@ copyedit: true
 version: 4.1.0
 last_tested: 2018-10-18
 steps:
-  - title: 소개
-  - title: 꽃 만들기
-  - title: 꽃을 그리는 커스텀 블록 만들기
-  - title: 꽃 모양 바꾸기
-  - title: "도전 과제: 꽃 디자인 만들기"
-    challenge: true
-  - title: 이미지 저장하기
-  - title: 랜덤하게 꽃 생성하기
-  - title: 꽃 패턴 그리기
-  - title: "도전 과제: 맞춤형 꽃 블록"
-    challenge: true
-  - title: 더 나아가기
+- title: 소개
+  completion: engaged
+- title: 꽃 만들기
+- title: 꽃을 그리는 커스텀 블록 만들기
+- title: 꽃 모양 바꾸기
+- title: '도전 과제: 꽃 디자인 만들기'
+  challenge: true
+- title: 이미지 저장하기
+- title: 랜덤하게 꽃 생성하기
+  completion: internal
+- title: 꽃 패턴 그리기
+- title: '도전 과제: 맞춤형 꽃 블록'
+  challenge: true
+- title: 더 나아가기
