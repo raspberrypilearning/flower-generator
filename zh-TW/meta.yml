@@ -8,15 +8,19 @@ copyedit: true
 version: 4.1.0
 last_tested: 2018-10-18
 steps:
-  - title: 簡介
-  - title: 創造一朵花
-  - title: 製作一個畫花朵的專屬積木
-  - title: 自訂您的花朵
-  - title: "挑戰：設計花朵"
-    challenge: true
-  - title: 儲存圖片
-  - title: 隨機花朵產生器
-  - title: 花朵圖案
-  - title: "挑戰：客製花朵積木"
-    challenge: true
-  - title: 接下來是什麼？
+- title: 簡介
+- title: 創造一朵花
+- title: 製作一個畫花朵的專屬積木
+  completion:
+  - engaged
+- title: 自訂您的花朵
+- title: 挑戰：設計花朵
+  challenge: true
+- title: 儲存圖片
+- title: 隨機花朵產生器
+- title: 花朵圖案
+  completion:
+  - internal
+- title: 挑戰：客製花朵積木
+  challenge: true
+- title: 接下來是什麼？

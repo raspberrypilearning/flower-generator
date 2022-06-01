@@ -1,22 +1,27 @@
 ---
 title: Generatore di fiori
 hero_image: images/banner.png
-description: Genera fiori per creare un motivo da usare come immagine di sfondo o salvaschermo
+description: Genera fiori per creare un motivo da usare come immagine di sfondo o
+  salvaschermo
 duration: 2
 listed: true
 copyedit: true
 version: 4.1.0
 last_tested: 2018-10-18
 steps:
-  - title: Introduzione
-  - title: Crea un fiore
-  - title: Crea un blocco personalizzato per disegnare i fiori
-  - title: Personalizza i tuoi fiori
-  - title: "Sfida: crea un disegno floreale"
-    challenge: true
-  - title: Salva le tue immagini
-  - title: Generatore casuale di fiori
-  - title: Motivi floreali
-  - title: "Sfida: blocchi personalizzati per creare fiori"
-    challenge: true
-  - title: E adesso?
+- title: Introduzione
+- title: Crea un fiore
+- title: Crea un blocco personalizzato per disegnare i fiori
+  completion:
+  - engaged
+- title: Personalizza i tuoi fiori
+- title: 'Sfida: crea un disegno floreale'
+  challenge: true
+- title: Salva le tue immagini
+- title: Generatore casuale di fiori
+- title: Motivi floreali
+  completion:
+  - internal
+- title: 'Sfida: blocchi personalizzati per creare fiori'
+  challenge: true
+- title: E adesso?
