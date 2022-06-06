@@ -9,16 +9,18 @@ version: 4.1.0
 last_tested: 2018-10-18
 steps:
 - title: はじめに
-  completion: engaged
 - title: 花をつくりだす
 - title: 花を描（えが）く独自のブロックをつくる
+  completion:
+  - engaged
 - title: 花をつくり直してみる
 - title: チャレンジ：花の図柄(ずがら)をつくる
   challenge: true
 - title: 画像を保存する
 - title: ランダムに花をつくりだす
-  completion: internal
 - title: 花の模様（もよう）
+  completion:
+  - internal
 - title: チャレンジ：花を描くブロックをつくり直す
   challenge: true
 - title: 次は何をしましょうか？

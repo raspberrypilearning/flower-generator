@@ -10,16 +10,18 @@ version: 4.1.0
 last_tested: 2018-10-18
 steps:
 - title: Introduction
-  completion: engaged
 - title: Concevoir une fleur
 - title: Créer un bloc personnalisé pour dessiner des fleurs
+  completion:
+  - engaged
 - title: Personnalise tes fleurs
 - title: 'Défi: créer un design floral'
   challenge: true
 - title: Enregistre tes images
 - title: Générateur de fleurs aléatoires
-  completion: internal
 - title: Motifs floraux
+  completion:
+  - internal
 - title: 'Défi: blocs de fleurs personnalisés'
   challenge: true
 - title: Et ensuite?

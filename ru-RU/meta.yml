@@ -10,16 +10,18 @@ version: 4.1.0
 last_tested: 2018-10-18
 steps:
 - title: Введение
-  completion: engaged
 - title: Создание цветка
 - title: Создай пользовательский блок, чтобы нарисовать цветы
+  completion:
+  - engaged
 - title: Отредактируй цветы
 - title: 'Задача: создать цветочный рисунок'
   challenge: true
 - title: Сохрани изображения
 - title: Генератор случайных цветов
-  completion: internal
 - title: Цветочные узоры
+  completion:
+  - internal
 - title: 'Задача: пользовательские блоки цветов'
   challenge: true
 - title: Что дальше?

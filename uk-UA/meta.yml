@@ -10,16 +10,18 @@ version: 4.1.0
 last_tested: 2018-10-18
 steps:
 - title: Вступ
-  completion: engaged
 - title: Згенеруй квітку
 - title: Створи власний блок для малювання квітів
+  completion:
+  - engaged
 - title: Налаштуй свої квіти
 - title: 'Завдання: створи власний квітковий малюнок'
   challenge: true
 - title: Збережи свої зображення
 - title: Генератор випадкових квітів
-  completion: internal
 - title: Квіткові візерунки
+  completion:
+  - internal
 - title: 'Завдання: власні блоки для квітів'
   challenge: true
 - title: Що далі?

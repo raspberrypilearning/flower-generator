@@ -10,16 +10,18 @@ version: 4.1.0
 last_tested: 2018-10-18
 steps:
 - title: परिचय
-  completion: engaged
 - title: फूल उत्पन्न करें
 - title: फूल बनाने के लिए एक कस्टम ब्लॉक बनाएँ
+  completion:
+  - engaged
 - title: अपने फूलों को अनुकूल करें
 - title: 'चुनौती: एक फूल का डिज़ाइन बनाएँ'
   challenge: true
 - title: अपनी images को इकट्ठा करना
 - title: random फूल जनरेटर
-  completion: internal
 - title: फूल के पैटर्न
+  completion:
+  - internal
 - title: 'चुनौती: कस्टम फूल ब्लॉक'
   challenge: true
 - title: 'चुनौती: अधिक रुकावटें!'

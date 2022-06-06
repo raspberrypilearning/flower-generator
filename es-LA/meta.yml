@@ -10,16 +10,18 @@ version: 4.1.0
 last_tested: 2018-10-18
 steps:
 - title: Introducción
-  completion: engaged
 - title: Generar una flor
 - title: Crea un bloque personalizado para dibujar flores
+  completion:
+  - engaged
 - title: Personaliza tus flores
 - title: 'Desafío: crea un diseño de flores'
   challenge: true
 - title: Guardar tus imágenes
 - title: Generador aleatorio de flores
-  completion: internal
 - title: Patrones de flores
+  completion:
+  - internal
 - title: 'Desafío: bloques de flores personalizados'
   challenge: true
 - title: "¿Qué sigue?"

@@ -10,16 +10,18 @@ version: 4.1.0
 last_tested: 2018-10-18
 steps:
 - title: Inleiding
-  completion: engaged
 - title: Maak een bloem
 - title: Maak een aangepast blok om bloemen te tekenen
+  completion:
+  - engaged
 - title: Personaliseer je bloemen
 - title: 'Uitdaging: maak een bloemontwerp'
   challenge: true
 - title: Sla je afbeeldingen op
 - title: Willekeurige bloemgenerator
-  completion: internal
 - title: Bloem patronen
+  completion:
+  - internal
 - title: 'Uitdaging: aangepaste bloemblokken'
   challenge: true
 - title: Wat kun je verder nog doen?

@@ -9,16 +9,18 @@ version: 4.1.0
 last_tested: 2018-10-18
 steps:
 - title: Introduction
-  completion: engaged
 - title: Generate a flower
 - title: Make a custom block to draw flowers
+  completion:
+  - engaged
 - title: Customise your flowers
 - title: 'Challenge: create a flower design'
   challenge: true
 - title: Save your images
 - title: Random flower generator
-  completion: internal
 - title: Flower patterns
+  completion:
+  - internal
 - title: 'Challenge: custom flower blocks'
   challenge: true
 - title: What next?

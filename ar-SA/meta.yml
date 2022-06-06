@@ -9,16 +9,18 @@ version: 4.1.0
 last_tested: 2018-10-18
 steps:
 - title: المقدمة
-  completion: engaged
 - title: توليد زهرة
 - title: إنشاء تعليمة برمجية مخصصة لرسم الزهور
+  completion:
+  - engaged
 - title: مظاهر الزهور الخاصة بك
 - title: 'التحدي: إنشاء تصميم للزهور'
   challenge: true
 - title: حفظ صورك
 - title: مولد زهور عشوائي
-  completion: internal
 - title: أنماط الزهور
+  completion:
+  - internal
 - title: 'التحدي: تعليمة الزهور المخصصة'
   challenge: true
 - title: ماهو التالي؟

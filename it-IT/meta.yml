@@ -10,16 +10,18 @@ version: 4.1.0
 last_tested: 2018-10-18
 steps:
 - title: Introduzione
-  completion: engaged
 - title: Crea un fiore
 - title: Crea un blocco personalizzato per disegnare i fiori
+  completion:
+  - engaged
 - title: Personalizza i tuoi fiori
 - title: 'Sfida: crea un disegno floreale'
   challenge: true
 - title: Salva le tue immagini
 - title: Generatore casuale di fiori
-  completion: internal
 - title: Motivi floreali
+  completion:
+  - internal
 - title: 'Sfida: blocchi personalizzati per creare fiori'
   challenge: true
 - title: E adesso?
