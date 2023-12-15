@@ -14,10 +14,12 @@ steps:
     title: Concevoir une fleur
   - 
     title: Créer un bloc personnalisé pour dessiner des fleurs
+    completion:
+      - engaged
   - 
     title: Personnalise tes fleurs
   - 
-    title: "Défi: créer un design floral"
+    title: 'Défi: créer un design floral'
     challenge: true
   - 
     title: Enregistre tes images
@@ -25,8 +27,10 @@ steps:
     title: Générateur de fleurs aléatoire
   - 
     title: Motifs floraux
+    completion:
+      - internal
   - 
-    title: "Défi : blocs de fleurs personnalisés"
+    title: 'Défi : blocs de fleurs personnalisés'
     challenge: true
   - 
     title: Et ensuite ?
