@@ -14,10 +14,12 @@ steps:
     title: Crea una flor
   - 
     title: Haz un bloque personalizado para dibujar flores
+    completion:
+      - engaged
   - 
     title: Personaliza tus flores
   - 
-    title: "Desafío: crea un diseño de flores"
+    title: 'Desafío: crea un diseño de flores'
     challenge: true
   - 
     title: Guarda tus imágenes
@@ -25,8 +27,10 @@ steps:
     title: Generador de flores aleatorio
   - 
     title: Patrones de flores
+    completion:
+      - internal
   - 
-    title: "Desafío: bloques de flores personalizados"
+    title: 'Desafío: bloques de flores personalizados'
     challenge: true
   - 
     title: '¿Qué viene a continuación?'
