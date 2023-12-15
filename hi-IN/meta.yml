@@ -14,10 +14,12 @@ steps:
     title: फूल उत्पन्न करें
   - 
     title: फूल बनाने के लिए एक कस्टम ब्लॉक बनाएँ
+    completion:
+      - engaged
   - 
     title: अपने फूलों को कस्टमाइज़ (customise) करें
   - 
-    title: "चुनौती: एक फूल का डिज़ाइन बनाएँ"
+    title: 'चुनौती: एक फूल का डिज़ाइन बनाएँ'
     challenge: true
   - 
     title: अपनी images को इकट्ठा करना
@@ -25,8 +27,10 @@ steps:
     title: random फूल जनरेटर
   - 
     title: फूल के पैटर्न
+    completion:
+      - internal
   - 
-    title: "चुनौती: कस्टम फूल ब्लॉक"
+    title: 'चुनौती: कस्टम फूल ब्लॉक'
     challenge: true
   - 
     title: 'चुनौती: अधिक रुकावटें!'
