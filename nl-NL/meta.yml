@@ -14,10 +14,12 @@ steps:
     title: Maak een bloem
   - 
     title: Maak een aangepast blok om bloemen te tekenen
+    completion:
+      - engaged
   - 
     title: Personaliseer je bloemen
   - 
-    title: "Uitdaging: maak een bloemontwerp"
+    title: 'Uitdaging: maak een bloemontwerp'
     challenge: true
   - 
     title: Sla je afbeeldingen op
@@ -25,8 +27,10 @@ steps:
     title: Willekeurige bloemgenerator
   - 
     title: Bloem patronen
+    completion:
+      - internal
   - 
-    title: "Uitdaging: aangepaste bloemblokken"
+    title: 'Uitdaging: aangepaste bloemblokken'
     challenge: true
   - 
     title: Wat kun je verder nog doen?
