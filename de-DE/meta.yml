@@ -1,0 +1,26 @@
+---
+title: Blumengenerator
+hero_image: images/banner.png
+description: Erzeuge Blumen, um ein gemustertes Hintergrundbild oder einen Bildschirmschoner zu erstellen
+duration: 2
+listed: true
+copyedit: true
+version: 4.1.0
+last_tested: 2018-10-18
+steps:
+  - title: Einleitung
+  - title: Erstelle eine Blume
+  - title: Erstelle einen eigenen Block, um Blumen zu zeichnen
+    completion:
+      - engaged
+  - title: Personalisiere deine Blumen
+  - title: 'Herausforderung: Erstelle ein Blumendesign'
+    challenge: true
+  - title: Speichere deine Bilder
+  - title: Zufälliger Blumengenerator
+  - title: Blumenmuster
+    completion:
+      - internal
+  - title: 'Herausforderung: benutzerdefinierte Blumenblöcke'
+    challenge: true
+  - title: Was kommt als Nächstes?
