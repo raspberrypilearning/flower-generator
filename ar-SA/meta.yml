@@ -14,10 +14,12 @@ steps:
     title: توليد زهرة
   - 
     title: إنشاء تعليمة برمجية مخصصة لرسم الزهور
+    completion:
+      - engaged
   - 
     title: مظاهر الزهور الخاصة بك
   - 
-    title: "التحدي: إنشاء تصميم للزهور"
+    title: 'التحدي: إنشاء تصميم للزهور'
     challenge: true
   - 
     title: حفظ صورك
@@ -25,8 +27,10 @@ steps:
     title: مولد زهور عشوائي
   - 
     title: أنماط الزهور
+    completion:
+      - internal
   - 
-    title: "التحدي: تعليمة الزهور المخصصة"
+    title: 'التحدي: تعليمة الزهور المخصصة'
     challenge: true
   - 
     title: ماهو التالي؟
