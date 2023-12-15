@@ -14,10 +14,12 @@ steps:
     title: Generate a flower
   - 
     title: Make a custom block to draw flowers
+    completion:
+      - engaged
   - 
     title: Customise your flowers
   - 
-    title: "Challenge: create a flower design"
+    title: 'Challenge: create a flower design'
     challenge: true
   - 
     title: Save your images
@@ -25,8 +27,10 @@ steps:
     title: Random flower generator
   - 
     title: Flower patterns
+    completion:
+      - internal
   - 
-    title: "Challenge: custom flower blocks"
+    title: 'Challenge: custom flower blocks'
     challenge: true
   - 
     title: 接下来呢？
