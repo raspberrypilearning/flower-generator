@@ -11,12 +11,12 @@ Wijzig je 'teken bloem' definitie om de kleur te wijzigen:
 ![bloem sprite](images/flower-sprite.png)
 
 ```blocks3
-definieer teken bloem
+define teken bloem
 set [kleur v] effect to (150)
-herhaal (6) 
-  stempel
-  draai (60) graden naar rechts
-einde
+repeat (6) 
+  stamp
+  turn cw (60) degrees
+end
 ```
 
 --- /task ---
@@ -68,12 +68,12 @@ Je code zou er als volgt uit moeten zien:
 ![bloem sprite](images/flower-sprite.png)
 
 ```blocks3
-definieer teken bloem (kleur)
+define teken bloem (kleur)
 set [kleur v] effect to (kleur :: custom-arg)
-herhaal (6)
-  stempel
-  draai (60) graden naar rechts
-einde
+repeat (6)
+  stamp
+  turn cw (60) degrees
+end
 ```
 
 --- /task ---
@@ -82,10 +82,10 @@ Merk op dat je `teken bloem`{:class="block3myblocks"} blokken nu een nieuwe invo
 
 ```blocks3
 when green flag clicked
-wis alles
-ga naar x: (75) y: (75)
+erase all
+go to x: (75) y: (75)
 teken bloem (1) :: custom
-ga naar x: (-75) y: (-75)
+go to x: (-75) y: (-75)
 teken bloem (1) :: custom
 ```
 
@@ -99,10 +99,10 @@ Je code zou er ongeveer zo uit moeten zien:
 
 ```blocks3
 when green flag clicked
-wis alles
-ga naar x: (75) y: (75)
+erase all
+go to x: (75) y: (75)
 teken bloem (180) :: custom
-ga naar x: (-75) y: (-75)
+go to x: (-75) y: (-75)
 teken bloem (150) :: custom
 ```
 
@@ -138,7 +138,7 @@ Bewerk het blok `teken bloem`{:class="block3myblocks"} om een nieuwe invoer 'gro
 Je moet het volgende blok met een 'grootte' invoer toevoegen aan het definitieblok `teken bloem`{:class="block3myblocks"}:
 
 ```blocks3
-maak grootte (100) %
+set size to (100) %
 ```
 
 --- /hint ---
@@ -152,29 +152,31 @@ Klik met de rechtermuisknop op het definitieblok `teken bloem`{:class="block3myb
 Verander je `definieer teken bloem`{:class="block3myblocks"} script zodat het er zo uitziet:
 
 ```blocks3
-definieer teken bloem (kleur) (grootte :: custom-arg)
+define teken bloem (kleur) (grootte :: custom-arg)
 set [kleur v] effect to (kleur :: custom-arg)
-maak grootte (maat :: custom-arg) %
-herhaal (6) 
-  stempel
-  draai (60) graden naar rechts
-einde
+set size to (maat :: custom-arg) %
+repeat (6) 
+  stamp
+  turn cw (60) degrees
+end
 ```
 
 --- /hint ---
 
 --- /hints ---
 
---- /task --- --- task ---
+--- /task ---
+
+--- task ---
 
 In het `wanneer op de groene vlag wordt geklikt`{:class="block3events"} script, wijzig je het tweede getal in beide `teken bloem`{:class="block3myblocks"} blokken zodat de twee bloemen in verschillende formaten verschijnen.
 
 ```blocks3
 when green flag clicked
-wis alles
-ga naar x: (75) y: (75)
+erase all
+go to x: (75) y: (75)
 teken bloem (180) (150) :: custom
-ga naar x: (-75) y: (-75)
+go to x: (-75) y: (-75)
 teken bloem (150) (50) :: custom
 ```
 
@@ -212,16 +214,16 @@ Wijzig je `definieer teken bloem`{:class="block3myblocks"} blok zodat het er zo 
 ![bloem sprite](images/flower-sprite.png)
 
 ```blocks3
-definieer teken bloem (kleur) (grootte :: custom-arg) (blaadjes)
+define teken bloem (kleur) (grootte :: custom-arg) (blaadjes)
 ```
 
 Pas je `herhaal`{:class="block3control"} en `draai`{:class="block3looks"} blokken aan zodat ze de invoer 'blaadjes' gebruiken.
 
 ```blocks3
-herhaal (blaadjes :: custom-arg) 
-einde
+repeat (blaadjes :: custom-arg) 
+end
 
-draai ((360) / (blaadjes :: custom-arg)) graden naar rechts
+turn cw ((360) / (blaadjes :: custom-arg)) degrees
 ```
 
 Update je `teken bloem`{:class="block3myblocks"} blokken om de invoer 'blaadjes' te gebruiken.
@@ -241,13 +243,13 @@ Bewerk je `definieer teken bloem`{:class="block3myblocks"} blok en voeg een nieu
 Je code zou er als volgt uit moeten zien:
 
 ```blocks3
-definieer teken bloem (kleur) (grootte :: custom-arg) (blaadjes)
+define teken bloem (kleur) (grootte :: custom-arg) (blaadjes)
 set [kleur v] effect to (kleur :: custom-arg)
-maak grootte (grootte :: custom-arg) %
-herhaal (blaadjes :: custom-arg) 
-  stempel
-  draai ((360) / (blaadjes :: custom-arg)) graden naar rechts
-einde
+set size to (grootte :: custom-arg) %
+repeat (blaadjes :: custom-arg) 
+  stamp
+  turn cw ((360) / (blaadjes :: custom-arg)) degrees
+end
 
 ```
 
@@ -281,11 +283,11 @@ when green flag clicked
 ```
 
 ```blocks3
-wanneer [f v] is ingedrukt
-wis alles
-ga naar x: (75) y: (75)
+when [f v] key pressed
+erase all
+go to x: (75) y: (75)
 teken bloem (180) (150) (3) :: custom
-ga naar x: (-75) y: (-75)
+go to x: (-75) y: (-75)
 teken bloem (150) (50) (8) :: custom
 ```
 

@@ -11,8 +11,8 @@ Voeg een nieuw gebeurtenisblok toe aan de code van je sprite zodat `wanneer r is
 ![bloem sprite](images/flower-sprite.png)
 
 ```blocks3
-wanneer [r v] is ingedrukt
-wis alles
+when [r v] key pressed
+erase all
 ```
 
 --- /task ---
@@ -24,9 +24,9 @@ Voeg een `herhaal`{:class="block3control"} blok toe om `100` keer naar een `will
 ![bloem sprite](images/flower-sprite.png)
 
 ```blocks3
-herhaal (100)
-  ga naar (willekeurige positie v)
-einde
+repeat (100)
+  go to (willekeurige positie v)
+end
 ```
 
 --- /task ---
@@ -40,12 +40,12 @@ Je code zou er nu als volgt uit moeten zien:
 ![bloem sprite](images/flower-sprite.png)
 
 ```blocks3
-wanneer [r v] is ingedrukt
-wis alles
-herhaal (100) 
-  ga naar (willekeurige positie v)
-  teken bloem (willekeurig getal tussen (0) en (199)) (100) (12) :: custom
-einde
+when [r v] key pressed
+erase all
+repeat (100) 
+  go to (willekeurige positie v)
+  teken bloem (pick random (0) to (199)) (100) (12) :: custom
+end
 ```
 
 --- /task ---
@@ -74,9 +74,9 @@ De volgende blokken kiezen een willekeurige grootte tussen `50` en `150` en een 
 ![bloem sprite](images/flower-sprite.png)
 
 ```blocks3
-(willekeurig getal tussen (50) en (150))
+(pick random (50) to (150))
 
-(willekeurig getal tussen (4) en (12))
+(pick random (4) to (12))
 ```
 
 --- /hint ---
@@ -88,12 +88,12 @@ Je code zou er als volgt uit moeten zien:
 ![bloem sprite](images/flower-sprite.png)
 
 ```blocks3
-wanneer [r v] is ingedrukt
-wis alles
-herhaal (100) 
-  ga naar (willekeurige positie v)
-  teken bloem (willekeurig getal tussen (0) en (199)) (willekeurig getal tussen (50) en (150)) (willekeurig getal tussen (4) en (12)) :: custom
-einde
+when [r v] key pressed
+erase all
+repeat (100) 
+  go to (willekeurige positie v)
+  teken bloem (pick random (0) to (199)) (pick random (50) to (150)) (pick random (4) to (12)) :: custom
+end
 ```
 
 --- /hint ---

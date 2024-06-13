@@ -9,9 +9,9 @@ Maak een bloem of een combinatie van bloemen die je leuk vindt. Hier is een voor
 ![bloem sprite](images/flower-sprite.png)
 
 ```blocks3
-wanneer [p v] is ingedrukt
-wis alles
-ga naar x: (-150) y: (100)
+when [p v] key pressed
+erase all
+go to x: (-150) y: (100)
 teken bloem (150) (80) (7) :: custom
 teken bloem (130) (35) (20) :: custom
 ```
@@ -33,7 +33,7 @@ Voordat je een patroon kunt maken, moet je overgebleven bloemen verwijderen van 
 Klik op het blok `wis alles` in het tabblad Pen.
 
 ```blocks3
-wis alles
+erase all
 ```
 
 --- /task ---
@@ -51,14 +51,14 @@ Teken nu een rij van deze bloemen aan de bovenkant van het speelveld. Hier is wa
 ![bloem sprite](images/flower-sprite.png)
 
 ```blocks3
-wanneer [p v] is ingedrukt
-wis alles
-ga naar x: (-150) y: (100)
-herhaal (4) 
+when [p v] key pressed
+erase all
+go to x: (-150) y: (100)
+repeat (4) 
   teken bloem (150) (80) (7) :: custom
-  teken bloem (130) ( 35) (20) :: custom
-  verander x met (100)
-einde
+  teken bloem (130) (35) (20) :: custom
+  change x by (100)
+end
 ```
 
 --- /task ---
@@ -78,18 +78,18 @@ Voeg nog een lus toe om meer rijen bloemen te maken. Dit voorbeeld voegt een `he
 ![bloem sprite](images/flower-sprite.png)
 
 ```blocks3
-wanneer [p v] is ingedrukt
-wis alles
-ga naar x: (-150) y: (100)
-herhaal (3) 
-  herhaal (4) 
+when [p v] key pressed
+erase all
+go to x: (-150) y: (100)
+repeat (3) 
+  repeat (4) 
     teken bloem (150) (80) (7) :: custom
     teken bloem (130) (35) (20) :: custom
-    verander x met (100)
-  einde
-  maak x (-150)
-  verander y met (-100)
-einde
+    change x by (100)
+  end
+  set x to (-150)
+  change y by (-100)
+end
 ```
 
 --- /task ---
@@ -133,7 +133,7 @@ Nu kun je het `zet kleur effect op`{:class="block3looks"} blok in het speelveld 
 ![achtergrond sprite](images/stage-sprite.png)
 
 ```blocks3
-wanneer [p v] is ingedrukt
+when [p v] key pressed
 set [kleur v] effect to (30)
 ```
 
