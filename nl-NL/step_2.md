@@ -46,10 +46,10 @@ Voeg de volgende code toe aan de Bloem sprite: `stempel`{:class="block3extension
 
 ```blocks3
 when green flag clicked
-herhaal (6) 
-  stempel
-  draai (60) graden naar rechts
-einde
+repeat (6) 
+  stamp
+  turn cw (60) degrees
+end
 ```
 
 --- /task ---
@@ -77,7 +77,7 @@ Voordat je de code opnieuw uitvoert, moet je een `wis alles`{:class="block3exten
 Klik op het `wis alles` blok in het gedeelte Pen.
 
 ```blocks3
-wis alles
+erase all
 ```
 
 --- /task ---

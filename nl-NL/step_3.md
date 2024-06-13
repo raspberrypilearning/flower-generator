@@ -17,7 +17,7 @@ Er is nu een nieuw blok met de naam `teken bloem`{:class="block3myblocks"} in de
 ```blocks3
 teken bloem :: custom
 
-definieer teken bloem
+define teken bloem
 ```
 
 --- /task ---
@@ -31,11 +31,11 @@ Je code zou er als volgt uit moeten zien:
 ![bloem sprite](images/flower-sprite.png)
 
 ```blocks3
-definieer teken bloem
-herhaal (6) 
-  stempel
-  draai (60) graden naar rechts
-einde
+define teken bloem
+repeat (6) 
+  stamp
+  turn cw (60) degrees
+end
 
 when green flag clicked
 ```
@@ -50,7 +50,7 @@ Voeg de volgende code toe om het speelveld te wissen en je nieuwe `teken bloem`{
 
 ```blocks3
 when green flag clicked
-wis alles
+erase all
 teken bloem :: custom
 ```
 
@@ -70,10 +70,10 @@ Wijzig nu je code om de sprite te verplaatsen en vervolgens een andere bloem te 
 
 ```blocks3
 when green flag clicked
-wis alles
-ga naar x: (75) y: (75)
+erase all
+go to x: (75) y: (75)
 teken bloem :: custom
-ga naar x: (-75) y: (-75)
+go to x: (-75) y: (-75)
 teken bloem :: custom 
 ```
 
