@@ -23,4 +23,6 @@ steps:
   - internal
 - title: 'Challenge: custom flower blocks'
   challenge: true
-- title: What next?
+- title: What can you do now?
+  completion:
+  - external
