@@ -1,40 +1,33 @@
-## Generate a flower
-
-First you're going to generate a flower that can be drawn on the Stage. 
+## Draw a flower
 
 --- task ---
 
-Create a new Scratch project, and delete the cat sprite.
-
-[[[generic-scratch3-new-project]]]
+Create a [new Scratch project](https://scratch.mit.edu/projects/editor){:target="_blank"}, and delete the cat sprite.
 
 --- /task ---
 
 --- task ---
 
-Add the Pen extension to your project.
+Hover on the **Choose a Sprite** menu, then click **Paint**. Name the sprite 'Flower'.
+![Click on Cat+ icon and then click Paint](images/paint-sprite.png)
 
-[[[generic-scratch3-add-pen-extension]]]
+--- /task ---
+
+
+--- task ---
+
+Use the Circle tool to draw a petal shape filled in orange. Make sure that the bottom of the petal is in the centre.
+
+![Draw an orange vertical oval shape with no outline. The bottom of the oval is on the centre target.](images/flower-petal.png)
+
 
 --- /task ---
 
 --- task ---
 
-Now use the Paint tool to create a new sprite shaped like a flower petal.
+Click on the **Code** tab, then click on the **Blocks** menu and add the **Pen** extension.
 
-Click on **Choose a sprite**, then click on **Paint** and rename the sprite 'Flower'.
-
-[[[generic-scratch3-draw-sprite]]]
-
---- /task ---
-
---- task ---
-
-Use the Circle tool to draw a petal shape filled in orange. 
-
-![screenshot](images/flower-petal.png)
-
-Later, you will use code to add more colour.
+![Arrow pointing to blocks+ menu at the bottom right of the Scratch app](images/add-pen.png)
 
 --- /task ---
 
@@ -42,7 +35,7 @@ Later, you will use code to add more colour.
 
 Add the following code to the Flower sprite to `stamp`{:class="block3extensions"} a flower with six equally rotated petals `when the green flag is clicked`{:class="block3control"}. 
 
-![screenshot](images/flower-6-straight.png)
+![Flower with 6 petals](images/flower-6-straight.png)
 
 ```blocks3
 when green flag clicked
@@ -52,42 +45,4 @@ repeat (6)
 end
 ```
 
---- /task ---
-
-You may find that your petals are arranged in an odd way:
-
-![screenshot](images/flower-6-offset.png)
-
-This is because the sprite is being rotated around its centre. 
-
---- task ---
-
-Move your petal so its bottom is in the centre.
-
-![screenshot](images/flower-crosshair-annotated.png)
-
-Doing this may be easier if you zoom out.
-
---- /task ---
-
-Before you run your code again, you should `erase all`{:class="block3extensions"} the sprites on the Stage to clear it.
-
---- task ---
-
-Click on the `erase all` block in the Pen blocks section.
-
-```blocks3
-erase all
-```
-
---- /task ---
-
---- task ---
-
-Run your code again to check that the flower's petals are straight now.
-
-![screenshot](images/flower-6-straight.png)
-
-If not, adjust the petal's position until its bottom in the centre.
- 
 --- /task ---

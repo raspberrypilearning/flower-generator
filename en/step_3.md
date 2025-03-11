@@ -1,12 +1,12 @@
 ## Make a custom block to draw flowers
 
-What if you want to draw lots of flowers? Instead of making lots of copies of the code, you will create your own block in Scratch and use it every time you want to draw a flower.  
+You can create your _own_ block in Scratch and use it every time you want to draw a flower.  
 
 --- task ---
 
 Click on **My Blocks** and then on **Make a Block** to create your own block called 'draw flower'.
 
-![screenshot](images/flower-make-block.png)
+![Scratch menu with an arrow to 'Make a Block' and a box around the 'My blocks' red menu option.](images/flower-make-block.png)
 
 --- /task ---
 
