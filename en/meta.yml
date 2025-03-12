@@ -13,9 +13,8 @@ steps:
   completion:
   - engaged
 - title: Make a custom block 
-- title: Customise your flowers
-- title: 'Challenge: create a flower design'
-  challenge: true
+- title: Custom colours
+- title: Custom sizes
 - title: Save your images
 - title: Random flower generator
 - title: Flower patterns

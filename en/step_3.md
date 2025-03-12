@@ -81,8 +81,8 @@ draw flower :: custom
 
 --- task ---
 
-Test your code to check that you now see two flowers.
+Click the green flag and check that you now see two flowers.
 
-![screenshot](images/flower-two.png)  
+![Two orange flowers on a white background](images/flower-two.png)  
  
 --- /task ---

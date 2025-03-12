@@ -17,3 +17,4 @@ Click on the flag of the country for which you are being asked.
 ![Finished game](images/finished-game.png)
 
 --- /print-only ---
+
