@@ -1,4 +1,4 @@
-## Make a custom block to draw flowers
+## Make a custom block 
 
 You can create your _own_ block in Scratch and use it every time you want to draw a flower.  
 
@@ -58,7 +58,7 @@ draw flower :: custom
 
 --- task ---
 
-Click the green flag to test your code and check whether you see a flower. 
+Click the green flag to test your code and check whether you still see a flower. 
 
 --- /task ---
 
@@ -71,10 +71,10 @@ Now change your code to move the sprite and then draw another flower:
 ```blocks3
 when green flag clicked
 erase all
-go to x: (75) y: (75)
++go to x: (75) y: (75)
 draw flower :: custom
-go to x: (-75) y: (-75)
-draw flower :: custom 
++go to x: (-75) y: (-75)
++draw flower :: custom 
 ```
 
 --- /task ---
