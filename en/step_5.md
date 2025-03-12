@@ -62,7 +62,7 @@ set [color v] effect to (colour :: custom-arg)
 set size to (size :: custom-arg) %
 +repeat (petals :: custom-arg) 
   stamp
-  +turn cw ((360) / (petals :: custom-arg)) degrees
+  turn cw ((360) / (petals :: custom-arg)) degrees
 end
 ```
 

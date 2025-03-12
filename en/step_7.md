@@ -1,8 +1,8 @@
 ## Random flower generator
 
-You will now use your `draw flower`{:class="block3myblocks"} block to create a hundred random flowers all over the Stage whenever you press the <kbd>r</kbd>.
+Create a hundred random flowers all over the Stage when you press the <kbd>r</kbd> key.
 
-![random flowers](images/flower-random.png)
+![Lots of flowers in different shapes, sizes and positions](images/flower-random.png)
 
 --- task ---
 
@@ -31,6 +31,7 @@ end
 
 --- /task ---
 
+
 --- task ---
 
 Use the `draw flower`{:class="block3myblocks"} block to create a flower that has a `random`{:class="block3operators"} colour between `0` and `199`.
@@ -44,45 +45,25 @@ when [r v] key pressed
 erase all
 repeat (100) 
   go to (random position v)
-  draw flower (pick random (0) to (199)) (100) (12) :: custom
+  +draw flower (pick random (0) to (199)) (100) (12) :: custom
 end
 ```
 
 --- /task ---
 
+--- task ---
+
+Press <kbd>r</kbd> to see your random flowers.
+
+--- /task ---
+
 This code creates one hundred flowers with different colours but with the same size and numbers of petals. 
 
-![flowers just with random colours](images/flower-random-colour.png)
+![Multiple flowers of the same size and number of petals, but with random colours](images/flower-random-colour.png)
 
 --- task ---
 
-Can you modify the `when the r key is pressed`{:class="block3events"} script so the flowers' size and number of petals are also random?
-
---- hints ---
-
---- hint ---
-
-The `draw flower`{:class="block3myblocks"} block should `pick random`{:class="block3operators"} numbers for the size and number of petals.
-
---- /hint ---
-
---- hint ---
-
-The following blocks pick a random size between `50` and `150` and a random number of petals between `4` and `12`.
-
-![flower sprite](images/flower-sprite.png)
-
-```blocks3
-(pick random (50) to (150))
-
-(pick random (4) to (12))
-```
-
---- /hint ---
-
---- hint ---
-
-Your code should look like this:
+Change your code so that the size and the number of petals is also a randomly chosen number.
 
 ![flower sprite](images/flower-sprite.png)
 
@@ -94,16 +75,6 @@ repeat (100)
   draw flower (pick random (0) to (199)) (pick random (50) to (150)) (pick random (4) to (12)) :: custom
 end
 ```
-
---- /hint ---
-
---- /hints ---
-
---- /task ---
-
---- task ---
-
-Press <kbd>r</kbd> to see your random flowers.
 
 --- /task ---
 
