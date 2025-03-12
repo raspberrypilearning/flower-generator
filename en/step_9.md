@@ -1,6 +1,13 @@
-## What next?
+## What can you do now?
 
 Try our [Guess the flag](https://projects.raspberrypi.org/en/projects/guess-the-flag?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) project, where you can create a flag quiz to test yourself and your friends.
+
+--- print-only ---
+
+![Guess the flag game](images/finished-game.png)
+
+--- /print-only ---
+
 
 --- no-print ---
 
@@ -12,9 +19,9 @@ Click on the flag of the country for which you are being asked.
 
 --- /no-print ---
 
---- print-only ---
+Or, why not try out another [Scratch](https://projects.raspberrypi.org/en/projects?software%5B%5D=scratch) project.
 
-![Finished game](images/finished-game.png)
 
---- /print-only ---
+
+
 
