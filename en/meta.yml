@@ -14,8 +14,8 @@ steps:
   - engaged
 - title: Make a custom block 
 - title: Custom colours
-- title: Custom sizes
-- title: Save your images
+- title: Custom sizes and petals
+- title: Save an image
 - title: Random flower generator
 - title: Flower patterns
   completion:
