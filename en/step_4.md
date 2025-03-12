@@ -65,7 +65,7 @@ Your code should look like this:
 
 ```blocks3
 +define draw flower (colour)
-+set [color v] effect to (colour)::custom
++set [color v] effect to (colour)
 repeat (6)
   stamp
   turn cw (60) degrees
