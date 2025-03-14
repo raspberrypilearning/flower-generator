@@ -1,30 +1,27 @@
-## Challenge: custom flower blocks
+## What can you do now?
 
-These flowers all have the same number of outer and inner petals, and the size of the inner flower is in proportion to the outer flower: 
- 
-![screenshot](images/flower-double-flowers.png)
+Try our [Guess the flag](https://projects.raspberrypi.org/en/projects/guess-the-flag?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) project, where you can create a flag quiz to test yourself and your friends.
 
-You can create flowers like this with the help of a `draw double flower`{:class="block3myblocks"} custom block that has inputs for `outer colour`, `inner colour`, and `size`:
+--- print-only ---
 
-```blocks3
-define draw double flower (outer colour) (inner colour) (size :: custom-arg)
-draw flower (outer colour :: custom-arg) (size :: custom-arg) (12) :: custom
-draw flower (inner colour :: custom-arg) ((size :: custom-arg) / (2)) (20) :: custom
-```
+![Guess the flag game](images/finished-game.png)
 
-The `draw double flower`{:class="block3myblocks"} block can draw lots of flowers in the same style:
+--- /print-only ---
 
-```blocks3
-when [d v] key pressed
-erase all
-go to x: (-100) y: (0)
-draw double flower (160) (120) (100) :: custom
-change x by (100)
-draw double flower (120) (140) (75) :: custom
-change x by (75)
-draw double flower (140) (160) (50) :: custom
-```
 
-Make a new custom block with the necessary inputs that you need to be able to change to create a type of flower that you like.
+--- no-print ---
 
-Then use your new block to create a cool design! 
+Click on the flag of the country for which you are being asked.
+
+<div class="scratch-preview">
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/276891625/?autostart=false" frameborder="0" scrolling="no"></iframe>
+</div>
+
+--- /no-print ---
+
+Or, why not try out another [Scratch](https://projects.raspberrypi.org/en/projects?software%5B%5D=scratch) project.
+
+
+
+
+

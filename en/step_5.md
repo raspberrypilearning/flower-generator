@@ -1,22 +1,90 @@
-## Challenge: create a flower design
+## Custom sizes and petals
 
-Can you use your `draw flower`{:class="block3myblocks"} block several times to draw more flowers and create an interesting design? Drawing different flowers at the same location creates an interesting effect.  
+--- task ---
 
-Create a design that you like. Here's an example:
+Right-click on the `draw flower`{:class="block3myblocks"} definition block and choose **edit**. Add another input to set the size of the flower, so your `draw flower`{:class="block3myblocks"} block looks like this:
 
-![screenshot](images/flower-three.png)
+```blocks3
+draw flower (180) (150) :: custom
+```
+--- /task ---
 
-You don't have to use petals shaped like ellipses. For example, you can use thick straight lines and a black backdrop to create a firework pattern like this:
+--- task ---
 
-![screenshot](images/flower-fireworks.png)
- 
-The 'petal' for the firework pattern is just a line:
- 
-![screenshot](images/flower-firework-petal.png)
+Change your `define draw flower`{:class="block3myblocks"} script to use the input you just added to set the flower's size:
 
-Add new petal costumes and see what flowers you can come up with. 
+```blocks3
+define draw flower (colour) (size :: custom-arg)
+set [color v] effect to (colour :: custom-arg)
++set size to (size :: custom-arg) %
+repeat (6) 
+  stamp
+  turn cw (60) degrees
+end
+```
+--- /task ---
 
-Try out a sprite shape that is not filled in, such as a square, and see what happens
+--- task ---
 
-![screenshot](images/flower-square-petal.png)
+In the `when green flag clicked`{:class="block3events"} script, change the second number in both `draw flower`{:class="block3myblocks"} blocks so that the two flowers appear in different sizes.
 
+```blocks3 
+when green flag clicked
+erase all
+go to x: (75) y: (75)
++draw flower (180) (150) :: custom
+go to x: (-75) y: (-75)
++draw flower (150) (50) :: custom
+```
+--- /task ---
+
+--- task ---
+
+Test your code to check whether the flowers have different sizes.
+
+--- /task ---
+
+You can use an input to choose the number of petals a flower has.
+
+--- task ---
+
+Right-click on the `draw flower`{:class="block3myblocks"} definition block and choose **edit**. Add another input for the number of petals.
+
+--- /task ---
+
+--- task ---
+
+Change the `draw flower`{:class="block3myblocks"} definition to create the number of petals specified by the new input.
+
+```blocks3
+define draw flower (colour) (size :: custom-arg) (petals)
+set [color v] effect to (colour :: custom-arg)
+set size to (size :: custom-arg) %
++repeat (petals :: custom-arg) 
+  stamp
+  turn cw ((360) / (petals :: custom-arg)) degrees
+end
+```
+
+--- /task ---
+
+--- task ---
+
+In the `when green flag clicked`{:class="block3events"} script, change the third number in both `draw flower`{:class="block3myblocks"} blocks so that the two flowers that appear have different numbers of petals.
+
+```blocks3
+when green flag clicked
+erase all
+go to x: (75) y: (75)
++draw flower (180) (150) (3) :: custom
+go to x: (-75) y: (-75)
++draw flower (150) (50) (8) :: custom
+```
+
+--- /task ---
+
+--- task ---
+
+Add more `draw flower`{:class="block3myblocks"} blocks to your program to draw flowers with different colours, sizes, and numbers of petals all over the Stage.
+
+--- /task ---

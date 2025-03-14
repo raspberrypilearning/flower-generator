@@ -44,5 +44,8 @@ repeat (6)
   turn cw (60) degrees
 end
 ```
+--- /task ---
 
+--- task ---
+Click the green flag to see your flower
 --- /task ---
